@@ -1,0 +1,18 @@
+Changelog of AospExtended v5.6 for kenzo!
+
+[9.06.18]
+
+- SELinux enforcing
+- Update camera blobs to latest MIUI Global Dev 8.5.17 (MIUI 9)
+- Move IMS apps to vendor properly
+- Fix BT Mac regen issue
+- Add Jelly as default broswer
+- Clean up ramdisk
+- Update data-ipa-cfg-mgr to latest tag
+- Enable auto brightness by default
+- Some under the hood improvements
+
+Escrima X24
+
+- Upstreams and bug fixes
+- Under the hood improvements

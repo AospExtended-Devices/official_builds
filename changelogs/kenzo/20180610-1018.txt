@@ -1,0 +1,6 @@
+Changelog of AospExtended v5.6 for kenzo!
+
+[10.6.18][Part 2]
+
+- Fix WiFi
+- Properly copy vulkan compute feature file

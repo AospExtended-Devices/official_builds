@@ -1,0 +1,14 @@
+Changelog of AospExtended v5.6 for kenzo!
+
+[10.6.18][Part 1]
+
+- Enable sound trigger
+- Fix red boders
+- Build IMS Extension
+- Add AUX supported app list
+- Add priv-app permissions to whitelist
+- Fix ipacm memory leak
+- Fix qti_whitelist.xml derp
+- Minor code cleanup for Xiaomi Doze
+- Correct GPS process group IDs
+- Fix qti_whitelist.xml derp

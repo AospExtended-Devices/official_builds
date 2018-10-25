@@ -1,0 +1,6 @@
+Changelog of AospExtended v5.8 for kenzo!
+
+[24.08.18]
+- Restore stock AOSP view config values (Now animations as well)
+- Fix audioserver crash in monkey test
+- Fix a typo in rootdir

@@ -1,0 +1,6 @@
+Changelog of AospExtended v5.8 for kenzo!
+
+[19.05.18]
+
+- Remove OP gestures
+- Add back edge gestures

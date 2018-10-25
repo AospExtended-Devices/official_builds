@@ -1,0 +1,5 @@
+Changelog of AospExtended v5.8 for kenzo!
+
+[14.08.18]
+- Fix audioflinger crash
+- Decrease the size of LS clocks

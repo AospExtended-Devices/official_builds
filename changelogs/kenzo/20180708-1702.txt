@@ -1,0 +1,39 @@
+Changelog of AospExtended v5.7 for kenzo!
+
+[9.07.18]
+
+- Remove QC time service flag
+- Silence time_daemon logspam
+- Create audio specific directories in data
+- Optimise shut-down time
+- Build libandroid_net_32 seperately
+- Build DRM Widevine service
+- Update Carrier configs from CAF
+- Update Config.fs from CAF
+- Copy google's base le xml files to target filesystem
+- Increase cache timer for conference media events in video calls
+- Add padding for large clocks in ambient screen
+- Disable SystemUI anti-falsing on lockscreen 
+- Drop deprecated OpenGLRenderer props
+- Remove non-existent read_ahead_kb nodes 
+- Correct the vmpressure_file_min value
+- Fix typo from CodeAurora in the QTI whitelist
+- Remove energy awareness daemon
+- XiaomiDoze: Use ExecutorService for listener registration
+- Don't DexPreOpt pre-builts
+- Enable manual subscription provisioning
+- Media_codecs: Update mime type for vc1 clip
+- Fix Video calls over LTE
+- Update media_codecs performance from CAF
+- Enable WFD Virtual resolution
+- Enable XTRA server
+
+Escrima  X25
+- Upstreams from CAF
+- Upstreams from Google
+- Update SDCardFS
+
+Old Jack fix boot.img available here: 
+https://www.androidfilehost.com/?fid=5862345805528043448
+
+*/Flash it right after flashing ROM/*

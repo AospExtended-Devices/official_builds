@@ -1,0 +1,8 @@
+Changelog of AospExtended v5.8 for kenzo!
+
+[12.08.18]
+- Disable atime
+- Use mke2fs to create ext4 images 
+- Reorder tetherable connection types
+- Source cleanup
+- Fix kernel defconfig derp
