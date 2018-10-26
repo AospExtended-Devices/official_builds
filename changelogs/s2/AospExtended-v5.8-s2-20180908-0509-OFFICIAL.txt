@@ -1,0 +1,5 @@
+- Final oreo release
+- Updated all blobs to oreo
+- Fixed video recording and playback on new blobs
+- A few more fixes
+- Oreo is quiet stable now, let's move to pie ;)
