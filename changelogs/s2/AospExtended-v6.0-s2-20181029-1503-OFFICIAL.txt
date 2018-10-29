@@ -1,0 +1,26 @@
+========================================================
+      AospExtended-v6.0-s2-20181029-1503-OFFICIAL
+========================================================
+
+> Initial official pie release.
+
+What works:
+	Boots
+	RIL (Calls, SMS, Data)
+	Fingerprint
+	Wi-Fi
+	Bluetooth
+	Camera
+	Camcorder
+	Video Playback
+	Audio
+	Sensors
+	Flash
+	LED
+	GPS
+	Volte
+
+What doesn’t work:
+	Encryption
+	Data sim selection on every reboot
+	More you tell..
