@@ -1,0 +1,4 @@
+- first official release
+- added volte icon with option to disable it
+- source upstream
+- merged latest caf tag in kernel
