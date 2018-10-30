@@ -1,0 +1,13 @@
+> Added VOLTE icon
+> Added Switch for VOLTE icon
+> SIM setting reset on boot fixed
+> Updated ims.apk
+> Add back AEX Bootanimation
+> Added clock/date customizations
+> Added notification light customizations
+> Added few customizations in Stock Launcher
+> Few theme related fixed
+> UI fixes
+> FP is faster on wake
+> Added OTA Support
+> Merge Upstream Changes
