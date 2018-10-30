@@ -1,0 +1,3 @@
+*VoLTE works (probably)
+*Sim cards can be deactivated
+*bug fixes and improvements
