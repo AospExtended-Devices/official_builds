@@ -1,0 +1,22 @@
+========================================================
+      AospExtended-v6.0-x2-20181102-1731-OFFICIAL
+========================================================
+
+
+Changelog :
+
+Device Specific :
+*Updated Power profile
+*Bunch of updates from caf
+*Rebased kernel and updated ramdisk for better performance
+*All IR remotes should work now without any xposed mod
+*Updated Gps Hal from Caf
+*Added Dep idle mode when screen off ( will work only if Disbale Gps is enabled in suspend actions)
+
+Rom Specific :
+*Initial official pie release.
+*OTA will be available from next build
+*Added Sim enable and disable toggles
+*Imporved default Launcher
+*Fixed Qs tiles Animation lag
+*Added Suspend Actions
