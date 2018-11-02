@@ -1,0 +1,3 @@
+* Enable force encryption
+NOTE:A clean flash is recommended
+ * ZSwap Tweak
