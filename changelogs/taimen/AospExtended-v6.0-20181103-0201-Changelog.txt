@@ -1,0 +1,193 @@
+====================
+     11-02-2018
+====================
+
+   * device/google/taimen/
+d61e0f0  make builds official  [slothdabski]
+   * device/google/wahoo/
+0c45f3d  CarrierConfig: Enable VoLTE and VoWiFi on Maroc Telecom  [slothdabski]
+   * frameworks/base/
+fc74389d3ce  BatteryMeterView: remove percentage before updating style  [Shubham Singh]
+c4d845898f4  BatteryMeterView: Fix glitch with percents Remove useless code. If we changed style when charging we had forced percents showing  [Shubham Singh]
+8dcd7cdb729  BatteryMeterView: Fix PowerSave mode percents and use same method for charging  [Shubham Singh]
+e6112158595  Revert "BatteryMeterView: Don't force show percent during charging, if set hidden"  [Shubham Singh]
+db0447c7818  SystemUI: Show bluetooth battery level when available  [Shubham Singh]
+0a1ef392d5c  Return: Smart Pulldown [1/2]  [Shubham Singh]
+66b24706ccd  Add Quick Settings Pulldown options  [Shubham Singh]
+703e916654e  Camera: Ignore torch status update for aux or compsite camera  [Shubham Singh]
+6b2056e2dee  Camera: Extend face detection  [Shubham Singh]
+b2427d782d7  Camera: Longshot with Burst Functionality.  [Shubham Singh]
+59300228bf6  Camera: Force HAL1 for predefined package list.  [Shubham Singh]
+39a92901165  Camera: Extend face detection  [Shubham Singh]
+7e3d61e93e0  Stop invoke initAppOps in Camera default constructor.  [Alessandro Astone]
+57345af4590  Camera: allow camera to use power key as shutter  [Alessandro Astone]
+   * manifest/
+b1a9ed0  Track Snap and Recorder  [Shubham Singh]
+   * packages/apps/Extensions/
+2e55fec  Return: Smart Pulldown [2/2]  [Shubham Singh]
+7ef4f44  Add Quick Settings Pulldown options  [Shubham Singh]
+   * packages/apps/Snap/
+361c3ba75  Revert "Snap: adaptive icon"  [Shubham Singh]
+5a85a3cf7  Remove lineage sdk dependency  [Alessandro Astone]
+   * vendor/aosp/
+544b81d  Merge changes Ie35e872b,Id4c721a8 into 9.x  [Gerrit Code Review]
+333558c  Add permissions for our apps  [Shubham Singh]
+1840e39  Vendor: Build Recorder  [Shubham Singh]
+0c42c78  vendor: Build telephony-ext  [Alessandro Astone]
+6c8ddf8  Keep QS header background transparent on some themes  [Shubham Singh]
+c75bfdd  Vendor: Theme volume panel's footer BG  [Shubham Singh]
+08cfe99  Fix Dark SystemUI overlay [2/2]  [Shubham Singh]
+   * vendor/qcom/opensource/dataservices/
+86c525e  librmnetctl: Use generated kernel headers  [Han Wang]
+
+====================
+     11-01-2018
+====================
+
+   * frameworks/av/
+2c41b3599  Allow FaceUnlock in background  [Shubham Singh]
+5c4cf878f  SoundTriggerHalLegacy.cpp: include errno.h  [Shubham Singh]
+23135010a  Explicitly initialise base class in copy constructor  [Shubham Singh]
+3fae7c571  Camera: CameraHardwareInterface: Releasing mHIDLMemoryMapLock in QdataCallback  [Shubham Singh]
+72cbaacaf  Camera:CameraService: Added lock on mHIDLMemPoolId in QDataCallback..  [Shubham Singh]
+3ec738394  libstagefright: Add more sample rates for FLAC  [Shubham Singh]
+9d3943f37  Camera: Add support for preview frame fd  [Shubham Singh]
+83e5d740f  Camera: Add extensions to CameraClient  [Shubham Singh]
+f2a9afeb5  libstagefright: encoder must exist when source starting  [Shubham Singh]
+c93467d11  camera: Only link and use vendor.qti.hardware.camera.device if specified  [Shubham Singh]
+d064c9dde  Camera: CameraHardwareInterface changes to support Extended FD  [Shubham Singh]
+8071a7d65  soundtrigger: fill in default extras from dsp  [Shubham Singh]
+bd62e7f93  camera: Workaround for GCC-compiled HAL3 drivers  [Shubham Singh]
+341805ea7  Revert "libcameraservice: Disable external provider for legacy HAL1"  [Shubham Singh]
+   * frameworks/base/
+88e0760b6e2  Fix Dark SystemUI overlay [1/2]  [Shubham Singh]
+4d4a636063d  base: Expose QS background color  [Shubham Singh]
+   * hardware/qcom/audio-caf/msm8974/
+dee200550  audio: Use generated kernel headers  [Bruno Martins]
+   * hardware/qcom/audio-caf/msm8994/
+685eb1975  audio: Use generated kernel headers  [OzzysCmAcc]
+804ef7ef5  Use header lib instead of using global include path  [OzzysCmAcc]
+   * hardware/qcom/display-caf/msm8994/
+4bab834d5  display: Use generated kernel headers  [Bruno Martins]
+e52dd1e53  Use header lib instead of using global include path  [Bruno Martins]
+   * hardware/qcom/media-caf/msm8974/
+80679512f  media: Use generated kernel headers  [Bruno Martins]
+   * hardware/qcom/media-caf/msm8994/
+64f46f793  media: Use generated kernel headers  [OzzysCmAcc]
+   * prebuilts/clang/host/linux-x86/
+b8efc3f  Update prebuilt Clang to r344140.  [Josh Chasky]
+   * system/bt/
+158b86c1f  Bluetooth: Read BLE vendor capability to proceed on Secure conn  [Shubham Singh]
+   * vendor/aosp/
+75b714b  Tint suggestion icons to match system accent  [Shubham Singh]
+f438a45  Center the suggestion text and icon  [Shubham Singh]
+9bd5c0f  Add rules for non platform apps that use hidden APIs  [Shubham Singh]
+   * vendor/codeaurora/telephony/
+494facc  Revert "telephony: Introduce TelephonyExtUtils"  [Alessandro Astone]
+
+====================
+     10-31-2018
+====================
+
+   * packages/apps/Jelly/
+6c098a9  Jelly: Grant REQUEST_INSTALL_PACKAGES permission  [Shubham Singh]
+a5e64bb  Jelly: Set proper mime type when downloading files  [Shubham Singh]
+
+====================
+     10-30-2018
+====================
+
+   * frameworks/base/
+da75e429388  Add isPackageInstalled boolean  [Shubham Singh]
+d08b3d27cef  GnssLocationProvider to remember the Networks and connection types  [Shubham Singh]
+b77c265fbce  SystemUI: Fixed traffic icon show in SUB1 while sending MMS on SUB2  [Shubham Singh]
+28696a2365d  MSIM: Get network operator name of default data sub.  [Shubham Singh]
+1ba421a7054  StatusBarSignalPolicy: Why bro why  [Shubham Singh]
+be577b642a8  StatusBarSignalPolicy: Fix NPE due do ext telephony  [Shubham Singh]
+c2c5b725d13  StatusBarSignalPolicy: Hide signal icons for disabled SIMs  [Shubham Singh]
+fdda9098dcf  SEEMP: framework instrumentation and AppProtect features  [Shubham Singh]
+2b8137328d3  Flashlight toggle api improvements  [Shubham Singh]
+   * frameworks/opt/net/voip/
+c8d493b  SipService: Try to fix NPE during boot with FDE  [Shubham Singh]
+   * frameworks/opt/telephony/
+fc9f292ca  MSIM: Send sim loaded intent only after subinfo records added.  [Shubham Singh]
+f90e47cc2  MSIM: Add entry for mobile data setting in settings xml  [Shubham Singh]
+2075584c3  Refresh SIM operator numeric for multi-mode SIM  [Shubham Singh]
+91b5fa720  Allow LocaleTracker to work even if wifi is not up (FDE)  [Shubham Singh]
+91266690a  Revert "LocaleTracker: Try to fix NPE during boot with FDE"  [Shubham Singh]
+f430da3bc  telephony: Change sim card name when isn't provisioned  [Shubham Singh]
+d442a47b7  Support Fetching IMSI MCC and MNC for RuimRecords.  [Shubham Singh]
+a6e36f331  SimPhoneBook: Add ANR/EMAIL support for USIM phonebook.  [Shubham Singh]
+b28673406  DcTracker: Change access modifier of isNvSubscription to protected  [Shubham Singh]
+1cf4fa669  PhoneFactory: fix creating a cdma phone type  [Shubham Singh]
+a6990abd4  Telephony: Enable NV based CDMA data call.  [Shubham Singh]
+3384ad401  MSIM: Fix to refresh active subscription info cache.  [Shubham Singh]
+4c6e47454  MSIM: Fix to set Mcc & Mnc with correct subId  [Shubham Singh]
+6aa7d6928  Telephony: Enable data call on CSIM.  [Shubham Singh]
+d2c5c75cd  telephony: Fix loading of non Oreo-MR1 QTI blobs  [Shubham Singh]
+ecc257464  MSIM:Fix iccid issue during android upgrade.  [Shubham Singh]
+456db2eb4  Fix iccid issue during android upgrade.  [Shubham Singh]
+1db676a2d  DCTracker: fix loading of Oreo qti-telephony-common blob  [Shubham Singh]
+6998d4c5f  Telephony: Send INITIAL_ATTACH only when it is applicable.  [Shubham Singh]
+021062951  Enable vendor Telephony plugin: MSIM Changes  [Shubham Singh]
+c2efe1d11  Enable vendor Telephony plugin  [Shubham Singh]
+bf9c0fe37  LocaleTracker: Try to fix NPE during boot with FDE  [Shubham Singh]
+3ae08831c  add for community - community is not pleased  [Shubham Singh]
+f17788abb  Introduce TelephonyExtUtils  [Shubham Singh]
+   * manifest/
+8168826  Track fw_opt_net_voip from aex  [Shubham Singh]
+   * packages/apps/Jelly/
+aa07d45  Jelly: update assets to use outline style  [Shubham Singh]
+fae1495  Jelly: allow disabling clear text traffic at runtime  [Shubham Singh]
+1e6d31e  Jelly: update deps  [Shubham Singh]
+   * packages/apps/Launcher3/
+6581ef0e7  Settings restart watcher improvements  [Shubham Singh]
+7689b8931  Fix home button restart  [Shubham Singh]
+76de23955  Make notifications gesture optional  [Shubham Singh]
+4c5dc91da  Add a flashlight gesture & group it with the sleep one  [Shubham Singh]
+22e3feac9  Swipe down to show notifications panel  [Shubham Singh]
+55a6a1aa7  Add double tap to sleep gesture  [Shubham Singh]
+8b6be39ba  Exclude from recents  [Shubham Singh]
+0694adb42  Hide apps menu: save on app check/uncheck  [Shubham Singh]
+c398304fa  Make hide apps recyclerview smooth  [Shubham Singh]
+5bfc522d6  Added reset option to 'hide app' feature  [Shubham Singh]
+4abeb4945  Refactor hidden apps activity  [Shubham Singh]
+bd7b6b6f6  Integrate Hidden apps option into Settings  [Shubham Singh]
+b7e5d0a86  Implement hidden app feature  [Shubham Singh]
+aa968ae12  Add rounded square icon shape option for Android 8+  [Shubham Singh]
+674a79085  Keep defaults the same  [Shubham Singh]
+0ab39589e  Utilize the Utils in the fwb  [Shubham Singh]
+   * packages/apps/Settings/
+fc456d04e3  SimSettings: Use TelephonyExtUtils helper methods  [Shubham Singh]
+35b847dfde  SimSettings: Fix preferred calls sim not being disabled  [Shubham Singh]
+a49a02f099  SimSettings: Fix potential NPE  [Shubham Singh]
+26721fe2bf  SimSettings: Handle NoClassDefFoundError on devices without telephony-ext  [Shubham Singh]
+ae326036f2  MSIM: Fix user set DDS sub in hotswap cases.  [Shubham Singh]
+2a40af4895  SimSettings: Improve dialogs  [Shubham Singh]
+4b710f768f  SimSettings: Correctly disable sim switch without SIM card  [Shubham Singh]
+06318b6688  SimSettings: Port manual provisioning support  [Shubham Singh]
+0d847f2c66  Settings: fix apn_editor carrier_enabled summaryOff string  [Shubham Singh]
+6cb3003b20  DevelopmentSettings: Disable automatic updates  [Shubham Singh]
+65e7a9e91f  Bring back selinux version  [Shubham Singh]
+d86667c589  Rearrange density options under Settings/Display  [Shubham Singh]
+   * system/bt/
+43ad16e53  Add support to force disable enhanced sco commands  [GtrCraft]
+   * vendor/codeaurora/telephony/
+b64ccca  Revert "telephony: set LOCAL_SDK_VERSION"  [Shubham Singh]
+cc62068  Merge changes from LA.UM.7.4.r1-03600-8x98.0  [Shubham Singh]
+44bf7fc  Revert "IMS-VT: Low battery handling for Video calls"  [Shubham Singh]
+b60b33f  caf/telephony: Set LOCAL_SDK_VERSION where possible.  [Shubham Singh]
+fcf6f3f  telepony-ext: Move to Android.bp  [Shubham Singh]
+
+====================
+     10-29-2018
+====================
+
+   * hardware/qcom/audio-caf/msm8974/
+787f7d30c  Use header lib instead of using global include path  [Bruno Martins]
+   * hardware/qcom/display-caf/msm8974/
+b1f0d11f6  display: Use generated kernel headers  [Bruno Martins]
+ac3c5642b  Use header lib instead of using global include path  [Bruno Martins]
+   * manifest/
+866a38f  manifest: Update links  [AmolAmrit]
+
