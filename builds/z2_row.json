@@ -3,5 +3,10 @@
         {
             "file_name": "AospExtended-v5.8-z2_row-20180813-1801-OFFICIAL.zip"
         }
+    ],
+    "oreo": [
+        {
+            "file_name": "AospExtended-v6.0-z2_row-20181103-1600-OFFICIAL.zip"
+        }
     ]
 }

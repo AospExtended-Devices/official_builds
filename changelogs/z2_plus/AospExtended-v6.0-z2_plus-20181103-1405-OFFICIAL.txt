@@ -1,0 +1,3 @@
+Move to 4.4 kernel
+Enforcing
+Remove no more needed VoLTE hack in ZukPref
