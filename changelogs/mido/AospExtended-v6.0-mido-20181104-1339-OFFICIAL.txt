@@ -1,0 +1,16 @@
+> Added Snap Camera
+> Added Recorder
+> Added XiaomiDoze
+> Added Quick Pull down & Smart Pull down
+> Switch to disable SIM slots
+> Launcher: Swipe down to to Show QS Panel
+> Launcher: Double tap gesture (flashlight & sleep)
+> Launcher: Hidden app feature
+> Show Bluetooth battery status when available
+> Allow camera to use power key as shutter
+> Fixed swipe issues on dialer
+> Keep FP Service in background
+> Flashlight toggle improvements
+> Fix DarkUI overlay issues
+> Autobrightness & Button Backlight fixes
+> Merge Upstream Changes
