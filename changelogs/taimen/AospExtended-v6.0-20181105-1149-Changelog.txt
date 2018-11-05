@@ -1,0 +1,168 @@
+====================
+     11-05-2018
+====================
+
+   * device/google/wahoo/
+3228d1e  Switch to clang 8.0.3  [slothdabski]
+   * frameworks/base/
+a916a5468c1  [2/3] NetworkManagement : Add ability to restrict app data/wifi usage  [Shubham Singh]
+   * hardware/qcom/display/
+ae340ef9e  msm8084: Use generated kernel headers  [Rashed Abdel-Tawab]
+17eb67a24  msm8084: display: Don't use gnu-oldstyle field designators  [Rashed Abdel-Tawab]
+65f6d18f6  msm8084: Add additional build flags to avoid errors  [Rashed Abdel-Tawab]
+4350ca3c5  msm8084: Use libhwui.so instead of libskia.so  [Rashed Abdel-Tawab]
+fce1c7014  msm8084: Include what we use.  [Rashed Abdel-Tawab]
+980c6234d  hwc: msm8084: Set ioprio for vsync thread  [Rashed Abdel-Tawab]
+   * manifest/
+4559959  manifest: Track more repos  [Shubham Singh]
+   * packages/apps/Settings/
+5aa6a85c39  [1/3] Settings: per-app cellular data and wifi restrictions  [Shubham Singh]
+   * system/netd/
+0b78438  [3/3] NetD : Allow passing in interface names for wifi/data app restriction  [Shubham Singh]
+
+====================
+     11-04-2018
+====================
+
+   * packages/apps/Settings/
+b41795349f  lockscreen: Forward port option to pass swipe-up-to-unlock [2/2]  [Shubham Singh]
+ad6cdf59f8  Forward port pattern visibility settings (2/2)  [Shubham Singh]
+fc189697a8  Settings: forward port lock pattern grid size (2/2)  [Shubham Singh]
+
+====================
+     11-03-2018
+====================
+
+   * device/google/taimen/
+d61e0f0  make builds official  [slothdabski]
+   * device/google/wahoo/
+0c45f3d  CarrierConfig: Enable VoLTE and VoWiFi on Maroc Telecom  [slothdabski]
+   * device/qcom/sepolicy-legacy/
+9b1fc02  Update path for our custom sepolicy  [Shubham Singh]
+   * frameworks/base/
+8627b879d42  Aosp hidden partial screenshot code fixes  [Shubham Singh]
+aad0b59ca70  lockscreen: Add option to pass swipe-up-to-unlock (1/2)  [Shubham Singh]
+d3e2c3113c8  Forward port CM Screen Security settings (1/2)  [Shubham Singh]
+a67c9efd28d  FingerprintService: add overlay to prevent cleanup of unused fingerprints  [Shubham Singh]
+d254f37d4cf  camera: Check if aux camera whitelist is set before restricting cameras  [Shubham Singh]
+fc74389d3ce  BatteryMeterView: remove percentage before updating style  [Shubham Singh]
+c4d845898f4  BatteryMeterView: Fix glitch with percents Remove useless code. If we changed style when charging we had forced percents showing  [Shubham Singh]
+8dcd7cdb729  BatteryMeterView: Fix PowerSave mode percents and use same method for charging  [Shubham Singh]
+e6112158595  Revert "BatteryMeterView: Don't force show percent during charging, if set hidden"  [Shubham Singh]
+db0447c7818  SystemUI: Show bluetooth battery level when available  [Shubham Singh]
+0a1ef392d5c  Return: Smart Pulldown [1/2]  [Shubham Singh]
+66b24706ccd  Add Quick Settings Pulldown options  [Shubham Singh]
+703e916654e  Camera: Ignore torch status update for aux or compsite camera  [Shubham Singh]
+6b2056e2dee  Camera: Extend face detection  [Shubham Singh]
+b2427d782d7  Camera: Longshot with Burst Functionality.  [Shubham Singh]
+59300228bf6  Camera: Force HAL1 for predefined package list.  [Shubham Singh]
+39a92901165  Camera: Extend face detection  [Shubham Singh]
+7e3d61e93e0  Stop invoke initAppOps in Camera default constructor.  [Alessandro Astone]
+57345af4590  Camera: allow camera to use power key as shutter  [Alessandro Astone]
+   * manifest/
+b1a9ed0  Track Snap and Recorder  [Shubham Singh]
+   * packages/apps/Dialer/
+e2e5e21ad  Disable answer false touch detection by default  [Shubham Singh]
+bf718b0b8  res: Fix malformed XML  [Shubham Singh]
+6fb93f93f  Allow call recording for Bulgaria.  [Shubham Singh]
+534c3eabd  Allow call recording for Belgium  [Shubham Singh]
+455715137  Allow call recording for Austria  [Shubham Singh]
+48a1b3141  Control dialer's incoming call proximity sensor check via an overlay  [Shubham Singh]
+91909611e  Re-add call statistics.  [Shubham Singh]
+0a45f3c49  Allow per-call account selection.  [Shubham Singh]
+5a28fd4df  Re-add call recording.  [Shubham Singh]
+39129427d  Add setting to enable Do Not Disturb during calls  [Shubham Singh]
+ca6470d84  Generalize the in-call vibration settings category  [Shubham Singh]
+20dfb8322  Add back in-call vibration features  [Shubham Singh]
+5a41b8305  Revert "Remove dialer sounds and vibrations settings fragments and redirect to the system sound settings fragment instead."  [Shubham Singh]
+04c13a2fa  Allow using private framework API.  [Shubham Singh]
+5004f8c52  Dialer: disable anti-falsing for call answer screen  [Shubham Singh]
+   * packages/apps/Extensions/
+2e55fec  Return: Smart Pulldown [2/2]  [Shubham Singh]
+7ef4f44  Add Quick Settings Pulldown options  [Shubham Singh]
+   * packages/apps/Snap/
+361c3ba75  Revert "Snap: adaptive icon"  [Shubham Singh]
+5a85a3cf7  Remove lineage sdk dependency  [Alessandro Astone]
+   * vendor/aosp/
+55f4b20  Merge changes from topic 'cdex-support' into 9.x  [Gerrit Code Review]
+544b81d  Merge changes Ie35e872b,Id4c721a8 into 9.x  [Gerrit Code Review]
+b2a5084  repopick: Try to fast-forward first  [karthick111]
+4a5695b  Add CDEX support for boot JAR files  [karthick111]
+83c73f0  extract_utils: Fix output dex file name generated by vdexExtractor  [karthick111]
+be42a7a  extract_utils: add CDEX support via compact_dex_converter  [karthick111]
+79a9808  tools: update smali/baksmali to 2.2.5  [karthick111]
+b26cd7d  tools: update vdexExtractor from 0.4.1 to 0.5.2 for P compat  [karthick111]
+97ff52f  extract_utils: Use vdexExtractor for extracting oreo classes.dex  [karthick111]
+333558c  Add permissions for our apps  [Shubham Singh]
+1840e39  Vendor: Build Recorder  [Shubham Singh]
+0c42c78  vendor: Build telephony-ext  [Alessandro Astone]
+   * vendor/qcom/opensource/audio/
+245fdbe  Merge tag 'LA.UM.7.3.r1-06100-sdm845.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/audio into lineage-16.0  [Bruno Martins]
+
+====================
+     11-02-2018
+====================
+
+   * frameworks/base/
+88e0760b6e2  Fix Dark SystemUI overlay [1/2]  [Shubham Singh]
+4d4a636063d  base: Expose QS background color  [Shubham Singh]
+   * hardware/qcom/audio-caf/msm8974/
+dee200550  audio: Use generated kernel headers  [Bruno Martins]
+   * hardware/qcom/audio-caf/msm8994/
+685eb1975  audio: Use generated kernel headers  [OzzysCmAcc]
+804ef7ef5  Use header lib instead of using global include path  [OzzysCmAcc]
+   * hardware/qcom/audio-caf/msm8996/
+50a58aaeb  Merge tag 'LA.UM.7.6.r1-03100-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into HEAD  [Artem Borisov]
+   * hardware/qcom/display-caf/msm8994/
+4bab834d5  display: Use generated kernel headers  [Bruno Martins]
+e52dd1e53  Use header lib instead of using global include path  [Bruno Martins]
+   * hardware/qcom/display-caf/msm8996/
+fd48880e5  Merge tag 'LA.UM.7.6.r1-03100-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into HEAD  [Artem Borisov]
+   * hardware/qcom/media-caf/msm8974/
+80679512f  media: Use generated kernel headers  [Bruno Martins]
+   * hardware/qcom/media-caf/msm8994/
+64f46f793  media: Use generated kernel headers  [OzzysCmAcc]
+   * hardware/qcom/media-caf/msm8996/
+3dc2f8847  Merge tag 'LA.UM.7.6.r1-03100-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into HEAD  [Artem Borisov]
+   * hardware/qcom/wlan-caf/
+bb4e25f  wifi-hal: Use generated kernel headers  [Bruno Martins]
+   * prebuilts/clang/host/linux-x86/
+b8efc3f  Update prebuilt Clang to r344140.  [Josh Chasky]
+   * system/bt/
+158b86c1f  Bluetooth: Read BLE vendor capability to proceed on Secure conn  [Shubham Singh]
+   * vendor/aosp/
+6c8ddf8  Keep QS header background transparent on some themes  [Shubham Singh]
+c75bfdd  Vendor: Theme volume panel's footer BG  [Shubham Singh]
+08cfe99  Fix Dark SystemUI overlay [2/2]  [Shubham Singh]
+   * vendor/codeaurora/telephony/
+494facc  Revert "telephony: Introduce TelephonyExtUtils"  [Alessandro Astone]
+   * vendor/qcom/opensource/dataservices/
+86c525e  librmnetctl: Use generated kernel headers  [Han Wang]
+
+====================
+     11-01-2018
+====================
+
+   * frameworks/av/
+2c41b3599  Allow FaceUnlock in background  [Shubham Singh]
+5c4cf878f  SoundTriggerHalLegacy.cpp: include errno.h  [Shubham Singh]
+23135010a  Explicitly initialise base class in copy constructor  [Shubham Singh]
+3fae7c571  Camera: CameraHardwareInterface: Releasing mHIDLMemoryMapLock in QdataCallback  [Shubham Singh]
+72cbaacaf  Camera:CameraService: Added lock on mHIDLMemPoolId in QDataCallback..  [Shubham Singh]
+3ec738394  libstagefright: Add more sample rates for FLAC  [Shubham Singh]
+9d3943f37  Camera: Add support for preview frame fd  [Shubham Singh]
+83e5d740f  Camera: Add extensions to CameraClient  [Shubham Singh]
+f2a9afeb5  libstagefright: encoder must exist when source starting  [Shubham Singh]
+c93467d11  camera: Only link and use vendor.qti.hardware.camera.device if specified  [Shubham Singh]
+d064c9dde  Camera: CameraHardwareInterface changes to support Extended FD  [Shubham Singh]
+8071a7d65  soundtrigger: fill in default extras from dsp  [Shubham Singh]
+bd62e7f93  camera: Workaround for GCC-compiled HAL3 drivers  [Shubham Singh]
+341805ea7  Revert "libcameraservice: Disable external provider for legacy HAL1"  [Shubham Singh]
+   * packages/apps/Jelly/
+6c098a9  Jelly: Grant REQUEST_INSTALL_PACKAGES permission  [Shubham Singh]
+a5e64bb  Jelly: Set proper mime type when downloading files  [Shubham Singh]
+   * vendor/aosp/
+75b714b  Tint suggestion icons to match system accent  [Shubham Singh]
+f438a45  Center the suggestion text and icon  [Shubham Singh]
+9bd5c0f  Add rules for non platform apps that use hidden APIs  [Shubham Singh]
+
