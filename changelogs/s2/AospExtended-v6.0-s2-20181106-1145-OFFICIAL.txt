@@ -1,0 +1,9 @@
+===================================================
+    AospExtended-v6.0-s2-20181106-1145-OFFICIAL
+===================================================
+
+> Fixed camera lag
+> Fixed sim reset after reboot
+> Added manual sim provisoning
+> Added custom notification/battery led selection
+> A few more fixes
