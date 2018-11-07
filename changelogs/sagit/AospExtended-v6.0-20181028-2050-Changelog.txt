@@ -1,7 +1,0 @@
-===========================
-AospExtended v6.0 Mi 6 Changelog
-===========================
-
-*Official release
-*Updated XiaomiParts + German translation
-*Kernel audio improvements
