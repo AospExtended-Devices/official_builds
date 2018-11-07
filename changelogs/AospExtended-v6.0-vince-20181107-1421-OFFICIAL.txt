@@ -1,0 +1,12 @@
+===========================
+AospExtended v6.0 Changelog
+===========================
+
+-Merge November Security Patch(9.0.0_r16)
+-Removed ANNOYING Data Selection Pop-Up on every boot
+-Prebuilt with Zucc (Legendary in balancing the battery drain, really good idle drain)
+-Add XiaomiDoze in Ambient Display (Advanced Settings)
+-LockScreen Weather (Google Awareness API)
+-Full NavBar Gesture Support along with DT2S
+-Enabled Call Recording
+-Merged with latest sources
