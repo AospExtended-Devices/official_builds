@@ -1,0 +1,9 @@
+++ Clean flash recommended if you encounter bugs with screen security ++
+
+*removed useless padding at corners
+*firmware 8.10.25+ support
+*libantradio imported from oneplus
+*Search Bar can be disabled
+*Weather on lockscreen
+*November security path
+*other improvements and new features

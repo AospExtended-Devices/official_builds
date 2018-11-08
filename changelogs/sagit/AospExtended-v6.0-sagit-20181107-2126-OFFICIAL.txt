@@ -1,4 +1,0 @@
-*Search Bar can be disabled
-*Weather on lockscreen
-*November security path
-*other improvements and new features
