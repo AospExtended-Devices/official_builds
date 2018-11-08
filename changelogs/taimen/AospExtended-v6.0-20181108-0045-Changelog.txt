@@ -1,0 +1,234 @@
+====================
+     11-07-2018
+====================
+
+   * device/google/wahoo/
+b597137  Merge tag 'android-9.0.0_r16' of https://android.googlesource.com/device/google/wahoo into pie  [slothdabski]
+   * external/perfetto/
+dca07262  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * frameworks/base/
+9eba02f2e96  Full nav gesture: home action on the whole bar and doubletap2sleep [1/2]  [Shubham Singh]
+df8e7f0d06b  Allow to set a full gesture navbar (swipe left for back action) [1/2]  [Shubham Singh]
+c83b64a73cd  Keep recent tasks for more time in memory  [Shubham Singh]
+   * frameworks/native/
+5e685ca29  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * frameworks/support/
+25663af456  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * hardware/interfaces/
+ab360234  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * hardware/qcom/power/
+9e84f10  Reduce hwbinder buffer size for power HAL  [Bruno Martins]
+143f807  Cache SOC ID checks for future queries  [Bruno Martins]
+   * manifest/
+168c9d2  Track hardware_interfaces from aex  [Shubham Singh]
+dc437cb  Manifest: Remove unneeded stuffs that came with r16  [Shubham Singh]
+   * packages/apps/Contacts/
+17f471698  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * packages/apps/DeskClock/
+a473b9112  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * packages/apps/DocumentsUI/
+59178f9a  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+aaf1e5ea  Revert "DocumentsUI: Check for mStarted state only on eng builds"  [Shubham Singh]
+   * packages/apps/PackageInstaller/
+12d6e22e  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * packages/apps/Settings/
+ff50888512  Full nav gesture: home action on the whole bar and doubletap2sleep [2/2]  [Shubham Singh]
+9f1fac9824  Allow to set a full gesture navbar (swipe left for back action) [2/2]  [Shubham Singh]
+526d796a40  Revert "Conditionally block battery percantage from search"  [Shubham Singh]
+d4c3b6431e  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * packages/apps/Stk/
+f895caa  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * packages/inputmethods/LatinIME/
+8d44e60e7  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+1b77009  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * packages/providers/MediaProvider/
+661f76f  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * packages/services/Telecomm/
+a29e5e2b  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * packages/services/Telephony/
+44aaf85d5  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * system/bt/
+25f9f9f13  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * system/core/
+5be42a155  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * system/extras/
+98741847  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * system/netd/
+cc605f1  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * system/sepolicy/
+79485d2a  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * system/vold/
+20bccf0  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+
+====================
+     11-06-2018
+====================
+
+   * bionic/
+09edce64a  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * build/make/
+6a35e5423  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * build/soong/
+92a4e02b  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * frameworks/av/
+0947bc379  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * frameworks/base/
+55066c1d40a  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+c90d0b0a94e  Revert "base: Disable AOD by default [2/2]"  [Shubham Singh]
+82f214b2310  storage: Set all sdcards to visible  [Shubham Singh]
+3120d29bdbc  Fixes crash when getting panel before setting components  [Shubham Singh]
+f7f15f265f9  Settings: Set some settings as private  [Shubham Singh]
+3cd5d1f3592  SystemUI: Implement weather on lockscreen like Pixels  [Shubham Singh]
+   * frameworks/opt/telephony/
+c9100b0c4  Merge tag 'android-9.0.0_r16' into HEAD  [Shubham Singh]
+   * manifest/
+0c3213b  Merge tag 'android-9.0.0_r16' into default  [Shubham Singh]
+f82e00e  Track vold from aex  [Shubham Singh]
+   * packages/apps/Extensions/
+4375076  Extensions: Integrate Weather client [2/2]  [Shubham Singh]
+   * packages/apps/Settings/
+0e37cd22ae  Revert "Settings: Disable AOD by default [1/2]"  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+474f985  DownloadProvider: Add support for manual pause/resume  [Shubham Singh]
+3e0dc77  DownloadProvider: Display download speed in notification  [Shubham Singh]
+   * packages/services/Telephony/
+24dd03ce3  Telephony: Add ERI configuration for U.S. Cellular  [Shubham Singh]
+979a70ed4  Use proper summary for network select list preference on dsds/dsda/tsts  [Shubham Singh]
+   * system/core/
+7c5c46e4a  Lockscreencharging: Drop condition  [Shubham Singh]
+ae9a891b8  LockscreenCharging: squashed (2/3)  [Shubham Singh]
+8d25476fe  init: fix typo in error message  [Shubham Singh]
+9c252e2bf  debuggerd: Resolve tombstoned missing O_CREAT mode  [Shubham Singh]
+64ca821d9  init: don't skip starting a service with no domain if permissive  [Shubham Singh]
+874aba795  bsdgrep: for -r, use the working directory if none specified  [Shubham Singh]
+2ff36a0b8  adb: Add wait-for-online command  [Shubham Singh]
+b289e2ffb  camera: Add L-compatible camera feature enums  [Shubham Singh]
+9d4770f39  init: Don't run update_sys_usb_config if /data isn't mounted  [Shubham Singh]
+75d4a6cc9  debuggerd: add AospExtended version to tombstones  [Shubham Singh]
+729f5b53d  adb: host: Provide better sideload status  [Shubham Singh]
+f73a6320e  healthd: allow custom charger images  [Shubham Singh]
+e65608305  healthd: Reinitialize mChargerNames for every battery update  [Shubham Singh]
+b979cdef0  Update permissions to the superuser binary  [Shubham Singh]
+a11663651  utils: Threads: Handle empty thread names  [Shubham Singh]
+3f5b3d534  healthd: Add support for HVDCP_3 chargers  [Shubham Singh]
+21ecc2eb1  healthd: Add DASH charger type  [Shubham Singh]
+f8c5d35bc  init: always allow local.prop overrides  [Shubham Singh]
+33cd3d787  fs_mgr: Add fs_mgr_get_entry_for_mount_point_after to header  [Shubham Singh]
+b333b3003  sdcard: Allow building as a static library  [Shubham Singh]
+be3de6a02  libsysutils: Allow building static library  [Shubham Singh]
+59937c56a  adb: Look for executables in alternate places  [Shubham Singh]
+3187acdc7  Camera: Add feature extensions  [Shubham Singh]
+39548412b  logcat: Map '-C' to 'logcat -v color'  [Shubham Singh]
+3b1053a8e  mkbootimg: add 32K 64K and 128K pagesizes  [Shubham Singh]
+c41eccdd3  mkbootimg: add support for --dt  [Shubham Singh]
+c9f03fe0b  init: Add vendor-specific initialization hooks.  [Shubham Singh]
+b8c2a0f03  Set permissions on /system/addon.d/ and files within.  [Shubham Singh]
+c4eff9ca8  Set /system/etc/init.d/* permissions  [Shubham Singh]
+21037dfbc  Disable flashing of stock recovery correctly  [Shubham Singh]
+   * system/sepolicy/
+e18d31ce  sepolicy: allow settings to read selinux status  [Shubham Singh]
+02f3d7e3  Allow platform_app to use nfc_service for NFC tile  [Shubham Singh]
+83185a51  sepolicy: allow update_engine to bypass neverallows for backuptool  [Shubham Singh]
+3ed83b13  Build sepolicy tools with Android.bp.  [Shubham Singh]
+c0641c5b  Fix issue that ro.telephony.default_network can't be read per slot  [Shubham Singh]
+fa211d66  Add rules required for TARGET_HAS_LEGACY_CAMERA_HAL1  [Shubham Singh]
+894cd8c3  Allow to read events/header_page with debugfs_tracing  [Shubham Singh]
+3cfb26bb  sepolicy: New type sdcard_posix for labeled filesystems  [Shubham Singh]
+   * system/vold/
+dc42f02  secdiscard: should pin_file to avoid moving blocks in F2FS  [Shubham Singh]
+a8a8f1e  vold: Also wait for dm device when mounting private volume  [Shubham Singh]
+40c85f6  vold: Make sure block device exists before formatting it  [Shubham Singh]
+785c335  vold: Accept Linux GPT partitions on external SD cards  [Shubham Singh]
+8c82722  vold: Allow reset after shutdown  [Shubham Singh]
+df48588  vold: skip first disk change when converting MBR to GPT  [Shubham Singh]
+75a552e  Treat removable UFS card as SD card  [Shubham Singh]
+4857311  Fix the group permissions of the sdcard root.  [Shubham Singh]
+9936552  vold ext4/f2fs: do not use dirsync if we're mounting adopted storage  [Shubham Singh]
+3a87a44  vold: Mount ext4/f2fs portable storage with sdcard_posix  [Shubham Singh]
+016e748  vold: Honor mount options for ext4/f2fs partitions  [Shubham Singh]
+282b622  vold: Support internal storage partitions  [Shubham Singh]
+cf84004  vold: Fix fsck on public volumes  [Shubham Singh]
+679447f  vold: add support for more filesystems for public storage  [Shubham Singh]
+   * vendor/aosp/
+b0a13ef  Merge "Ship WeatherClient" into 9.x  [Gerrit Code Review]
+
+====================
+     11-05-2018
+====================
+
+   * frameworks/base/
+80301c3dd22  Merge "base: Suspend Actions [1/3]" into 9.x  [Gerrit Code Review]
+a916a5468c1  [2/3] NetworkManagement : Add ability to restrict app data/wifi usage  [Shubham Singh]
+   * hardware/qcom/display/
+ae340ef9e  msm8084: Use generated kernel headers  [Rashed Abdel-Tawab]
+17eb67a24  msm8084: display: Don't use gnu-oldstyle field designators  [Rashed Abdel-Tawab]
+65f6d18f6  msm8084: Add additional build flags to avoid errors  [Rashed Abdel-Tawab]
+4350ca3c5  msm8084: Use libhwui.so instead of libskia.so  [Rashed Abdel-Tawab]
+fce1c7014  msm8084: Include what we use.  [Rashed Abdel-Tawab]
+980c6234d  hwc: msm8084: Set ioprio for vsync thread  [Rashed Abdel-Tawab]
+   * kernel/google/wahoo/
+8fc8c68940d2  Merge branch 'pie-qpr1' of https://github.com/nathanchance/wahoo into pie  [slothdabski]
+ff75633a6908  Merge remote-tracking branch 'als/android-msm-wahoo-4.4' into pie-qpr1  [Nathan Chancellor]
+fea87e611e67  Merge tag 'android-9.0.0_r0.37' into android-msm-wahoo-4.4  [Nathan Chancellor]
+8df8a33e1872  Merge branch 'caf-updates-11300' into pie-r2  [Nathan Chancellor]
+c0acf5552e0a  Merge branches 'crash-fix-for-real-i-think' and 'sultan-rice' into pie-r2  [Nathan Chancellor]
+   * manifest/
+8ce135b  Manifest for Android 9.0.0 Release 16 (PQ1A.181105.017.A1)  [The Android Open Source Project]
+4b87ef5  Track our Telephony  [Shubham Singh]
+4559959  manifest: Track more repos  [Shubham Singh]
+   * packages/apps/Settings/
+5aa6a85c39  [1/3] Settings: per-app cellular data and wifi restrictions  [Shubham Singh]
+   * system/netd/
+0b78438  [3/3] NetD : Allow passing in interface names for wifi/data app restriction  [Shubham Singh]
+   * vendor/aosp/
+23d5bce  Vendor: Adapitive Icons 2.0  [Shubham Singh]
+
+====================
+     11-04-2018
+====================
+
+   * device/google/wahoo/
+3228d1e  Switch to clang 8.0.3  [slothdabski]
+
+====================
+     11-03-2018
+====================
+
+   * device/qcom/sepolicy-legacy/
+9b1fc02  Update path for our custom sepolicy  [Shubham Singh]
+   * frameworks/base/
+8627b879d42  Aosp hidden partial screenshot code fixes  [Shubham Singh]
+aad0b59ca70  lockscreen: Add option to pass swipe-up-to-unlock (1/2)  [Shubham Singh]
+d3e2c3113c8  Forward port CM Screen Security settings (1/2)  [Shubham Singh]
+a67c9efd28d  FingerprintService: add overlay to prevent cleanup of unused fingerprints  [Shubham Singh]
+d254f37d4cf  camera: Check if aux camera whitelist is set before restricting cameras  [Shubham Singh]
+faa174f3f2b  base: Suspend Actions [1/3]  [shivatejapeddi]
+   * packages/apps/Dialer/
+e2e5e21ad  Disable answer false touch detection by default  [Shubham Singh]
+bf718b0b8  res: Fix malformed XML  [Shubham Singh]
+6fb93f93f  Allow call recording for Bulgaria.  [Shubham Singh]
+534c3eabd  Allow call recording for Belgium  [Shubham Singh]
+455715137  Allow call recording for Austria  [Shubham Singh]
+48a1b3141  Control dialer's incoming call proximity sensor check via an overlay  [Shubham Singh]
+91909611e  Re-add call statistics.  [Shubham Singh]
+0a45f3c49  Allow per-call account selection.  [Shubham Singh]
+5a28fd4df  Re-add call recording.  [Shubham Singh]
+39129427d  Add setting to enable Do Not Disturb during calls  [Shubham Singh]
+ca6470d84  Generalize the in-call vibration settings category  [Shubham Singh]
+20dfb8322  Add back in-call vibration features  [Shubham Singh]
+5a41b8305  Revert "Remove dialer sounds and vibrations settings fragments and redirect to the system sound settings fragment instead."  [Shubham Singh]
+04c13a2fa  Allow using private framework API.  [Shubham Singh]
+5004f8c52  Dialer: disable anti-falsing for call answer screen  [Shubham Singh]
+   * packages/apps/Extensions/
+0daf201   Suspend Actions [3/3]  [shivatejapeddi]
+   * packages/apps/Settings/
+b41795349f  lockscreen: Forward port option to pass swipe-up-to-unlock [2/2]  [Shubham Singh]
+ad6cdf59f8  Forward port pattern visibility settings (2/2)  [Shubham Singh]
+fc189697a8  Settings: forward port lock pattern grid size (2/2)  [Shubham Singh]
+   * packages/services/Telephony/
+73be36658  Telephony: Suspend Actions [2/3]  [shivatejapeddi]
+   * vendor/aosp/
+952cf88  Ship WeatherClient  [Shubham Singh]
+55f4b20  Merge changes from topic 'cdex-support' into 9.x  [Gerrit Code Review]
+
