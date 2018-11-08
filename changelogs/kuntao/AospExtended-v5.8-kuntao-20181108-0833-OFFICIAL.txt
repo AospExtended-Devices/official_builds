@@ -1,0 +1,8 @@
+===========================
+Changelog
+===========================
+
+Merge November security patch (8.1.0_r50)
+Upstream kernel to 3.18.124
+
+Note: This is final Oreo build.
