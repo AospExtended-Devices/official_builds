@@ -1,0 +1,19 @@
+===============================================
+AospExtended-v6.0-x2-20181108-0531-OFFICIAL.zip
+===============================================
+
+Changelog :
+
+Device Specific :
+Added Custom Doze
+Decreased AOD brightness
+Fixed QC Enable disable toggle
+updated to Working perf stack
+Decreased input Boost in battery mode
+
+Rom Specific
+Merge November security patch(9.0.0_r16)
+Added SNAP Camera
+Added full gesture mode
+Added Recoreder for screen and audio record
+Enabled Call recording
