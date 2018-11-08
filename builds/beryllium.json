@@ -3,5 +3,13 @@
         {
             "file_name": "AospExtended-v5.8-beryllium-20180930-1343-OFFICIAL.zip"
         }
+    ],
+    "pie": [
+        {
+            "file_name": "AospExtended-v6.0-beryllium-20181105-0719-OFFICIAL.zip"
+        },
+        {
+            "file_name": "AospExtended-v6.0-beryllium-20181108-0451-OFFICIAL.zip"
+        }
     ]
 }
