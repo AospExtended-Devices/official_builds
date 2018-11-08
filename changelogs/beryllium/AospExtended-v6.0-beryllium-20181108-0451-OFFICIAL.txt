@@ -1,0 +1,9 @@
+===========================
+AospExtended v6.0 Changelog
+===========================
+
+Selinux Enforcing
+Improved auto brightness
+Reduced DPI size to 440
+Enabled FDE
+AospExtended upstream
