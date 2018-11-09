@@ -1,0 +1,4 @@
+> Merge November security patch.
+> Switch to OSS Camera Hal.
+> Increase volume.
+> Increase volume steps to 7 & 25 for voice & media.
