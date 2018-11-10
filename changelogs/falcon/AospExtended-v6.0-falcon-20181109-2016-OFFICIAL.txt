@@ -1,0 +1,49 @@
+===========================
+AospExtended v6.0 Changelog
+===========================
+
+Merge November security patch(9.0.0_r16)
+QS row/col customizations
+QS hide label
+Add new icons for default apps
+Allow hiding power menu on lockscreen
+QS panel opacity
+QS panel brightness slider position
+QS tiles haptic feedback toggle
+QS footer warnings toggle
+Toast icon with toggle
+Notification led customizations
+Statusbar date and clock customizations
+Add VoLTE icon with toggle
+Statusbar icon blacklist fixes
+Add manual sim provisioning
+Various theme fixes
+QS one finger pull down
+QS smart pull down
+Show bluetooth battery level when available
+Statusbar battery % and powersave mode icon fixes
+Suspend actions based on screen state
+Keyguard security customizations(Pattern grid size, pattern visibility,toggle swipe-up to unlock)
+Per app restrict data/wifi usage
+Pixel like lockscreen weather
+DT2S and full navbar gesture on swipe-up navbar
+Add back selinux state in settings>about
+Launcher3 customizations(icon pack, gestures, grid etc)
+Deskclock UI overhaul(google clock like)
+Deskclock flip and shake actions
+Add recorder app (for screen and audio recording)
+Add various features to dialer(call recording,in-call vibrations,Call stats etc)
+Fix crashes in Jelly browser and Files app
+Fixed network fluctuations
+Improved Lockscreen weather
+Option to toggle searchbar on launcher
+Disabled touch boost
+Fixed battery stats reset
+Remove fake unlimited storage in google photos backup
+Reflect battery style in Settings>Battery
+AOD disabled by default
+Pie recents: Added kill action to app shortcut
+Updated prebuilt apks 
+Various other fixes
+
+Note:- Clean flash recommended.
