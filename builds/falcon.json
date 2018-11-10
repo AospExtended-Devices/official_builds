@@ -3,5 +3,10 @@
         {
             "file_name": "AospExtended-v5.8-falcon-20180813-1346-OFFICIAL.zip"
         }
+    ],
+    "pie": [
+        {
+            "file_name": "AospExtended-v6.0-falcon-20181109-2016-OFFICIAL.zip"
+        }
     ]
 }
