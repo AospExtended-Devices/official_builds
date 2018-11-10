@@ -1,0 +1,10 @@
+- Fixed Hotspot bug
+- Fixed network fluctuations
+- Improved Lockscreen weather
+- Option to toggle searchbar on launcher
+- Fixed battery stats reset
+- Remove fake unlimited storage in google photos backup
+- Reflect battery style in Settings>Battery
+- AOD disabled by default
+- Pie recents: Added kill action to app shortcut
+- Updated prebuilt apks 
