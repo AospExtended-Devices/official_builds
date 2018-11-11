@@ -1,7 +1,8 @@
 {
-    "oreo": [
-        {
-            "file_name": "AospExtended-v5.8-whyred-20180814-1828-OFFICIAL.zip"
-        }
-    ]
+	"oreo": [{
+		"file_name": "AospExtended-v5.8-whyred-20180814-1828-OFFICIAL.zip"
+	}],
+	"pie": [{
+		"file_name": "AospExtended-v6.0-whyred-20181111-1119-OFFICIAL.zip"
+	}]
 }
