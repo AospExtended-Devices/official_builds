@@ -1,0 +1,13 @@
+===========================
+AospExtended v6.0 Changelog
+===========================
+
+-Fixed the issue with DT2W finally, you can now disable it in Settings->Display
+-Fixed Auto-Brightness, brightness will now be optimised according to light normally 
+-Added new battery meter style
+-Updated GPS blobs to Pie
+-Added aptX blobs 
+-Updated Power Profile to Pie
+-Battery stats resetting on every boot completely fixed
+-Removed unnecessary camera files
+-Merged with latest sources
