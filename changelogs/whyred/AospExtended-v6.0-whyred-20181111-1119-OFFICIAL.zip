@@ -1,0 +1,10 @@
+==================================
+AospExtended v6.0 Changelog (1119)
+==================================
+
+- Inital Pie Build
+- SELinux: Enforcing
+- November Security Patches Merged
+- Built Missing Device Health Package
+- Built with TwistLoop (CrustyBreadcrumb) Kernel
+- STA/SAP Concurrency Support Added
