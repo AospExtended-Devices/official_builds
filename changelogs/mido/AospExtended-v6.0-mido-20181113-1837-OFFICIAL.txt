@@ -1,0 +1,27 @@
+> Merged Android 9.0_r16
+> November Security Update
+> Upstreamed Kernel from 3.18.71 > 3.18.125
+> Full FDE support (Encryption)
+> Remove HD icon from ims.apk 
+> Add back in-call vibration features
+> Re-add call recording
+> Integrate Weather Client & Option to show on lockscreen
+> Allow to set a full gesture navbar
+> Add back NTFS & exFAT Support
+> Add Suspend Actions
+> Adapitive Icons 2.0
+> Add option to pass swipe-up-to-unlock
+> per-app cellular data and wifi restrictions
+> Inherit battery meter style in view
+> Set a toggle to show Search bar on first screen
+> Disable AOD by default
+> Update screenshot QS tile icons
+> don't show data disable confirmation dialog
+> Add support for HFR 60 recording
+> Add Kill option in Recents
+> Update prebuilt apks
+> Update power profiles
+> Fix aosp partial screenshot
+> Add AGPS overlay
+> Fixed few memory leaks
+> Merge Upstream Changes
