@@ -1,0 +1,5 @@
+- fix zenmotions on/off toggle ( gestures can be disabled now )
+- move dt2w under zenmotions
+- allow to customise dt2w action
+- november security patches
+- aex source updates
