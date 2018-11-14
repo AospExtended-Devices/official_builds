@@ -1,0 +1,14 @@
+===== rolex: AEX Pie v6.0 =====
+
+Changelog:
+
+Initial Build
+Merged: New Version of AospExtended (v6.0)
+Changes in https://blog.aospextended.com/AospExtended-v6.0-Changelog/
+Merged: November Security Patch (9.0.0_r16)
+Merged: Tag 'LA.UM.7.6.r1-03100-89xx.0 from CAF (Kernel)
+Added: New blobs from riva (Redmi 5A)
+Fixed: Offline Charger
+Added: Spectrum Support
+
+Enjoy and welcome to AEX Pie Official, rolex/riva users <3
