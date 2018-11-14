@@ -1,0 +1,4 @@
+*moved dt2w back to display and removed it from xiaomi
+*enabled simultaneously wifi and hotspot usage
+*solved libperfmgr spam in log
+*other improvements
