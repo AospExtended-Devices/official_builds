@@ -1,0 +1,8 @@
+===== rolex: AEX Pie v6.0 =====
+
+Changelog:
+
+Merged: New custom hals
+Fixed: Black screen and FCs
+
+Sorry for this problem, guys :/
