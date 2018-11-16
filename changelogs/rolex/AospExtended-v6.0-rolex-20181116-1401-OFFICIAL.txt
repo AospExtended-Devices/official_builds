@@ -1,0 +1,6 @@
+===== rolex: AEX Pie v6.0 =====
+
+Changelog:
+
+Merged: Switch back to tissot QMI & RIL blobs
+Fixed: RIL and FC's
