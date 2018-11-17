@@ -1,0 +1,16 @@
+===============================================
+AospExtended-v6.0-x2-20181117-0502-OFFICIAL
+===============================================
+
+Changelog :
+
+Device Specific :
+*Completetly switched to stock EUI audio
+*All CDLA issues should be fixed
+*All Audio issues in whatsapp etc should be fixed
+*updated Gps Configs
+*upldated thermal for EUI6
+*and some other ramdisk updates
+
+
+* and AEX source updates
