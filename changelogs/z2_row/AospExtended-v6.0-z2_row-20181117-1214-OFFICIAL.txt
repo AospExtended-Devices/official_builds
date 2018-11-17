@@ -1,0 +1,4 @@
+Move to EAS
+Fixed battery charge
+Fixed enforcing in setting
+AEX source updated
