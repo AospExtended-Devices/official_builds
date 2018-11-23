@@ -1,0 +1,6 @@
+===== rolex: AEX Oreo v5.8 =====
+
+Changelog:
+
+Merged: November Security Patch (8.1.0_r50)
+Fixed: Offline Charger
