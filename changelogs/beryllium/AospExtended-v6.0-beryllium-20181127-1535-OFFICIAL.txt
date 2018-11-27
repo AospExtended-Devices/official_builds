@@ -1,0 +1,10 @@
+===========================
+AospExtended v6.0 Changelog
+===========================
+
+Option to hide notch in developer settings
+Added proximity check for dt2w (Settings -> Display -> Prevent accidental wake-up)
+Added vibration pattern from pixel
+Touch firmware is updated from latest miui 8.11.23
+Included IR Face unlock fixes (Thanks to @abhishek987)
+AospExtended upstream
