@@ -1,0 +1,139 @@
+====================
+     11-30-2018
+====================
+
+   * device/huawei/angler/
+d8042a3  angler: update build fingerprint to Nov 2018 OPM7.181105.004  [minidude2012]
+495640d  Revert "sepolicy: fix storaged denials by properly labeling /sys/block/mmcblk0/stat"  [minidude2012]
+ccb6b1b  Enable 3gb dalvik heap and hwui for Angler  [minidude2012]
+628ec6f  Fix NFC hopefully  [minidude2012]
+a8e6dfb  Rename libnfc-brcm.conf -> libnfc-nci.conf  [minidude2012]
+90c647d  Build Not being Permissive  [minidude2012]
+333a076  angler: enable audio dsm feedback  [minidude2012]
+da727f2  angler: disable AoD by default  [minidude2012]
+e65f967  angler: remove vendor platform signature  [minidude2012]
+4f777ac  angler: inherit custom dalvik vm and hwui configurations  [minidude2012]
+8dff086  sepolicy: fix storaged denials by properly labeling /sys/block/mmcblk0/stat  [minidude2012]
+5153181  libui: Allow additional gralloc 1.0 buffer usage bits  [minidude2012]
+a6a4935  angler: Set sys.usb.ffs.aio_compat  [minidude2012]
+6e53cc2  angler: update to correct useragent Change-Id: Ibde282df01757d5de7eba04debfde764af2a0980  [minidude2012]
+e30aaba  angler: kill bugreport shortcut service *this is easy to accidentaly activate in pocket so lets remove it  [minidude2012]
+3bc067c  angler: don't use AnglerLayout  [minidude2012]
+7e95d6d  angler: enable verizon visual voicemail support  [minidude2012]
+3afba7d  angler: disable modem ramdumps  [minidude2012]
+f3f2587  angler: Fix operation permission error to write  [minidude2012]
+003ba1f  angler: Actually enable contexthub as a binderized service.  [minidude2012]
+6a7e492  angler: switch to nanohub contexthub impl  [minidude2012]
+8d8affe  angler: switch to nanohub contexthub impl  [minidude2012]
+138827e  angler: add missing gatekeeper and keystore  [minidude2012]
+d072368  angler: build missing services  [minidude2012]
+25ae431  angler: add mobile data provision prop  [minidude2012]
+cfbb58c  angler: add missing drm prop  [minidude2012]
+50a24e7  angler: fix network values * in the factory images network values are set 10,0,1 but AOSP is set 9,0,1 lets fix it  [minidude2012]
+7b44401  angler: rename config_dozeAfterScreenOff  [minidude2012]
+7d9e54b  angler: Hide sRGB toggle in developer options  [minidude2012]
+54893f8  angler: compile STK as this is needed for some SIMs  [minidude2012]
+68572ac  angler: enable Battery and Notification LED customization  [minidude2012]
+5596e6f  angler: enable smart pixels  [minidude2012]
+40e4f1a  angler: overlay: add always on display capabilities  [minidude2012]
+8e09154  angler: enable pie swipe up gesture and Disable showing system updates  [minidude2012]
+d5ea505  angler: init: fix up webview permission  [minidude2012]
+0398512  angler: Fix shared vdex name  [minidude2012]
+8208659  angler: Create folders for wpa_supplicant  [minidude2012]
+da37e42  angler: wpa_supplicant(hidl): Add support for starting HAL lazily  [minidude2012]
+bd0afde  angler: Don't start supplicant with interfaces  [minidude2012]
+576fdea  angler: use new way to declare shipped android version  [minidude2012]
+940c1cf  angler: disable device verification of /system /vendor  [minidude2012]
+53c1999  angler: disable forced encryption  [minidude2012]
+df3bbf7  angler: Revert "aosp_angler: don't verify the vendor partition"  [minidude2012]
+9b9847d  angler: build AOSP symlinks regardless of TARGET_PRODUCT  [minidude2012]
+ee02752  Conflicts Resolved  [minidude2012]
+f7ac85d  Fixed Conflixt Left Overs  [minidude2012]
+b0d26f7  Revert "angler: QCamera2 printf format fixes [16]"  [minidude2012]
+
+====================
+     11-29-2018
+====================
+
+   * device/huawei/angler/
+74f620c  Fixed Left over conflicts from Previous Commit  [minidude2012]
+2b774dc  angler: SELinux bring up  [minidude2012]
+ae85773  angler: enable FBE  [minidude2012]
+   * kernel/huawei/angler/
+01665fa778c6  uapi: Define __BITS_PER_LONG based on compiler target  [minidude2012]
+
+====================
+     11-28-2018
+====================
+
+   * frameworks/base/
+87583372e45  LockSettingsService: Support for separate clear key api  [Shubham Singh]
+105176c4d92  frameworks: base: Port password retention feature  [Shubham Singh]
+e485199ba4e  Use fdeCheckPassword error code to indicate pw failure  [Shubham Singh]
+
+====================
+     11-27-2018
+====================
+
+   * device/huawei/angler/
+2be909c  angler: QCamera2 printf format fixes [16]  [minidude2012]
+   * frameworks/base/
+842f7dca9c6  Avoid casting network traffic to StatusBarIconView to prevent crash  [Shubham Singh]
+   * hardware/interfaces/
+5f040432  keymasterV4_0: Tags support for FBE wrapped key.  [karthick111]
+7b5c7506  wifi: Add logic to create secondary interface for STA mode too.  [arian]
+3a31b10c  wifi: Add provision to create/remove dynamic interface(s).  [arian]
+03be679a  wifi: Fetch softap interface name for creating ap_iface operations.  [arian]
+   * hardware/qcom/wlan/
+4b782df  Wifi-Hal: Provide support to create/remove wifi interfaces.  [arian]
+   * manifest/
+09f1bff  manifest: track our qcom wlan  [Shubham Singh]
+ca301d9  Track external/DUI  [Shubham Singh]
+   * system/core/
+de852e078  fs_mgr: Wrapped key support for FBE  [karthick111]
+   * system/vold/
+b1d19f8  vold: Wrapped key support for FBE  [karthick111]
+bd8f1fb  vold: Move QCOM HW FDE inclusion under custom namespace  [karthick111]
+43bf034  system: vold: Remove crypto block device creation  [karthick111]
+61afcc7  vold: Add Hardware FDE feature  [karthick111]
+   * vendor/aosp/
+66361c4  soong_config: Add flag for crypto waiting on QSEE to start  [karthick111]
+30e43c8  soong_config: Add flag for legacy HW FDE  [karthick111]
+3ca13a0  soong_config: Add new flags for HW FDE  [karthick111]
+   * vendor/qcom/opensource/cryptfs_hw/
+ee4fb3f  cryptfs_hw: Featureize support for waiting on QSEE to start  [Arghya Chanda]
+cd280bb  cryptfs_hw: Add compatibility for pre-O hw crypto  [Arghya Chanda]
+cb822f6  cryptfs_hw: add missing logging tag  [Arghya Chanda]
+9db4809  cryptfs_hw: Remove unused variable  [Arghya Chanda]
+
+====================
+     11-26-2018
+====================
+
+   * frameworks/base/
+b73feef712e  Ambient music: don't trigger clean layout mode when in AoD  [Shubham Singh]
+cb919f663d3  Ambient music ticker AoD: make it compatibile with double tap sensor  [Shubham Singh]
+e7c18d26c74  A few more improvements for Ambient Music  [Shubham Singh]
+43eaaa9161b  Revert "Volume wake/skip track: Make it work independently"  [Shubham Singh]
+e22b6df5802  Fix lockscreen double tap to open notifications after ambient music  [Shubham Singh]
+102e904bbd8  Ambient display music ticker [1/3]  [Shubham Singh]
+683184b85c6  Port ambient Now Playing container from Pixel [stripped down version]  [Shubham Singh]
+f06a533a83e  Add button to AppErrorDialog to upload crash information to dogbin  [Shubham Singh]
+aa778d4d035  Update PageTypeInfoParser to be less restrictive.  [Shubham Singh]
+1e3ce4f8e00  Check for null path in getInternalPathForUser  [Shubham Singh]
+f577a1ba29e  Fix NPE with void android.view.VelocityTracker.clear()  [Shubham Singh]
+1d32eb5cfcf  Full gesture navbar: add haptic feedback to back action  [Shubham Singh]
+8b2d32f33da  Full gestures nav: longpress to move keyboard cursors [1/2]  [Shubham Singh]
+0c9e030ba5c  Stock navbar Pulse : allow to blacklist apps [1/2]  [Shubham Singh]
+aebf9a40f68  Pulse: add back auto color based on albumart  [Shubham Singh]
+4c6e46f0e64  Navbar Pulse bringup  [Shubham Singh]
+c5e49fbab07  Screen off to skip track: Add Spotify/KDEConn/etc. remote session compatibility  [Shubham Singh]
+31bcd424c36  Networktraffic: Fix gravity  [Shubham Singh]
+   * packages/apps/Extensions/
+f39d6d9  Ambient display music ticker [2/3]  [Shubham Singh]
+d56eaba  Ensure dependencies are enforced  [Shubham Singh]
+9ecf65c  Stock navbar Pulse : allow to blacklist apps [2/2]  [Shubham Singh]
+d068ad0  Restore Pulse settings  [Shubham Singh]
+   * packages/apps/Settings/
+af3159b192  Full gestures nav: longpress to move keyboard cursors [2/2]  [Shubham Singh]
+
