@@ -1,0 +1,1 @@
+* Fixed kernel panic on shut down, which caused the phone to reboot instead
