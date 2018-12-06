@@ -1,8 +1,0 @@
-*update qti-telephony for pie
-*new kernel, based on latest caf msm-4.4 tag by vantom :)
-*updated auto brightness configs
-*updated vibration pattern
-*solve some low priority SEPolicy denials
-*android-9.0.0_r21 -> december security bulletin
-*added ultra battery saver
-*mayn other stuff i forgot :D
