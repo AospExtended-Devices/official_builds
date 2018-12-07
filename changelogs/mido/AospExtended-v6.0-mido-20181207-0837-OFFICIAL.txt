@@ -1,0 +1,15 @@
+> Merged Android 9.0_r21
+> December Security Update
+> Add New Bootanimation
+> Introduce QS tile styles picker
+> Navigation: Add SmartNav & Fling
+> Navigation: Add Navbar Pulse
+> Only show bluetooth icon when connected && enabled
+> Add tile for enable/disable HW keys
+> Use volume keys to control ring volume anytime
+> Phone ringtone setting for Multi SIM device
+> Use Auto brightness for Ambient Display
+> Enable enhanced call blocking by default
+> Data disabled icon switch
+> Fixed few memory leaks
+> Merge Upstream Changes
