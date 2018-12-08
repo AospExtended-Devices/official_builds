@@ -1,0 +1,7 @@
+- selinux is enforcing
+- added option for sim provisioning (sim on/off toggle)
+- updated all blobs except radio from Mi A2
+- fixed notification led
+- better network reception
+- merged latest caf tag and 4.4.166 into kernel
+- aex source upstream
