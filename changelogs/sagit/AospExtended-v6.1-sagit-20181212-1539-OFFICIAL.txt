@@ -1,0 +1,4 @@
+AospExtended Release 6.1
+* solved VoLTE
+* enabled slow motion and 60 fps Video recording
+* brand new rebased Kernel by vantom, no reboots this time
