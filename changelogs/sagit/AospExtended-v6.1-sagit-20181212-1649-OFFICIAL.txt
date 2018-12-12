@@ -1,4 +1,6 @@
 AospExtended Release 6.1
-* solved VoLTE
+* fxied VoLTE
 * enabled slow motion and 60 fps Video recording
 * brand new rebased Kernel by vantom, no reboots this time
+* other improvements
+Enjoy AospExtended 6.1 :)
