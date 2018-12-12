@@ -3,5 +3,10 @@
         {
             "file_name": "AospExtended-v5.8-kenzo-20180824-1714-OFFICIAL.zip"
         }
+    ],
+    "pie": [
+        {
+            "file_name": "AospExtended-v6.1-kenzo-20181211-1735-OFFICIAL.zip"
+        },
     ]
 }
