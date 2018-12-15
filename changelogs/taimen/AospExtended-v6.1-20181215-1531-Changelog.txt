@@ -1,0 +1,181 @@
+====================
+     12-15-2018
+====================
+
+   * device/google/taimen/
+4cf7d25  taimen: use PRODUCT_PACKAGE_OVERLAYS  [slothdabski]
+c0850d9  taimen: Move content padding from fwb to devicetree  [slothdabski]
+1adffa3  IMS Support  [slothdabski]
+   * device/google/wahoo/
+820b339  wahoo: Build disabled VBMeta image  [slothdabski]
+f168afa  wahoo: Enable WiFi display  [slothdabski]
+399b089  Pixel 2/XL: Enable sound trigger  [slothdabski]
+13f08f2  Enable EUICC Sim  [slothdabski]
+08c5531  liblights: add kernel includes  [slothdabski]
+dd386b7  wahoo: always add manufacturer and model to recordings  [slothdabski]
+b32b6d0  wahoo: Disable subsytem ramdumps  [slothdabski]
+454f727  wahoo: Kill bugreport service  [slothdabski]
+56711dc  wahoo: Enable Fingerprint Gestures  [slothdabski]
+6bc2393  wahoo: Address device specific denials  [slothdabski]
+   * frameworks/base/
+2feb51eee3e  QSTiles: Add few more styles [3/3]  [Shubham Singh]
+5efd3e884b7  Themes: Expose QS tiles and label colors  [Shubham Singh]
+48bb04f92c9  BoostFramework: Add debug to hide logcat spam on devices without QPer…  [Shubham Singh]
+   * packages/apps/Extensions/
+4755d79  QSTiles: Add few more styles [2/3]  [Shubham Singh]
+   * vendor/aosp/
+bba2306  QSTiles: Add few more styles [1/3]  [Shubham Singh]
+
+====================
+     12-14-2018
+====================
+
+   * frameworks/base/
+dab3b4c6bfa  FontService: Support fonts from Substratum theme packages  [Shubham Singh]
+460fdf85500  FontService: Don't copy resources from /system/etc/fonts  [Shubham Singh]
+2ceabd50af3  Add progress for font apply [1/2]  [Shubham Singh]
+4f3d3f758ab  Dynamic font fix for FDE devices  [Shubham Singh]
+53132246a5f  base: Fonts: Update keyguard when font changes  [Shubham Singh]
+66ec15eb382  base: Introduce FontService  [Shubham Singh]
+d9dd51e3a84  base: Add dynamic theme fonts support  [Shubham Singh]
+e23848f3391  frameworks: Add unlinked ringtone and notification volumes  [Shubham Singh]
+981bab5eec4  base: Add back increasing ring feature (1/3)  [Shubham Singh]
+9960450d551  base: SystemUI: Restore AOSP QS style  [Shubham Singh]
+b7fbf563f7b  base: SystemUI: add tuner prefs for QS brightness buttons [1/2]  [Shubham Singh]
+48139b6bb90  Refresh QS brightness icon and improve its touch area and padding  [Shubham Singh]
+955ffda70a7  Use brightness slider better values also for Settings brightness slider  [Shubham Singh]
+3ef594ff680  Brightness slider + - buttons: use more granular values  [Shubham Singh]
+e44c8a0ffd5  Multi-User fixes for brightness slider mod  [Shubham Singh]
+6dc163f20a5  base: Adapt custom brightness actions from QSPanel to BrightnessDialog  [Shubham Singh]
+58e6d04001f  Bottom brightness slider fixes and improvements  [Shubham Singh]
+97d2f9e281e  Brightness slider: Vibrate after a long press  [Shubham Singh]
+0cb3783e422  Brightness Buttons: Improve touch area  [Shubham Singh]
+c5247db5258  Improve the brightness footer slider animation when on 2nd QS page  [Shubham Singh]
+e66c8da9bc3  Footer brightness slider: improve hide/show animation  [Shubham Singh]
+eb4c301a687  Revert "base: SystemUI: fix brightness slider animation on qs expand"  [Shubham Singh]
+6e0a6b59bb4  Footer brightness buttons: make touch area more reliable  [Shubham Singh]
+8e91ad393e7  Brightness slider buttons: make them dynamic (auto and manual)  [Shubham Singh]
+894598eb06a  Footer brightness slider: fix FC and code cleanup  [Shubham Singh]
+80a6f578d3c  Make use of the brightness slider buttons  [Shubham Singh]
+3c82ac12ca4  Rework auto brightness implementation  [Shubham Singh]
+f397c6a091c  Brightness control on footer  [Shubham Singh]
+8cb351a81c6  Fix brightness icon not showing  [Shubham Singh]
+eb5af937528  Fix automatic brightness QS toggle icon  [Shubham Singh]
+daa4c2ed560  QS auto brightness toggle rework  [Shubham Singh]
+a510b0a30ec  Add auto brightness toggle to Quick Settings  [Shubham Singh]
+741e58da8f9  Fix dnd tile longpress after no-title tiles commits  [Shubham Singh]
+   * packages/apps/Extensions/
+5c10fb4  Extensions: Add QS brightness buttons options [2/2]  [Shubham Singh]
+   * packages/apps/Settings/
+6fa22ec73b  Add progress for font apply [2/2]  [Shubham Singh]
+bd244cd91d  Add Font preference for font manager  [Shubham Singh]
+   * packages/services/Telecomm/
+02dcfe14  Telecomm: Add back increasing ring feature (3/3)  [Shubham Singh]
+   * system/sepolicy/
+bfac5c8e  sepolicy: Implement rules for font service in p-mr0  [Shubham Singh]
+b6a15487  sepolicy: rules for FontService  [Shubham Singh]
+1309a391  sepolicy: exceptions for font engine assets  [Shubham Singh]
+   * vendor/aosp/
+7830f8e  Add custom font package  [Shubham Singh]
+
+====================
+     12-13-2018
+====================
+
+   * build/make/
+c45ff1324  envsetup: add mk_timer  [Shubham Singh]
+b8f1275fb  envsetup: add the mka and reposync functions  [Shubham Singh]
+   * frameworks/base/
+104f1713e66  SystemUI: Fix wrong SIM PIN message  [Shubham Singh]
+ea66f821f9e  Wallpaper is half black after rotating quickly  [Shubham Singh]
+9019e18b062  NetworkTraffic: Fix tinting on dark qs  [Shubham Singh]
+71083bf4981  Reload more assets on overlay change  [Shubham Singh]
+ac24acc694f  Expose a bool to tint notification app name  [Shubham Singh]
+1f4ecbc51fe  Add bool to enable algorithm for dark backgrounds  [Shubham Singh]
+b6af01edcdb  Notification dynamic colors bool compatible with OMS7  [Shubham Singh]
+6a261aaacce  Expose a bool to disable dynamic colors  [Shubham Singh]
+08bd4b2be5b  Statusbar net monitor: stop the handler if screen is off  [Shubham Singh]
+   * hardware/qcom/display/
+27adb2449  msm8960/8974/8084: Include string.h where it is necessary  [Nolen Johnson]
+be5059111  msm8974: libexternal should depend on libmedia  [Nolen Johnson]
+51eedfbc4  msm8974: libgralloc: Fix adding offset to the mapped base address  [Nolen Johnson]
+bd93363dd  msm8974: hwcomposer: Fix regression in hwc_sync  [Nolen Johnson]
+50d9d0083  msm8974: Move QCOM HALs to vendor partition  [Nolen Johnson]
+adfacadfb  msm8960: copybit: Fix type conversion error for GCC 4.7  [Nolen Johnson]
+6015326c6  display: add TARGET_PROVIDES_LIBLIGHT  [Nolen Johnson]
+156b61a1c  Revert "msm8974: deprecate msm8974"  [Nolen Johnson]
+   * hardware/qcom/media/
+2ea95b3e3  media: vdec: Include nativebase headers  [Rashed Abdel-Tawab]
+71efa192f  mm-video: venc: Correct a typo in variable name  [Rashed Abdel-Tawab]
+6817d26d9  Revert "msm8974: remove from top level makefile"  [Rashed Abdel-Tawab]
+   * hardware/qcom/power/
+fbb8521  power: msm8960: Implement performance profiles  [Arne Coucheron]
+   * packages/apps/Settings/
+50d6ae059c  Settings: Use correct icon for ring volume  [Shubham Singh]
+9d59baa2e5  Settings: Add switch for linked ring and media notification volumes  [Shubham Singh]
+d3621820e3  Settings: Add back increasing ring feature (2/3)  [Shubham Singh]
+e9d4232768  Revert "Restart SystemUI after theme change"  [Shubham Singh]
+77c50b8559  Update AboutUS  [AmolAmrit]
+   * vendor/aosp/
+9c9d521  envsetup: Clean up  [Shubham Singh]
+
+====================
+     12-12-2018
+====================
+
+
+====================
+     12-11-2018
+====================
+
+   * bionic/
+c484f3709  Revert "libc fortify: Ignore open() O_TMPFILE mode bits warning"  [Shubham Singh]
+   * frameworks/base/
+0d0b7402893  Automatic translation import  [Shubham Singh]
+04b5ebed23b  Support the perflock request from system/priv apps whose domain are untrusted  [AmolAmrit]
+45ca20fd60e  Add Game boost & modify launchboostv2 invocation.  [AmolAmrit]
+9f48bc52114  Disable swipe boost and preferred apps for certain cases  [AmolAmrit]
+d4f95b3a758  Fling/Pre-fling Boost: Call perf boost from System Server context  [AmolAmrit]
+58c42d14f00  BoostFramework: Clean up code  [AmolAmrit]
+1895a35ba26  IOP : Adding support for UXPerf Class  [AmolAmrit]
+c80cebcb6ff  BoostFramework: Move property checks to pass sepolicy requirements.  [AmolAmrit]
+bd6d0e4e0f8  IOP/UXE: This change is to enable the IOP and UXE  [AmolAmrit]
+b8d1e319897  Precise new activity boost.  [AmolAmrit]
+d293415aa89  Reorder boosts for quick ramp up  [AmolAmrit]
+fa9ddc99a04  Add perf hint for screen rotation animation  [AmolAmrit]
+f792786da0c  Add perf hint for rotation latency  [AmolAmrit]
+8cc77edec69  framework/base: add parallel verifyV1  [AmolAmrit]
+6d776570681  add perf_service into system_process.  [AmolAmrit]
+5b19bc136c9  BoostFramework: To Enhance performance.  [AmolAmrit]
+   * packages/apps/DeskClock/
+2494c9387  Automatic translation import  [Shubham Singh]
+   * packages/apps/Extensions/
+f9d9631  v6.1 [2/2]  [Shubham Singh]
+c5b1646  Automatic translation import  [Shubham Singh]
+   * packages/apps/FMRadio/
+ef09ff0  Automatic translation import  [Shubham Singh]
+   * packages/apps/Launcher3/
+1d6e42aa7  Automatic translation import  [Shubham Singh]
+   * packages/apps/Messaging/
+3801483  Automatic translation import  [Shubham Singh]
+   * packages/apps/Settings/
+87627eb656  Automatic translation import  [Shubham Singh]
+7f683e9342  Update url for official devices list  [Shubham Singh]
+e3f7aeb915  Update about us  [Shubham Singh]
+   * packages/apps/SmartNav/
+0019fd9  Automatic translation import  [Shubham Singh]
+   * packages/apps/SmartNavSettings/
+9c5ae50  Automatic translation import  [Shubham Singh]
+   * packages/apps/Updates/
+84cf1eb  Automatic translation import  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+1258ffc  Automatic translation import  [Shubham Singh]
+   * system/core/
+e9f6da37c  Revert "debuggerd: Resolve tombstoned missing O_CREAT mode"  [Shubham Singh]
+   * vendor/aosp/
+b51b6f0  v6.1 [1/2]  [Shubham Singh]
+41c1baa  Add New AospExtended Pie Boot aniamtion by Edoardo Zullo  [Shubham Singh]
+f1bc365  iosched: restorecon scheduler tuneables before  touching them  [Shubham Singh]
+   * vendor/googleapps/
+db7f410  googleapps: Update to latest 9.0 Google Apps  [mydongistiny]
+
