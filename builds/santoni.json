@@ -3,5 +3,11 @@
         {
             "file_name": "AospExtended-v5.8-santoni-20181014-1530-OFFICIAL.zip"
         }
-    ]
+    ],
+
+    "pie": [
+        {  
+            "file_name": "AospExtended-v6.1-santoni-20181216-0514-OFFICIAL.zip"
+        }
+   ]
 }
