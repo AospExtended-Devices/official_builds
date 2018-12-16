@@ -1,2 +1,0 @@
-*Fix Goodix Fingerprint
-NOTE:This is the last oreo build. Aex pie is coming soon
