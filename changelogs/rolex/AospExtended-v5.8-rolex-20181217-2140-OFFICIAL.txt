@@ -1,0 +1,8 @@
+===== rolex: AEX Oreo v5.8 =====
+
+Changelog:
+
+Merged: MIUI Poweroff Charging Animation (Finally fixed offline charging)
+Merged: Kernel tag 'LA.UM.6.6.r1-09600-89xx.0' CAF
+
+This is my last version of AEX Oreo for rolex/riva Official.. Thanks for all guys <3
