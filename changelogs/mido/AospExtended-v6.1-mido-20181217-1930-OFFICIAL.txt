@@ -21,7 +21,7 @@
 > Add dynamic theme fonts support
 > Add statusbar brightness control
 > Add Custom Carrier Label & Carrier Label Placement 
-> Add XiaomiParts
+> Add XiaomiParts (Settings/Extensions/System/GeneralTweaks)
 > Update HW-key binding
 > Enable call blocking by default in dialer
 > Improvements in statusbar bluetooth battery indicator
