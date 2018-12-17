@@ -1,0 +1,12 @@
+===================================================
+  AospExtended-v6.1-s2-20181212-0856-OFFICIAL.zip
+===================================================
+
+ > Added MIUI poweroff charging animation
+ > Added power-off alarm support
+ > Fixed camera lag
+ > Improved camera performance, and bug fixes
+ > Improved standby time
+ > Updated auto-brightness configs from marlin
+ > Updated some blobs to pie
+ > ROM source updated to AEX 6.1

@@ -1,0 +1,7 @@
+===========================
+AospExtended v6.1 Changelog
+===========================
+
+* Initial Pie build
+* All features from my Oreo trees have been updated.
+* All potential bugs have been fixed 

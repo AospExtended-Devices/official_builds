@@ -1,0 +1,5 @@
+- fixed autorotation issue
+- fixed cts profile mismatch
+- added kcal control to zenmotions ( under display settings )
+- aex upstream
+- updated blobs from 337 ota

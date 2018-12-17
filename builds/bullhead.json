@@ -2,6 +2,12 @@
     "pie": [
         {
             "file_name": "AospExtended-v6.0-bullhead-20181113-1434-OFFICIAL.zip"
-        }
-    ]
+        },
+        {
+            "file_name": "AospExtended-v6.0-bullhead-20181117-0539-OFFICIAL.zip"
+        },
+        {
+            "file_name": "AospExtended-v6.0-bullhead-20181128-1318-OFFICIAL.zip"
+        }    
+    ]    
 }

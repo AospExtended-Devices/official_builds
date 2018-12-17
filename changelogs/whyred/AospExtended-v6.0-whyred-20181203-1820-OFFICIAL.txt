@@ -1,0 +1,16 @@
+==================================
+AospExtended v6.0 Changelog (1820)
+==================================
+
+Changelog:
+- AEX Upstream
+- TwistLoop release OvelVowel (Upstream to 4.4.166 and merged LA.UM.7.2.r1-05400-sdm660.0)
+- Broadcast Audio Support
+- SeLinux Permissive (Will enforce soon again)
+- Camera HAL3 enabled by default
+- Hotspot fixed (for those who had issues, not all were affected by this issue, STA SAP Concurrency Disabled rn)
+- Blobs from Jasmine (Mi A2) (Thanks to @akhilnarang andn @GuaiYiHu)
+- Brightness Overlays from Pixel (Thanks to Abhishek)
+- Data switch fixed (Thanks to Raj, Rashed).
+- Userdebug build (Earlier eng)
+- Call recording Enabled

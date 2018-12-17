@@ -1,0 +1,13 @@
+Device Changes:
+- new UI to Zenmotions ( moved all of it's content to one place )
+- support for HD graphics in PUBG
+- charging speed tweaks
+- proper NFC check for newly produced units
+- fixed FM radio
+- reverted saturation level to default value
+
+ROM changes :
+- bunch of features under extentions
+- Desktop mode
+- Launcher3 customisations
+- many more

@@ -1,0 +1,187 @@
+====================
+     12-08-2018
+====================
+
+   * device/google/taimen/
+c6784ad  Add overlay to restore status bar padding  [slothdabski]
+   * frameworks/av/
+c8082305a  libcameraservice: force specific cam id for google face unlock  [Shubham Singh]
+   * frameworks/base/
+a385506c1ce  Full nav gesture [1/2]  [Shubham Singh]
+6aa1120c523  core: touch response optimizations  [karthick111]
+5863d9c6982  ViewConfiguration: Set scroll friction to 0.012  [karthick111]
+1b865b89a2f  SystemUI: Fix too big spacing between QS icons in landscape on sw600dp  [karthick111]
+   * frameworks/native/
+90329830b  native: touch response optimizations  [karthick111]
+   * packages/apps/Settings/
+fd7ca056f9  Poor Man Themes: Fix suggestions close button tint  [Shubham Singh]
+   * packages/apps/SmartNav/
+bd6fdc7  Navigator: Add Gesture nav to public methods  [Shubham Singh]
+58ea867  Pulse: Fix defaulting to user color if no album color available  [Shubham Singh]
+d8002b0  Use offload thread (ExecutorService) to start pulsing  [Shubham Singh]
+   * system/bt/
+72136b3f8  Fix BT Calls  [Shubham Singh]
+   * vendor/aosp/
+e40c684  Themes: Attempt to fix the legacy color icons  [Shubham Singh]
+
+====================
+     12-07-2018
+====================
+
+   * frameworks/base/
+d2f4097476a  Ambient display music ticker [1/3]  [Shubham Singh]
+a5f890d3a59  Port ambient Now Playing container from Pixel [stripped down version]  [Shubham Singh]
+1ee5e8f9a63  Revert "Volume wake/skip track: Make it work independently"  [Shubham Singh]
+9b4b3b086bf  Screen off to skip track: Add Spotify/KDEConn/etc. remote session compatibility  [Shubham Singh]
+03dd09562bc  Stock navbar Pulse : allow to blacklist apps [1/2]  [Shubham Singh]
+641f7a0d1fd  ActionConstants: Update default fling swipe up action to overview  [Shubham Singh]
+c04da37e822  ActionHandler: Update intent flags for Google music search  [Shubham Singh]
+   * manifest/
+8b5c668  Add smartnav repos for translation  [Shubham Singh]
+   * packages/apps/Extensions/
+52e4a58  Ambient display music ticker [2/3]  [Shubham Singh]
+   * packages/apps/SmartNav/
+515ffc4  Smartbar: Update home drawable to match stock one  [Shubham Singh]
+dd435bc  Fling: Update colors in drawables  [Shubham Singh]
+   * packages/apps/SmartNavSettings/
+7474ce8  Ensure dependencies are enforced  [Shubham Singh]
+d060b73  Stock navbar Pulse : allow to blacklist apps [2/2]  [Shubham Singh]
+   * vendor/aosp/
+9db1c44  Themes: Use smartbar overlays  [Shubham Singh]
+
+====================
+     12-06-2018
+====================
+
+   * bionic/
+2edb3e7f4  Actually restore pre-P mutex behavior  [Joshua Primero]
+   * frameworks/base/
+cda9c05b62f  Keys: Return ExpandedDesktop action  [Shubham Singh]
+78a4003d19a  SystemUI: Add tile for enable/disable HW keys  [Shubham Singh]
+89c143440c7  HWKeys: Fix haptic feedback on navbar when hwkeys is disabled  [Shubham Singh]
+1ba75c6d5d2  HWKeys: Disable haptic on keyguard  [Shubham Singh]
+94cd24253d2  Custom button light [1/2]  [Shubham Singh]
+ba3901f85dd  SmartNav: Bring back Kill App action  [Shubham Singh]
+39d5d1cd702  Pulse: add back auto color based on albumart  [Shubham Singh]
+3dba3789ca7  Stock AOSP Navbar Pulse bringup  [Shubham Singh]
+43435fefa60  Hardware key disable support  [Shubham Singh]
+e031fea6908  Bring up hardware key action binding framework  [Shubham Singh]
+2e9bb66f9ae  Initial checkin on Pie for SmartNav navigation suite [1/4]  [Shubham Singh]
+2a71e092f70  Clean up for smartnav [1/3]  [Shubham Singh]
+8672736a8f4  Move vendor blacklist overlays to ThemeAccentUtils  [Shubham Singh]
+be2c755ac77  Ignore vendor overlays that must be on system/app  [Shubham Singh]
+7790c8d15df  Kill off the legacy dialog  [Shubham Singh]
+e898dca3d15  QS: LocationTile: make it cycle modes  [Shubham Singh]
+   * manifest/
+57dd658  Initial checkin on Pie for SmartNav navigation suite [3/4]  [Shubham Singh]
+c9ddb4c  Enable qcom thermal/vr HALs  [Shubham Singh]
+f02811e  Track qcom_telephony from los  [Shubham Singh]
+   * packages/apps/Extensions/
+ac221c1  Custom button light [2/2]  [Shubham Singh]
+1df2765  Bring in hardware key action binding settings  [Shubham Singh]
+d868613  Initial checkin for SmartNav navigation suite [4/4]  [Shubham Singh]
+a96b231  Cleanup for smartnav [2/3]  [Shubham Singh]
+   * packages/apps/Settings/
+2001dfe8d4  Initial checkin for SmartNav navigation suite [2/4]  [Shubham Singh]
+   * packages/apps/SettingsIntelligence/
+0b8322a  Use CUSTOM_FINGERPRINT for reindexing settings search  [Shubham Singh]
+   * packages/apps/SmartNav/
+eea1c7a  SmartNav: Let's use System colors  [Shubham Singh]
+0fc920b  SmartNav: make smartbar home icon smaller  [Shubham Singh]
+76f7824  Update Fling logo  [Shubham Singh]
+   * packages/apps/SmartNavSettings/
+063a198  SmartNav: Adjust some titles & summaries  [Shubham Singh]
+f9afdc9  Pulse: add back color from album art preference  [Shubham Singh]
+29b89ca  Pulse: Allow Pulse for all bar modes  [Shubham Singh]
+1d7b695  Initial checkin for SmartNavSettings    *  [Shubham Singh]
+   * vendor/aosp/
+cfb9ae1  Revert "Fix Miracast on all our devices"  [Shubham Singh]
+babe001  overlay: Define Google Assistant as default  [Shubham Singh]
+
+====================
+     12-05-2018
+====================
+
+   * bionic/
+7c675c079  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+   * build/make/
+b23bb1f60  Remove clean cache script  [Shubham Singh]
+35f2b8891  Set a default ringtone for the 2nd sim  [Shubham Singh]
+d9fedf4a5  build: Also replace techpack/audio old-style kernel header  [Shubham Singh]
+cc55a73e1  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+   * device/google/taimen/
+67d6271  taimen: update fingerprint PQ1A.181205.002 5086253  [slothdabski]
+   * device/google/wahoo/
+ab7e922  Merge tag 'android-9.0.0_r21' of https://android.googlesource.com/device/google/wahoo into 9.x  [slothdabski]
+   * frameworks/base/
+a719c944bef  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+   * frameworks/opt/telephony/
+9c4726275  LocaleTracker: Try to fix NPE during boot with FDE  [Shubham Singh]
+7eef12b5b  Introduce TelephonyExtUtils  [Shubham Singh]
+   * manifest/
+87254f5  Track SettingsIntelligence from aex  [Shubham Singh]
+a40b58d  Track qcom_fm from los  [Shubham Singh]
+a7de9aa  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+4d1f921  Manifest for Android 9.0.0 Release 21  [The Android Open Source Project]
+cce2e06  Manifest for Android 9.0.0 Release 19  [The Android Open Source Project]
+   * packages/services/Telecomm/
+b1ab022b  Phone ringtone setting for Multi SIM device  [Shubham Singh]
+   * system/bt/
+7926200ba  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+   * system/core/
+16b70d3ee  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+   * system/update_engine/
+a1a4c81  Merge tag 'android-9.0.0_r21' into lineage-16.0-android-9.0.0_r21  [Luca Stefani]
+   * system/vold/
+b4d8a90  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+   * vendor/aosp/
+9745b60  Remove clean cache script  [Shubham Singh]
+5d42c16  Use Auto brightness for Ambient Display  [Shubham Singh]
+d9bce1e  vendor: Add techpack/audio to include path also  [Shubham Singh]
+9b75a6e  vendor: Consider techpack/audio when generating kernel headers  [Shubham Singh]
+   * vendor/google/
+9966aff  taimen: update blobs to PQ1A.181205.002  [slothdabski]
+   * vendor/googleapps/
+0b5caff  googleapps: Update to latest 9.0 Google Apps  [mydongistiny]
+
+====================
+     12-04-2018
+====================
+
+   * frameworks/base/
+2be43eabb88  Add a minimum time between power button presses to trigger the camera  [sb6596]
+264d3cfdabd  Display Data Disabled Indicator Icon [1/2]  [Arghya Chanda]
+70020de02e4  Use volume keys to control ring volume anytime(1/2)  [Arghya Chanda]
+c65a770726d  Allow to check for QS tile styles overlays  [Shubham Singh]
+73041b948dd  Change QS tiles styles / refactor a little  [Shubham Singh]
+57d2b1fca04  Introduce QS tile style picker [1/3]  [Shubham Singh]
+e3197ff5a25  Night Light brightness mode options [1/2]  [Shubham Singh]
+cfa064efac1  Phone ringtone setting for Multi SIM device  [Shubham Singh]
+0e5d675e25d  QS: Expanded Desktop Tile Reloaded  [Shubham Singh]
+b52e70d1402  Enable enhanced call blocking by default.  [Shubham Singh]
+ba043bbe24f  Only show bluetooth icon when connected && enabled  [Shubham Singh]
+   * frameworks/opt/telephony/
+67268ff1b  IMS: RTT feature changes  [Bruno Martins]
+a304dcdfc  MSIM: Fix to call setMccMnc() with proper mcc-mnc value  [Bruno Martins]
+0bf4d2a57  Telephony: Enable data call on CSIM.  [Bruno Martins]
+7b8b80205  SimPhoneBook: Add ANR/EMAIL support for USIM phonebook.  [Bruno Martins]
+aa556deb3  Avoid showing stack trace without QTI telephony extension  [Bruno Martins]
+   * kernel/google/wahoo/
+7a082e1cb12f  Merge branch 'AURORA_PIE_MASTER' of https://github.com/freak07/Kirisakura_Taimen_8.1.0 into 9.x  [slothdabski]
+9f321e300bc6  defconfig: update  [freak07]
+0d8325b404da  Merge tag 'android-9.0.0_r0.42' of https://android.googlesource.com/kernel/msm into AURORA_PIE_MASTER  [freak07]
+   * packages/apps/Extensions/
+6df004c  QS style: Align text to center  [Shubham Singh]
+d9299d7  Data disabled icon switch[2/2]  [Arghya Chanda]
+e73be96  Option to use volume keys to control ring volume anytime (2/2)  [Arghya Chanda]
+ad02add  QS tile styles: Prettify the QS Styles preview  [Shubham Singh]
+1399edd  Beautify QS tile styles picker [2/2]  [Shubham Singh]
+   * packages/apps/Settings/
+29af636bd3  Beautify QS tile styles picker [1/2]  [Shubham Singh]
+2fc779b06b  Align QS tile styles with Launcher 3 styles  [Shubham Singh]
+c139a14e47  Introduce QS tile style picker [3/3]  [Shubham Singh]
+   * vendor/aosp/
+0219007  Disable top left/right statusbar and navbar icons padding  [Shubham Singh]
+63c1310  Theme QS tile styles picker  [Shubham Singh]
+5b670d1  Align QS tile styles with Launcher 3 styles  [Shubham Singh]
+

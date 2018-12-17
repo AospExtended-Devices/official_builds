@@ -1,0 +1,88 @@
+====================
+     11-28-2018
+====================
+
+   * fixed random reboots
+   * changed kernel to Hydrogen
+   * performance improvements
+
+====================
+     11-27-2018
+====================
+
+   * frameworks/base/
+87583372e45  LockSettingsService: Support for separate clear key api  [Shubham Singh]
+105176c4d92  frameworks: base: Port password retention feature  [Shubham Singh]
+e485199ba4e  Use fdeCheckPassword error code to indicate pw failure  [Shubham Singh]
+842f7dca9c6  Avoid casting network traffic to StatusBarIconView to prevent crash  [Shubham Singh]
+   * hardware/interfaces/
+5f040432  keymasterV4_0: Tags support for FBE wrapped key.  [karthick111]
+7b5c7506  wifi: Add logic to create secondary interface for STA mode too.  [arian]
+3a31b10c  wifi: Add provision to create/remove dynamic interface(s).  [arian]
+03be679a  wifi: Fetch softap interface name for creating ap_iface operations.  [arian]
+   * hardware/qcom/wlan/
+4b782df  Wifi-Hal: Provide support to create/remove wifi interfaces.  [arian]
+   * system/core/
+de852e078  fs_mgr: Wrapped key support for FBE  [karthick111]
+   * system/vold/
+b1d19f8  vold: Wrapped key support for FBE  [karthick111]
+bd8f1fb  vold: Move QCOM HW FDE inclusion under custom namespace  [karthick111]
+43bf034  system: vold: Remove crypto block device creation  [karthick111]
+61afcc7  vold: Add Hardware FDE feature  [karthick111]
+   * vendor/aosp/
+66361c4  soong_config: Add flag for crypto waiting on QSEE to start  [karthick111]
+30e43c8  soong_config: Add flag for legacy HW FDE  [karthick111]
+3ca13a0  soong_config: Add new flags for HW FDE  [karthick111]
+   * vendor/qcom/opensource/cryptfs_hw/
+ee4fb3f  cryptfs_hw: Featureize support for waiting on QSEE to start  [Arghya Chanda]
+cd280bb  cryptfs_hw: Add compatibility for pre-O hw crypto  [Arghya Chanda]
+cb822f6  cryptfs_hw: add missing logging tag  [Arghya Chanda]
+9db4809  cryptfs_hw: Remove unused variable  [Arghya Chanda]
+
+====================
+     11-26-2018
+====================
+
+   * frameworks/base/
+b73feef712e  Ambient music: don't trigger clean layout mode when in AoD  [Shubham Singh]
+cb919f663d3  Ambient music ticker AoD: make it compatibile with double tap sensor  [Shubham Singh]
+e7c18d26c74  A few more improvements for Ambient Music  [Shubham Singh]
+43eaaa9161b  Revert "Volume wake/skip track: Make it work independently"  [Shubham Singh]
+   * manifest/
+09f1bff  manifest: track our qcom wlan  [Shubham Singh]
+ca301d9  Track external/DUI  [Shubham Singh]
+   * packages/apps/Extensions/
+f39d6d9  Ambient display music ticker [2/3]  [Shubham Singh]
+d56eaba  Ensure dependencies are enforced  [Shubham Singh]
+9ecf65c  Stock navbar Pulse : allow to blacklist apps [2/2]  [Shubham Singh]
+d068ad0  Restore Pulse settings  [Shubham Singh]
+
+====================
+     11-25-2018
+====================
+
+   * frameworks/base/
+e22b6df5802  Fix lockscreen double tap to open notifications after ambient music  [Shubham Singh]
+102e904bbd8  Ambient display music ticker [1/3]  [Shubham Singh]
+683184b85c6  Port ambient Now Playing container from Pixel [stripped down version]  [Shubham Singh]
+f06a533a83e  Add button to AppErrorDialog to upload crash information to dogbin  [Shubham Singh]
+aa778d4d035  Update PageTypeInfoParser to be less restrictive.  [Shubham Singh]
+1e3ce4f8e00  Check for null path in getInternalPathForUser  [Shubham Singh]
+f577a1ba29e  Fix NPE with void android.view.VelocityTracker.clear()  [Shubham Singh]
+1d32eb5cfcf  Full gesture navbar: add haptic feedback to back action  [Shubham Singh]
+8b2d32f33da  Full gestures nav: longpress to move keyboard cursors [1/2]  [Shubham Singh]
+0c9e030ba5c  Stock navbar Pulse : allow to blacklist apps [1/2]  [Shubham Singh]
+aebf9a40f68  Pulse: add back auto color based on albumart  [Shubham Singh]
+4c6e46f0e64  Navbar Pulse bringup  [Shubham Singh]
+c5e49fbab07  Screen off to skip track: Add Spotify/KDEConn/etc. remote session compatibility  [Shubham Singh]
+31bcd424c36  Networktraffic: Fix gravity  [Shubham Singh]
+   * packages/apps/Launcher3/
+b0d35b396  Launcher3: Add support for System themes  [Shubham Singh]
+   * packages/apps/Settings/
+af3159b192  Full gestures nav: longpress to move keyboard cursors [2/2]  [Shubham Singh]
+
+====================
+     11-24-2018
+====================
+
+

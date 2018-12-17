@@ -1,0 +1,12 @@
+===========================
+AospExtended v6.0 Changelog
+===========================
+
+-Added ESE-Powermanager blobs
+-Added power off alarm blobs
+-Improved Fingerprint Service and responsiveness
+-Added prebuilt GCAM (RN5Plus fix by Arnova)
+-Updated Camera blobs
+-Tried to improve the network and fix the issue that made the device lock itself when turning on/off flight mode.
+-Applied minor cleanup
+-Merged with latest sources

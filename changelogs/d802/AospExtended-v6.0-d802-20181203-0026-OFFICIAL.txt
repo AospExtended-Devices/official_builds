@@ -1,0 +1,7 @@
+* Android 9.0.0_r16
+* Update AEX features
+* Enable notification LED coloring
+* Use old OpenGL renderer, seems to work better than the new SkiaGL
+
+=== HOTFIX ===
+* Fixed kernel panic on shut down, which caused the phone to reboot instead

@@ -1,0 +1,9 @@
+==================================
+AospExtended v6.0 Changelog (1644)
+==================================
+
+- Switch to SeLinux Enforcing
+- Merge December Security Patches
+- Fix FM Bug
+- Improved Power Button Sensitivity
+- Add support for huaxing panel

@@ -1,0 +1,3 @@
+Fixed battery drain and high temperature thank to kenny3fcb
+Fix USB tethering in windows, android auto and diag mode thank to kenny3fcb
+AEX source updated

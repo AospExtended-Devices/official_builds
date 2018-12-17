@@ -1,0 +1,5 @@
+- added stock camera prebuilt ( supports portrait mode, fixed compatibility )
+- fix force close issues with apps like Netflix , Instagram 
+- fix some random app force closes with enforcing
+- fix issues with custom camera apps with enforced selinux
+- AEX source upstream v6.1

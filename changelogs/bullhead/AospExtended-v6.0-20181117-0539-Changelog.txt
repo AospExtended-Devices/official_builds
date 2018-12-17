@@ -1,0 +1,75 @@
+====================
+     11-17-2018
+====================
+   * Fixed Mobile Networks crash
+
+====================
+     11-16-2018
+====================
+
+   * packages/apps/Launcher3/
+5a8b5e6e2  Theme: Consider UI mode  [Shubham Singh]
+   * packages/apps/Settings/
+88ce3058ac  Update few drawables [2/3]  [Shubham Singh]
+
+====================
+     11-15-2018
+====================
+
+   * build/make/
+ced9006a3  Also check if BOARD_KERNEL_SEPARATED_DTBO is set  [Shubham Singh]
+   * frameworks/base/
+801335e1fe6  PhoneWindowManager: Check if proposed rotation is in range  [Shubham Singh]
+   * hardware/qcom/audio-caf/msm8952/
+f2dd859e3  mm-audio: Remove extraneous parantheses  [Ethan Chen]
+58a24f383  post_proc: Handle unused asphere function parameters  [Ethan Chen]
+efb7ea84f  post_proc: Remove unused label  [Ethan Chen]
+34ad6762e  visualizer: Fix typedef redefinition  [Ethan Chen]
+bbb58264f  Visualizer: do not use GNU old-style field designators  [Ethan Chen]
+45351db2a  voice_processing: do not use GNU old-style field designators  [Ethan Chen]
+
+====================
+     11-14-2018
+====================
+
+   * frameworks/base/
+fd022213a14  utils: Introduce FileUtils class  [Shubham Singh]
+   * hardware/broadcom/wlan/
+7f14d25  Merge tag 'android-9.0.0_r16' into lineage-16.0  [Luca Stefani]
+   * hardware/nxp/nfc/
+25740c0  Prepend vendor. to NFC HAL service name  [Rashed Abdel-Tawab]
+   * hardware/qcom/bootctrl/
+8afedbb  Merge tag 'android-9.0.0_r16' into lineage-16.0  [Luca Stefani]
+   * hardware/qcom/display/
+f1a78523b  Merge tag 'android-9.0.0_r16' into lineage-16.0  [Luca Stefani]
+   * hardware/qcom/gps/
+90acec9  Merge tag 'android-9.0.0_r16' into lineage-16.0  [Luca Stefani]
+   * hardware/qcom/media/
+5a65b2fe4  Merge tag 'android-9.0.0_r16' into lineage-16.0  [Luca Stefani]
+   * packages/apps/Launcher3/
+18022dd85  Launcher3: Allow users to toggle legacy icon masking  [Shubham Singh]
+   * packages/apps/Nfc/
+0b8f1444  Merge tag 'android-9.0.0_r16' into lineage-16.0  [Luca Stefani]
+   * system/security/
+6e46041  Merge tag 'android-9.0.0_r16' into lineage-16.0  [Luca Stefani]
+
+====================
+     11-13-2018
+====================
+
+   * frameworks/base/
+fc57269902b  Update few drawables [1/3]  [Shubham Singh]
+1e2d05e6717  Fix compilation warning  [Shubham Singh]
+3fdeb33a5a0  Airplane QS tile: Remove call to expand QS panel  [Shubham Singh]
+72bc986f74e  Cellular tile: don't show disable confirmation dialog  [Shubham Singh]
+61a9addec9b  Fix aosp partial screenshot  [Shubham Singh]
+d72638958ab  Update screenshot QS tile icons  [Shubham Singh]
+   * hardware/broadcom/libbt/
+967304f  libbt: Fix logic check when FW_PRE_PATCH is not used.  [Eric Meddaugh]
+   * manifest/
+d0a3c3e  Track cryptfs_hw from aex  [Shubham Singh]
+   * packages/apps/DocumentsUI/
+2f0d238c  Update few drawables [3/3]  [Shubham Singh]
+   * vendor/aosp/
+c341648  vendor: Switch back to older version of Retro  [Shubham Singh]
+

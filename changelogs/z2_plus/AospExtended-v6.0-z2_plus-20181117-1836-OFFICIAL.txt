@@ -1,0 +1,5 @@
+Move to EAS
+Fixed battery charge
+Fixed enforcing in setting
+Add power off alarm
+AEX source updated

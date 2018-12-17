@@ -3,6 +3,16 @@
 		"file_name": "AospExtended-v5.8-whyred-20180814-1828-OFFICIAL.zip"
 	}],
 	"pie": [{
-		"file_name": "AospExtended-v6.0-whyred-20181111-1119-OFFICIAL.zip"
-	}]
+			"file_name": "AospExtended-v6.0-whyred-20181111-1119-OFFICIAL.zip"
+		},
+		{
+			"file_name": "AospExtended-v6.0-whyred-20181203-1820-OFFICIAL.zip"
+		},
+		{
+			"file_name": "AospExtended-v6.0-whyred-20181205-1644-OFFICIAL.zip"
+		},
+		{
+			"file_name": "AospExtended-v6.1-whyred-20181215-1718-OFFICIAL.zip"
+		}
+	]
 }

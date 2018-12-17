@@ -1,0 +1,113 @@
+====================
+     12-05-2018
+====================
+
+   * bionic/
+7c675c079  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+   * build/make/
+d9fedf4a5  build: Also replace techpack/audio old-style kernel header  [Shubham Singh]
+cc55a73e1  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+   * device/google/taimen/
+67d6271  taimen: update fingerprint PQ1A.181205.002 5086253  [slothdabski]
+   * device/google/wahoo/
+ab7e922  Merge tag 'android-9.0.0_r21' of https://android.googlesource.com/device/google/wahoo into 9.x  [slothdabski]
+   * frameworks/base/
+a719c944bef  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+2be43eabb88  Add a minimum time between power button presses to trigger the camera  [sb6596]
+264d3cfdabd  Display Data Disabled Indicator Icon [1/2]  [Arghya Chanda]
+70020de02e4  Use volume keys to control ring volume anytime(1/2)  [Arghya Chanda]
+c65a770726d  Allow to check for QS tile styles overlays  [Shubham Singh]
+73041b948dd  Change QS tiles styles / refactor a little  [Shubham Singh]
+57d2b1fca04  Introduce QS tile style picker [1/3]  [Shubham Singh]
+e3197ff5a25  Night Light brightness mode options [1/2]  [Shubham Singh]
+cfa064efac1  Phone ringtone setting for Multi SIM device  [Shubham Singh]
+0e5d675e25d  QS: Expanded Desktop Tile Reloaded  [Shubham Singh]
+b52e70d1402  Enable enhanced call blocking by default.  [Shubham Singh]
+ba043bbe24f  Only show bluetooth icon when connected && enabled  [Shubham Singh]
+   * frameworks/opt/telephony/
+9c4726275  LocaleTracker: Try to fix NPE during boot with FDE  [Shubham Singh]
+7eef12b5b  Introduce TelephonyExtUtils  [Shubham Singh]
+   * manifest/
+a40b58d  Track qcom_fm from los  [Shubham Singh]
+a7de9aa  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+4d1f921  Manifest for Android 9.0.0 Release 21  [The Android Open Source Project]
+cce2e06  Manifest for Android 9.0.0 Release 19  [The Android Open Source Project]
+   * packages/apps/Extensions/
+6df004c  QS style: Align text to center  [Shubham Singh]
+d9299d7  Data disabled icon switch[2/2]  [Arghya Chanda]
+e73be96  Option to use volume keys to control ring volume anytime (2/2)  [Arghya Chanda]
+ad02add  QS tile styles: Prettify the QS Styles preview  [Shubham Singh]
+1399edd  Beautify QS tile styles picker [2/2]  [Shubham Singh]
+   * system/bt/
+7926200ba  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+   * system/core/
+16b70d3ee  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+   * system/vold/
+b4d8a90  Merge tag 'android-9.0.0_r21' into HEAD  [Shubham Singh]
+   * vendor/aosp/
+d9bce1e  vendor: Add techpack/audio to include path also  [Shubham Singh]
+9b75a6e  vendor: Consider techpack/audio when generating kernel headers  [Shubham Singh]
+   * vendor/google/
+9966aff  taimen: update blobs to PQ1A.181205.002  [slothdabski]
+   * vendor/googleapps/
+0b5caff  googleapps: Update to latest 9.0 Google Apps  [mydongistiny]
+
+====================
+     12-04-2018
+====================
+
+   * frameworks/opt/telephony/
+67268ff1b  IMS: RTT feature changes  [Bruno Martins]
+a304dcdfc  MSIM: Fix to call setMccMnc() with proper mcc-mnc value  [Bruno Martins]
+0bf4d2a57  Telephony: Enable data call on CSIM.  [Bruno Martins]
+7b8b80205  SimPhoneBook: Add ANR/EMAIL support for USIM phonebook.  [Bruno Martins]
+aa556deb3  Avoid showing stack trace without QTI telephony extension  [Bruno Martins]
+   * kernel/google/wahoo/
+7a082e1cb12f  Merge branch 'AURORA_PIE_MASTER' of https://github.com/freak07/Kirisakura_Taimen_8.1.0 into 9.x  [slothdabski]
+9f321e300bc6  defconfig: update  [freak07]
+0d8325b404da  Merge tag 'android-9.0.0_r0.42' of https://android.googlesource.com/kernel/msm into AURORA_PIE_MASTER  [freak07]
+   * packages/apps/Settings/
+29af636bd3  Beautify QS tile styles picker [1/2]  [Shubham Singh]
+2fc779b06b  Align QS tile styles with Launcher 3 styles  [Shubham Singh]
+c139a14e47  Introduce QS tile style picker [3/3]  [Shubham Singh]
+   * vendor/aosp/
+0219007  Disable top left/right statusbar and navbar icons padding  [Shubham Singh]
+63c1310  Theme QS tile styles picker  [Shubham Singh]
+5b670d1  Align QS tile styles with Launcher 3 styles  [Shubham Singh]
+f9e60c2  Introduce QS tile style picker [2/3]  [Shubham Singh]
+
+====================
+     12-03-2018
+====================
+
+   * kernel/google/wahoo/
+ad7b65fc610e  Merge branch 'AURORA_PIE_MASTER' of https://github.com/freak07/Kirisakura_Taimen_8.1.0 into 9.x  [slothdabski]
+   * packages/apps/Settings/
+75c48ebb1a  Night Light brightness mode options [2/2]  [Shubham Singh]
+6b4b1c5442  Phone ringtone setting for Multi SIM device  [Shubham Singh]
+
+====================
+     12-02-2018
+====================
+
+   * build/make/
+b69f4aced  Revert "envsetup: stop jack server once build completed"  [Shubham Singh]
+   * kernel/google/wahoo/
+076f37dbe884  defconfig: update  [freak07]
+1a808c1f8fdf  Revert "display:taimen; Adjust display settings"  [freak07]
+26aaeafcfcd8  Revert "walleye:adjust display settings"  [freak07]
+2c70eeaa4a69  Revert "adjust display settings"  [freak07]
+3f3574ab700b  Revert "arm64: dts: htc/lge: Enable qcom,panel-allow-phy-poweroff"  [freak07]
+91749f3f2f81  input: touchscreen: Fix asynchronous fb notifier callbacks  [freak07]
+bdf1c1b94f51  input: touchscreen: Offload fb notifier callbacks onto workers  [freak07]
+a4a202d49290  defconfig: update  [freak07]
+60bf0b919b02  Merge 4.4.166 into android-msm-wahoo-4.4  [freak07]
+   * manifest/
+a2edfea  Add initial manifest for crowdin  [Shubham Singh]
+fba3c99  manifest: readme: Rewrite Build Command  [shubhamprince111]
+
+====================
+     12-01-2018
+====================
+
+

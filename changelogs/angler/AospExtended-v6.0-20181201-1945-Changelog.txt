@@ -1,0 +1,68 @@
+====================
+     12-01-2018
+====================
+
+   * device/huawei/angler/
+0393df4  Enable 3gb dalvik heap and hwui for Angler  [minidude2012]
+394a788  Revert "angler: QCamera2 printf format fixes [16]"  [minidude2012]
+   * kernel/huawei/angler/
+16fc613f92ad  uapi: Define __BITS_PER_LONG based on compiler target  [minidude2012]
+
+====================
+     11-30-2018
+====================
+
+   * device/aosp/sepolicy/
+9c5df57  selinux: add domain for snap  [Shubham Singh]
+901ddfc  Remove SU policies  [Shubham Singh]
+216a727  sepol: Remove exfat context and set sdFAT to exFAT  [Shubham Singh]
+   * device/qcom/sepolicy-legacy/
+3aa7e9f  Merge https://github.com/LineageOS/android_device_qcom_sepolicy-legacy into HEAD  [Shubham Singh]
+   * system/sepolicy/
+043e4262  sepolicy: Address denials for legacy last_kmsg file  [Shubham Singh]
+f265323d  Fix storaged access to /sys/block/mmcblk0/stat after 48027a00  [Shubham Singh]
+ff402650  sepolicy: Grant mediaextractor access to files over all sdcard fs types  [Shubham Singh]
+
+====================
+     11-29-2018
+====================
+
+
+====================
+     11-28-2018
+====================
+
+
+====================
+     11-27-2018
+====================
+
+   * frameworks/base/
+87583372e45  LockSettingsService: Support for separate clear key api  [Shubham Singh]
+105176c4d92  frameworks: base: Port password retention feature  [Shubham Singh]
+e485199ba4e  Use fdeCheckPassword error code to indicate pw failure  [Shubham Singh]
+842f7dca9c6  Avoid casting network traffic to StatusBarIconView to prevent crash  [Shubham Singh]
+   * hardware/interfaces/
+5f040432  keymasterV4_0: Tags support for FBE wrapped key.  [karthick111]
+7b5c7506  wifi: Add logic to create secondary interface for STA mode too.  [arian]
+3a31b10c  wifi: Add provision to create/remove dynamic interface(s).  [arian]
+03be679a  wifi: Fetch softap interface name for creating ap_iface operations.  [arian]
+   * hardware/qcom/wlan/
+4b782df  Wifi-Hal: Provide support to create/remove wifi interfaces.  [arian]
+   * system/core/
+de852e078  fs_mgr: Wrapped key support for FBE  [karthick111]
+   * system/vold/
+b1d19f8  vold: Wrapped key support for FBE  [karthick111]
+bd8f1fb  vold: Move QCOM HW FDE inclusion under custom namespace  [karthick111]
+43bf034  system: vold: Remove crypto block device creation  [karthick111]
+61afcc7  vold: Add Hardware FDE feature  [karthick111]
+   * vendor/aosp/
+66361c4  soong_config: Add flag for crypto waiting on QSEE to start  [karthick111]
+30e43c8  soong_config: Add flag for legacy HW FDE  [karthick111]
+3ca13a0  soong_config: Add new flags for HW FDE  [karthick111]
+   * vendor/qcom/opensource/cryptfs_hw/
+ee4fb3f  cryptfs_hw: Featureize support for waiting on QSEE to start  [Arghya Chanda]
+cd280bb  cryptfs_hw: Add compatibility for pre-O hw crypto  [Arghya Chanda]
+cb822f6  cryptfs_hw: add missing logging tag  [Arghya Chanda]
+9db4809  cryptfs_hw: Remove unused variable  [Arghya Chanda]
+
