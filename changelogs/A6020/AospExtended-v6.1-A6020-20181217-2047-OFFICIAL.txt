@@ -1,0 +1,3 @@
+*Fixed battery drain(would still suggest to keep dt2w off)
+*power script changes
+*december security patch
