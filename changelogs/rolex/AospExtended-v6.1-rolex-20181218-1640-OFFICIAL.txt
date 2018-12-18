@@ -1,0 +1,20 @@
+===== rolex: AEX Pie v6.1 =====
+
+Changelog:
+
+Merged: New version of AospExtended (v6.1)
+Changelog in https://blog.aospextended.com/AospExtended-v6.1-Changelog
+Merged: New Device Tree (Thanks and credits to TeamLions@GitHub)
+Merged: MIUI Poweroff Charging Animation (Fixed Offline Charging)
+Fixed: RIL
+Added: Minor modifications on Tree
+Removed: Support for Riva (Redmi 5A)
+Reworked: Compilation
+
+Recommended clean flash in this version of AEX Pie. 
+
+Sorry riva users, i will compile unofficial versions and i leave the link on "Download" in XDA Thread (Post)
+
+Guys.. My sincere apologies for the problem that occurred in yesterday's AEX Oreo and Pie builds,
+I had a problem with the VM and eventually corrupted my builds.
+I'm solving everything today. Thanks for the patience and support <3
