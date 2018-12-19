@@ -4,7 +4,7 @@
             "file_name": "AospExtended-v6.0-arm64_aonly-20181117-0000-OFFICIAL.zip"
         },
 	{
-	    "file_name": "AospExtended-v6.0-arm64_aonly-20181219-0000-OFFICIAL.zip"
+	    "file_name": "AospExtended-v6.1-arm64_aonly-20181219-0000-OFFICIAL.zip"
 	}
     ],
     "pie_arm64_ab": [
@@ -12,7 +12,7 @@
             "file_name": "AospExtended-v6.0-arm64_ab-20181117-0000-OFFICIAL.zip"
         },
 	{
-	    "file_name": "AospExtended-v6.0-arm64_ab-20181219-0000-OFFICIAL.zip"
+	    "file_name": "AospExtended-v6.1-arm64_ab-20181219-0000-OFFICIAL.zip"
 	}
     ],
     "pie_arm_aonly": [
@@ -20,7 +20,7 @@
             "file_name": "AospExtended-v6.0-arm_aonly-20181117-0000-OFFICIAL.zip"
         },
 	{
-	    "file_name": "AospExtended-v6.0-arm_aonly-20181219-0000-OFFICIAL.zip"
+	    "file_name": "AospExtended-v6.1-arm_aonly-20181219-0000-OFFICIAL.zip"
 	}
     ]
 }
