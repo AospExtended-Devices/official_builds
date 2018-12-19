@@ -1,0 +1,18 @@
+============================
+ AospExtended 6.1 Changelog
+============================
+
+-Merged: New version of AospExtended (v6.1)
+Changelog in https://blog.aospextended.com/AospExtended-v6.1-Changelog
+-Merged: New Device Tree (Thanks and credits to TeamLions@GitHub)
+-Merged: Custom HALs (No FCs and lags, sorry for forget this in latest version)
+-Merged: MIUI poweroff charging animation (Fixed offline charging)
+-Merged: Lights HIDL HAL implementation
+-Added: Custom healthd (Fixed fake slow charging in lockscreen)
+-Fixed: RIL
+-Removed: Support for Riva (Redmi 5A)
+-Reworked: Compilation
+
+Recommended clean flash in this version of AEX Pie. 
+Sorry riva users, i will compile unofficial versions and i leave the link on "Download" in XDA Thread (Post)
+My sincere apologies for the problem that occurred in AEX Oreo and Pie builds. It will not happen again, i promise.
