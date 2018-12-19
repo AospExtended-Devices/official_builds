@@ -1,0 +1,46 @@
+====================
+     12-19-2018
+====================
+
+   * December Security Patch
+   * Added more features
+
+====================
+     12-18-2018
+====================
+
+
+====================
+     12-17-2018
+====================
+
+   * frameworks/base/
+06ba1d5da11  Statusbar brightness control: behave like brightness slider on P  [Shubham Singh]
+334cb8c3e58  SystemUI: Port statusbar brightness control [1/2]  [Shubham Singh]
+7f24c2441ab  SystemUI: tuner: Allow Tuner API for System settings  [Shubham Singh]
+49b7f3b35d0  base: Fix padding for VoLTE icon  [Shubham Singh]
+5dc44968cfb  AEXUtils: Add check for Chinese Language  [Shubham Singh]
+6a25da1ca3c  Custom Carrier Label & Carrier Label Placement [1/2]  [Shubham Singh]
+   * packages/apps/Extensions/
+87101c2  [2/2] Extensions: Statusbar brightness control  [Shubham Singh]
+2e38a17  Add SystemSettingListPreference  [Shubham Singh]
+f7785b2  Custom Carrier Label & Carrier Label Placement [2/2]  [Shubham Singh]
+
+====================
+     12-16-2018
+====================
+
+
+====================
+     12-15-2018
+====================
+
+   * frameworks/base/
+2feb51eee3e  QSTiles: Add few more styles [3/3]  [Shubham Singh]
+5efd3e884b7  Themes: Expose QS tiles and label colors  [Shubham Singh]
+48bb04f92c9  BoostFramework: Add debug to hide logcat spam on devices without QPer…  [Shubham Singh]
+   * packages/apps/Extensions/
+4755d79  QSTiles: Add few more styles [2/3]  [Shubham Singh]
+   * vendor/aosp/
+bba2306  QSTiles: Add few more styles [1/3]  [Shubham Singh]
+
