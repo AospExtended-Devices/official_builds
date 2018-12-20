@@ -1,5 +1,6 @@
+***fixed calls***
 *support miracast (no sound yet)
-*update blobs from miui 8.12.13 (-> recommended firmware: 8.12.13)
+*update blobs from miui 8.12.13
 *moved XiaomiParts to mainpage
 *added vector icons to XiaomiDoze and XiaomiParts
 *updated some system icons to material design 2.0
