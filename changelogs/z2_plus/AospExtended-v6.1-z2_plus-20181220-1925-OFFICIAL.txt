@@ -1,0 +1,4 @@
+Switch to power-libperfmgr thank to dd3boh
+Fix clock at boot
+Tweak boost values
+AEX 6.1 source updated
