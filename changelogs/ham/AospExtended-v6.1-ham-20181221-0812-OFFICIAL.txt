@@ -1,8 +1,0 @@
-============================
- AospExtended 6.1 Changelog
-============================
-
-* Temporarily fix front camera issue
-* Added vector icons for Hand Wave, PickUp & Pocket in Ambient Display Settings
-* Added vector icons for Swap buttons
-* Updated Ambient Display Settings UI to match P-Style
