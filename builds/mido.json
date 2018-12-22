@@ -8,8 +8,11 @@
         {
             "file_name": "AospExtended-v6.0-mido-20181207-0837-OFFICIAL.zip"
         },
-                 { 
+        { 
             "file_name": "AospExtended-v6.1-mido-20181217-1930-OFFICIAL.zip"
-        }
+        },
+        {
+            "file_name": "AospExtended-v6.1-mido-20181221-2023-OFFICIAL.zip"
+        }  
     ]
 }
