@@ -1,0 +1,5 @@
+> Updated telephony blobs
+> Improved network stability
+> Performance Improvements
+> Updated advanced reboot icons
+> Added auto face unlock
