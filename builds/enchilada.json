@@ -3,5 +3,10 @@
         {
             "file_name": "AospExtended-v5.8-enchilada-20180908-0030-OFFICIAL.zip"
         }
+    ],
+    "pie":  [
+	{
+	    "file_name": "AospExtended-v6.1-enchilada-20181223-1342-OFFICIAL.zip"
+	}
     ]
 }
