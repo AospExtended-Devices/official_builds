@@ -1,0 +1,35 @@
+{
+    "default": [
+        {
+            "title": "Magisk",
+            "summary": "Installer zip",
+            "url": "https://github.com/topjohnwu/Magisk/releases/download/v18.0/Magisk-v18.0.zip"
+
+        },
+        {
+            "title": "Magisk",
+            "summary": "Uninstaller zip",
+            "url": "https://github.com/topjohnwu/Magisk/releases/download/v18.0/Magisk-uninstaller-20181208.zip"
+
+        }
+
+    ],
+    "tissot": [
+        {
+            "title": "Dec Firmware",
+            "summary": "V10.0.2.0.PDHMIFK(Pie beta)",
+            "url": "https://drive.google.com/open?id=1tjFWNzVxpguDSs0j8e1U6ejuos9T2ox6"
+        },
+        {
+            "title": "Nov Firmware",
+            "summary": "V9.6.8.0.ODHMIFE",
+            "url": "https://drive.google.com/open?id=12m7mehiNpf0Ez2xeWXp2RifupJvjXD_o"
+        },
+        {
+            "title": "acdb_p",
+            "summary": "Incall audio fix for December firmware",
+            "url": "https://drive.google.com/open?id=1axWr7hkxNmmX-mxyppm5BpbwIg4AMORa"
+        }
+
+    ]
+}
