@@ -1,0 +1,61 @@
+============================
+ AospExtended 6.1 Changelog
+============================
+
+
+* Merge December security patch (9.0.0_r21)
+* Update all translations
+* Add fw boost (device specific)
+* Add full navbar gesture
+* Add Smartnav(Smartbar,pulse,fling)
+* Add pulse blacklist
+* Add ambient music ticker
+* Add expanded desktop
+* Add expanded desktop QS tile
+* Add QS styles
+* Fix partial screenshot
+* Update HW-key binding
+* Add option to mute with gesture
+* Fix screensaver FC
+* Improvements in statusbar bluetooth battery indicator
+* Add button to AppErrorDialog to upload crash information to dogbin
+* Add support for HW encryption
+* Enable call blocking by default in dialer
+* Ringtone support for MSIM
+* Nightlight brightness mode
+* Toggle data disabled indicator
+* Option to control ring volume using vol key
+* Add cycle mode for QS location tile
+* Configurable 0, 90, 180 and 270 degree rotation
+* Use custom fingerprint for re-caching
+* Remove statusbar padding
+* Fix black icon in notification cards on using dark themes
+* Add new bootanimation by Edoardo Zullo
+* Fix official maintainers list in About Us
+* Launcher3: Toggle for legacy icon mask
+* Launcher3: Round corners for recent cards
+* Launcher3: Improved system theme support
+
+
+==================
+ ham specific
+==================
+
+- 11/12/2018
+
+* GPS: Improvements.
+* Power: Nuked Interaction Boost.
+* SElinux: Enforcing.
+* Attempt to improve signal reception.
+* Thermanager: Thermal Manager adapted from SONY Xperia Z series devices.
+
+- 21/12/2018
+
+* Temporarily fix front camera issue.
+* Added vector icons for Hand Wave, PickUp & Pocket in Ambient Display Settings.
+* Added vector icons for Swap buttons.
+* Updated Ambient Display Settings UI to match P-Style.
+
+- 22/12/2018
+
+* UI Lag fixed.
