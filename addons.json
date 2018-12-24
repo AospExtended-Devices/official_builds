@@ -32,11 +32,57 @@
         }
 
     ],
-    
     "santoni": [
         {   "title": "Gabriel Kernel",
             "summary": "CPU8998, CPU8940, EAS builds",
             "url": "https://androidfilehost.com/?w=files&flid=283397"
+        }
+   ],
+    "sagit": [
+        {
+            "title":"VantomKernel",
+            "summary":"Maximum of Features and a great optimization",
+            "url":"http://159.65.193.144/vantom"
+        },
+        {
+            "title":"TWRP",
+            "summary":"Recommended TWRP 3.2.3",
+            "url":"https://github.com/xiaomi-msm8998/device_xiaomi_sagit/releases/tag/3.2.3"
+        },
+        {
+            "title":"Firmware",
+            "summary":"Firmware 8.4.19",
+            "url":"https://sourceforge.net/projects/xiaomi-firmware-updater/files/Developer/8.4.19/sagit/fw_sagit_miui_MI6Global_8.4.19_49003fef39_8.0.zip/download"
+        },
+        {
+            "title":"Firmware",
+            "summary":"Firmware 8.12.13",
+            "url":"https://sourceforge.net/projects/xiaomi-firmware-updater/files/Developer/8.12.13/sagit/fw_sagit_miui_MI6Global_8.12.13_633b0019dc_8.0.zip/download"
+        },
+        {
+            "title":"Camera",
+            "summary":"Magisk Module to enable 60fps Video recording in the Google Camera App",
+            "url":"http://159.65.193.144/sagit/MIUI-CAM/60fps_los_stable_v2.5.zip"
+        },
+        {
+            "title":"Miui Camera",
+            "summary":"Ported MiuiCamera from Mi A2",
+            "url":"http://159.65.193.144/sagit/MIUI-CAM/Mi_A2_Camera.zip"
+        },
+        {
+            "title":"GApps",
+            "summary":"OpenGApps arm64 & android 9.0 ",
+            "url":"https://opengapps.org/"
+        },
+        {
+            "title":"Telegram",
+            "summary":"Xiaomi Mi 6 AospExtended Telegram Group",
+            "url":"https://www.t.me/aexmi6"
+        },
+        {
+            "title":"Telegram",
+            "summary":"Xiaomi Mi 6 general Telegram Group",
+            "url":"https://t.me/joinchat/FKoD90LELI_JRQvX1SJmIQ"
         }
     ]
 }
