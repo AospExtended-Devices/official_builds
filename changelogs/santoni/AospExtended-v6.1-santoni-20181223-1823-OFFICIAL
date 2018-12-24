@@ -1,0 +1,9 @@
+-using Wolf kernel
+*60Hz default refresh rate
+*Underclocked cpu to safe limits
+*Overclocked audio processor to safer limits for clear audio processing
+-updated AEX sources
+-enabled DTS Eagle audio HAL feature
+-implement power-off alarm from jasmine
+-added Xiaomi Doze
+-added Xiaomi Add-Ons
