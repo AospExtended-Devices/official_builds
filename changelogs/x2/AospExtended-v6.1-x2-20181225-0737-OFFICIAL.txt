@@ -1,0 +1,12 @@
+===============================================
+AospExtended-v6.1-x2-20181225-0737-OFFICIAL
+===============================================
+
+Changelog :
+
+1. Update RIL ,IMS, QMI to pie
+2. updated thermal for better gaming
+3. fixed mild freezes and lags
+4. Removed snap, added back camera2
+5. updated Sensors and fp blobs from EUI6
+6. Updated Perf stack for better performance
