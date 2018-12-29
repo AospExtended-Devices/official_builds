@@ -1,0 +1,6 @@
+* advertise support for extended length NFC
+-> Solved NFC Card reading
+* added USB Fastcharge toggle in Advanced device settings
+* Miracast sound fixed
+* added 3 finger screenshot gesture
+* many other improvements
