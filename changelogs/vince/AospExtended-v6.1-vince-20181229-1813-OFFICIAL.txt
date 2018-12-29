@@ -1,0 +1,22 @@
+============================
+ AospExtended 6.1 Changelog
+============================
+
+-SELinux Enforcing
+-Crash while toggling flight mode fixed
+-Font Management Service Added (Ability to change fonts)
+-Ambient Display transition fixed
+-Lags/delay while opening apps fixed completely 
+-Clocked to normal CPU Frequency (No underclocking)
+-New QS styles added
+-Miracast fully working (Screen Mirroring/Screen Casting)
+-OMX errors fixed which made YouTube videos to go black and only audio being played
+-Updated blobs to Tissot Pie
+-Updated WFD and aptX blobs
+-Updated icons in Power Menu
+-Fixed padding for VoLTE Icon
+-Battery Bar customisations added
+-OTA Improved
+-Weather Client Updated
+-Applied minor cleanup
+-Merged with latest sources
