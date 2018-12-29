@@ -17,8 +17,8 @@
     "tissot": [
         {
             "title": "Dec Firmware",
-            "summary": "V10.0.2.0.PDHMIFK(Pie beta)",
-            "url": "https://drive.google.com/open?id=1tjFWNzVxpguDSs0j8e1U6ejuos9T2ox6"
+            "summary": "V10.0.3.0.PDHMIFK(Pie global)",
+            "url": "https://drive.google.com/file/d/1pbs59CqAqW6Y9Fb4BKxHGiyEbh8mbhRz/view?usp=drivesdk"
         },
         {
             "title": "Nov Firmware",
@@ -27,7 +27,7 @@
         },
         {
             "title": "acdb_p",
-            "summary": "Incall audio fix for December firmware",
+            "summary": "Incall audio fix for December firmware(Flash only if told to)",
             "url": "https://drive.google.com/open?id=1axWr7hkxNmmX-mxyppm5BpbwIg4AMORa"
         }
 
