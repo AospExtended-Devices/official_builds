@@ -1,0 +1,7 @@
+> Updated all blobs to P
+> Add QCOM's WFD implementation (Miracast Fixed)
+> Switch to QCOM FM Implementation (All FM Related issues should be fixed now)
+> Update CarrierConfig overlays for P 
+> Fixed Random MAC issue with WiFi
+> Fixed Offline Charging 
+> Improved Network stability
