@@ -1,0 +1,9 @@
+> Added Three Finge Swipe to Screenshot Gesture (Experimental)
+> Fixed USB Tethering
+> Improved Memory Optimization
+> Updated perf configs
+> Fixed exFAT issues (Do test and report)
+> Set GoogleAssistant as default assist app
+> Update OTA App
+> Update Weather client
+> Update build fingerprint
