@@ -1,0 +1,64 @@
+====================
+     12-31-2018
+====================
+
+   * frameworks/base/
+299adf1dd29  AEX logo in the status bar [1/2]  [Akash]
+a834e5c5427  Fix carrier label & logo overlapping heads up text  [Akash]
+fd22555043f  base: Add three-fingers-swipe to screenshot [1/2]  [Akash]
+   * packages/apps/Extensions/
+704a1b1  AEX logo in the status bar [2/2]  [Akash]
+
+====================
+     12-30-2018
+====================
+
+   * device/oneplus/sdm845-common/
+29f7394  sdm845-common: Remove fpc1020 keylayout and idc  [Akash]
+c8f3133  sdm845-common: Update audio policy configuration to match P  [Akash]
+5f3a5d1  sdm845-common: Update OOS Camera and Gallery  [Akash]
+47d180a  sdm845-common: Update Oneplus Camera Service  [Akash]
+   * frameworks/base/
+9b125e8ee15  aapt: Default to 0 compression ratio  [Shubham Singh]
+a7a6370e946  WeatherClient: don't check package availability on each location query  [Shubham Singh]
+35188f59b56  Weather client check: set interval to 20 minutes  [Shubham Singh]
+   * hardware/qcom/fm/
+9340b07  libfm_jni: Fix build guard  [Bruno Martins]
+   * manifest/
+a0c0328  Track fw/opt/net/wifi from aex  [Shubham Singh]
+214211a  Track build/kati from aex  [Shubham Singh]
+   * vendor/aosp/
+56e3b83  Update WeatherClient  [Shubham Singh]
+
+====================
+     12-29-2018
+====================
+
+   * device/aosp/sepolicy/
+2e93242  move snap_app type definition to public  [sb6596]
+81ec247  common: Label and allow init to write to I/O sched tuning nodes  [sb6596]
+   * device/qcom/sepolicy/
+d3826e9  Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_device_qcom_sepolicy into HEAD  [Shubham Singh]
+   * device/qcom/sepolicy-legacy/
+5b52a91  Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_device_qcom_sepolicy-legacy into HEAD  [Shubham Singh]
+   * manifest/
+b67d666  track devicesettings and add to crowdin  [Shubham Singh]
+   * packages/apps/Snap/
+35750058c  Revert "Snap: adaptive icon"  [Shubham Singh]
+c791328bd  Remove lineage sdk dependency  [Shubham Singh]
+   * packages/apps/Updates/
+0326a2a  OTA improvements  [Shubham Singh]
+
+====================
+     12-28-2018
+====================
+
+   * hardware/qcom/audio-caf/msm8952/
+6e51fc677  hal: Formatting  [Ethan Chen]
+3b441462b  hal: Remove redundant LOCAL_C_INCLUDES  [Ethan Chen]
+   * hardware/qcom/display-caf/msm8998/
+001bb686b  msm8998-caf: silent debug output  [Kilian von Pflugk]
+
+====================
+     12-27-2018
+====================
