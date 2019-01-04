@@ -1,0 +1,11 @@
+===========================================
+AospExtended-v6.1-x2-20190104-0832-OFFICIAL
+===========================================
+
+1. Fixed CAF Framewrokboost to work properly
+2. Fixed Perfservice issues
+3. Fixed Gaming mode
+4. Fixed WIFI Display
+5. Fixed Huge wakelocks issue due to new pie Ril
+
+(If facing huge night drain or getting Volte issues, kindly clean flash)
