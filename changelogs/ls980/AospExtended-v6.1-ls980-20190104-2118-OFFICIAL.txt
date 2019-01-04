@@ -1,0 +1,3 @@
+* Fixed Camera issues
+* Fixed Sensors issues
+* Fixed Bluetooth failing to start

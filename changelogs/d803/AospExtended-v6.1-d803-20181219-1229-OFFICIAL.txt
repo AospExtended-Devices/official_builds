@@ -1,6 +1,0 @@
-==================
- AospExtended 6.1
-==================
-
-* Enforcing selinux
-* Attempt to fix issues with sensors
