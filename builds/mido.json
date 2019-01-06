@@ -6,12 +6,6 @@
     ],
      "pie": [
         {
-            "file_name": "AospExtended-v6.1-mido-20181217-1930-OFFICIAL.zip"
-        },
-        {
-            "file_name": "AospExtended-v6.1-mido-20181221-2023-OFFICIAL.zip"
-        },
-        {
             "file_name": "AospExtended-v6.1-mido-20181230-0848-OFFICIAL.zip"
         },
         {
@@ -19,6 +13,9 @@
         },
         {
             "file_name": "AospExtended-v6.1-mido-20190102-0506-OFFICIAL.zip"
+        },
+        {
+            "file_name": "AospExtended-v6.1-mido-20190106-0925-OFFICIAL.zip"
         }
     ]
 }
