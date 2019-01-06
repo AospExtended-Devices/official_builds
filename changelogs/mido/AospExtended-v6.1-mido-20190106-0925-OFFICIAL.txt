@@ -1,0 +1,12 @@
+> Signal icon issues fixed
+> Issues with SIM should be fixed now
+> Airtel VOLTE working properly now
+> Update missing blobs from tissot P
+> Move XiaomiParts to Display Settings
+> Fix Display Wakeup (Temp Fix)
+> Custom Rounded Corner and Padding preferences
+> Update AEX papers to V6
+> Update prebuilt apps
+> Compile WeatherClient from source
+
+Note:- Enforcing build is on hold till we fix denials with wfdservice.
