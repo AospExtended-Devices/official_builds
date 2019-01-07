@@ -1,0 +1,11 @@
+============================
+ AospExtended 6.1 Changelog
+============================
+
+* Updated touch firmware to 8.12.27
+* Fixed screencast
+* Fixed voice match
+* Fixed "screen off power button torch" crash
+* Kernel built with clang
+* Fixed HDR issues
+* AospExtended upstream
