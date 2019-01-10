@@ -2,6 +2,9 @@
     "pie": [
         {
             "file_name": "AospExtended-v6.0-Z010D-20181124-2136-OFFICIAL.zip"
+		},
+		{
+			"file_name": "AospExtended-v6.1-Z010D-20190110-0838-OFFICIAL.zip"
         }
     ]
 }
