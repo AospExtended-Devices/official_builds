@@ -1,0 +1,21 @@
+============================
+ AospExtended 6.1 Changelog
+============================
+-Merge January security patch (9.0.0_r30)
+-Bumped to AospExtended 6.2
+-Built inline with stock kernel, feel free to flash any other custom kernel, just don't blame me for any issues you face because I recommend $
+-Advanced Ambient Settings (XiaomiDoze) are back! Go to Settings->Display->Ambient Display->Advanced Settings to use them
+-Implemented boostfw which enhances graphical and core performance(Remain on stock kernel is you wanna use it, as no other kernel got CPU Boo$
+-Nuked WifiAware API
+-Added various Animations customizations in Extensions
+-Added 3-Finger Swipe Gesture for Screenshot
+-Added Apps-Ops
+-Added OP like Navigation Gestures
+-Added Rounded Corners control
+-New Dialer UI
+-Added various Launcher3 customizations
+-Added System Animations OFF (Default/CRT/Scale)
+-Fixed Battery Drain Issue
+-Weather Client Updated
+-Applied minor cleanup
+-Merged with latest sources
