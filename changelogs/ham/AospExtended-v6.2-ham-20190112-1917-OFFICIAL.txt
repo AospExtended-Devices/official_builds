@@ -1,0 +1,60 @@
+============================
+ AospExtended 6.2 Changelog 
+============================
+
+Merge January security patch (9.0.0_r30)
+Update all translations
+Update all pre-built apks
+Update all of our packages
+Update weather client
+Update Boostframework support
+Update Ambient music
+Update & fix theming issues
+Update audio configs
+Update In-call UI
+Rework auto-brightness slider implementation
+Add Increasing ring feature
+Add toggle to link notification and ring vol
+Add Custom font service
+Add Custom carrier label support
+Add Statusbar brightness control
+Add Battery bar customisation
+Add support for Turbo/Dash charging indication on LS
+Allow repositioning of vol panel to the left
+Add Custom rounded corner & padding feature
+Update advanced reboot drawables
+Update drawables in OTA app
+Add Three finger swipe screenshot feature
+Add Custom AOKP system, toast animations
+Add Custom screen off animations
+Add Gaming Mode QS tile
+Add few more QS tile styles
+Allow disabling QS on secure lockscreen
+Add Option to disable scrolling cache
+Add Switch to enable/disable locksreen media art
+Add Lockscreen visualizer
+Add customizations(clear all fab, memory bar, grid/card style) for Oreo recents
+Add Face Unlock V2
+Add AppOps
+Add SmartPixels
+Add Running services icon in QS footer with toggle
+Add toggle for QS tile edit icon
+Add OP navigation gestures
+Cleanup statusbar clock/date customizations to fix all glitches
+Fix crash in FMradio on tapping favourites
+Add extensions to settings’s search index
+Add support for auto call recording in dialer
+Expose notification log
+Fix high battery drain after using flashlight
+Fix high frame rate recording
+Bug fixes and performance improvements
+
+==================
+ Device specific
+==================
+
+Fix slow motion 60 FPS recording in snap
+Fix Panorama FC in snap
+Switch to CloudFare DNS Servers
+Fixed Netflix issue for some users
+Minor Bug fixes and perform improvements
