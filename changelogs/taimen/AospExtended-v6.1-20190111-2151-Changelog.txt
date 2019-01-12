@@ -1,0 +1,197 @@
+====================
+     01-11-2019
+====================
+
+   * build/make/
+ca700ace0  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+   * device/google/taimen/
+a786dde  taimen: overlay:  Increase number of status bar notification icons  [slothdabski]
+f5d7c1e  Taimen: hide battery led options for now  [slothdabski]
+c724e95  taimen: update fingerprint PQ1A.190105.004  [slothdabski]
+69d8f83  Change gapps  [slothdabski]
+3c85d36  switch to higher res boot animation now that it is supported  [slothdabski]
+6dc1994  taimen: use PRODUCT_PACKAGE_OVERLAYS  [slothdabski]
+2ab0834  taimen: Move content padding from fwb to devicetree  [slothdabski]
+30cd452  IMS Support  [slothdabski]
+65413f3  taimen: update fingerprint PQ1A.181205.002 5086253  [slothdabski]
+0162db7  Set runtime readahead to 128KiB  [slothdabski]
+5d207d5  audio: the table for in-call music.  [slothdabski]
+ca381a3  Update vsync configuration to match new system  [slothdabski]
+8c5dc31  taimen: update fingerprint PQ1A.181105.017.A1  [slothdabski]
+62fbae4  Enable tethering  [slothdabski]
+092b854  make builds official  [slothdabski]
+e272d80  taimen: update fingerprint PPR2.181005.003  [slothdabski]
+6c644ee  TARGET_DEVICE := taimen  [slothdabski]
+   * device/google/wahoo/
+5cd4b2c  overlay: Allow Auto-brightness While dozing  [slothdabski]
+78e08c3  Merge tag 'android-9.0.0_r30' of https://android.googlesource.com/device/google/wahoo into HEAD  [slothdabski]
+   * frameworks/av/
+8b9752192  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+   * frameworks/base/
+9d63429bd59  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+3d3f1b60cda  Status bar clock/date customizations [1/2]  [Shubham Singh]
+ed001f4bbb5  Revert SB clock customizations  [Shubham Singh]
+7ae6cd75e19  [1/2] base: op gesture tweaks  [Shubham Singh]
+2364b4b32c3  base: fix check for keyguard in edge gestures  [Shubham Singh]
+ec44b9e5213  ViewRootImpl: break out the loop when NPE caught  [Shubham Singh]
+15516ade303  [1/2] base: implement OP like navigation gestures  [Shubham Singh]
+   * kernel/google/wahoo/
+6e95e83bdea9  Merge branch 'pie-qpr1' of https://github.com/MSF-Jarvis/wahoo into HEAD  [slothdabski]
+   * manifest/
+3de70f1  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+   * packages/apps/Contacts/
+cfe7049cc  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+   * packages/apps/Extensions/
+bb91072  Status bar clock/date customizations [2/2]  [Shubham Singh]
+2a30d53  Extensions: Disable navbar when gestures enabled [1/2]  [Shubham Singh]
+479a36f  [2/2] Extensions: op gesture tweaks  [Shubham Singh]
+99cd21b  [2/2] Extensions: implement OP like navigation gestures  [Shubham Singh]
+   * packages/apps/PackageInstaller/
+e3c1d192  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+   * system/bt/
+511602780  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+
+====================
+     01-10-2019
+====================
+
+   * frameworks/base/
+b5a2f469c75  AppOpsService: Watch op mode changes when an AppOp restriction dies  [Shubham Singh]
+aa85aa9cf5c  AppOpsManager: Fix wrong coarse location permission issue  [Shubham Singh]
+2f9a1ee5ae7  AppOps: show/hide app type and allow/deny counters [2/2]  [Shubham Singh]
+2574d930f06  AppOps: Enable MODE_IGNORED for OP_WAKE_LOCK  [Shubham Singh]
+2326f3743a5  AppOps: Add BOOT_COMPLETED operation  [Shubham Singh]
+c8be3913ebc  Fix unlinked ringtone and notification volumes panels  [Shubham Singh]
+212cfc39e86  Allow SmartPixels to bypass check for whether a window is obscured  [Shubham Singh]
+f024f12f833  Smart Pixels: Dynamically register receiver  [Shubham Singh]
+933a13ba732  Smart Pixels: Switch to registered receiver  [Shubham Singh]
+727b1516e0e  Move Smart Pixels out of SystemUI  [Shubham Singh]
+321468f9280  Fix NullPointerException on systemui restart with smart pixel enabled.  [Shubham Singh]
+ad7836a3f5c  SystemUI: Refactor Smart Pixels tile  [Shubham Singh]
+fa3a1562434  SystemUI: Add Smart Pixels tile  [Shubham Singh]
+93ce0a059da  SystemUI: Smart Pixels [1/2]  [Shubham Singh]
+874f110cc41  SystemUI: screen-dimmer-pixel-filter  [Shubham Singh]
+066b84dac0e  Edit Icon Toggle [1/2]  [Shubham Singh]
+61f77791fc8  Running services icon toggle [1/2]  [Shubham Singh]
+39bcf347af7  Allow to quickly open Running Services from QS panel [1/2]  [Shubham Singh]
+36264280429  Fix no default ringtone for slot2  [Shubham Singh]
+57eafe53056  Fixes for lockscreen visualizer  [Shubham Singh]
+   * frameworks/native/
+17d6c2b83  AppOpsManager: Update with the new ops  [Shubham Singh]
+   * packages/apps/Extensions/
+4cfb87d  Extensions: Add appops  [Shubham Singh]
+9ae2f75  Update Smart Pixels menu  [Shubham Singh]
+cee0b7b  Smart Pixels [2/2]  [Shubham Singh]
+23c79f0  Edit Icon Toggle[2/2]  [Shubham Singh]
+a29450d  Running services icon toggle [2/2]  [Shubham Singh]
+   * packages/apps/FMRadio/
+3cbbe77  FMRadio: Resolve android.support.v7.cardview rules  [Shubham Singh]
+ddddc6a  Revert "FMRadio: Resolve android.support.v7.cardview rules"  [Shubham Singh]
+   * packages/apps/Settings/
+3f4632632d  AppOps: show/hide app type and allow/deny counters [1/2]  [Shubham Singh]
+d09caecd83  AppOpsDetails: Check app permissions safely  [Shubham Singh]
+3e0d90a9d3  Settings: Bring back AppOps from oreo and before  [Shubham Singh]
+   * packages/apps/SmartNavSettings/
+0bb391b  SmartNavSettings: Disable gestures when navbar is enabled [2/2]  [Shubham Singh]
+
+====================
+     01-09-2019
+====================
+
+   * packages/apps/Settings/
+c76babc425  Add a preference controller for Smart Pixels  [Shubham Singh]
+f2bb7d1679  Settings: External Smart Pixels fragment launch  [Shubham Singh]
+1fad74d245  Allow to quickly open Running Services from QS panel [2/2]  [Shubham Singh]
+
+====================
+     01-08-2019
+====================
+
+   * frameworks/base/
+a15b3f573a7  SurfaceControl: Unbreak public API after pie-gsi merge  [Shubham Singh]
+c36c75f8580  WindowOrientationListener: Check if proposed rotation is in range  [Shubham Singh]
+f931ec7bb67  Revert "PhoneWindowManager: Check if proposed rotation is in range"  [Shubham Singh]
+9a63252b92d  base: featureize ro.recents.grid and Go Layout  [Shubham Singh]
+b05840a1b4c  Fix Recents FAB padding  [Shubham Singh]
+ac67d1b2639  Recents: Pixel-fy  [Shubham Singh]
+b33b00431f0  Make Recents "Free Ram" text translatable  [Shubham Singh]
+7f6166c4d6a  Update membar a bit more often  [Shubham Singh]
+af6f67e8203  Hiding membar, memtext and fab on drag start  [Shubham Singh]
+eb0d53ae56c  Add membar to recents options [1/2]  [Shubham Singh]
+5b888e5a429  Fix FAB not disappearing in multiwindow  [Shubham Singh]
+1b38cad0438  SystemUI: Recents: Allow closing empty view via tapping * Same as https://review.cyanogenmod.org/#/c/97718/ on new code base  [Shubham Singh]
+2d628df5030  Recents fab button improvements  [Shubham Singh]
+874a5df8528  Recents Clear All Button Tweaks and Add FAB to Recents Panel Thanks to RR and @varund7726  [Shubham Singh]
+07328ae122a  Full gesture navbar: fix swipe to back glitches  [Shubham Singh]
+2553080f0e4  SystemUI: Fix an issue where unlocking the SIM PIN failed  [Shubham Singh]
+8d8413a04c6  Ambient Display Music Ticker: Nuke song count info  [Shubham Singh]
+fefd8d0c9f2  Ambient Music Ticker: make it pixel like  [Shubham Singh]
+af7e66a16b3  Ambient music: check if isMediaNotification after final inflation  [Shubham Singh]
+e2b46bc00b4  Ambient music / Now playing: show also on lockscreen  [Shubham Singh]
+901f857b4af  Ambient music ticker: make it work within Now Playing on Pixel devices [1/2]  [Shubham Singh]
+   * hardware/qcom/audio/default/
+dd4e0ad9b  Merge tag 'android-9.0.0_r30' into lineage-16.0-android-9.0.0_r30  [Luca Stefani]
+   * kernel/google/wahoo/
+1d92316b1513  Merge remote-tracking branch 'android-linux-stable/android-msm-wahoo-4.4' into pie-qpr1  [Harsh Shandilya]
+328cb3239acd  Merge tag 'android-9.0.0_r0.53' into android-msm-wahoo-4.4  [Nathan Chancellor]
+   * packages/apps/Extensions/
+423c9fb  RecentsUI: Disable oreo recents category if pie recents selected  [Shubham Singh]
+1af8352  [2/2] Extensions: featureize ro.recents.grid and Go Layout  [Shubham Singh]
+3130b1c  Add membar to recents options [2/2]  [Shubham Singh]
+2d4c766  RecentsUI: recents panel clear all button tweaks  [Shubham Singh]
+77dff9b  Ambient music ticker: make it work within Now Playing on Pixel device [2/2]  [Shubham Singh]
+a165cfa  Extensions: Add lockscreen visualizer toggle  [Shubham Singh]
+2028c40  Disable Lockscreen Media Art [2/2]  [Shubham Singh]
+   * packages/apps/Launcher3/
+47a618e25  Launcher3: Don't hide google app from app drawer  [Shubham Singh]
+dab294b49  Add Google ActionServices (MatchmakerPrebuilt) to blacklisted apps  [Shubham Singh]
+de9fa4e2b  Add Google search double tap option  [Shubham Singh]
+1b6c06234  Launcher3: add custom rounded corners  [Shubham Singh]
+   * vendor/google/
+90c8a56  Taimen: Update blobs to Android 9.0 (PQ1A.190105.004)  [Josh Chasky]
+15b54c5  Bluecross: Update blobs to Android 9.0 (PQ1A.190105.004)  [Josh Chasky]
+
+====================
+     01-07-2019
+====================
+
+   * frameworks/base/
+b2b411f1a50  Disable Lockscreen Media Art [1/2]  [Shubham Singh]
+d9b8c84a024  Lockscreen visualizer: fix SystemUI FC when using Pulse  [Shubham Singh]
+10cf5d3221b  SystemUI: Add visualizer feature  [Shubham Singh]
+52aaf1e2600  base: Use a system-wide recents corner radius  [Shubham Singh]
+1be604118d1  SystemUI: Add Gaming mode tile  [Shubham Singh]
+f90e51057f0  FontService: Disable logspam  [Shubham Singh]
+f44fad18dbb  fonts: Build different fonts.xml if EXCLUDE_SERIF_FONTS is true  [Shubham Singh]
+821c65eaabb  base: Add three-fingers-swipe to screenshot [1/2]  [Arian]
+614c6927f50  base: catch what you cant explain  [Shubham Singh]
+b509ed5feee  Screen off animations [1/2]  [AmulyaX]
+d804ad4240e  ListView: Fix Widget couldn't find any view  [Shubham Singh]
+a5ef94f299e  Animations: Add option 'Random' to System Animations  [Shubham Singh]
+e5110d23dd9  Add option to disable scrolling cache [1/2]  [Shubham Singh]
+43133c86621  Return: Listanimation Views and Interpolator [1/2]  [Shubham Singh]
+65f23227c37  AOKP animations: Add an entry for TRANSIT_TASK_OPEN_BEHIND [1/2]  [Shubham Singh]
+6abcab52c93  AOKP custom system animations (1/2)  [Shubham Singh]
+   * manifest/
+7891cb4  Manifest for Android 9.0.0 Release 30 (PQ1A.190105.004)  [The Android Open Source Project]
+   * packages/apps/Extensions/
+f220adf  Add three-fingers-swipe to screenshot [2/2]  [Arian]
+94ca851  Screen off animation [2/2]  [AmulyaX]
+466e3ed  Animations: Fix listview not showing selected item  [Shubham Singh]
+ad306b7  Add option to disable scrolling cache [2/2]  [Shubham Singh]
+24f87f9  Return: Listanimation Views and Interpolator [2/2]  [Shubham Singh]
+3b99f90  AOKP animations: Add and entry for TRANSIT_TASK_OPEN_BEHIND  [Shubham Singh]
+90442ef  AOKP custom system animations (2/2)  [Shubham Singh]
+08a17cd  SS - XuiMod: Toast Animations [2/2]  [Shubham Singh]
+f33543a  [2/2] Extensions: allow disabling quick settings on secure lock screens  [Shubham Singh]
+8d48540  aexstats: Use custom fingerprint to determine new build  [Shubham Singh]
+8a5bdae  Extensions: Add extensions frags to search index [1/3]  [Shubham Singh]
+   * packages/apps/Launcher3/
+fef1c8612  Launcher3: Quickstep needs to rely on System rounded corner radius  [Shubham Singh]
+   * packages/apps/Settings/
+4321b3c2fe  Notification log improvements  [Shubham Singh]
+59013b1199  Expose the notification log  [Shubham Singh]
+0b1591e148  Settings: Add extensions frags to search index [3/3]  [Shubham Singh]
+   * packages/apps/SmartNavSettings/
+6d31ed7  SmartNavSettings: Add extensions frags to search index [2/3]  [Shubham Singh]
+
