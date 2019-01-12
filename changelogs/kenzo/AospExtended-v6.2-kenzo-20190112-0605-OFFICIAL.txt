@@ -1,0 +1,27 @@
+===========================
+AospExtended v6.2 Changelog
+===========================
+
+* Add Perf stack from Daisy
+* Add Boostframework performance blobs 
+* Enable Boostframework
+* Enable smooth streaming for secure video playback
+* Strip off some debug packages
+* Update manifest and compatibility matrix
+* Update Xiaomi Doze
+* Fix camera lags
+* Update permission whitelist
+* Fix FP enrollment on first boot
+* Update rootdir
+* Pin Home application to memory
+
+===========================
+Escrima Kernel
+===========================
+* Add support for kate
+* Update workqueue patches
+* Optimise CPU boost for boostframework
+* Optimise CPU freqs
+* Update CPU set patches
+
+Huge thanks to @Adarsh-MR (Github) for this update.
