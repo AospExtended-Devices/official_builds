@@ -1,0 +1,8 @@
+=====================
+  AospExtended v6.2
+=====================
+
+-Updated to r30 (January patch)
+-Removed prebuilt cam
+-Added zram configs in device and kernel
+-Lots of rom and vendor updates
