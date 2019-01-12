@@ -1,0 +1,6 @@
+Re-Update AEX 6.2
+
+>fixed auto-rotate sensor
+>kernel compiled with linaro
+>fixed data-sim pop-up
+
