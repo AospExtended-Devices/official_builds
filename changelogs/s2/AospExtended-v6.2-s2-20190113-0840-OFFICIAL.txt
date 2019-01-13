@@ -1,0 +1,18 @@
+
+===============================================
+  AospExtended-v6.2-s2-20190113-0840-OFFICIAL
+===============================================
+
+* Added BFQ I/O scheduler support
+* Added exFAT support
+* Added gcam props
+* Enable Smooth Streaming for secure video playback
+* Fixed QS torch toggle
+* Improved network reception
+* Some kernel tweaks and improvents
+* Update perf blobs to pie
+* Update some blobs from EUI 6.0.030S
+* Updated post boot script and perf configs
+
+
+    >>>>>  HAPPY NEW YEAR 2k19 !!!  <<<<<
