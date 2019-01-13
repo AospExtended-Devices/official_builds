@@ -1,0 +1,6 @@
+===========================
+AospExtended v6.2 Changelog
+===========================
+
+[13.01.2019]
+* Fix extensions SystemUI crash
