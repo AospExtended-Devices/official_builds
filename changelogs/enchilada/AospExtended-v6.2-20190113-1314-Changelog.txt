@@ -1,0 +1,168 @@
+====================
+     01-13-2019
+====================
+   * device/oneplus/sdm845-common/
+b9cc34a  Revert "sdm845-common: Switch qcacld-3.0 to built-in"  [Akash]
+4dda325  Fix display flicker after exiting AD/AOD  [Akash]
+08a9a8c  sdm845-common: KeyHandler: StartUp: Fix derp in Preference names  [Akash]
+80ae508  sdm845-common: KeyHandler: Restore vibration preference on boot  [Akash]
+925f637  sdm845-common: KeyHandler: Slider for changing notification vibration  [Akash]
+6c54a2f  sdm845-common: KeyHandler: Slider for changing call vibration intensity  [Akash]
+d76606f  Import RenderZenith's ramdisk  [Akash]
+6f17426  sdm845-common: overlay: Define config_customDozePackage  [Akash]
+====================
+     01-12-2019
+====================
+   * build/make/
+ca700ace0  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+   * device/oneplus/enchilada/
+dd12fc7  Update defconfig name and correct bootanimation resolution  [Akash]
+   * device/oneplus/sdm845-common/
+b287e8b  sdm845-common: doze: Add missing pocket mode hooks  [Akash]
+83e2896  sdm845-common: doze: Add pocket mode support  [Akash]
+989ec31  sdm845-common: doze: Match Pie settings UI  [Akash]
+9b81a0a  sdm845-common: power: Use monotonic time for interaction boost  [Akash]
+cc1e4f5  sdm845-common: power: Handle launch and interaction hints  [Akash]
+6d95ef2  sdm845-common: lights: Halve blue brightness as well  [Akash]
+a224c76  sdm845-common: Enable color matrix support  [Akash]
+969149f  sdm845-common: Add support for 18:9 apps  [Akash]
+c4d6161  sdm845-common: add cne feature  [Akash]
+eb0fe2f  audio: remove AUDIO_FORMAT_VORBIS from compressed_offload  [Akash]
+   * frameworks/av/
+d0526b50a  av: camera: Allow disabling shutter sound for specific packages  [AmolAmrit]
+96f30b0f3  Audio: Set Deep Buffer flag for music stream.  [AmolAmrit]
+6f46b2146  audiopolicy: reset capture state when input is closed  [AmolAmrit]
+12a9b6db3  libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO  [AmolAmrit]
+f8a83ff0e  av: camera: catch mad hals that mess up buffer time  [AmolAmrit]
+4dabfc345  OMXNodeInstance: Do not use already freed memory  [AmolAmrit]
+cb3e5019f  AAudioService: Set Audio dl parameters by system property  [AmolAmrit]
+4eb2a695e  AAudioService: Single thread exclusive to DL  [AmolAmrit]
+66549d27f  SchedulingPolicyService: DL policy request through Binder  [AmolAmrit]
+539eee1d5  Fix high battery drain after using flashlight  [AmolAmrit]
+b75e4e308  audio: add support to enable track offload using direct output  [AmolAmrit]
+4e7510be5  CamcorderProfiles: Add new camcorder profiles  [AmolAmrit]
+fd7327ca1  StagefrightRecorder: force 64-bit file-offsets for files > 4GB  [AmolAmrit]
+b59a82f17  libstagefright: Allow HFR-60 in HAL-3 recording  [AmolAmrit]
+a1fd09180  stagefrightrecorder: don't modify timeOffset in surface source case  [AmolAmrit]
+64471abda  stagefright: add changes related to high-framerates in CameraSource  [AmolAmrit]
+8b9752192  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+   * frameworks/base/
+372ecbf8547  Remove clock pref  [Shubham Singh]
+bb03955100a  fonts: Fix compiling generic fonts  [Shubham Singh]
+f3affec61c1  base: camera: Allow disabling shutter sound for specific packages [2/2]  [AmolAmrit]
+a262e00e141  Telephony: NPE observed in Settings when click on Search settings  [AmolAmrit]
+eee12b95c58  Fix showing empty signal strength for TD-SCDMA  [AmolAmrit]
+f28e3b53286  Fix property setting with failure  [AmolAmrit]
+e64c95050c9  frameworks/base: Add HDMI hotplug handling  [AmolAmrit]
+e2d5a555f5b  Check if EIMS when confirming network  [AmolAmrit]
+ad3724f838f  net: modify connecitvity rematch logic to support MSIM devices  [AmolAmrit]
+0f0fe10f133  Binder: Fix improper JNI call for dumpProxyDebugInfo  [AmolAmrit]
+b50efff315a  Make services with uid 1000 restart if their host process crashes  [AmolAmrit]
+52936f41102  Update the screenState for keyguard while screen turning on  [AmolAmrit]
+76c24297707  No Safe Check for Overflowing Alarm Expiry time  [AmolAmrit]
+86cc7287826  InputEvent: Skip IME stages dynamically  [AmolAmrit]
+9ae5c972022  Fix VideoView parsing some URIs failure issue  [AmolAmrit]
+d94158c0c75  Move register AppIdle listener into onBootPhase  [AmolAmrit]
+addaf56f011  uce: Updating UCE API to accept ICC-ID.  [AmolAmrit]
+f1f9298638c  framework: Adding temporary disk access for Boostframework  [AmolAmrit]
+94f58317cca  Modify game detection logic  [AmolAmrit]
+392aef6a892  Add perfGetFeedback api support from framework  [AmolAmrit]
+4dec2f3c2b4  Automatic translation import  [Shubham Singh]
+9d63429bd59  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+   * manifest/
+3de70f1  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+   * packages/apps/Contacts/
+cfe7049cc  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+   * packages/apps/DeskClock/
+033c2497e  Automatic translation import  [Shubham Singh]
+   * packages/apps/Extensions/
+dc90f9ec  v6.2 [2/2]  [Shubham Singh]
+1ce68321  Automatic translation import  [Shubham Singh]
+   * packages/apps/FMRadio/
+4852854  Automatic translation import  [Shubham Singh]
+   * packages/apps/Launcher3/
+016f219b8  Automatic translation import  [Shubham Singh]
+   * packages/apps/Messaging/
+cdb5223  Automatic translation import  [Shubham Singh]
+   * packages/apps/PackageInstaller/
+e3c1d192  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+   * packages/apps/Settings/
+6832748bf2  Automatic translation import  [Shubham Singh]
+   * packages/apps/SmartNav/
+e628ec9  Automatic translation import  [Shubham Singh]
+   * packages/apps/SmartNavSettings/
+8fd567c  Automatic translation import  [Shubham Singh]
+   * packages/apps/Updates/
+0c8b6df  Automatic translation import  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+debbd4c  Automatic translation import  [Shubham Singh]
+   * system/bt/
+511602780  Merge tag 'android-9.0.0_r30' into HEAD  [Shubham Singh]
+   * vendor/aosp/
+df5aa39  v6.2 [1/2]  [Shubham Singh]
+d35aeac  vendor: Update priv-app permissions whitelist  [Shubham Singh]
+====================
+     01-11-2019
+====================
+   * frameworks/base/
+3d3f1b60cda  Status bar clock/date customizations [1/2]  [Shubham Singh]
+ed001f4bbb5  Revert SB clock customizations  [Shubham Singh]
+7ae6cd75e19  [1/2] base: op gesture tweaks  [Shubham Singh]
+2364b4b32c3  base: fix check for keyguard in edge gestures  [Shubham Singh]
+ec44b9e5213  ViewRootImpl: break out the loop when NPE caught  [Shubham Singh]
+15516ade303  [1/2] base: implement OP like navigation gestures  [Shubham Singh]
+b5a2f469c75  AppOpsService: Watch op mode changes when an AppOp restriction dies  [Shubham Singh]
+aa85aa9cf5c  AppOpsManager: Fix wrong coarse location permission issue  [Shubham Singh]
+2f9a1ee5ae7  AppOps: show/hide app type and allow/deny counters [2/2]  [Shubham Singh]
+2574d930f06  AppOps: Enable MODE_IGNORED for OP_WAKE_LOCK  [Shubham Singh]
+2326f3743a5  AppOps: Add BOOT_COMPLETED operation  [Shubham Singh]
+c8be3913ebc  Fix unlinked ringtone and notification volumes panels  [Shubham Singh]
+212cfc39e86  Allow SmartPixels to bypass check for whether a window is obscured  [Shubham Singh]
+f024f12f833  Smart Pixels: Dynamically register receiver  [Shubham Singh]
+933a13ba732  Smart Pixels: Switch to registered receiver  [Shubham Singh]
+727b1516e0e  Move Smart Pixels out of SystemUI  [Shubham Singh]
+321468f9280  Fix NullPointerException on systemui restart with smart pixel enabled.  [Shubham Singh]
+ad7836a3f5c  SystemUI: Refactor Smart Pixels tile  [Shubham Singh]
+fa3a1562434  SystemUI: Add Smart Pixels tile  [Shubham Singh]
+93ce0a059da  SystemUI: Smart Pixels [1/2]  [Shubham Singh]
+874f110cc41  SystemUI: screen-dimmer-pixel-filter  [Shubham Singh]
+066b84dac0e  Edit Icon Toggle [1/2]  [Shubham Singh]
+61f77791fc8  Running services icon toggle [1/2]  [Shubham Singh]
+39bcf347af7  Allow to quickly open Running Services from QS panel [1/2]  [Shubham Singh]
+   * packages/apps/Extensions/
+bb910727  Status bar clock/date customizations [2/2]  [Shubham Singh]
+2a30d538  Extensions: Disable navbar when gestures enabled [1/2]  [Shubham Singh]
+479a36fc  [2/2] Extensions: op gesture tweaks  [Shubham Singh]
+99cd21b9  [2/2] Extensions: implement OP like navigation gestures  [Shubham Singh]
+4cfb87d2  Extensions: Add appops  [Shubham Singh]
+9ae2f751  Update Smart Pixels menu  [Shubham Singh]
+cee0b7b8  Smart Pixels [2/2]  [Shubham Singh]
+23c79f08  Edit Icon Toggle[2/2]  [Shubham Singh]
+a29450d2  Running services icon toggle [2/2]  [Shubham Singh]
+   * packages/apps/FMRadio/
+3cbbe77  FMRadio: Resolve android.support.v7.cardview rules  [Shubham Singh]
+ddddc6a  Revert "FMRadio: Resolve android.support.v7.cardview rules"  [Shubham Singh]
+   * packages/apps/SmartNavSettings/
+0bb391b  SmartNavSettings: Disable gestures when navbar is enabled [2/2]  [Shubham Singh]
+====================
+     01-10-2019
+====================
+   * frameworks/base/
+36264280429  Fix no default ringtone for slot2  [Shubham Singh]
+57eafe53056  Fixes for lockscreen visualizer  [Shubham Singh]
+   * frameworks/native/
+17d6c2b83  AppOpsManager: Update with the new ops  [Shubham Singh]
+   * packages/apps/Settings/
+3f4632632d  AppOps: show/hide app type and allow/deny counters [1/2]  [Shubham Singh]
+d09caecd83  AppOpsDetails: Check app permissions safely  [Shubham Singh]
+3e0d90a9d3  Settings: Bring back AppOps from oreo and before  [Shubham Singh]
+c76babc425  Add a preference controller for Smart Pixels  [Shubham Singh]
+f2bb7d1679  Settings: External Smart Pixels fragment launch  [Shubham Singh]
+1fad74d245  Allow to quickly open Running Services from QS panel [2/2]  [Shubham Singh]
+====================
+     01-09-2019
+====================
+   * frameworks/base/
+a15b3f573a7  SurfaceControl: Unbreak public API after pie-gsi merge  [Shubham Singh]
+c36c75f8580  WindowOrientationListener: Check if proposed rotation is in range  [Shubham Singh]
+f931ec7bb67  Revert "PhoneWindowManager: Check if proposed rotation is in range"  [Shubham Singh]
