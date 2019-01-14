@@ -16,18 +16,13 @@
     ],
     "tissot": [
         {
-            "title": "Dec Firmware",
-            "summary": "V10.0.3.0.PDHMIFK(Pie global)",
-            "url": "https://drive.google.com/file/d/1pbs59CqAqW6Y9Fb4BKxHGiyEbh8mbhRz/view?usp=drivesdk"
+            "title": "Jan Firmware",
+            "summary": "V10.0.4.0.PDHMIXM",
+            "url": "https://drive.google.com/open?id=1AIOYOrI_pRazDxRk-b-c6BMfz627OmkH"
         },
         {
-            "title": "Nov Firmware",
-            "summary": "V9.6.8.0.ODHMIFE",
-            "url": "https://drive.google.com/open?id=12m7mehiNpf0Ez2xeWXp2RifupJvjXD_o"
-        },
-        {
-            "title": "acdb_p",
-            "summary": "Incall audio fix for December firmware(Flash only if told to)",
+            "title": "Aex tissot telegram group",
+            "summary": "A group specifically for aex tissot users, please join for faster support.",
             "url": "https://drive.google.com/open?id=1axWr7hkxNmmX-mxyppm5BpbwIg4AMORa"
         }
 
