@@ -1,0 +1,6 @@
+-Force encryption removed
+-Fixed LTE fc on preferred network selection
+-Fix goodix FP
+-Updated props to fix graphic glitches in games
+-Overlay to ignore rssnr signal levels
+-New adaptive brightness values
