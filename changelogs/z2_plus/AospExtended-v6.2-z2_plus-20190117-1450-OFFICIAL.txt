@@ -1,0 +1,5 @@
+Full treble support
+GSI ready
+Add Qcom WFD
+Update graphics, media, power off alarm, time, RIL, IMS, CNE, QMI, DPM, SDM blobs to P
+AEX 6.2 source updated
