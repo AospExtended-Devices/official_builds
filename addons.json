@@ -69,22 +69,12 @@
         {
             "title":"TWRP",
             "summary":"Recommended TWRP 3.2.3",
-            "url":"https://github.com/xiaomi-msm8998/device_xiaomi_sagit/releases/tag/3.2.3"
+            "url":"https://github.com/xiaomi-msm8998/twrp_device_xiaomi_sagit/releases/tag/3.2.3"
         },
         {
             "title":"Firmware",
             "summary":"Firmware 8.4.19",
             "url":"https://sourceforge.net/projects/xiaomi-firmware-updater/files/Developer/8.4.19/sagit/fw_sagit_miui_MI6Global_8.4.19_49003fef39_8.0.zip/download"
-        },
-        {
-            "title":"Firmware",
-            "summary":"Firmware 8.12.13",
-            "url":"https://sourceforge.net/projects/xiaomi-firmware-updater/files/Developer/8.12.13/sagit/fw_sagit_miui_MI6Global_8.12.13_633b0019dc_8.0.zip/download"
-        },
-        {
-            "title":"Camera",
-            "summary":"Magisk Module to enable 60fps Video recording in the Google Camera App",
-            "url":"http://159.65.193.144/sagit/MIUI-CAM/60fps_los_stable_v2.5.zip"
         },
         {
             "title":"Miui Camera",
