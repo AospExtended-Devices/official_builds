@@ -2,7 +2,10 @@
     "oreo": [
         {
             "file_name": "AospExtended-v5.8-mido-20181107-1819-OFFICIAL.zip"
-        }
+        },
+	{
+	    "file_name": "AospExtended-v5.8-mido-20190121-0306-OFFICIAL.zip"
+	}
     ],
      "pie": [
         {
