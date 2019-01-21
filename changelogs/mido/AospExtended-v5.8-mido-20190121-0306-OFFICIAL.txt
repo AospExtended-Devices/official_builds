@@ -1,0 +1,7 @@
+> Merge January security patch (8.1.0_r52)
+> Fixed few memory leak issues
+> Updated sdFAT driver
+> exFAT mounting issues should be fixed
+> Added back call recording
+> Performance improvements
+> Merged upstream changes
