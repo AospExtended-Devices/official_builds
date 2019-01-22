@@ -1,0 +1,7 @@
+Fixed f2fs support
+Fixed sim card after airplane mode
+New power hal from @kenny3fcb
+Ant+ support thank to @kenny3fcb
+Optizoom, Ubifocus and Sharp Photo in Snap camera
+Solved all blobs dependencies and clean-up vendor
+Fixed OpenGL3 stuttering
