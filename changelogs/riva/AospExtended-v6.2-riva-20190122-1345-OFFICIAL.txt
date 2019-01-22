@@ -1,0 +1,13 @@
+============================
+ AospExtended 6.2 Changelog
+============================
+
+-Initial Build
+-Merged: New Version of AospExtended (v6.2)
+Changes in https://blog.aospextended.com/AospExtended-v6.2-Changelog/
+-Merged: January Security Patch (9.0.0_r30)
+-Merged: New Device Tree (Thanks to sunnyraj / muralivijay / TeamLions)
+-Merged: Default Hals (only audio custom hal)
+-Added: New Graphic / SDM blobs
+
+Welcome to AEX Pie Official, riva users <3
