@@ -1,0 +1,18 @@
+> SELinux -> Enforcing
+> Upstreamed kernel to 3.18.132
+> HW Encryption fixed
+> VILTE fixed
+> Updated missing IMS & Modem blobs (SIM issues should be fixed by now)
+> Updated camera & graphic blobs
+> Resolve few more denials with system services and wfd
+> Updated missing IMS & Modem blobs (SIM issues should be fixed by now)
+> Change default Lcd density to 420
+> CTS Profile & SafetyNet is passed (without magisk)
+> Updated sdFAT driver
+> exFAT mounting issues should be fixed
+> Add Snap camera overlays to fix few common issues
+> Many underhood fixes
+> Performance Improvements
+> Merged upstream changes
+
+Note :- Since Encryption is fully fixed, you may need to format data if it asks for password at boot so do backup your data before flashing. Then encrypting should be fine.
