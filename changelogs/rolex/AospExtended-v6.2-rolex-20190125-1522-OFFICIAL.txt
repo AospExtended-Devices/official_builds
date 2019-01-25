@@ -1,0 +1,22 @@
+============================
+ AospExtended 6.2 Changelog
+============================
+
+-Merged: New version of AospExtended (v6.2)
+Changelog in https://blog.aospextended.com/AospExtended-v6.2-Changelog
+-Merged: January Security Patch (9.0.0_r30)
+-Merged: DRM HAL to v1.1 as required by Android P
+-Merged: Add a HEX to disable colorspace
+-Merged: Kernel Tag 'LA.UM.7.6.r1-04000-89xx.0' from CAF
+-Fixed: Random MAC address issue
+-Fixed: Some WiFi problems
+-Fixed: Some LED problems
+-Fixed: Thermal-engine dac_override denial
+-Enabled: WiFi Offload support
+-Enabled: Support 64 bit DRM plugins
+-Updated: wcnss_service from tissot
+-Updated: SDM blobs from B2N_sprout
+-Updated: init.qcom.graphics.sh from 'LA.UM.7.6.r1-03900-89xx.0
+-Updated: init.qcom.post_boot.sh from 'LA.UM.7.6.r1-03900-89xx.0'
+-Updated: White-list telephony modules
+-Cleanup: Display props for pie
