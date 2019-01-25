@@ -1,0 +1,12 @@
+============================
+ AospExtended 6.2 Changelog
+============================
+
+-Fixed: Hotspot
+-Fixed: Random WiFi Disconnect
+-Fixed: Some WiFi problems
+-Fixed: HW Encryption
+-Fixed: Low LED blinking while charging
+-Fixed: Some LED problems
+-Fixed: Some Framedrop while playing High-End games
+-Upstreamed: Kernel to v3.18.131 from CAF
