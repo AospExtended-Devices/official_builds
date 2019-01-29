@@ -1,0 +1,28 @@
+================
+ AEX Changelog
+================
+
+- AEX: 
+Source upstream
+
+- Device | Vendor:
+- F2FS ENABLED!
+- GPS configs updated from Mi8
+- GPS update from LA.UM.7.2.r1-05800-sdm660.0
+- Update build fingerprint from MiUi 10 V10.2.2.0.OEICNXM
+- Update vendor security patch level from  MiUi 10 V10.2.2.0.OEICNXM
+- Update audio config from MiUi 10 V10.2.2.0.OEICNXM
+- Add perf profile from Nokia 7 Plus.
+
+- Kernel:
+- Packed with TwistLoop Kernel (Will release standalone soon!)
+- Rebased Tulip/Whyred source onto Pie CAF Tag
+- Google msm-4.4 merged
+- F2FS support with Patches from Arter
+- O3'ed the kernel (Code will be further optimised)
+- Add KCal support
+- Add DT2W Node
+- CPUFreq patches
+- Various Patches from SultanXDA
+- Show GPU as Adreno 512 (to get HD mode in PubG and other games)
+- Various things which can be checked from kernel repo on my git.
