@@ -19,6 +19,7 @@ Source upstream
 - Rebased Tulip/Whyred source onto Pie CAF Tag
 - Google msm-4.4 merged
 - F2FS support with Patches from Arter
+- OC'ed both clusters! (CPU OC NOT GPU OC)
 - O3'ed the kernel (Code will be further optimised)
 - Add KCal support
 - Add DT2W Node
