@@ -1,0 +1,8 @@
+============================
+ AospExtended 5.8 Changelog
+============================
+
+-January Security Patch (v8.1.0_r52)
+-Updated: Graphic Blobs from marmite
+-Added: Media OMX blobs (Fix GCam)
+-Enabled: HAL3
