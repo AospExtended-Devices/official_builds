@@ -5,7 +5,7 @@ Before opening a pull request to add your build into our official website, you s
 
 ### 1. Hosting
 
-Our files are hosted on [SourceForge](Sourceforge.net)
+Our files are hosted on [SourceForge](https://sourceforge.net/projects/aospextended-rom/)
 
 ### 2. Changelog
 For each new version, you need to upload the changelog to this repository in the device specific folder.
@@ -18,7 +18,7 @@ You can add links to device specific addons(firmwares patches, tweaks, hotfixes 
 avoid adding duplicate addons that already exists in **default** array, those are universal addons that can be used on all the devices.
 
 ### 4. Over-the-air (OTA) updates
-Our system is automatic, you should not worry about updating some script, just upload the new build to the [SourceForge](Sourceforge.net) and send a pull request with the changelog and also edit your device JSON file (**builds/your_device_codename.json**) in this repository.
+Our system is automatic, you should not worry about updating some script, just upload the new build to the [SourceForge](https://sourceforge.net/projects/aospextended-rom/) and send a pull request with the changelog and also edit your device JSON file (**builds/your_device_codename.json**) in this repository.
 
 Eg: Moto G 2015 is called **osprey**, so the device JSON file is **builds/osprey.json**
 
