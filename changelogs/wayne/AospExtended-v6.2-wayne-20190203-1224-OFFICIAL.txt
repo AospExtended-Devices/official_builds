@@ -1,0 +1,2 @@
+*Add Alipay fingerprint payment
+*Fix some bugs
