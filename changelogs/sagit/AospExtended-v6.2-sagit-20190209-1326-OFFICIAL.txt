@@ -1,0 +1,4 @@
+* February 2019 Android Security Bulletin
+* SELinux permissive
+* Cleanly rebased Kernel
+* New EAS implementation
