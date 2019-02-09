@@ -1,0 +1,258 @@
+====================
+     02-08-2019
+====================
+
+   * device/google/taimen/
+07a6317  Update fingerprint to PQ2A.190205.002/5164942 Feb img  [slothdabski]
+468fd3d  Taimen: raise doze brightness for mid light  [slothdabski]
+9d1ad69  Add system props for IMS features  [slothdabski]
+   * device/google/wahoo/
+39b4428  Merge tag 'android-9.0.0_r31' of https://android.googlesource.com/device/google/wahoo into 9.x  [slothdabski]
+08ec9ec  CarrierConfig: Enable VoLTE and VoWiFi on Singtel  [slothdabski]
+   * kernel/google/wahoo/
+78fcc022526f  Merge branch 'pie-qpr2' of https://github.com/MSF-Jarvis/wahoo into HEAD  [slothdabski]
+1c58a19018d7  Merge tag 'v4.4.174' into staging  [Harsh Shandilya]
+dc5e8c99975b  Linux 4.4.174  [Greg Kroah-Hartman]
+60c7f8fca1bb  rcu: Force boolean subscript for expedited stall warnings  [Greg Kroah-Hartman]
+873beab3740a  net: ipv4: do not handle duplicate fragments as overlapping  [Greg Kroah-Hartman]
+0836bdfee568  net: fix pskb_trim_rcsum_slow() with odd trim offset  [Greg Kroah-Hartman]
+e92b8475d6d7  inet: frags: better deal with smp races  [Greg Kroah-Hartman]
+acd00a069207  ipv4: frags: precedence bug in ip_expire()  [Greg Kroah-Hartman]
+cb5fd4aa24b5  ip: frags: fix crash in ip_do_fragment()  [Greg Kroah-Hartman]
+2822475e70db  ip: process in-order fragments efficiently  [Greg Kroah-Hartman]
+2039bd8669f4  ip: add helpers to process in-order fragments faster.  [Greg Kroah-Hartman]
+3f78a3f45e79  ip: use rb trees for IP frag queue.  [Greg Kroah-Hartman]
+7fab8b2f0c99  net: pskb_trim_rcsum() and CHECKSUM_COMPLETE are friends  [Greg Kroah-Hartman]
+5f2d68b6b5a4  ipv6: defrag: drop non-last frags smaller than min mtu  [Greg Kroah-Hartman]
+26cfea3c1d04  net: modify skb_rbtree_purge to return the truesize of all purged skbs.  [Greg Kroah-Hartman]
+ef0f963de1d2  ip: discard IPv4 datagrams with overlapping segments.  [Greg Kroah-Hartman]
+bf40801a018b  inet: frags: fix ip6frag_low_thresh boundary  [Greg Kroah-Hartman]
+826ff7991466  inet: frags: get rid of ipfrag_skb_cb/FRAG_CB  [Greg Kroah-Hartman]
+29ff723c5499  inet: frags: reorganize struct netns_frags  [Greg Kroah-Hartman]
+33990010ea40  rhashtable: reorganize struct rhashtable layout  [Greg Kroah-Hartman]
+bf8187348f26  ipv6: frags: rewrite ip6_expire_frag_queue()  [Greg Kroah-Hartman]
+f925a29652a0  inet: frags: do not clone skb in ip_expire()  [Greg Kroah-Hartman]
+567ef0554b91  inet: frags: break the 2GB limit for frags storage  [Greg Kroah-Hartman]
+50fc08963b0c  inet: frags: remove inet_frag_maybe_warn_overflow()  [Greg Kroah-Hartman]
+b047c796dedc  inet: frags: get rif of inet_frag_evicting()  [Greg Kroah-Hartman]
+cf2b9e68a684  inet: frags: remove some helpers  [Greg Kroah-Hartman]
+f67b17c0233a  ipfrag: really prevent allocation on netns exit  [Greg Kroah-Hartman]
+24641fb6453c  net: ieee802154: 6lowpan: fix frag reassembly  [Greg Kroah-Hartman]
+493107105843  inet: frags: use rhashtables for reassembly units  [Greg Kroah-Hartman]
+bf5ea30ff5a1  rhashtable: add schedule points  [Greg Kroah-Hartman]
+9e5f4d0b79f8  rhashtable: Add rhashtable_lookup()  [Greg Kroah-Hartman]
+8295999786a5  rhashtable: add rhashtable_lookup_get_insert_key()  [Greg Kroah-Hartman]
+a7fb573c1644  inet: frags: refactor lowpan_net_frag_init()  [Greg Kroah-Hartman]
+705e71ed9901  inet: frags: refactor ipv6_frag_init()  [Greg Kroah-Hartman]
+8c639cad891c  inet: frags: refactor ipfrag_init()  [Greg Kroah-Hartman]
+9c6727de82e4  inet: frags: add a pointer to struct netns_frags  [Greg Kroah-Hartman]
+5eb2471ef43e  inet: frags: change inet_frags_init_net() return value  [Greg Kroah-Hartman]
+   * manifest/
+6a7afd6  Readme: Fix up header  [Shubham Singh]
+e5390b3  Update qcom repositories groups  [Shubham Singh]
+8188399  manifest: Add AOSP SDM845 HALs  [Shubham Singh]
+15e4030  Switch to los's chromium-webview fork  [Shubham Singh]
+fbe123d  manifest: Switch to skia fork  [Shubham Singh]
+9ee4b18  manifest: Switch to los's timezone and ICU forks  [Shubham Singh]
+ee509e6  Remove rcs-services repo  [Shubham Singh]
+
+====================
+     02-07-2019
+====================
+   * art/
+68dc0404d0  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * bionic/
+f22b193a4  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * bootable/recovery/
+76c06f7c  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * build/kati/
+af8d574  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * build/make/
+b63b0efa8  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * frameworks/av/
+6e71e26ea  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * frameworks/base/
+f68b04a75a5  ActivityRecord: add fw boost after r31 merge  [Shubham Singh]
+3076927a4a3  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * frameworks/native/
+097672d3b  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * frameworks/opt/net/wifi/
+8a6bc9466  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * frameworks/opt/telephony/
+b2e082419  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * hardware/interfaces/
+75e797f3  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * kernel/google/wahoo/
+a1ab84ab62f6  Merge remote-tracking branch 'android-linux-stable/android-msm-wahoo-4.4' into pie-qpr2  [Harsh Shandilya]
+   * manifest/
+b466092  Track custom clang repo  [Shubham Singh]
+9ad4ab2  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * packages/apps/Contacts/
+7042e3284  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * packages/apps/DeskClock/
+f8b9f249d  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * packages/apps/DocumentsUI/
+096ddc4f  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * packages/apps/Launcher3/
+6d4c4b56f  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * packages/apps/PackageInstaller/
+47db8f15  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * packages/apps/Settings/
+919c296483  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * packages/apps/Stk/
+b3ac145  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * packages/inputmethods/LatinIME/
+fae295a1b  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+74fe768  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * packages/providers/MediaProvider/
+f520385  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * packages/services/Telecomm/
+18678acf  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * packages/services/Telephony/
+5dcc106a1  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * system/bt/
+8812749f7  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * system/core/
+074dc7927  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * system/extras/
+33fc1ced  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * system/netd/
+6a6fa1e  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * system/sepolicy/
+45f79030  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+   * system/vold/
+ac1b4ab  Merge tag 'android-9.0.0_r31' into HEAD  [Shubham Singh]
+
+====================
+     02-06-2019
+====================
+
+   * external/skia/
+afc6528ade  Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31  [Luca Stefani]
+   * hardware/nxp/nfc/
+ec3b549  Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31  [Luca Stefani]
+   * hardware/qcom/audio/default/
+805056830  Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31  [Luca Stefani]
+   * hardware/qcom/bootctrl/
+a1d491d  Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31  [Luca Stefani]
+   * hardware/qcom/gps/
+5dc7ab4  Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31  [Luca Stefani]
+   * hardware/qcom/media/
+a316b4cb8  Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31  [Luca Stefani]
+   * hardware/qcom/sdm845/gps/
+236e6c3  Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31  [Luca Stefani]
+   * hardware/ril/
+8f3b236  Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31  [Luca Stefani]
+   * kernel/google/wahoo/
+f011f6b8247a  Merge 4.4.173 into android-msm-wahoo-4.4  [Nathan Chancellor]
+343f981c7608  Linux 4.4.173  [Greg Kroah-Hartman]
+16925957b829  fs: don't scan the inode cache before SB_BORN is set  [Greg Kroah-Hartman]
+57d813863143  mm: migrate: don't rely on __PageMovable() of newpage after unlocking it  [Greg Kroah-Hartman]
+a51bbfef6d1e  drivers: core: Remove glue dirs from sysfs earlier  [Greg Kroah-Hartman]
+8f51e79ceeb4  cifs: Always resolve hostname before reconnecting  [Greg Kroah-Hartman]
+c3ef8a44e758  mm, oom: fix use-after-free in oom_kill_process  [Greg Kroah-Hartman]
+e790eeabc47c  kernel/exit.c: release ptraced tasks before zap_pid_ns_processes  [Greg Kroah-Hartman]
+3027ecc10068  mmc: sdhci-iproc: handle mmc_of_parse() errors during probe  [Greg Kroah-Hartman]
+86a395c27a5d  platform/x86: asus-nb-wmi: Drop mapping of 0x33 and 0x34 scan codes  [Greg Kroah-Hartman]
+5d0868d87292  platform/x86: asus-nb-wmi: Map 0x35 to KEY_SCREENLOCK  [Greg Kroah-Hartman]
+970e5c267cf0  gfs2: Revert "Fix loop in gfs2_rbm_find"  [Greg Kroah-Hartman]
+7685bb0efb0c  arm64: hyp-stub: Forbid kprobing of the hyp-stub  [Greg Kroah-Hartman]
+1472585f511f  ARM: cns3xxx: Fix writing to wrong PCI config registers after alignment  [Greg Kroah-Hartman]
+e31a6a9d27cd  fs/dcache: Fix incorrect nr_dentry_unused accounting in shrink_dcache_sb()  [Greg Kroah-Hartman]
+600c4bd14dc7  CIFS: Do not count -ENODATA as failure for query directory  [Greg Kroah-Hartman]
+245426dc30af  l2tp: fix reading optional fields of L2TPv3  [Greg Kroah-Hartman]
+f5f5d316fa29  l2tp: remove l2specific_len dependency in l2tp_core  [Greg Kroah-Hartman]
+3154a8ad0541  ucc_geth: Reset BQL queue when stopping device  [Greg Kroah-Hartman]
+8034f3610b78  net/rose: fix NULL ax25_cb kernel panic  [Greg Kroah-Hartman]
+ce29e8a259de  netrom: switch to sock timer API  [Greg Kroah-Hartman]
+265f211a29ca  net/mlx4_core: Add masking for a few queries on HCA caps  [Greg Kroah-Hartman]
+a0d1b4af6e9a  l2tp: copy 4 more bytes to linear part if necessary  [Greg Kroah-Hartman]
+f9b9a8ea4796  ipv6: Consider sk_bound_dev_if when binding a socket to an address  [Greg Kroah-Hartman]
+fb0c3321e03f  fs: add the fsnotify call to vfs_iter_write  [Greg Kroah-Hartman]
+dda201759ece  s390/smp: Fix calling smp_call_ipl_cpu() from ipl CPU  [Greg Kroah-Hartman]
+e1e584bb5454  Revert "loop: Fold __loop_release into loop_release"  [Greg Kroah-Hartman]
+f1f952b30534  Revert "loop: Get rid of loop_index_mutex"  [Greg Kroah-Hartman]
+55bbe71559ac  Revert "loop: Fix double mutex_unlock(&loop_ctl_mutex) in loop_control_ioctl()"  [Greg Kroah-Hartman]
+896354cce386  f2fs: read page index before freeing  [Greg Kroah-Hartman]
+029b5be50938  arm64: mm: remove page_mapping check in __sync_icache_dcache  [Greg Kroah-Hartman]
+1b284d784624  irqchip/gic-v3-its: Align PCI Multi-MSI allocation on their size  [Greg Kroah-Hartman]
+2cbf0a6c9a62  perf unwind: Take pgoff into account when reporting elf to libdwfl  [Greg Kroah-Hartman]
+38155e1044c8  perf unwind: Unwind with libdw doesn't take symfs into account  [Greg Kroah-Hartman]
+6a923fc6fe1e  vt: invoke notifier on screen size change  [Greg Kroah-Hartman]
+8781bfdf733e  can: bcm: check timer values before ktime conversion  [Greg Kroah-Hartman]
+17cb93920405  can: dev: __can_get_echo_skb(): fix bogous check for non-existing skb by removing it  [Greg Kroah-Hartman]
+5efadf3b3e7f  x86/kaslr: Fix incorrect i8254 outb() parameters  [Greg Kroah-Hartman]
+43473a6f6734  KVM: x86: Fix single-step debugging  [Greg Kroah-Hartman]
+74d609f091fe  Input: xpad - add support for SteelSeries Stratus Duo  [Greg Kroah-Hartman]
+278541ac0534  CIFS: Fix possible hang during async MTU reads and writes  [Greg Kroah-Hartman]
+8db4fe27f2a6  tty/n_hdlc: fix __might_sleep warning  [Greg Kroah-Hartman]
+fe881381874a  tty: Handle problem if line discipline does not have receive_buf  [Greg Kroah-Hartman]
+b6a23bda233a  staging: rtl8188eu: Add device code for D-Link DWA-121 rev B1  [Greg Kroah-Hartman]
+29f7c747a57e  char/mwave: fix potential Spectre v1 vulnerability  [Greg Kroah-Hartman]
+86dd006cffec  s390/smp: fix CPU hotplug deadlock with CPU rescan  [Greg Kroah-Hartman]
+74be2fcda651  s390/early: improve machine detection  [Greg Kroah-Hartman]
+c25a126d1a65  ARC: perf: map generic branches to correct hardware condition  [Greg Kroah-Hartman]
+d9084840d00a  ASoC: atom: fix a missing check of snd_pcm_lib_malloc_pages  [Greg Kroah-Hartman]
+437f0e444ddf  USB: serial: pl2303: add new PID to support PL2303TB  [Greg Kroah-Hartman]
+1d8dfede3f71  USB: serial: simple: add Motorola Tetra TPG2200 device id  [Greg Kroah-Hartman]
+e98f787a9975  net: bridge: Fix ethernet header pointer before check skb forwardable  [Greg Kroah-Hartman]
+749cbfc0ad60  net_sched: refetch skb protocol for each filter  [Greg Kroah-Hartman]
+289992eb6c1a  net: ipv4: Fix memory leak in network namespace dismantle  [Greg Kroah-Hartman]
+e5c13a9c75ea  openvswitch: Avoid OOB read when parsing flow nlattrs  [Greg Kroah-Hartman]
+52a30a6e141a  net: Fix usage of pskb_trim_rcsum  [Greg Kroah-Hartman]
+   * packages/apps/Nfc/
+9219cd79  Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31  [Luca Stefani]
+   * system/security/
+b952db0  Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31  [Luca Stefani]
+   * system/update_engine/
+8d95962  Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31  [Luca Stefani]
+   * vendor/pixelgapps/
+01c02f5  Update gapps to February 2019 - Pixel 3 XL (Crosshatch)  [Josh Chasky]
+
+====================
+     02-05-2019
+====================
+
+   * kernel/google/wahoo/
+714ae6136aa1  Merge remote-tracking branch 'android-linux-stable/android-msm-wahoo-4.4' into pie-qpr2  [Harsh Shandilya]
+   * prebuilts/clang/host/linux-x86/
+d6d7321  Update prebuilt Clang to r349610.  [Henrique Pereira]
+   * vendor/google/
+e69d37b  Taimen: Update blobs to Android 9.0.0 (PQ2A.190205.002)  [Josh Chasky]
+0d7e7ff  Bluecross: Update blobs to Android 9.0.0 (PQ2A.190205.003)  [Josh Chasky]
+
+====================
+     02-04-2019
+====================
+
+   * frameworks/base/
+ff716f39619  lockscreen : differentiate hour from minutes in digital bold style clock  [Shubham Singh]
+9c628581019  Utils: Introduce method to determine countries that use Fahrenheit  [Shubham Singh]
+3d4de1a2746  Utils: Add method to determine battery temp  [Shubham Singh]
+18dabb9cca6  Carrier Label: Bring back the scroll (marquee) effect  [Shubham Singh]
+2e01d2c69dd  InputMethodManager: Fixed memory leak when windowDismissed  [Shubham Singh]
+7342d053ee7  Refusing to enter PIP mode when activity destroyed  [Shubham Singh]
+7bb39a881f3  SystemUI: Fixes context for tiles without longClick  [Shubham Singh]
+bd933808aed  am: Fix top activity resume with secure keyguard  [Shubham Singh]
+4e42667f346  Fix intermittent slowness in resolver activity towards end of day  [Shubham Singh]
+ff154af03b7  WindowManager: Remove unused calling for better performance  [Shubham Singh]
+d30e5b51a25  Fix the behavior of keyguard bouncer in a corner case  [Shubham Singh]
+4e01e2ed22a  Fix disappearing home/recents button  [Shubham Singh]
+be763321d48  DefaultPermissionGrantPolicy: grant Google sounds picker storage perms  [Shubham Singh]
+5585647c84f  Dark theme: Fix notification channel info text color  [Shubham Singh]
+fcfeb427235  Ambient music Now Playing: more improvements  [Shubham Singh]
+09da242ca46  Lockscreen analog clock: improve minute hands looking  [Shubham Singh]
+3db07c09713  Auto switch to a dark analog clock when using dark system theme  [Shubham Singh]
+6598c6f35ba  Always use standard small clock when pulsing on new notifications  [Shubham Singh]
+   * kernel/google/wahoo/
+f9fddeb2f0ad  Merge tag 'android-9.0.0_r0.62' into android-msm-wahoo-4.4  [Nathan Chancellor]
+   * manifest/
+a98125d  Manifest for Android 9.0.0 Release 31 (PQ2A.190205.001)  [The Android Open Source Project]
+   * packages/resources/devicesettings/
+4f04813  Add strings for Ambient Display always on mode  [Shubham Singh]
+   * system/sepolicy/
+5cebc9da  Suppress spurious denial  [Shubham Singh]
+   * vendor/aosp/
+7d31375  vendor: Theme custom analog clock  [Shubham Singh]
+
