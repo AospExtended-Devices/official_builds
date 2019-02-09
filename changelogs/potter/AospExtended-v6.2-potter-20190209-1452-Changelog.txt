@@ -1,0 +1,8 @@
+=====================
+  AospExtended v6.2
+=====================
+
+-Updated to r31 (February patch)
+-Lot's of Optimus & ramdisk updates
+-Added perf boost
+-Lots of device and vendor updates
