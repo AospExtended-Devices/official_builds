@@ -1,0 +1,6 @@
+-February security patch
+-Tried to fix wakescreen delay
+-Updated sdm blobs from LA.UM.7.5.r1-03700-8x96.0
+-Kernel upstreamed .134
+-Lots of under the hood kernel and device changes
+-Aex upstream
