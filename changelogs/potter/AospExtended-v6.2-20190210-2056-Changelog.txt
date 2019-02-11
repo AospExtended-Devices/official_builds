@@ -1,0 +1,8 @@
+=====================
+  AospExtended v6.2
+=====================
+
+-Updated to r31 (February patch)
+-Lot's of Optimus & ramdisk updates
+-Removed perf boost (fixes apps fc'ing on 09-02 build)
+-Lots of device and vendor updates
