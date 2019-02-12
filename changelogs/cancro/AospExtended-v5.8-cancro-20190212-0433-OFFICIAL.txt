@@ -1,0 +1,2 @@
+*No longer use redkancut kernel
+*Update security patch
