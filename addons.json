@@ -53,11 +53,16 @@
             "url": "https://sourceforge.net/projects/orangefox/files/santoni/"
         }
    ],
-    
     "x2": [
         {   "title": "EUI-Audio",
             "summary": "Stock EUi Audio",
             "url": "https://sourceforge.net/projects/shivatejapeddi/files/Mods"
+        }
+   ],
+    "kenzo": [
+        {   "title": "Escrima kernel",
+            "summary": "Flashable zip for stock kernel. Also available with oldjackfix patch"
+            "url": "https://www.androidfilehost.com/?w=files&flid=278625"
         }
    ],
     "sagit": [
