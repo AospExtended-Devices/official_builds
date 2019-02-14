@@ -63,6 +63,10 @@
         {   "title": "Escrima kernel",
             "summary": "Flashable zip of stock kernel. Also available with oldjackfix patch",
             "url": "https://www.androidfilehost.com/?w=files&flid=278625"
+        },
+        {   "title": "Firmware",
+            "summary": "Grab latest firmware for kenzo or kate from here",
+            "url": "https://basketbuild.com/devs/yshalsager/Xiaomi-Firmware/"
         }
    ],
     "sagit": [

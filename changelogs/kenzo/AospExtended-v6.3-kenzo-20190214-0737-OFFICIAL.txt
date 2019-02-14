@@ -1,0 +1,24 @@
+===========================
+AospExtended v6.3 Changelog
+===========================
+
+[14.02.19]
+
+* Update power profile
+* Fix static noise on Sony earphones (MDR-150AP)
+* Ship CAF's SnapdragonCamera2 as well
+* Switch to Nougat's UBI Focus & Optizoom stack
+* Fix UBIFocus
+* Enable multi-color notification LED option
+* Update brightness overlays from marlin
+* Update ramdisk
+* Update post_boot script from Citrus
+* Exclude serif fonts from system.img
+* Upate manifest
+* Update config.fs
+* Set beacon missed count threshold in wifi config
+* Enable RX thread to receive packet in wifi config
+* Switch to XiaomiParts app
+* Update ambient display gestures
+* Add Dirac sound controls  (Mi Sound enhancer)
+* Add support for DTS HPX & DTS Ultra mod in kernel
