@@ -4,6 +4,7 @@
 Memory optimizations
 Storage performance improvements
 Enable bootloader check before flashing
+Bring back Miracast (WiFi Display)
 
 ==========================
     AospExtended v6.3
