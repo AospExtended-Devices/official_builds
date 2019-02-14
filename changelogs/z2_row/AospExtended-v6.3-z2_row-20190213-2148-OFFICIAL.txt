@@ -1,0 +1,5 @@
+AEX 6.3
+Move to factory partition
+Fixed dark video on low light
+Fixed Snap random fc when stop video recording
+Update device tree and vendor
