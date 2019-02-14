@@ -1,0 +1,51 @@
+AEX 6.3
+Valentine's update :)
+
+Device side Changelog
+
+>Using Gabriel X2 8998 
+>Compiled with DragonTc 9.0.0
+>Upstreamed to 3.18.134 (4.4.y drivers inside)
+>Add and enable Perf QPerformance(smoother UI)
+>Enable Ux IOPrefetcher
+>Updated DTS Eagle
+>Added Dirac sound Enhancement (Settings>Sounds>Mi Sound Enhancer)
+>Shift Doze settings to Settings>Display>Ambient Display>Advanced Settings
+>Removed Xiaomi Add-on
+>Update SDM blobs from LA.UM.7.5.r1-03700-8x96.0
+
+
+Source Side Changelog
+
+>Merge February security patch (9.0.0_r31)
+>Update all translations
+>Update all pre-built apks
+>Update all of our packages
+>Update Boostframework
+>Update activity manager service (AMS)
+>Update Ambient music
+>Update Sim colors
+>Update dialer app
+>Add Lockscreen clock styles
+>Add Recents icon pack support
+>Add ADB over network support
+>Add option to hide lockscreen clock
+>Add option to hide lockscreen items
+>Add Incall vibartions seperately
+>Add Kill app button on notification guts
+>Add option to minimise notifications when screen is on
+>Add Less notifications sound feature
+>Add Onehanded mode feature
+>Add Compass QS tile
+>Add LTE tile
+>Add battery temperature in battery stats
+>Add Wellbeing dark theme
+>Add option to set call log deletion limit
+>Add adjustable volume steps
+>Revamp our dark theme
+>Refresh statusbar clock properly
+>Improve theming on certain elements
+>Bug fixes and performance improvements
+
+
+
