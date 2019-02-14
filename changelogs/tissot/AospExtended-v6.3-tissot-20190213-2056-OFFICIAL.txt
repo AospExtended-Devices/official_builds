@@ -39,4 +39,5 @@ Tissot specific
 Add Dirac audio enhancement
 Update xiaomi doze
 Add aptX libs
+Switch to OSS camera HAL
 Switch to common data-ipa-cfg-mgr
