@@ -1,0 +1,15 @@
+
+===============================================
+  AospExtended-v6.3-s2-20190215-1859-OFFICIAL
+===============================================
+
+* Fixed WFD (Except Audio)
+* Fixed IR (all remote apps working now,
+  just install le remote apk and open it first)
+* Added AptX blobs
+* Added dirac audio
+* Added WireGuard support
+* Added LeEco Extras
+* Toggle for Quick Charge and In-band Ringing
+* Fixup and updated many rootdir services
+* Many more fixups and improvements
