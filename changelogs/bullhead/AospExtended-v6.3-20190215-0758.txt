@@ -1,0 +1,235 @@
+====================
+     02-15-2019
+====================
+
+   * Feb Security Patch
+   * Kernel Upstream
+   * Add Voltage Control 
+   * Add MSM_hotsplug 
+   * Add Dual Speaker Surround Sound 
+   * Performance Improvements
+
+====================
+     02-14-2019
+====================
+
+   * frameworks/base/
+9820f46c56c  Automatic translation import  [Shubham Singh]
+   * packages/apps/DeskClock/
+e626e7090  Automatic translation import  [Shubham Singh]
+   * packages/apps/Extensions/
+8683cbb0  Automatic translation import  [Shubham Singh]
+8e6c49c2  v6.3 [1/2]  [Shubham Singh]
+   * packages/apps/FMRadio/
+e7fdb30  Automatic translation import  [Shubham Singh]
+   * packages/apps/Launcher3/
+c6123dc2e  Automatic translation import  [Shubham Singh]
+   * packages/apps/Messaging/
+c933b93  Automatic translation import  [Shubham Singh]
+   * packages/apps/Settings/
+dbc0e71f53  Automatic translation import  [Shubham Singh]
+3621b034e8  Settings: Add AGPS setting menu.  [AmolAmrit]
+64d53fdf18  Settings: Add FINE_LOCATION for Bluetooth scans  [AmolAmrit]
+   * packages/apps/SmartNavSettings/
+179ca36  Automatic translation import  [Shubham Singh]
+   * packages/apps/Updates/
+d24f3e9  Automatic translation import  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+71ff320  Automatic translation import  [Shubham Singh]
+   * vendor/aosp/
+c578e3f  Vendor:Update prebuilt apks  [Gaurav Singh]
+0a8bad5  v6.3 [2/2]  [Shubham Singh]
+
+====================
+     02-13-2019
+====================
+
+   * device/qcom/sepolicy-legacy/
+f2a1c0b  sepolicy: legacy: Eliminate qemu_hw_mainkeys_prop entries  [sb6596]
+e26e4f1  common: permit libqdutils operation (linked by mediaserver) during WFD  [sb6596]
+   * frameworks/base/
+f6c3deae772  Add Compass tile  [sb6596]
+4d3bed1444f  Clean receivers completely when forceStop the process  [AmolAmrit]
+1db95ac043e  Fix a 'memory leak'  [AmolAmrit]
+60af85a6bfe  Keyguard: Avoid starting FP authentication right after cancelling  [AmolAmrit]
+9316b9733f8  Adjust AsyncTask.THREAD_POOL_EXECUTOR config  [AmolAmrit]
+1e690e4888b  camera: Skip HFR checks for privileged apps.  [AmolAmrit]
+74049e8dca1  Remove the check of mService when BluetoothHidDevice doUnbind  [AmolAmrit]
+28f26d1d090  services: Fix two Jobscheduler bugs  [AmolAmrit]
+66843ad5ca0  core: Fix switching fragment appears white screen  [AmolAmrit]
+35e0d1a5bb5  Fix motion event offset of DecorView is moved in the window  [AmolAmrit]
+419dd860447  Include InCallNotification.ogg in AllAudio.mk file  [AmolAmrit]
+4091abbfd88  Informing app idle listeners on enabled state changes  [AmolAmrit]
+e0ec8d6f371  graphics: Avoid crash issue of createBitmap  [AmolAmrit]
+72fabb6ead5  continue read file when returned count > 0  [AmolAmrit]
+eb5f0d7c052  Add synchronization for invokeForAllObservers call  [AmolAmrit]
+c8f3d971d27  SystemUI: Fix an issue where jumping to black after screen turned on  [AmolAmrit]
+aafbaf9b406  SystemUI: Fix NPE when DozeService is destroied  [AmolAmrit]
+14a4f9300f4  Revert "Disable statusbar time refresh when screen off"  [AmolAmrit]
+19779ae12a9  frameworks/base: media: Add support for extended file types  [AmolAmrit]
+c757c1df8d2  audio: add support for extended formats  [AmolAmrit]
+f13775bdb28  UXE: Recents app detection & Refactor  [AmolAmrit]
+9040d3a81b8  uxe: Check memory pressure before starting empty app.  [AmolAmrit]
+b2cfe979452  framework/base: optimize multi-thread code  [AmolAmrit]
+ef80181fd7e  BoostFramework: Implement asynchronous processing of perflocks  [AmolAmrit]
+5828c76fb23  fix deadlock of binder thread and ActivityManager  [AmolAmrit]
+aabadeb143b  Fix deadlock in AcitivityManagerService  [AmolAmrit]
+6a664213531  Ensure cgroup.procs in the same cgroup  [AmolAmrit]
+49e98992f67  AMS: Fix the null pointer exception in MainHandler:handleMessage  [AmolAmrit]
+8bf1d7fe311  AMS: Uncatch the IllegalStateException cause process crash  [AmolAmrit]
+431c78f8426  AMS: Fix the null pointer exception in IntentResolver  [AmolAmrit]
+1064314e3e2  GlobalActionsDialog: Fix emergency icon on dark theme  [Shubham Singh]
+c4ebbd22c1a  Revert "Fix emergency icon tinting"  [Shubham Singh]
+e5e2dddcdf9  StatusBarSignalPolicy: Fix missing provisioned in equals and copyTo  [Shubham Singh]
+9a0c6f37156  StatusBarSignalPolicy: Sync with lineage  [Shubham Singh]
+e007bc92141  Revert "StatusBarSignalPolicy: Fix NPE due do ext telephony"  [Shubham Singh]
+8073424a8da  Fix emergency icon tinting  [Arghya Chanda]
+   * frameworks/opt/telephony/
+2c617f178  RIL: Allow overriding RadioResponse and RadioIndication  [GtrCraft]
+   * hardware/qcom/display-caf/apq8084/
+215f9732b  Make memtrack build with the VNDK.  [Corinna Vinschen]
+7676dcabb  Add missing includes.  [Corinna Vinschen]
+bdf8b28bf  libmemtrack: Add open method for apq8084.memtrack  [Corinna Vinschen]
+a59401577  display: Use generated kernel headers  [Corinna Vinschen]
+3ac0314c9  hal: Added LOCAL_VENDOR_MODULE to set output path of the binaries  [Corinna Vinschen]
+a04c97c6c  Use header lib instead of using global include path  [Corinna Vinschen]
+   * hardware/qcom/media-caf/apq8084/
+020312314  Revert "media: Avoid collision with FFMPEG plugin"  [Bruno Martins]
+   * hardware/ril-caf/
+b475875  Encode the Number of MNC Digits in CellIdentity  [Michael Bestas]
+   * packages/apps/Settings/
+35b1deba8b  Aboutus: Refresh our intro  [AmolAmrit]
+   * packages/services/Telecomm/
+e7fe7b67  Telecomm: Update drawable added on latest commit  [Arghya Chanda]
+2626cd05  Telecomm: Improve dark theme  [Arghya Chanda]
+   * packages/services/Telephony/
+4deafd794  Automatic translation import  [AmolAmrit]
+69df4dbeb  Fix carrier config option not hidden on a CDMA phone  [Shubham Singh]
+19fcfb009  Fix non-protected broadcasts sent from phone process.  [Shubham Singh]
+e8cfe1680  Telephony: Support muting by RIL command  [GtrCraft]
+f8fa1eeba  Don't start SIP service before decrypted  [Shubham Singh]
+   * vendor/aosp/
+7e7ad09  Update toast bg color  [Arghya Chanda]
+465687d  Let's dark theme match Dialer and Messaging app  [Arghya Chanda]
+b61c4b7  Fix system dialog theme  [Arghya Chanda]
+2269d7d  Change notifications theming overlays  [Arghya Chanda]
+9129ac7  Use dark theme on global actions/volume panel  [Arghya Chanda]
+1e62210  Thematize QS and notifications like Android Q  [Arghya Chanda]
+
+====================
+     02-12-2019
+====================
+
+   * device/qcom/sepolicy-legacy/
+035d161  Display: Remove vendor property context for lcd density  [sb6596]
+6c07bd2  legacy: Label some more sysfs_net  [sb6596]
+aed6a32  common: Allow webview_zygote to read /dev/ion  [sb6596]
+ff0cf68  sepolicy: legacy: add additional usb charging path label  [sb6596]
+4cd4142  legacy: Label msm8916 sysfs_disk_stat  [sb6596]
+1275580  legacy: Label msm8916 sysfs_android_usb  [sb6596]
+33815b5  sepolicy: Add vendor prefix to FM properties  [sb6596]
+2f3102f  legacy: Label msm8916 sysfs_{battery,usb}_supply  [sb6596]
+cb35f6e  common: relabel /sys/module/tcp_cubic for netmgrd access  [sb6596]
+89777f5  common: label /sys/devices/virtual/net/* as sysfs_net  [sb6596]
+b6db20c  common: allow sensors HIDL HAL to access /dev/sensors  [sb6596]
+b44a55a  sepolicy: Add permissions for LCD brightness control  [sb6596]
+ec05821  sepolicy: Allow mm-qcamerad use appdomain fd  [sb6596]
+94ca123  sepolicy: Label msm8974 devfreq sysfs  [sb6596]
+27c455b  sepolicy: Label msm_pm sysfs as sysfs_msm_perf  [sb6596]
+64716ca  sepolicy: Label msm8974 leds-qpnp sysfs  [sb6596]
+0ec2f2a  sepolicy: Label msm8974 lcd-backlight sysfs  [sb6596]
+10eb98a  sepolicy: Label msm8974 sysfs_ssr_toggle  [sb6596]
+2ec212d  sepolicy: Label sysfs_android_usb  [sb6596]
+e62a7bf  sepolicy: Label sysfs_disk_stat nodes  [sb6596]
+c5e32f3  sepolicy: Label more qpnp-charger sysfs as sysfs_battery_supply  [sb6596]
+450d1c1  Use new vendor_wifi_prop label for bluetooth_loader  [sb6596]
+dea5e21  wcnss-service: Add sepolicy to access "vendor.wlan." property  [sb6596]
+d3ba3e4  sepolicy: Add vendor wifi prop in vendor partition access  [sb6596]
+3460d3a  Revert "sepolicy: Allow wcnss_service to set wlan.driver properties"  [sb6596]
+ce5315e  legacy: Label /sys/devices/mdp.0/caps  [sb6596]
+ab6e823  sepolicy: Fix label of qpnp-charger sysfs  [sb6596]
+08d5982  sepolicy: Add type vendor_display_prop for legacy devices  [sb6596]
+6c9f247  legacy: Allow platform_app to read qemu_hw_mainkeys_prop  [sb6596]
+7293fcf  sepolicy: Add additional restricted permissions to vendor_init  [sb6596]
+52d9c2d  Remove vendor se-labelling of AOSP's qemu.hw.mainkeys prop.  [sb6596]
+e00e834  common: allow vendor_init to create /data/dpm  [sb6596]
+8fbeff2  common: allow uevent to control sysfs_mmc_host via vold  [sb6596]
+bf504e9  common: create proc_kernel_sched domain to restrict perf hal access  [sb6596]
+75b8a98  common: grant DRM HIDL HAL ownership access to /data/{misc,vendor}/media/  [sb6596]
+305b0bc  common: grant cnss-daemon access to sysfs_net  [sb6596]
+bfd1a91  common: grant netmgrd access to sysfs_net nodes  [sb6596]
+2e58f24  common: fix sensors denial  [sb6596]
+   * frameworks/base/
+541478fb4cd  ActionHandler: Bring back one-hand mode action  [Shubham Singh]
+e582caa8de8  SystemUI: add toggle for the onehand ui mode [1/2]  [Shubham Singh]
+   * hardware/qcom/wlan-caf/
+9a9fda5  wcnss-service: Opt-in to disable copying WCNSS_qcom_cfg.ini to userdata  [Michael Bestas]
+   * packages/apps/DocumentsUI/
+9a6e9712  Use white navbar for DocumentsUI as well  [Arghya Chanda]
+0e1c5a39  DocumentsUI: Improve dark theme  [Arghya Chanda]
+d8361039  Theme improvements  [Arghya Chanda]
+dfa95697  DocumentsUI: Thematize navbar on dark theme  [Arghya Chanda]
+332598e2  DocumentsUI: support night mode  [Arghya Chanda]
+   * packages/apps/SmartNavSettings/
+8bfaf86  add toggle for the onehand ui mode [2/2]  [Shubham Singh]
+   * packages/services/Telephony/
+87c7fd6ee  Vectorize sip icon  [Arghya Chanda]
+8a0580ae0  Telephony: Improve dark theme  [Arghya Chanda]
+
+====================
+     02-11-2019
+====================
+
+   * build/make/
+109f8e47c  build: core: Allow devices to use vendor security patch on boot  [Aayush Gupta]
+   * frameworks/av/
+27e7cc581  Visualizer: fix native crash when visualizer release  [ShevT]
+   * frameworks/base/
+f18c93f1e73  SystemUI: Add one hand mode triggers  [Shubham Singh]
+5f263687f97  Add new feature of One-hand UI Mode  [Shubham Singh]
+0eb5115a26a  SystemUI: fix landscape powermenu layout  [Shubham Singh]
+d1c87437912  Add wellbeing dark theme  [Shubham Singh]
+30deed9e08b  Ambient Music: show on lockscreen only for Now Playing and cleanup code  [Shubham Singh]
+316bca9885d  Fix action bar font family on material themes  [Shubham Singh]
+74b0030aa71  UiModeManagerService: Store messaging night state on Settings class  [Shubham Singh]
+d1cf3201948  StatusBar: Silence logspam  [Shubham Singh]
+ee5b8ad0a29  Statusbar clock: restore qsheader check within a saved instance  [Shubham Singh]
+27d90d62a9a  Themes: Lock day night mode  [Shubham Singh]
+0504b79d668  Themes: Fix animation issue when opening Messaging app  [Shubham Singh]
+b8c471fda63  Themes: Workaround to fix dark theme on Messaging app  [Shubham Singh]
+ea271bdcd5f  Fix notifications for some apps if Less notification sounds is enabled  [AmolAmrit]
+af1d061c4bc  Bring back less notification sounds [1/2]  [AmolAmrit]
+04002c4dc07  Allow to suppress notifications sound/vibration if screen is On [1/2]  [AmolAmrit]
+0b79200452a  Add kill button to notification guts [1/2]  [AmolAmrit]
+4d6a9e1a3b6  Live Volume Steps [1/2]  [AmolAmrit]
+1a130b20e15  base: incall vibration options [2/3]  [AmolAmrit]
+e2cf119b72c  Support more Network modes for LTE-tile.  [ShevT]
+444b82ef463  LteTile: multisim compatibility  [ShevT]
+c4dd083f0bc  SystemUI:Add LTE Tile  [ShevT]
+7be46c376d3  Visualizer: fix native crash when visualizer release  [ShevT]
+071f14bdbcf  core: Fix vendor override when properties are not set  [GtrCraft]
+735a0a9fce8  core: Add support for overriding vendor properties (1/2)  [GtrCraft]
+   * frameworks/native/
+e2f9777ea  Translate pointer motion events for One-hand UI Mode  [Shubham Singh]
+   * packages/apps/Dialer/
+48e225484  Dialer: Remove In-Call Vibrations  [AmolAmrit]
+f038f4967  Add toggle for post call snackbar  [ShevT]
+   * packages/apps/Extensions/
+293c558f  Bring back less notification sounds [2/2]  [AmolAmrit]
+f3656aed  Allow to suppress notifications sound/vibration if screen is On [2/2]  [AmolAmrit]
+a6f7fd2e  Add kill button to notification guts [2/2]  [AmolAmrit]
+06c47e13  Extensions: Update Strings  [AmolAmrit]
+191185d2  incall vibration options [3/3]  [AmolAmrit]
+2b9f0724  Live Volume Steps [2/2]  [AmolAmrit]
+   * packages/apps/Settings/
+7a95f43425  deviceinfo: Show vendor override also on build number dialog  [GtrCraft]
+2cddc7b267  deviceinfo: Add support for overriding vendor properties (2/2)  [GtrCraft]
+   * packages/services/Telecomm/
+fcad7fcd  incall vibration options [2/3]  [AmolAmrit]
+   * packages/services/Telephony/
+f44a827b9  Implement toggleLte Using logic based on Ryan Hope's commits  [ShevT]
+   * vendor/aosp/
+9052dc7  Fix light statusbar and navbar on Wellbeing  [Shubham Singh]
+bbc750b  Add wellbeing dark theme variants  [Shubham Singh]
+1a0101e  vendor: Theme about icon bg  [Shubham Singh]
+
