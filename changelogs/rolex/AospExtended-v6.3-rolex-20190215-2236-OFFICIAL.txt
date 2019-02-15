@@ -1,0 +1,9 @@
+============================
+ AospExtended 6.3 Changelog
+============================
+
+-Merged: New version of AospExtended (v6.3)
+Changelog in https://blog.aospextended.com/AospExtended-v6.3-Changelog
+-Merged: February Security Patch (9.0.0_r33)
+-Merged: Kernel tag 'LA.UM.6.6.r1-10500-89xx.0' from CAF
+-Fixed: Hotspot
