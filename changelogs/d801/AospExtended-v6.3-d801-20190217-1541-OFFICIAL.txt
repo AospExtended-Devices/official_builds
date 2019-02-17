@@ -4,6 +4,7 @@
 Memory optimizations
 Storage performance improvements
 Enable bootloader check before flashing
+Bring back Miracast (WiFi Display)
 * Hotfix: Fixed issue with ext4 filesystem
 
 ==========================
