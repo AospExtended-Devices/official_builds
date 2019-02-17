@@ -1,0 +1,12 @@
+AospExtended-v6.3-x2-20190217-1255-OFFICIAL 
+=========================================== 
+
+Changelog :
+
+Device Specific : 
+1. fixed Random reboots 
+2. Updated thermal config for bettermanaging of heat 
+3. Rebased kernel 
+4. Use stock profile in leeco etxras for better gaming 
+5. Fixed night light
+6. many other changes
