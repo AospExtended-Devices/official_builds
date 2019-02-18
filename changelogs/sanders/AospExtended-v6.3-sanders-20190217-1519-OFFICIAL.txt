@@ -1,0 +1,7 @@
+- Kernel Extreme Plus .134
+- DTV Work
+- FMRadio Work
+- VoLTE Work
+- Latest Sources
+- more fixes
+- Updated IMS apk for IMS status
