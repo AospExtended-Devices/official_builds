@@ -5,7 +5,6 @@ AospExtended v6.3
 Device Changelog: 
 - Fix Video Playback issue
 - Fix Video Recording
-- Fix FM Radio
 - Add Some Optimization From Caf
 - Activate Few Optimizing Compiler Flags
 - Improve Performance For CPU Rendered Apps
