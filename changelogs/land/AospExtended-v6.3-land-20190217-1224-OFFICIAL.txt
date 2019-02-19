@@ -1,0 +1,4 @@
+-Fix camera & related issues
+-Force hal1 on sone apps
+-remove annoying hd capable notification
+-aex 6.3 upstream
