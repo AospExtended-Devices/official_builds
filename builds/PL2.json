@@ -1,0 +1,12 @@
+{
+    "pie_vendor": [
+        {
+            "file_name": "vendor_PL2_P_2018-10-01.img"
+        }
+    ],
+    "pie": [
+        {
+            "file_name": "AospExtended-v6.3-PL2-20190223-1428-OFFICIAL.zip"
+        }
+    ]
+}
