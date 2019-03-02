@@ -1,0 +1,10 @@
+=================
+AospExtended v6.3
+=================
+
+-Fixed FM
+-Updated prebuilt GCAM
+-Removed useless fw-res ENFORCE_RRO
+-Added option to enable AOD while charging 
+-Merged with latest sources
+-Minor other changes 
