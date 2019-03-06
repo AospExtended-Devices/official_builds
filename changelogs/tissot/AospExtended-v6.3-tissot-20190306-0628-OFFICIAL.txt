@@ -1,0 +1,16 @@
+=================
+AospExtended v6.3
+=================
+Explore urself xD !
+
+=================
+Tissot Specific
+=================
+Fixed FM
+Fixed IMS registration status
+Dual Volte works fine & icon is fine as well
+Stock Camera Support Added
+
+P.S:- CLEAN FLASH IS A MUST
+      •FLASH JANUARY FIRMWARE TO AVOID ANY ISSUES
+      •NO CAMERA BUGS TO BE REPORTED IF U USE ANY SORT OF MODS/PATCHES
