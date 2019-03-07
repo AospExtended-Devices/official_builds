@@ -1,0 +1,34 @@
+CLEAN INSTALLATION IS REQUIRED
+
+Device:
+- VoLTE Work
+- FMRadio Work
+- DTV Work
+- Added Dirac support
+- Updated HALs from various sources
+- Updated IMS apk for IMS status
+- Updated Camera HALs
+- Pre-opted SystemUI
+- Set swappiness back to 100 and tuned zram performance
+- Updated Health HALs.
+- Enabled Verizon visual voicemail support
+- Updated and added some permissions
+
+Kernel:
+- merged latest caf tag
+- upstreamed latest linux
+- compiled with clang 8.0.9
+- add zen scheduler 
+- add alucard governer
+- add darkness governer
+- add blu_active governer
+- add nightmare governer
+- add sio and fiops scheduler
+- Add maple i/o scheduler 
+- Add AUTO SMP/AIO 
+- add fsync on/off support
+- fix some memory leaks
+- add usb fast charge 
+- Add wakelock blocker v1.1.0
+- add kcal support
+- some more addons
