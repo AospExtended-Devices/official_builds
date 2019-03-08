@@ -1,0 +1,14 @@
+=================
+AospExtended v6.3
+=================
+-Merge March security patch (r31)
+-Misc underhood changes
+
+===============
+Device Specific
+===============
++Stealth Kernel+
+
+-Fix FP deep sleep issue
+-Default I/O Scheduler is CFQ and TCP is westwoof
+-Modified default GPU frequencies
