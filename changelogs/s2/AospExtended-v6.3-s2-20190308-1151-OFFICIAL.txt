@@ -1,0 +1,15 @@
+
+===================================================
+    AospExtended-v6.3-s2-20190308-1151-OFFICIAL
+===================================================
+
+* Add Audiosphere sound effect blobs
+* Added toggle for V-Sync in LeEco extras
+* Added LeEco remote preinstalled
+* Disable adaptive lmk and VSync
+* Fixed WiFi auto disconnection ( hopefully )
+* Fixed blacking of Camera
+* Fixed crash on lockscreen ( Clean Flash Required )
+* Use stock EUI offline charging animation
+* Update thermal-engine.conf by @Renji
+* Many kernel fixups
