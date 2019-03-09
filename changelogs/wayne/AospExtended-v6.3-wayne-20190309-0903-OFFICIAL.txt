@@ -12,3 +12,4 @@ System UI:Pre-opt SystemUl
 Wallpaper:Use native wallpapers from Pixel 3
 XiaomiPart:Removed
 GPU renderer:Use Skia as Default
+FileSystem:enable f2fs
