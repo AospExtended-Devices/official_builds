@@ -1,0 +1,9 @@
+AospExtended-v6.3-x2-20190309-0814-OFFICIAL
+=========================================== 
+
+Changelog :
+
+Device Specific : 
+1. Added per App thermal restricions
+2. Complete Rebase of vendor
+3. Many other fixes
