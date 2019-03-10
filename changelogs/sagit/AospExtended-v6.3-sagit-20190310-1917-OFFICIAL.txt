@@ -1,0 +1,6 @@
+* March 2019 Android Security Bulletin
+* exFAT support
+* solved kernel panic
+* Updated some blobs
+* Moved mount points of firmware persist and dsp to vendor
+* AospExtended Version 6.3
