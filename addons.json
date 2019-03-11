@@ -67,9 +67,25 @@
             "summary": "Flashable zip of stock kernel. Also available with oldjackfix patch",
             "url": "https://www.androidfilehost.com/?w=files&flid=278625"
         },
-        {   "title": "Firmware",
-            "summary": "Grab latest firmware for kenzo or kate from here",
+        {   "title": "Latest MIUI 10 Firmware",
+            "summary": "Grab latest MIUI firmware for kenzo or kate from here",
             "url": "https://basketbuild.com/devs/yshalsager/Xiaomi-Firmware/"
+        },
+        {   "title": "TheStrix's 7.7.6 Firmware",
+            "summary": "Get TheStrix's MIUI 7.7.6 firmware for kenzo from here",
+            "url": "https://androidfilehost.com/?fid=817550096634784493"
+        },
+        {   "title": "Static noise fix for Sony MDR EX-150AP",
+            "summary": "Download this patch to fix the static sound in Sony MDR EX-150AP earphones",
+            "url": "https://androidfilehost.com/?fid=1395089523397912996"
+        },
+        {   "title": "Custom Android Pie UI sounds",
+            "summary": "My custom made package for UI sounds, including ringtones, alarm, notifications etc. Kanged zip skeleton though",
+            "url":"https://androidfilehost.com/?fid=1395089523397912994"
+        },
+        {   "title": "Pzzqt's boot image clean script",
+            "summary": "Use this script to clean up your dirty/modified boot image (Kernel)",
+            "url": "https://androidfilehost.com/?fid=1395089523397912997"
         }
    ],
     "sagit": [
