@@ -1,0 +1,6 @@
+=====================
+  AospExtended v6.3
+=====================
+
+-Updated to r34 (March patch)
+-Lots of Optimus & ramdisk updates
