@@ -1,0 +1,250 @@
+====================
+     03-14-2019
+====================
+
+   * frameworks/base/
+581155ee3b7  PowerManager: Don't bother devices not using wait for MPCTL  [Shubham Singh]
+1f6089c183e  Automatic translation import  [Shubham Singh]
+   * kernel/google/wahoo/
+8b30b3fbe68d  Merge branch 'pie-qpr2' of https://github.com/MSF-Jarvis/wahoo into 9.x  [slothdabski]
+91e39d01cfc8  Merge remote-tracking branch 'nathanchance/pie-qpr2' into pie-qpr2  [Harsh Shandilya]
+f364b80329a5  caesium_defconfig: Update after Q Preview 1 merge  [Nathan Chancellor]
+c10227321414  mm/mm_event: Include linux/cpu.h  [Nathan Chancellor]
+fe9fe19d453d  Merge tag 'android-q-preview-1_r0.2' into pie-qpr2  [Nathan Chancellor]
+   * packages/apps/DeskClock/
+ada48e94e  Automatic translation import  [Shubham Singh]
+   * packages/apps/Extensions/
+7d86e9a4  v6.4 [2/2]  [Shubham Singh]
+ef76e3b1  Extensions: notifications: s/light LED/LED light  [Shubham Singh]
+92d92e8f  Automatic translation import  [Shubham Singh]
+   * packages/apps/FMRadio/
+8ca6799  Automatic translation import  [Shubham Singh]
+   * packages/apps/Launcher3/
+fc7bf34e4  Automatic translation import  [Shubham Singh]
+   * packages/apps/Messaging/
+7ee9a05  Automatic translation import  [Shubham Singh]
+   * packages/apps/Settings/
+3269cb7e27  Automatic translation import  [Shubham Singh]
+   * packages/apps/SmartNav/
+ee5c394  Automatic translation import  [Shubham Singh]
+   * packages/apps/SmartNavSettings/
+387237f  Automatic translation import  [Shubham Singh]
+   * packages/apps/Updates/
+a50fe9a  Automatic translation import  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+0c0ce91  Automatic translation import  [Shubham Singh]
+   * vendor/aosp/
+9838cc9  v6.4 [1/2]  [Shubham Singh]
+
+====================
+     03-13-2019
+====================
+
+   * frameworks/base/
+aa903286b3d  ex_strings: Allow translate 'Advanced reboot' strings  [ShevT]
+2ff115c1636  Revert "QS: Fix opacity after reboot"  [Shubham Singh]
+   * hardware/qcom/display-caf/apq8084/
+dfd2336ce  hwc: Handle validateAndSet failures in AD prepare call  [Corinna Vinschen]
+   * kernel/google/wahoo/
+b9aaff2fe2d1  Merge branch 'ricing' into staging  [Harsh Shandilya]
+   * packages/apps/Extensions/
+6a7fd0aa  Fix build after Revert "Quick settings panel : Set transparency [2/2]"  [ShevT]
+   * packages/apps/Nfc/
+563cf694  NfcNci: make T3T/Nfc-F HCE optional  [Paul Keith]
+
+====================
+     03-12-2019
+====================
+
+   * bionic/
+a33f7a18a  libc: Optimize ARM memcmp by using NEON.  [Aayush Gupta]
+   * build/make/
+74ced11f2  build: Stop installing the sample APN list  [Aayush Gupta]
+ec7f0bd81  build: Add vendor.prop capability  [Aayush Gupta]
+   * frameworks/av/
+dfe47e0f5  Fixed audioserver crash in monkey test  [AmolAmrit]
+c568dd19e  audioflinger: do not idle thread if active tracks exist  [AmolAmrit]
+395d9e50b  audio: ensure effect chain with specific session id is unique  [AmolAmrit]
+3ce77471b  audioflinger: Throttle output if no active tracks  [AmolAmrit]
+95312d418  audio: don't apply ramp if track is paused before the first mix  [AmolAmrit]
+a71f0fb2c  effects: Initialize volume at -96  [davidevinavil]
+14b34ce87  effects: fix volume burst on pause/resume with AudioFX  [davidevinavil]
+   * frameworks/base/
+9311fa85579  PerformanceManager: Allow wait for MPCTL to start on boot  [sb6596]
+de992628544  AudioService: Fix camera shutter sound toggle  [AmolAmrit]
+d250f93dc27  Navbar: Do not fiddle with haptic feedback  [AmolAmrit]
+af17e15c938  Null locale causing the VTS fail.  [AmolAmrit]
+d3de08be893  Fix for CTS testAllowWhileIdleJobInTempwhitelist  [AmolAmrit]
+decb08f48c5  Revert "ViewRoot: Ensure we release surface from setWindowStopped"  [AmolAmrit]
+cdd6829d811  core: view: Add property to disable VSync for CPU rendered apps  [AmolAmrit]
+2633e78550a  SystemUI: Remove unused resources  [AmolAmrit]
+8dc777711b8  Fix RouterAdvertisementDaemon thread leakage problem  [AmolAmrit]
+7feec40dfe8  Return null on failed insert due to permissions  [AmolAmrit]
+89346940ea4  Fix potential crash when per-procstate cpu times tracking is turned on  [AmolAmrit]
+7d270b81237  Unbreak ambient display while Heads up is disabled  [AmolAmrit]
+df4cbc446d0  Ambient: do not extend pulse notification when not needed  [AmolAmrit]
+aee6ad4ec61  Revert "base: QS panel opacity"  [AmolAmrit]
+50ccfaf1e9c  Add ChargingStarted + InCallNotif to AudioPackage  [AmolAmrit]
+70c5e33d756  ServiceRegistry: Don't throw an exception if OEM_LOCK is missing  [AmolAmrit]
+a40cb80060b  Crash app on foreground service notification error  [AmolAmrit]
+01c88ec1733  am: Avoid scheduling service restart twice  [AmolAmrit]
+c68523bd177  Clear all lingering notifications when network is disconnected  [AmolAmrit]
+e36e7f79cf0  Telephony: Add DisconnectCause values for clear code  [AmolAmrit]
+0a05d4a8ecc  SystemUI: Fix flickering issue when live wallpaper is showing on aod/pulsing  [AmolAmrit]
+d1252641403  PhoneWindowManager: Allow torch during ambient display  [AmolAmrit]
+897a94c7842  Optimize AbsListView to reduce click operation latency  [AmolAmrit]
+658e9f2523a  Implement per-app thermal control [2/3]  [Shubham Singh]
+c7597797c86  base: add vibrate util methods  [AmolAmrit]
+ab0a1a9fd57  base: Add DeviceUtils from Omni  [AmolAmrit]
+e5b1610a651  SystemUI: Add AmbientDisplay tile  [AmolAmrit]
+568a2356c46  SystemUI: Add Sync tile  [AmolAmrit]
+0f61f621740  MusicTile: Make tile state inactive if not playing music  [AmolAmrit]
+82f73d09ccd  Add Music QS Tile  [AmolAmrit]
+33cdbd0c1c4  AODTile: Fix long click intent  [AmolAmrit]
+f32e816f2ae  Add Always On Display QS Tile  [AmolAmrit]
+298b445a199  SoundSearchTile: Make default state inactive  [AmolAmrit]
+75d4e55028d  Add Google Sound Search tile  [AmolAmrit]
+04a4e69155d  SystemUI: OneHandMode QS tile  [AmolAmrit]
+7bea97c0dd7  VolumeDialog: Remove Media stream  [Arghya Chanda]
+8720f52efe6  VolumeDialog: Remove Ring stream  [AmolAmrit]
+58a692f392c  Volume dialog timeout (1/2)  [AmolAmrit]
+83f81ab1f3a  VolumeDialogImpl: Create settings observer only once  [AmolAmrit]
+cde253c2776  Switching audio panel position [1/2]  [AmolAmrit]
+e59cdaf3a28  Extended audio panel - fixes for unlinked notifications  [AmolAmrit]
+668bf5ea857  Extended audio panel [1/2]  [AmolAmrit]
+   * hardware/interfaces/
+d3c86e61  wifi: Use stub for add_or_remove_virtual_intf functionality  [AmolAmrit]
+6b498b5f  wifi: Increase kMaxStopCompleteWaitMs to 250 msec.  [AmolAmrit]
+   * kernel/google/wahoo/
+5358950d2175  power: htc_battery: Silence spammy debugging  [Harsh Shandilya]
+   * packages/apps/Extensions/
+65ef1453  Extensions: Add more summaries  [AmolAmrit]
+79ff3893  Revert "Quick settings panel : Set transparency [2/2]"  [AmolAmrit]
+ef8aed3a  In-call vibrations: Add Summaries  [AmolAmrit]
+88a6028b  VolumePanel: Remove media with media summary  [Arghya Chanda]
+5108a2bd  VolumePanel: Add summaries  [AmolAmrit]
+024a8398  Volume dialog timeout: Fix using seekbar to configure  [ShevT]
+3b9a3efe  Buttons: Rearrange volume panel  [Arghya Chanda]
+9277f76a  Volume dialog timeout (2/2)  [AmolAmrit]
+efe1a7a3  Switching audio panel position [2/2]  [AmolAmrit]
+6e4d143b  Extended audio panel [2/2]  [AmolAmrit]
+   * packages/apps/FMRadio/
+8031f40  FMRadio: build with AAPT2  [AmolAmrit]
+   * packages/apps/Settings/
+b60963625f  Implement per-app thermal control [1/3]  [Shubham Singh]
+bb2d91acab  AboutUS: This is a mainstream hobby now  [AmolAmrit]
+   * packages/apps/Snap/
+fa8413a9a  Automatic translation import  [AmolAmrit]
+   * packages/services/Telecomm/
+d1329557  Telecomm: Update code for in-call vibrations  [AmolAmrit]
+   * vendor/aosp/
+d545034   sensitive_pn: New United Kingdom helplines  [sb6596]
+1bf4004  extract_utils: make --section match words anywhere in the line  [AmolAmrit]
+0189107  extract_utils: introduce -k (kang mode) option  [AmolAmrit]
+cf60431  extract_utils: cleanup variable names and arguments passed to extract() function  [AmolAmrit]
+9d6b820  extract_utils: be compatible with system-as-root layouts  [AmolAmrit]
+74ff42f  extract_utils: drop the "/system/" prefix from prints of blob names  [AmolAmrit]
+58c66c1  extract_utils: avoid doing stuff on files that don't exist  [AmolAmrit]
+93d695f  extract_utils: Redirect vdexextractor log to /dev/null  [AmolAmrit]
+bc6957d  extract_utils: Newline love for adb extraction  [AmolAmrit]
+007af9e  extract_utils: make get_file() able to search paths with and w/o /system prefix  [AmolAmrit]
+4e69e56  extract_utils: extract(): fix src not being searched in "src:dst;args" spec  [AmolAmrit]
+2299d42  extract_utils: extract(): rename DEST variable to VENDOR_REPO_FILE  [AmolAmrit]
+aa1a86e  extract_utils: extract(): rename ARGS variable to SPEC_ARGS  [AmolAmrit]
+cf0e2c4  extract_utils: extract(): rename FILE variable to SPEC_SRC_FILE  [AmolAmrit]
+b923b06  extract_utils: extract(): rename FROM variable to SPEC_DST_FILE  [AmolAmrit]
+0163a74  extract_utils: create src_file() function to mirror behavior of target_file()  [AmolAmrit]
+7393f1a  extract_utils: prefix_match(): do not strip target_args from its output  [AmolAmrit]
+1dc88f9  extract_utils: target_file() and target_args() cleanup  [AmolAmrit]
+2fbd356  Revert "extract_files: Add support for paths without system/"  [AmolAmrit]
+fb15d03  Revert "extract_utils: Fix makefile generation issues"  [AmolAmrit]
+708c31e  Add APN for XFINITY Mobile  [AmolAmrit]
+c573639  apns: Add new Virgin Mobile apn  [AmolAmrit]
+e981a4f  apn: Update the Ultra Mobile apn  [AmolAmrit]
+73c28a6  write_makefiles: fix paths in BUILD_PREBUILT with destination  [AmolAmrit]
+c275288  vendor: Cleanup prop  [AmolAmrit]
+56ce935  Set google autofill service as default  [SakilMondal]
+
+====================
+     03-11-2019
+====================
+
+   * frameworks/av/
+e8a4cfaac  audiopolicy: support extended feature in audiopolicymanager  [Shubham Singh]
+   * frameworks/base/
+4d60a4145c2  wifi: Support to add vendor based Intent namespace  [AmolAmrit]
+de6fc57bd13  Wifi: Define DATA_STALL intent to broadcast message  [AmolAmrit]
+8855a96d264  wifi: Notify Connected/Disconnected Mac address on hotspot  [AmolAmrit]
+dc7e95c225d  Wifi: Send DHCP DISCOVER with rapid commit  [AmolAmrit]
+b94d703fd1d  Wifi: Add support for repeater mode  [AmolAmrit]
+7952d509f90  base: add support for SAP+SAP.  [AmolAmrit]
+8f14c9781f8  Wifi: Allow saving sim_num for EAP-SIM/AKA/AKA_PRIME configurations  [AmolAmrit]
+11ae62cd4a0  framework: Add Wifi Simple Configuration support  [AmolAmrit]
+41b2d94b10f  framework: Add WiFi Display R2 device info  [AmolAmrit]
+11de52d27ec  wifi: Add APIs and keymgmt to support WPA3(DPP,SAE,OWE,SuiteB).  [AmolAmrit]
+f0dcc226b54  Wifi: Add FILS support in WifiConfiguration  [AmolAmrit]
+7abaa8d69fd  wifi: Add settings to allow delay_disconnect if needed.  [AmolAmrit]
+85ff0af73fc  Add WIFI_COUNTRY_CODE_CHANGED_ACTION broadcast.  [AmolAmrit]
+a7251df949a  Revert "SystemUI: Fix an issue where jumping to black after screen turned on"  [ShevT]
+979bf075fc0  AOD: PowerManager: Turn on display if Doze On Charge is Enabled  [ShevT]
+08e9b58f1f1  base: add option to show AOD on charge only [1/2]  [ShevT]
+f694b250c02  SystemUI: Make recents grid view accept more than 8 tasks  [ShevT]
+ba3df5f7b0b  WifiDisplayController: handle preexisting p2p connection status  [Shubham Singh]
+6c4b826ba4d  Merge changes for launching wifidisplay from system settings  [Shubham Singh]
+   * frameworks/opt/net/wifi/
+0765857b9  Wifi: Add support for wpa3(dpp,sae,owe,suiteB) network  [Akash98Sky]
+e64fd6c1c  Wifi: Add support to configure HLP, DHCP and manageIpClient for FILS N/W  [Akash98Sky]
+697fbc8ab  Wifi: Introduce client interface for vendor supplicant 2.0  [Akash98Sky]
+5204eacee  Wi-Fi : Abort setWifiEnabled if WifiController not ready  [Akash98Sky]
+46fa76d12  Wifi: Feature support for Repeater Mode.  [Akash98Sky]
+983ad9277  Wifi: Notify Connected/Disconected client Mac acddress  [Akash98Sky]
+bd4a03c2f  softap: Add support for SAP+SAP from wifi service using HostapdVendor.  [Akash98Sky]
+7b5f0cbc9  WiFi: Ignore connectivity scans during WFD session  [Shubham Singh]
+   * hardware/interfaces/
+10900668  Configstore: Don't override LOCAL_CFLAGS  [ShevT]
+   * hardware/qcom/fm/
+8184149  Automatic translation import  [Michael W]
+   * kernel/google/wahoo/
+a7576bce8b11  cpu_input_boost: Clean up some style inconsistencies  [Harsh Shandilya]
+   * packages/apps/Contacts/
+0dd9d0c3b  Fix casting warnings in ContactSaveService  [ShevT]
+   * packages/apps/Extensions/
+7b53249e  CustomSeekBarPreference: Allov translate defaultText  [ShevT]
+   * packages/apps/Nfc/
+cff6a276  Automatic translation import  [Michael W]
+   * packages/apps/Settings/
+d65235c067  Settings: Remove extended version from device info screen  [Aayush Gupta]
+5b05c6e8b6  Support to notify connected/disconnected stations  [AmolAmrit]
+b1f265ae62  Settings: add option to show AOD on charge only [2/2]  [ShevT]
+   * vendor/aosp/
+0a484ce  prebuilt: Turbo: Ensure turbo isn't signed by platform  [Shubham Singh]
+01804f5  Revert "Revert "Fix Miracast on all our devices""  [Shubham Singh]
+040120f  qcom: Mark some gralloc bits as valid  [Shubham Singh]
+
+====================
+     03-10-2019
+====================
+
+   * device/google/taimen/
+2037d54  taimen: update fingerprint PQ2A.190305.002  [slothdabski]
+   * device/google/wahoo/
+ff31045  Clang 9.0.1  [slothdabski]
+752331e  Merge tag 'android-9.0.0_r34' of https://android.googlesource.com/device/google/wahoo into 9.x  [slothdabski]
+   * device/qcom/sepolicy-legacy/
+a3ea3ce  sepolicy: Resolve cameraserver denials  [SakilMondal]
+710744d  legacy: Resolve hal_camera_default denials  [SakilMondal]
+2737530  sepolicy: Label vendor.post_boot.parsed  [SakilMondal]
+e60b281  sepolicy: Resolve hal_nfc denials  [SakilMondal]
+1b717e9  legacy: Resolve rome BT denials  [SakilMondal]
+c8f9626  sepolicy: Correctly label display.qservice per SoC  [SakilMondal]
+b066380  Revert "legacy: allow init to read /proc/device-tree"  [SakilMondal]
+b41efc7  legacy: Label /data/misc/display again  [SakilMondal]
+0f0b81f  legacy: Ignore neverallows  [SakilMondal]
+   * kernel/google/wahoo/
+85ad8424a602  Merge branch 'pie-qpr2' of https://github.com/MSF-Jarvis/wahoo into 9.x  [slothdabski]
+e260dcdc4c1c  devfreq_boost: Code style nitpicks  [Harsh Shandilya]
+8a0f88ac6e6e  devfreq_boost: Simplify screen-awake check  [Harsh Shandilya]
+66af581e7029  cpu_input_boost: Only update cpu policy for one CPU in each cluster  [Harsh Shandilya]
+a45ad4552bc7  cpu_input_boost: Block external boosts when the screen is turned off  [Harsh Shandilya]
+1db211dba005  cpu_input_boost: Code style nitpicks  [Harsh Shandilya]
+
