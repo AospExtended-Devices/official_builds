@@ -1,16 +1,19 @@
 {
     "pie": [
         {
-            "file_name": "AospExtended-v6.0-Z010D-20181124-2136-OFFICIAL.zip"
-		},
-		{
+            		"file_name": "AospExtended-v6.0-Z010D-20181124-2136-OFFICIAL.zip"
+	},
+	{
 			"file_name": "AospExtended-v6.1-Z010D-20190110-0838-OFFICIAL.zip"
         },
-		{
+	{
 			"file_name": "AospExtended-v6.2-Z010D-20190118-1256-OFFICIAL.zip"
         },
-	    {
+	{
 			"file_name": "AospExtended-v6.3-Z010D-20190218-0325-OFFICIAL.zip"
+        },
+	{
+			"file_name": "AospExtended-v6.3-Z010D-20190314-1616-OFFICIAL.zip"
         }
     ]
 }
