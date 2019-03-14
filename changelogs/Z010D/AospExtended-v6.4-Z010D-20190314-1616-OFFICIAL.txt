@@ -3,6 +3,7 @@ AospExtended v6.4 Changelog
 ===========================
 
 Device Changelog: 
+- GApps Included
 - Backport ZRAM drivers from 4.18 kernel
 - Upstream ZRAM
 - Upstream ZSwap 
