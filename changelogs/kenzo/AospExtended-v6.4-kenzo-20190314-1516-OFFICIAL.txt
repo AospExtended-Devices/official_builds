@@ -1,0 +1,53 @@
+===========================
+AospExtended v6.4 Changelog
+===========================
+
+[14.03.19]
+
+- Update HALs
+- Fix static noise for everyone
+- Update kenzo blobs to MIUI Global 10.2.1.0 (MIUI10) 
+- Update boostframework configs
+- Enable ZRAM by default with custom configs
+- Start MPCTL server on boot
+- Set the atch_unsignaled property 
+- Disable recompute crop change in SF
+- Disable backpressure propagation in SurfaceFlinger
+- Reserve 128MB for critical system components
+- Clean up build.prop
+- Disable VSync for CPU rendered apps
+- Support 2 instances of primary input 
+- Update policy configuration to fix VTS failure 
+- Use tether automatic upstream selection 
+- Update external provider ignore list
+- Pre-opt SystemUI 
+- Update carrier configs
+- Update brightness overlays
+- Fix all FM radio issues
+- Fix camera in encryption
+- Update ramdisk for Pie
+- Fix 24-bit high-res audio
+- Update vibrator services and configs
+- Attempt to fix vp9 codec failure
+- Removed Omni Snapdragon camera package
+
+Escrima X27 Release
+- Backport ZRAM drivers from 4.18 kernel
+- Upstream ZRAM
+- Upstream ZSwap 
+- Upstream LowMemoryKiller 
+- Upstream perf
+- Upstream USB-Gadgets
+- Improve wake gestures
+- Update SDCardFS
+- Add Lenovo's force reclaim driver to squeeze Ram
+- Add updated KSM
+- Enable missing devfreq configs
+- Update AnyKernel2
+- Improve memory management
+- More backports
+- Fix Spectre-v1 flaw
+- Fix memory leaks and other performance improvements overall
+
+// This update is a tribute to Adarsh-MR and I'll always keep his leagacy alive.
+The kernel work would not have been possible without Harshit Jain. Thanks to all the kenzo guys for all testing and their support. Special thanks to rk & Akash for this release. //
