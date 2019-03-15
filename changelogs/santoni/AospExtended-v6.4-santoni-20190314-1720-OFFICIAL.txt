@@ -33,6 +33,7 @@
 ===========================================
 
 > Nexus Pure CAF Kernel - No features
+> Screen Casting working perfectly
 > Fixed Adaptive Brightness
 > Implemented per-app thermal control
 > Updated Blobs
