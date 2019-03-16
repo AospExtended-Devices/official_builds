@@ -33,3 +33,4 @@ Device Changelogs :
 - Fixed widevine L1 compatibility
 - Merged LA.UM.7.2.r1-05900-sdm660.0 in kernel
 - Fixed GCAM related issues
+- Included Gapps
