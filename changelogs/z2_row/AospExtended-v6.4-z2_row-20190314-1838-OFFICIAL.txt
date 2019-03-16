@@ -1,0 +1,7 @@
+AEX 6.4
+Fix manual network selection
+Fix wifi mac address
+Fix camera after encryption
+Enable left swipe (same action as right swipe)
+Update sepolicy
+Updte blobs
