@@ -1,0 +1,2 @@
+* Revert brightness slider changes to bring minimum brightness back to normal values
+* Fix audio output in wifi-display
