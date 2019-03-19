@@ -1,0 +1,7 @@
+-March security patch 
+-Fix wifidisplay 
+-Updated all blobs to P 
+-Kernel upstreamed to 3.18.136 
+-Fix aggressive killing of apps 
+-Fix deep sleep issues
+-aex upstream
