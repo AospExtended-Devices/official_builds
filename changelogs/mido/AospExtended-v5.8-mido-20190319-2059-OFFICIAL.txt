@@ -1,2 +1,2 @@
-> Merge March security patch
+> Merged March security patch
 > Merged upstream changes
