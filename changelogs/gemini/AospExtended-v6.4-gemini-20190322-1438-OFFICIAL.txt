@@ -1,0 +1,35 @@
+========================================================
+    AospExtended-v6.4-gemini-20190322-1438-OFFICIAL
+========================================================
+Device:
+- Fixed Auto-Brightness
+- Fixed Battery Drain
+- Added Thermal
+- Added Thermal-Engine
+- Added data-ipa-cfg-mgr
+- Fixed Ambient Music ticker 
+- Fixed Lockscreen Visualizer
+- Fixed Navigationbar Pulce
+- Fixed AOD
+- Fixed Smart Pixel
+- Fixed LED Light Customize
+- Removed Fingerprint Button (You Can Enable In The ConfigPanel)
+- Added MIUI Camera
+- Added Default Keyboard Vibration Strength
+Kernel:
+- Merge tag 'LA.UM.7.5.2.r1-01500-8x96.0
+- Upstream to 3.18.136
+- Compiled With CLANG 9.0.1
+MIUI Camera:
+- Fixed Crashes At Start
+- Fixed Face Detect
+- Fixed HDR
+- Fixed Timer
+- Fixed Square Mode
+- Fixed Panorama 
+- Fixed Manual Mode
+- Fixed Short Video
+- Fixed Front Short Video
+- Fixed Front Video
+- Fixed Timelapse 
+- Added Missed Libs From Daisy and Jasmine
