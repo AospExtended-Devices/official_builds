@@ -1,0 +1,8 @@
+- Fixed OTG
+- Fixed Offline Charging
+- Fixed LED Light
+- Enabled ZRAM By Default
+- Device/Kernel Specific Upstream
+
+Note: For Checking Offline Charging, Go To Recovery And Power Off Your Device Then Connect To Charger.
+     && Please Do Not Flash Any GApps Its Already Included With Rom.
