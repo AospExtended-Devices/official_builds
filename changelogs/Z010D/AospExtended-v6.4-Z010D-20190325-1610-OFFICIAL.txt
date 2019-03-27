@@ -1,6 +1,5 @@
 - Fixed OTG
 - Fixed Offline Charging
-- Fixed LED Light
 - Enabled ZRAM By Default
 - Device/Kernel Specific Upstream
 
