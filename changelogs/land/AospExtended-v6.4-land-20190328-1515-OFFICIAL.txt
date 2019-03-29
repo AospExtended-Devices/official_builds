@@ -1,0 +1,8 @@
+-Fix WiFi/volte issues 
+-Update power profile 
+-Update Bluetooth properties for Pie 
+-Add dynamic fps support 
+-Add miui charging animation 
+-used aosp WFD(untested)
+-Kernel upstreamed to .137
+-Force hal1 on some apps
