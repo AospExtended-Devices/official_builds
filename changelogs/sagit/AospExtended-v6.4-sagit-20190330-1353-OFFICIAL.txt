@@ -1,3 +1,6 @@
+###########################################################
+You might need to format data when coming from an old build
+###########################################################
 * AospExtended Version 6.4
 * Updated Power HAL for a bit more smoothness
 * Updated Blobs from MIUI
