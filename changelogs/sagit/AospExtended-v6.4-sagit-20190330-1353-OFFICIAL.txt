@@ -1,0 +1,4 @@
+* AospExtended Version 6.4
+* Updated Power HAL for a bit more smoothness
+* Updated Blobs from MIUI
+* Fixed problems with fingerprint leaded to hangs
