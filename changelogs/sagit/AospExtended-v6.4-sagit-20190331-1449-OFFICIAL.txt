@@ -1,0 +1,2 @@
+* Initial build with included GApps, OTA is seperated from non-GApps builds
+* Added WireGuard support to Kernel
