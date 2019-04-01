@@ -1,3 +1,5 @@
 > Initial gapps build
 > Elegent UI
 > New Boot Animation
+> revamped OTA app
+> Clarity Kernel
