@@ -1,0 +1,9 @@
+AospExtended-v6.4-gemini-20190331-2002-OFFICIAL.zip
+AOSPEXTENDED WITH GAPPS
+- Update graphics stack to LA.UM.7.5.r1-03700-8x96.0
+- Fix Default Vibration Values
+- Fix InCall Speaker
+- Add JamesDSP Effect
+- Add Fingerprint Customize
+- Fix Lag In Heavy Games
+- Update Spectrum Profiles
