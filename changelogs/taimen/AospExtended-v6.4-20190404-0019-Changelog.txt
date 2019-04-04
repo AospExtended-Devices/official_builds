@@ -1,0 +1,229 @@
+====================
+     04-03-2019
+====================
+
+   * device/google/taimen/
+c505626  Merge tag 'android-9.0.0_r35' of https://android.googlesource.com/device/google/taimen into HEAD  [slothdabski]
+f791c21  Update taimen fingerprint to April image  [slothdabski]
+   * device/google/wahoo/
+db7a34e  Clang 9.0.2  [slothdabski]
+31eccf6  Merge tag 'android-9.0.0_r35' of https://android.googlesource.com/device/google/wahoo into 9.x  [slothdabski]
+   * frameworks/base/
+044526d3704  Re-add WPS implementation (2/3)  [Arghya Chanda]
+23b8f53cb92  Ambient music ticker: fix text scrolling on AoD  [Arghya Chanda]
+e7877bf1d3a  Full gestures navbar: add missing haptic feedback events  [Arghya Chanda]
+f054793e089  Revert "Navbar: Do not fiddle with haptic feedback"  [Arghya Chanda]
+561dd48d5e8  SystemUI: Add tile to show volume panel  [Arghya Chanda]
+2bb00cf5136  Volume panel: fixed incorrect positioning of the expandable_indicator and ringer  [Arghya Chanda]
+55415a3098e  Revert "VolumeDialog: Remove Media stream"  [Arghya Chanda]
+84fcbd061db  Code improvements for expanded volume panel  [Arghya Chanda]
+bd76b14fef0  Redo expanded volume panel for 9.x  [Arghya Chanda]
+   * kernel/google/wahoo/
+c822e9f4a65b  Merge branch 'pie-qpr2' of https://github.com/MSF-Jarvis/wahoo into HEAD  [slothdabski]
+439da066187e  Merge remote-tracking branch 'als/android-msm-wahoo-4.4' into public-staging  [Harsh Shandilya]
+23460a4b7a8a  Merge remote-tracking branch 'als/android-msm-wahoo-4.4-q-preview' into public-staging  [Harsh Shandilya]
+372246f2c2a7  Merge branch 'ricing' into staging  [Harsh Shandilya]
+d7c1a862b9d0  Merge branch 'hardening' into staging  [Harsh Shandilya]
+626ce10354af  cpufreq: Remove underclock ability  [Harsh Shandilya]
+0b183798037e  Merge branch 'suntan-ricing' into staging  [Harsh Shandilya]
+a53398dbf49b  Merge 4.4.178 into android-msm-wahoo-4.4  [Nathan Chancellor]
+12ae58ca7ec4  Linux 4.4.178  [Greg Kroah-Hartman]
+b1b1efe07ea0  stm class: Hide STM-specific options if STM is disabled  [Greg Kroah-Hartman]
+c003b5675d34  coresight: removing bind/unbind options from sysfs  [Greg Kroah-Hartman]
+455b9a675ecf  arm64: support keyctl() system call in 32-bit mode  [Greg Kroah-Hartman]
+d14ac4368f22  Revert "USB: core: only clean up what we allocated"  [Greg Kroah-Hartman]
+78d145f71db5  xhci: Fix port resume done detection for SS ports with LPM enabled  [Greg Kroah-Hartman]
+9aacea736c9a  KVM: Reject device ioctls from processes other than the VM's creator  [Greg Kroah-Hartman]
+5ce6e5bd23f0  x86/smp: Enforce CONFIG_HOTPLUG_CPU when SMP=y  [Greg Kroah-Hartman]
+0fe681f4ef50  perf intel-pt: Fix TSC slip  [Greg Kroah-Hartman]
+e250a5ac0e12  gpio: adnp: Fix testing wrong value in adnp_gpio_direction_input  [Greg Kroah-Hartman]
+6271fa6fc366  fs/proc/proc_sysctl.c: fix NULL pointer dereference in put_links  [Greg Kroah-Hartman]
+98bc2f91e918  Disable kgdboc failed by echo space to /sys/module/kgdboc/parameters/kgdboc  [Greg Kroah-Hartman]
+6c1c9cfc2fdd  USB: serial: option: add Olicard 600  [Greg Kroah-Hartman]
+09d3f1eb8499  USB: serial: option: set driver_info for SIM5218 and compatibles  [Greg Kroah-Hartman]
+6ef819f7158a  USB: serial: mos7720: fix mos_parport refcount imbalance on error path  [Greg Kroah-Hartman]
+ef0d78184aff  USB: serial: ftdi_sio: add additional NovaTech products  [Greg Kroah-Hartman]
+7139e4d5bf83  USB: serial: cp210x: add new device id  [Greg Kroah-Hartman]
+327ee45823eb  serial: sh-sci: Fix setting SCSCR_TIE while transferring data  [Greg Kroah-Hartman]
+7124c71944ee  serial: max310x: Fix to avoid potential NULL pointer dereference  [Greg Kroah-Hartman]
+2e7c2f25e902  staging: vt6655: Fix interrupt race condition on device start up.  [Greg Kroah-Hartman]
+17400647682a  staging: vt6655: Remove vif check from vnt_interrupt  [Greg Kroah-Hartman]
+13f6808ec2bb  tty: atmel_serial: fix a potential NULL pointer dereference  [Greg Kroah-Hartman]
+21da2b461fbd  scsi: zfcp: fix scsi_eh host reset with port_forced ERP for non-NPIV FCP devices  [Greg Kroah-Hartman]
+d8007fb2e816  scsi: zfcp: fix rport unblock if deleted SCSI devices on Scsi_Host  [Greg Kroah-Hartman]
+2f369124b97a  scsi: sd: Fix a race between closing an sd device and sd I/O  [Greg Kroah-Hartman]
+49ad73985443  ALSA: pcm: Don't suspend stream in unrecoverable PCM state  [Greg Kroah-Hartman]
+c07db6f073ab  ALSA: pcm: Fix possible OOB access in PCM oss plugins  [Greg Kroah-Hartman]
+f98242a8debb  ALSA: seq: oss: Fix Spectre v1 vulnerability  [Greg Kroah-Hartman]
+619ae9f179de  ALSA: rawmidi: Fix potential Spectre v1 vulnerability  [Greg Kroah-Hartman]
+e162927cd161  ALSA: compress: add support for 32bit calls in a 64bit kernel  [Greg Kroah-Hartman]
+ed2f3c82b0b4  ARM: imx6q: cpuidle: fix bug that CPU might not wake up at expected time  [Greg Kroah-Hartman]
+61bde5e5af49  btrfs: raid56: properly unmap parity page in finish_parity_scrub()  [Greg Kroah-Hartman]
+a23f00416aae  btrfs: remove WARN_ON in log_dir_items  [Greg Kroah-Hartman]
+48b22ac58998  mac8390: Fix mmio access size probe  [Greg Kroah-Hartman]
+981cb03ec5a6  sctp: get sctphdr by offset in sctp_compute_cksum  [Greg Kroah-Hartman]
+c5874f35b86b  vxlan: Don't call gro_cells_destroy() before device is unregistered  [Greg Kroah-Hartman]
+6c362ffe2a22  tcp: do not use ipv6 header for ipv4 flow  [Greg Kroah-Hartman]
+617ac1aa4dd4  packets: Always register packet sk in the same order  [Greg Kroah-Hartman]
+dd3351b81fac  Add hlist_add_tail_rcu() (Merge git://git.kernel.org/pub/scm/linux/kernel/git/davem/net)  [Greg Kroah-Hartman]
+2c2d8a1c8f12  net: rose: fix a possible stack overflow  [Greg Kroah-Hartman]
+b969da5f7e8d  net/packet: Set __GFP_NOWARN upon allocation in alloc_pg_vec  [Greg Kroah-Hartman]
+3f1c0e4b7965  mISDN: hfcpci: Test both vendor & device ID for Digium HFC4S  [Greg Kroah-Hartman]
+2f242b299bcd  dccp: do not use ipv6 header for ipv4 flow  [Greg Kroah-Hartman]
+46c8459158ae  stmmac: copy unicast mac address to MAC registers  [Greg Kroah-Hartman]
+949c4ef45eee  cfg80211: size various nl80211 messages correctly  [Greg Kroah-Hartman]
+695fc282c337  mmc: mmc: fix switch timeout issue caused by jiffies precision  [Greg Kroah-Hartman]
+c89eceddfaeb  arm64: kconfig: drop CONFIG_RTC_LIB dependency  [Greg Kroah-Hartman]
+4a024ea936b6  video: fbdev: Set pixclock = 0 in goldfishfb  [Greg Kroah-Hartman]
+d200cc995188  cpu/hotplug: Handle unbalanced hotplug enable/disable  [Greg Kroah-Hartman]
+13e84cdbd790  usb: gadget: rndis: free response queue during REMOTE_NDIS_RESET_MSG  [Greg Kroah-Hartman]
+0752035a776e  usb: gadget: configfs: add mutex lock before unregister gadget  [Greg Kroah-Hartman]
+01855b6299eb  ipv6: fix endianness error in icmpv6_err  [Greg Kroah-Hartman]
+b0351a51ffda  stm class: Fix stm device initialization order  [Greg Kroah-Hartman]
+2040e80d8095  stm class: Do not leak the chrdev in error path  [Greg Kroah-Hartman]
+fbfaa26fa9e7  PM / Hibernate: Call flush_icache_range() on pages restored in-place  [Greg Kroah-Hartman]
+60e4a50d332b  arm64: kernel: Include _AC definition in page.h  [Greg Kroah-Hartman]
+2ba2cca736d8  perf/ring_buffer: Refuse to begin AUX transaction after rb->aux_mmap_count drops  [Greg Kroah-Hartman]
+e5a19cf78a23  mac80211: fix "warning: ‘target_metric’ may be used uninitialized"  [Greg Kroah-Hartman]
+08d870c51ec5  arm64/kernel: fix incorrect EL0 check in inv_entry macro  [Greg Kroah-Hartman]
+823e262919f9  ARM: 8510/1: rework ARM_CPU_SUSPEND dependencies  [Greg Kroah-Hartman]
+a99d340dc70b  staging: goldfish: audio: fix compiliation on arm  [Greg Kroah-Hartman]
+9d4b4395067b  staging: ion: Set minimum carveout heap allocation order to PAGE_SHIFT  [Greg Kroah-Hartman]
+efa2ec29dd4e  staging: ashmem: Add missing include  [Greg Kroah-Hartman]
+4dcbf6fa3b47  staging: ashmem: Avoid deadlock with mmap/shrink  [Greg Kroah-Hartman]
+021c0d5cdfc0  asm-generic: Fix local variable shadow in __set_fixmap_offset  [Greg Kroah-Hartman]
+43ea28e71c2d  coresight: etm4x: Check every parameter used by dma_xx_coherent.  [Greg Kroah-Hartman]
+58af2f0f6fdf  coresight: "DEVICE_ATTR_RO" should defined as static.  [Greg Kroah-Hartman]
+c66866b13b3c  stm class: Fix a race in unlinking  [Greg Kroah-Hartman]
+8c0bfd9d7cb3  stm class: Fix unbalanced module/device refcounting  [Greg Kroah-Hartman]
+f34bc5ad7a84  stm class: Guard output assignment against concurrency  [Greg Kroah-Hartman]
+bc9d781bed9d  stm class: Fix unlocking braino in the error path  [Greg Kroah-Hartman]
+65b52bbc35a6  stm class: Support devices with multiple instances  [Greg Kroah-Hartman]
+ffb2f3f86b3a  stm class: Prevent user-controllable allocations  [Greg Kroah-Hartman]
+30e94dc24edd  stm class: Fix link list locking  [Greg Kroah-Hartman]
+a556f0babe56  stm class: Fix locking in unbinding policy path  [Greg Kroah-Hartman]
+03d7b4edf78a  coresight: remove csdev's link from topology  [Greg Kroah-Hartman]
+a2828b944591  coresight: release reference taken by 'bus_find_device()'  [Greg Kroah-Hartman]
+3e2070abcc90  coresight: coresight_unregister() function cleanup  [Greg Kroah-Hartman]
+f485f972de3d  coresight: fixing lockdep error  [Greg Kroah-Hartman]
+9bda5e6b1819  writeback: initialize inode members that track writeback history  [Greg Kroah-Hartman]
+cb8251f8d667  Revert "mmc: block: don't use parameter prefix if built as module"  [Greg Kroah-Hartman]
+ab3f1a5b9ce5  net: diag: support v4mapped sockets in inet_diag_find_one_icsk()  [Greg Kroah-Hartman]
+6f311381f318  perf: Synchronously free aux pages in case of allocation failure  [Greg Kroah-Hartman]
+b6496f00a29d  arm64: hide __efistub_ aliases from kallsyms  [Greg Kroah-Hartman]
+2aeca9a27ba4  hid-sensor-hub.c: fix wrong do_div() usage  [Greg Kroah-Hartman]
+bdf3c006b9a2  vmstat: make vmstat_updater deferrable again and shut down on idle  [Greg Kroah-Hartman]
+119dbcde59da  android: unconditionally remove callbacks in sync_fence_free()  [Greg Kroah-Hartman]
+7276c3fbd3b6  ARM: 8494/1: mm: Enable PXN when running non-LPAE kernel on LPAE processor  [Greg Kroah-Hartman]
+717da8c75b41  ARM: 8458/1: bL_switcher: add GIC dependency  [Greg Kroah-Hartman]
+1f2c3b46811d  efi: stub: define DISABLE_BRANCH_PROFILING for all architectures  [Greg Kroah-Hartman]
+599dcbf7e8c6  arm64: fix COMPAT_SHMLBA definition for large pages  [Greg Kroah-Hartman]
+4afe1affaa6d  mmc: block: Allow more than 8 partitions per card  [Greg Kroah-Hartman]
+e43196819cc3  sched/fair: Fix new task's load avg removed from source CPU in wake_up_new_task()  [Greg Kroah-Hartman]
+ade4560e4fea  Bluetooth: Verify that l2cap_get_conf_opt provides large enough buffer  [Greg Kroah-Hartman]
+d22036003893  Bluetooth: Check L2CAP option sizes returned from l2cap_get_conf_opt  [Greg Kroah-Hartman]
+a1402232e193  ath10k: avoid possible string overflow  [Greg Kroah-Hartman]
+ee8f5d476dc9  rtc: Fix overflow when converting time64_t to rtc_time  [Greg Kroah-Hartman]
+0cd08672e0aa  USB: core: only clean up what we allocated  [Greg Kroah-Hartman]
+466ab66b5c2f  lib/int_sqrt: optimize small argument  [Greg Kroah-Hartman]
+7a47e3c3232d  serial: sprd: clear timeout interrupt only rather than all interrupts  [Greg Kroah-Hartman]
+4104b44e5d92  usb: renesas_usbhs: gadget: fix unused-but-set-variable warning  [Greg Kroah-Hartman]
+e86206bd8758  arm64: traps: disable irq in die()  [Greg Kroah-Hartman]
+a3fbab100127  Hang/soft lockup in d_invalidate with simultaneous calls  [Greg Kroah-Hartman]
+4a97f086f192  serial: sprd: adjust TIMEOUT to a big value  [Greg Kroah-Hartman]
+7ed7c0386ef2  tcp/dccp: drop SYN packets if accept queue is full  [Greg Kroah-Hartman]
+a12cf3214235  usb: gadget: Add the gserial port checking in gs_start_tx()  [Greg Kroah-Hartman]
+36be44e1905d  usb: gadget: composite: fix dereference after null check coverify warning  [Greg Kroah-Hartman]
+c0f71babf7bb  kbuild: setlocalversion: print error to STDERR  [Greg Kroah-Hartman]
+1e647cf23fb2  extcon: usb-gpio: Don't miss event during suspend/resume  [Greg Kroah-Hartman]
+7f69a980f635  mm/rmap: replace BUG_ON(anon_vma->degree) with VM_WARN_ON  [Greg Kroah-Hartman]
+1394b1bdfd00  mmc: core: fix using wrong io voltage if mmc_select_hs200 fails  [Greg Kroah-Hartman]
+aa8b7ed21685  arm64: mm: Add trace_irqflags annotations to do_debug_exception()  [Greg Kroah-Hartman]
+df2ca3271569  usb: dwc3: gadget: Fix suspend/resume during device mode  [Greg Kroah-Hartman]
+f2427238c9ed  mmc: core: shut up "voltage-ranges unspecified" pr_info()  [Greg Kroah-Hartman]
+6a0f5752f1fd  mmc: sanitize 'bus width' in debug output  [Greg Kroah-Hartman]
+40c01c8301b8  mmc: make MAN_BKOPS_EN message a debug  [Greg Kroah-Hartman]
+282d5f0567be  mmc: debugfs: Add a restriction to mmc debugfs clock setting  [Greg Kroah-Hartman]
+c8816bb0ed6d  mmc: pwrseq_simple: Make reset-gpios optional to match doc  [Greg Kroah-Hartman]
+4d026d221b34  ALSA: hda - Enforces runtime_resume after S3 and S4 for each codec  [Greg Kroah-Hartman]
+2569eed24d93  ALSA: hda - Record the current power state before suspend/resume calls  [Greg Kroah-Hartman]
+4aada79c6793  locking/lockdep: Add debug_locks check in __lock_downgrade()  [Greg Kroah-Hartman]
+786207750b49  media: v4l2-ctrls.c/uvc: zero v4l2_event  [Greg Kroah-Hartman]
+a8dea33440f1  mmc: tmio_mmc_core: don't claim spurious interrupts  [Greg Kroah-Hartman]
+c37fd9822514  ext4: brelse all indirect buffer in ext4_ind_remove_space()  [Greg Kroah-Hartman]
+2ebfb9ae0047  ext4: fix data corruption caused by unaligned direct AIO  [Greg Kroah-Hartman]
+2b6575ed8c7e  ext4: fix NULL pointer dereference while journal is aborted  [Greg Kroah-Hartman]
+2f59c12b47c1  futex: Ensure that futex address is aligned in handle_futex_death()  [Greg Kroah-Hartman]
+8df0d57e5c08  MIPS: Fix kernel crash for R6 in jump label branch function  [Greg Kroah-Hartman]
+5c06f2409550  mips: loongson64: lemote-2f: Add IRQF_NO_SUSPEND to "cascade" irqaction.  [Greg Kroah-Hartman]
+c30b41bbbb87  udf: Fix crash on IO error during truncate  [Greg Kroah-Hartman]
+8b12fd7c5f36  drm/vmwgfx: Don't double-free the mode stored in par->set_mode  [Greg Kroah-Hartman]
+e884f7d5c627  mmc: pxamci: fix enum type confusion  [Greg Kroah-Hartman]
+   * packages/apps/Extensions/
+5da8a5d1  VolumePanel: Remove Ringer  [Arghya Chanda]
+09f1e55d  VolumePanel: Remove alarm  [Arghya Chanda]
+   * packages/apps/Settings/
+4d5378bf41  Re-add WPS implementation (1/3)  [Arghya Chanda]
+b554f37895  Settings: Add deep sleep info to uptime  [Arghya Chanda]
+168b66d447  Settings: Bring back Uptime  [Arghya Chanda]
+   * vendor/aosp/
+8057527  Dark Theme: Fix Settings Search bar color  [Arghya Chanda]
+91b41d7  Fonts: Add CircularStd  [Arghya Chanda]
+
+====================
+     04-02-2019
+====================
+
+   * build/make/
+7ac4a9185  Merge tag 'android-9.0.0_r35' into HEAD  [Arghya Chanda]
+   * frameworks/base/
+34ab6072134  Merge tag 'android-9.0.0_r35' into 9.x  [Arghya Chanda]
+   * kernel/google/wahoo/
+2f225492f732  cpu_input_boost: Fix SPDX identifier format in header  [Harsh Shandilya]
+2da711b83ad2  cpu_input_boost: Mark boost kthread as performance critical  [Harsh Shandilya]
+ca80950c28b7  cpu_input_boost: Serialize everything with a master kthread  [Harsh Shandilya]
+18468aaf46ed  cpufreq: schedutil: Hard-code rate-limit thresholds  [Harsh Shandilya]
+b6d06a7cffde  Revert "qcom-cpufreq: Boost all online CPUs when exiting suspend"  [Harsh Shandilya]
+f51e21ec07b9  qcom-cpufreq: Limit the rate of CPU clock-rate changes  [Harsh Shandilya]
+566ea58b293f  input: touchscreen: synaptics_dsx_htc: Mark IRQ as performance critical  [Harsh Shandilya]
+e87eb6ea4af6  kernel: Improve performance critical IRQ framework  [Harsh Shandilya]
+35952f475ab4  kernel: Boost to the max for a short amount of time when zygote forks  [Harsh Shandilya]
+   * manifest/
+245b68c  Merge tag 'android-9.0.0_r35' into 9.x  [Arghya Chanda]
+   * system/bt/
+b979e7496  Merge tag 'android-9.0.0_r35' into HEAD  [Arghya Chanda]
+   * system/netd/
+3aff609  Merge tag 'android-9.0.0_r35' into HEAD  [Arghya Chanda]
+   * vendor/aosp/
+32e91c2  Vendor: Update Turbo apk from PQ2A.190205.003  [Shubham Singh]
+   * vendor/google/
+a61b75a  Bluecross: Update blobs to Android 9.0.0 (PQ2A.190405.003)  [Josh Chasky]
+   * vendor/pixelgapps/
+cf0a441  Update gapps to April 2019 - Pixel 3 XL (crosshatch)  [Josh Chasky]
+
+====================
+     04-01-2019
+====================
+
+   * kernel/google/wahoo/
+8f9ea5ff5253  Merge branch 'android-msm-wahoo-4.4' into android-msm-wahoo-4.4-q-preview  [Nathan Chancellor]
+9d7c207ebd00  Merge tag 'android-9.0.0_r0.72' into android-msm-wahoo-4.4  [Nathan Chancellor]
+   * manifest/
+c14dd2e  Manifest for Android 9.0.0 Release 35  [The Android Open Source Project]
+
+====================
+     03-31-2019
+====================
+
+   * frameworks/opt/net/wifi/
+49fbda4e4  Re-add WPS implementation (3/3)  [Arghya Chanda]
+   * prebuilts/clang/host/linux-x86/
+eb28d33  Update prebuilt Clang to r353983b.  [Arghya Chanda]
+
+====================
+     03-30-2019
+====================
+
+   * vendor/aosp/
+bca6180  Vendor: Allow shiping both gapps and non-gapps builds  [Shubham Singh]
+
