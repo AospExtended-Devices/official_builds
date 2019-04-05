@@ -1,0 +1,14 @@
+- Separated GApps Build.
+- Improve Ambient Music Ticker.
+- Fix Theming on certain apps.
+- Improve extended volume panel.
+- Add QSTile for volume panel.
+- Add System Uptime info in Settings with Deep Sleep info.
+- Add back Wi-Fi WPS implementation.
+- Fix Sim slots in SystemUI.
+- Revamped OTA app.
+- wifi: Enable 2.4GHz channel bonding.
+- kuntao: Remove Wifi Display options as Google removed support for it in Pie.
+- Merge LA.UM.7.6.r1-04300-89xx.0 in kernel.
+- Merge LA.UM.7.6.r1-04300-89xx.0 in prima.
+- Merge AOSP's android-3.18 kernel changes.
