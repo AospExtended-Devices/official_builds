@@ -19,6 +19,14 @@
 		},
 		{
 			"file_name": "AospExtended-v6.2-whyred-20190129-1657-OFFICIAL.zip"
+		},
+		{
+			"file_name": "AospExtended-v6.4-whyred-20190405-1644-OFFICIAL.zip"
 		}
-	]
+	],
+	"pie_gapps": [
+		{
+			"file_name": "AospExtended-v6.4-whyred-20190405-0624-OFFICIAL.zip"
+		}
+   ]
 }

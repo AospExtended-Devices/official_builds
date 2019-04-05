@@ -1,0 +1,16 @@
+Initial build after maintainer change, still I am provding a changelog as I was doing unofficial private builds since last few months.
+
+Rom Changelog:-
+- Merge April security patch (9.0.0_r35).
+- Use Android Q style ambient play design.
+- Fix Theming on certain apps.
+- Improve extended volume panel.
+- Add QSTile for volume panel.
+- Add System Uptime info in Settings with Deep Sleep info.
+- Add back Wi-Fi WPS implementation.
+- Add CircularStd Font.
+- Add Elegant UI.
+
+Device Changelog:-
+- Compile kernel with clang 9.0.2
+- Add thermal-engine-normal configuration from MIUI Pie
