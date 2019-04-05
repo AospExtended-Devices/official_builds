@@ -12,3 +12,4 @@
 - Merge LA.UM.7.6.r1-04300-89xx.0 in kernel.
 - Merge LA.UM.7.6.r1-04300-89xx.0 in prima.
 - Merge AOSP's android-3.18 kernel changes.
+- Add kcal & boeffla wakelock blocker.
