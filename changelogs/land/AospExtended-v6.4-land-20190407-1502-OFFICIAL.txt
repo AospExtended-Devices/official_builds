@@ -1,0 +1,6 @@
+-April security patches
+-Kernel upstreamed to .138  
+-Added Dirac support
+-Fixed screen recorder issues
+-Fixed Gdrive issues
+-Aex Upstream
