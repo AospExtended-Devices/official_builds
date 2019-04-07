@@ -3,12 +3,12 @@
         {
             "title": "Magisk",
             "summary": "Installer zip",
-            "url": "https://github.com/topjohnwu/Magisk/releases/download/v19.0/Magisk-v19.0.zip"
+            "url": "https://github.com/topjohnwu/Magisk/releases/download/v18.1/Magisk-v18.1.zip"
         },
         {
             "title": "Magisk",
             "summary": "Uninstaller zip",
-            "url": "https://github.com/topjohnwu/Magisk/releases/download/v19.0/Magisk-uninstaller-20190328.zip"
+            "url": "https://github.com/topjohnwu/Magisk/releases/download/v18.1/Magisk-uninstaller-20190204.zip"
         },
         {
            "title": "Magisk",
