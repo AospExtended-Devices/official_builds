@@ -1,0 +1,6 @@
+AospExtended v6.4 GApps Build
+* April 2019 Android Security Bulletin
+* Enable full dexpreopt
+* Enable toggle for MAC randomization
+* Build clearkey HIDL service 1.1
+* Support Wireguard
