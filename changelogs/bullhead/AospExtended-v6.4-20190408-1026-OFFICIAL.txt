@@ -1,0 +1,112 @@
+====================
+     04-08-2019
+====================
+
+   * April Security Patch
+   * Switch to Shadow Kernel
+   * Fix Headset issue
+====================
+     04-07-2019
+====================
+
+   * frameworks/base/
+e0f6b26c20b  AEXUtils: Add more methods  [Shubham Singh]
+1b0c765105e  IconsHandler: Really update the icon packs available  [Shubham Singh]
+   * packages/apps/Extensions/
+3948182b  Recents icon pack: Align layout with Settings  [Shubham Singh]
+4d526a5f  RecentsIconPack: Extend and use IconPackPreference  [Shubham Singh]
+   * packages/apps/Launcher3/
+3f61d7b7c  Launcher3: Move theme logic to ThemeUtil  [Shubham Singh]
+d693d1644  Minor improvements for custom app icons  [Shubham Singh]
+4fb0edf88  Themes: Ensure dialog title changes with themes  [Shubham Singh]
+430af7834  Icon edit: Add fast scrolling to icon pack RecyclerView  [Shubham Singh]
+cd2770430  Icon edit: Move resources to our namespace xml's  [Shubham Singh]
+36e803734  Beautify icon edit dialog  [Shubham Singh]
+2b0a3966b  Fix icon editor picking the wrong icon on tap  [Shubham Singh]
+eff6329da  Support per-app icon and label customization [1/2]  [Shubham Singh]
+8e3d006e5  Settings: fix method to hide dividers  [Shubham Singh]
+ce20562da  Hide drag arrow in landscape  [Shubham Singh]
+610724f3c  Revert "Add option to allow app names to be two lines"  [Shubham Singh]
+cf7c22117  Decompiled feed lib with dark theme support  [Shubham Singh]
+5d0dc2983  Lock desktop: Ensure that widgets can't be resized  [Shubham Singh]
+e9ca3dc5c  Launcher3: Use generic android icon for IconPack chooser  [Shubham Singh]
+49fed1b3d  Launcher3: Minor hotseat fix for icons  [Shubham Singh]
+e1154df59  Lock desktop: Notify user when desktop is locked  [Shubham Singh]
+9ea3a2621  Lock desktop: Disable folder name edit when locked  [Shubham Singh]
+72326916e  Lock desktop: Remove widget button when locked  [Shubham Singh]
+3fe3ae8a9  Add option to lock desktop  [Shubham Singh]
+13c43ae3b  Add option to allow app names to be two lines  [Shubham Singh]
+97aeb7950  Icon sizes: Lets not get crazy  [Shubham Singh]
+4bcf839e2  Icon sizes: Add more options  [Shubham Singh]
+6883d0d5d  Fix hotseat search when google feed is disabled  [Shubham Singh]
+6274df011  Gestures: Add more actions  [Shubham Singh]
+e834bd134  Notification gesture: use our ActionHandler  [Shubham Singh]
+
+====================
+     04-06-2019
+====================
+
+   * bootable/recovery/
+3c77d7c9  recovery: expose program_name for tune2fs  [Alessandro Astone]
+   * frameworks/base/
+1088a59a8e7  Support per-app icon and label customization [2/2]  [Shubham Singh]
+af39933acdd  RecentsIconPack: Fallback to default icons on icon pack removal  [Shubham Singh]
+140dae81f9b  WeatherClient: Check boot completed prop  [Shubham Singh]
+bd79744fd2d  Conditionally disable uncrypt for ota  [Shubham Singh]
+   * packages/apps/Extensions/
+2efd3cf8  support: Adapt IconPackPreference class from Launcher3  [Shubham Singh]
+   * packages/apps/Launcher3/
+e3c1e818c  Launcher3: Hide apps activity improvements  [Shubham Singh]
+3c7268b9e  Launcher3: Unify resources and improve whitespace consistency  [Shubham Singh]
+0808ec41f  Categories: Better strings  [Shubham Singh]
+e1c9afec2  Set proper authority for AppSearchProvider  [Shubham Singh]
+2c4e88b7c  Hide drag arrow  [Shubham Singh]
+949b0f737  Fix hide apps menu glitches  [Shubham Singh]
+8f0dfea04  Disable top qsb flag  [Shubham Singh]
+b5d61e91a  Revert "Set a toggle to show Search bar on first screen"  [Shubham Singh]
+c2024ecf4  Don't call swipe down action when swiping horizontally  [Shubham Singh]
+3ede6c1a7  Make dark qsb darker and remove ripple effect on qsb tap  [Shubham Singh]
+e11d344de  Remove the hint text from bottom search bar  [Shubham Singh]
+4979fe585  Theme also app drawer search bar within system theme  [Shubham Singh]
+427dc800e  Use a dark bottom search bar if system dark theme is set  [Shubham Singh]
+2c23d3196  Add Qsb to hotseat and all apps view  [Shubham Singh]
+22e725e14  Add updated Google Feed lib from Pixel 3 launcher  [Shubham Singh]
+1f34b4acb  Revert "Add SearchLauncher target"  [Shubham Singh]
+   * vendor/aosp/
+3a4952e  vendor: Add init rc file for new OTA app  [Shubham Singh]
+00883a2  vendor: Disable uncrypt for ota  [Shubham Singh]
+c647a78  vendor: Update ota props  [Shubham Singh]
+
+====================
+     04-05-2019
+====================
+
+   * external/exfat/
+e346c7c  exfat: Rename utf conversion symbols  [Michael Bestas]
+9e9dc69  exfat: Add static libs for recovery  [Michael Bestas]
+
+====================
+     04-04-2019
+====================
+
+   * frameworks/base/
+044526d3704  Re-add WPS implementation (2/3)  [Arghya Chanda]
+23b8f53cb92  Ambient music ticker: fix text scrolling on AoD  [Arghya Chanda]
+e7877bf1d3a  Full gestures navbar: add missing haptic feedback events  [Arghya Chanda]
+f054793e089  Revert "Navbar: Do not fiddle with haptic feedback"  [Arghya Chanda]
+561dd48d5e8  SystemUI: Add tile to show volume panel  [Arghya Chanda]
+2bb00cf5136  Volume panel: fixed incorrect positioning of the expandable_indicator and ringer  [Arghya Chanda]
+55415a3098e  Revert "VolumeDialog: Remove Media stream"  [Arghya Chanda]
+84fcbd061db  Code improvements for expanded volume panel  [Arghya Chanda]
+bd76b14fef0  Redo expanded volume panel for 9.x  [Arghya Chanda]
+   * packages/apps/Extensions/
+5da8a5d1  VolumePanel: Remove Ringer  [Arghya Chanda]
+09f1e55d  VolumePanel: Remove alarm  [Arghya Chanda]
+   * packages/apps/Settings/
+4d5378bf41  Re-add WPS implementation (1/3)  [Arghya Chanda]
+b554f37895  Settings: Add deep sleep info to uptime  [Arghya Chanda]
+168b66d447  Settings: Bring back Uptime  [Arghya Chanda]
+   * vendor/aosp/
+8057527  Dark Theme: Fix Settings Search bar color  [Arghya Chanda]
+91b41d7  Fonts: Add CircularStd  [Arghya Chanda]
+
