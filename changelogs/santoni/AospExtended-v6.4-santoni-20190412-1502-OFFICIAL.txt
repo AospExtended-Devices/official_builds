@@ -1,0 +1,5 @@
+WARNING: CLEAN FLASH ONLY
+
+> Selinux Enforcing
+> merged 9.0.0_r35 April Security patch
+> Dark Phoenix 1.2 as default kernel
