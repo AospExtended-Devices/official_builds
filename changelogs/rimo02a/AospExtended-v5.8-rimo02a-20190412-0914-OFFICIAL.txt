@@ -1,0 +1,7 @@
+> Merge April Security Patch.
+> Use sdfat for vfat.
+> Enable CPUSET.
+> Enable CPU BOOST.
+> Add & enable BFQ I/O Sched.
+> Rebase to CAF Tag LA.BR.1.3.7.c25-00900-8976.0 kernel.
+> Merge CAF Tag LA.BR.1.3.7.c25-00900-8976.0 in prima.
