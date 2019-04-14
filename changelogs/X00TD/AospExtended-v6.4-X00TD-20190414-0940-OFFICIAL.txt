@@ -1,0 +1,11 @@
+- Updated all possible blobs from Pie Stable release
+- Added icons to Zenmotions
+- Merged tag LA.UM.7.2.r1-06700-sdm660.0 into kernel
+- Upstreamed kernel to 4.4.178
+- Fixed issues with wifi and sensors
+- Updated GPS to LA.UM.7.2.r1-06700-sdm660.0
+- Updated stock camera app from pie stable ( there is green tint issue , will check with next release )
+- Charging speed related tweaks
+- Removed Gapps
+- April security patch
+- AEX source upstream ( https://github.com/AospExtended/platform_frameworks_base/commits/9.x )
