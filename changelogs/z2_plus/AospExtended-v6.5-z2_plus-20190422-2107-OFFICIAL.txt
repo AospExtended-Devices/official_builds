@@ -1,0 +1,5 @@
+AEX 6.5
+Fix VoLTE after switching mobile data from two sim
+Add wifi display (miracast)
+Move back to HMP kernel
+Update blobs
