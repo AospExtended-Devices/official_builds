@@ -19,6 +19,14 @@
        },
        {
             "file_name": "AospExtended-v6.4-ham-20190315-0817-OFFICIAL.zip"
+       },
+       {
+            "file_name": "AospExtended-v6.5-ham-20190422-0903-OFFICIAL.zip"
        }
+    ],
+	"pie_gapps": [
+        {
+            "file_name": "AospExtended-v6.5-ham-20190422-0914-OFFICIAL.zip"
+        }
     ]
 }
