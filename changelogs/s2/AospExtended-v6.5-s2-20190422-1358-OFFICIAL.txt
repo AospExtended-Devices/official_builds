@@ -1,0 +1,10 @@
+
+=================================================
+   AospExtended-v6.5-s2-20190422-1358-OFFICIAL
+=================================================
+
+* Added P styled lockscreen clock
+* Improved wifi+bt coexistance
+* Lockscreen crash fix(follow XDA thread)
+* Merged 'LA.BR.1.3.7.c25-00900-8976.0' to kernel
+* Many more improvements & fixups
