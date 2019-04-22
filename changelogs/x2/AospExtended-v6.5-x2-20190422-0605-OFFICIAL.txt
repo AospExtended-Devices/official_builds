@@ -1,0 +1,35 @@
+AospExtended-v6.5-x2-20190422-0605-OFFICIAL
+=========================================== 
+
+Changelog :
+
+Device specific :
+1. Fixed Sensor issues
+2. Fixed Cdla Issues(not necessary to retoggle every time when connected)
+3. Added EUI Audio Magisk Module in addon ( CDLA works better with Eui Audio)
+4. Added VOX powerhal tunables, gets updatedwhen power profiule is changed
+5. Updated Perfstack from op3
+
+Rom Specific :
+
+Merged April security patch (9.0.0_r35)
+Updated all translations
+Updated all pre-built apks
+Android Q inspired lock screen clock
+Added Aggressive Battery
+Added support for WPS
+Added new lock screen clock style
+Added option to enable seconds in status bar clock
+Notch-city: Add 3 mode display cutout handler (Only for notched devices)
+Improvement in ambient music ticker’s layout
+Rebased our OTA app
+Removed extended vol panel toggles, expandable panel is enough
+Improvements to AOSP Calender
+Fixed some themeing issues in DocumentsUI (Files)
+Improvements and fixes to the default launcher
+Under the hood improvements
+Bug fixes and performance improvements
+
+
+
+
