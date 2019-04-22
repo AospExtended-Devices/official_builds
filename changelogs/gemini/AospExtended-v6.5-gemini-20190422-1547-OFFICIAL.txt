@@ -1,0 +1,71 @@
+Gemini Changelog:
+* REQUIRED FIRMWARE: 8.11.22 *
+**** CLEAN FLASH REQUIRED ****
+
+Device:
+Use graphics and media stack from op3
+Update perf and thermal stack to P
+Update Audio libraries from Mi A2 jasmine_sprout
+Update Sensors Blobs From jasmine_sprout
+Update ADSP Blobs From Daisy
+Update ADSP modules Blobs From Daisy
+Update Bluetooth Blobs From Enchilada
+Update vendor security patch level
+Update compatibility matrix with QtiRadio v2.2
+Update Peripheral manager Blobs From Daisy
+Update mixer_paths_tasha.xml from miui 8.11.22
+Increase Incall volume
+Merge tag 'LA.UM.7.5.2.r1-02000-8x96.0
+gps: merge caf tag LA.UM.7.5.r1-04500-8x96.0
+Set TARGET_USES_AOSP_FOR_AUDIO
+Update Camera HAL by eszdman
+camera prop: enable EIS
+Kang Marlin's power hal
+Use QCOM/Thermal
+Change DPI To 440
+Use Jelly Browser
+Set Home For Fingerprint Button By Default
+Added QC3.0 limit in Configpanel
+Configpanel: Enable Swap Buttons by default
+Configpanel: Set QC3.0 limit to 2700 ma by default 
+Configpanel: Change QC3.0 Default String
+Move to proper thermal blobs
+Enabled DTS Eagle
+Sepolicy Updates for EAS
+Added Soundtrigger
+Enable TARGET_KERNEL_USE_LLD
+Remove LineageOS Stuff
+Remove Wifi Display options
+Sync extractors with templates
+
+Vendor:
+Use graphics and media stack from op3
+Update perf and thermal stack to P
+Update Blobs to 8.11.22 Global Beta
+Fix Fingerprint Sensor
+
+Kernel:
+Kernel Upstream to 3.18.138
+Merge CAF LA.UM.7.5.r1-04500-8x96.0
+Compile with clang 9.0.2
+Fix Offline charging
+Fix laggs
+Fix errors
+Fix SafetyNet Check pass
+defconfig: Enable BATTERY_BCL
+Kconfig: msm: remove deprecated dts eagle driver
+drivers: import of dts_eagle hardware driver
+sound: DTS-Eagle integration
+Initial AudioWizard bringup
+sound: wcd9335: Disable g_DebugMode
+sound: soc: codecs: wcd-mbhc-v2: Uncomment g_DebugMode check
+defconfig: enable dts eagle and mbhc
+qdsp6v2: dts_eagle: use newer drivers
+sound: soc: codecs: nuke tfa98xx driver
+sound: soc: codecs: import tfa98xx driver v6.5.5
+sound: soc: codecs: support tfa9891 firmware
+sound: soc: codecs: set codec pointer in tfa98xx
+sound: soc: codecs: disable tfa98xx debugging
+cpufreq: add alucardsched&darknesssched
+cpufreq: port new governors
+defconfig: disable more debugging configs
