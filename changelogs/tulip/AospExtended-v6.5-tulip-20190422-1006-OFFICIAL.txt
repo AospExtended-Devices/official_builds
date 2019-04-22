@@ -1,0 +1,52 @@
+Hey there, we got official finally! Aren't you excited?
+Sorry for the late update, but I wanted to give you
+the Mother of All Updates, and I had a really hard time
+doing so. But here we are and I am still alive!
+
+Changelog (from last unofficial build):
+- AEX 6.5 is here!
+- Merge April security patch (9.0.0_r35)
+- Update all translations
+- Update all pre-built apks
+- Android Q inspired lock screen clock
+- Added Aggressive Battery
+- Added support for WPS
+- Added new lock screen clock style
+- Added option to enable seconds in status bar clock
+- Notch-city: Add 3 mode display cutout handler
+              (Only for notched devices)
+- Improvement in ambient music ticker’s layout
+- Improvement our OTA App
+- Improvement to Volume Panel
+- Improvement to AOSP Calander
+- Improvement to Document UI
+- Improvement and fixes to the default launcher
+- Under the hood improvements
+- Bug fixes and performance improvements
+
+Device Changelog:
+- Upstreamed kernel with Clang 9.0.2
+- Fixed 5GHz hotspot
+- Fixed Miracast
+- Updated trees and blobs
+- SELinux is enforcing now
+  * Enforcing is really a new thing, so if you
+    encounter any bugs please report them.
+- Borrowed build fingerprint from polaris to pass CTS
+- Introduced Alipay fingerprint payment
+  * I don't have Alipay in my country so it's up to
+    you to tell me if this works... sorry.
+
+NOTICE:
+* Do not use Magisk 18.1 with this build, or else it will
+  not boot!
+  Please use Magisk 19.0 and no custom kernels.
+* For a better experience, please hide the VoLTE icon
+  on the default display size (density); otherwise
+  prefer smaller DPI (you can customize the display
+  size under display settings)
+
+BUG REPORTING:
+If you find any bugs please take logs and send them over
+to me on XDA or Telegram!
+t.me/aex_tulip

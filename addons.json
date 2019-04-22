@@ -139,5 +139,22 @@
             "summary":"OpenGApps arm64 & android 9.0 ",
             "url":"https://opengapps.org/"
         }
+    ],
+     "tulip": [
+        {
+            "title": "Get latest firmware",
+            "summary": "Keep your firmware up to date thanks to the XiaomiFirmwareUpdater project",
+            "url": "https://xiaomifirmwareupdater.com/#Developer%23tulip"
+        },
+        {
+            "title": "Get TWRP",
+            "summary": "Keep your recovery up to date",
+            "url": "https://twrp.me/xiaomi/xiaomiredminote6.html"
+        },
+        {
+            "title": "Feedback group for Redmi Note 6 Pro",
+            "summary": "Keep in touch with other users and the developer!",
+            "url": "https://t.me/aex_tulip"
+        },
     ]
 }
