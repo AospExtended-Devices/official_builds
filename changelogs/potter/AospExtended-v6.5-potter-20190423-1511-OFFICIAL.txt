@@ -21,7 +21,7 @@ Under the hood improvements
 Bug fixes and performance improvements
 
 ==============================
-  Tissot specific changelog
+  Potter specific changelog
 ==============================
 
 - Latest optimus kernel
