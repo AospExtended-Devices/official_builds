@@ -1,0 +1,39 @@
+======================
+  AEX v6.5 changelog
+======================
+
+- Merged April security patch (9.0.0_r35)
+- Updated all translations
+- Updated all pre-built apks
+- Android Q inspired lock screen clock
+- Added Aggressive Battery
+- Added support for WPS
+- Added new lock screen clock style
+- Added option to enable seconds in status bar clock
+- Notch-city: Add 3 mode display cutout handler (Only for notched devices)
+- Improvement in ambient music ticker’s layout
+- Rebased our OTA app
+- Removed extended vol panel toggles, expandable panel is enough
+- Improvements to AOSP Calender
+- Fixed some themeing issues in DocumentsUI (Files)
+- Improvements and fixes to the default launcher
+- Under the hood improvements
+- Bug fixes and performance improvements
+
+==============================
+ ZenFone 3 specific changelog
+==============================
+
+- Kill HIDL ANT+ support
+- GPS updates from LA.UM.7.6.2.r1-07300-89xx.0
+- Changes to ignore RSSNR signal level (as requested on other threads)
+- CarrierConfig updates from LA.UM.7.6.2.r1-08100-89xx.0
+- Changes on Doze
+- Enforcing
+- Other improvements
+
+Thanks to makorn645
+- /APD as vendor partition
+- Updated kernel to Linux v3.18.138 / CAF Tag LA.UM.7.6.r1-04500-89xx.0
+- Blob updates and cleanup
+- Many bug fixes/other improvements
