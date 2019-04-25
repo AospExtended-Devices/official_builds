@@ -3,5 +3,15 @@
         {
             "file_name": "AospExtended-v5.8-osprey-20180906-0543-OFFICIAL.zip"
         }
+    ],
+    "pie": [
+        {
+            "file_name": "AospExtended-v6.5-osprey-20190425-0528-OFFICIAL.zip"
+        }
+    ],
+    "pie_gapps": [
+        {
+            "file_name": "AospExtended-v6.5-osprey-20190425-0720-OFFICIAL.zip"
+        }
     ]
 }
