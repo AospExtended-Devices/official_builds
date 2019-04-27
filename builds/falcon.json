@@ -5,8 +5,11 @@
         }
     ],
     "pie": [
-        {
-            "file_name": "AospExtended-v6.0-falcon-20181109-2016-OFFICIAL.zip"
-        }
+	{
+	    "file_name": "AospExtended-v6.0-falcon-20181109-2016-OFFICIAL.zip"
+	},
+	{
+	    "file_name": "AospExtended-v6.5-falcon-20190422-0218-OFFICIAL.zip"
+	}
     ]
 }
