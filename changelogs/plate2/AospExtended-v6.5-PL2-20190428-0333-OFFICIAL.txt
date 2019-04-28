@@ -1,0 +1,29 @@
+Merged April security patch (9.0.0_r35) 
+Updated all translations Updated 
+all pre-built apks 
+Android Q inspired lock screen clock 
+Added Aggressive Battery 
+Added support for WPS 
+Added new lock screen clock style 
+Added option to enable seconds in status bar clock 
+Notch-city: Add 3 mode display cutout handler (Only for notched devices) 
+Improvement in ambient music ticker’s layout 
+Rebased our OTA app 
+Removed extended vol panel toggles, expandable panel is enough 
+Improvements to AOSP Calender 
+Fixed some themeing issues in DocumentsUI (Files) 
+Improvements and fixes to the default launcher 
+Under the hood improvements
+Bug fixes and performance improvements
+
+Rebased to Nokia 7.1 kernel source
+Merged latest Pie CAF tag and Linux Stable
+Set voice call volume steps to 7
+Set Media volume from 15 to 25 steps
+Enable smart pixels 
+Fix and Enable WiFi Display/Cast
+Add ANT+ support
+Import missing vendor blob counterparts
+Rebased device/kernel/vendor tree with better commit messages
+
+[Hotspot is currently broken, don't update if you need it]
