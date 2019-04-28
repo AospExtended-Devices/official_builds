@@ -1,0 +1,11 @@
+Device:
+Disable Spectrum
+Add missed init packages
+Fix heating more than usual
+Add API to read the device SOC ID
+
+Kernel:
+cpufreq: schedutil: Fix error path mutex unlock
+msm: pcie: Mark MSI cascade ISR as IRQF_NO_THREAD
+Initialize ata before graphics
+msm: kgsl: Only wake GPU upon ioctl receipt when it isn't awake
