@@ -1,0 +1,7 @@
+- Initial Build with GAPPS
+- Force enabled VoLTE across all carriers
+- Added KCAL Color Control
+- Enabled KSM
+- Merged Linux Stable
+- Added FM Radio
+- Added More bugs to fix :P
