@@ -1,0 +1,9 @@
+- Force enable VoLTE across all operators
+- Build FM Radio
+- Enable QCRIL radio power saving
+- Use sched_fifo for renderthread and activitymanager
+- Disable adaptive low memory killer
+- Merge android-linux-stable in kernel
+- Add KCAL color control in kernel
+- Enable KSM in kernel
+- Tone down logging done by FIH in kernel
