@@ -7,3 +7,5 @@
 - Add KCAL color control in kernel
 - Enable KSM in kernel
 - Tone down logging done by FIH in kernel
+- Add aptX blobs for bluetooth
+- Add missing vendor counterparts for FIH blobs
