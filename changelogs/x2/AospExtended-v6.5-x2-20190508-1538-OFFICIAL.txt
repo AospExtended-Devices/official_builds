@@ -1,0 +1,8 @@
+AospExtended-v6.5-x2-20190508-1538-OFFICIAL
+===========================================
+
+ChangeLogs :
+1. updated Thermals to latest pie
+2. Leeco extras can be now visible in app drawer
+3. Some audio fixes from Marc
+4. Updated Ramdisk, for better performance of stock profile
