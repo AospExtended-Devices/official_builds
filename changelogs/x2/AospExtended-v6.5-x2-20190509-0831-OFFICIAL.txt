@@ -6,3 +6,6 @@ ChangeLogs :
 2. Leeco extras can be now visible in app drawer
 3. Some audio fixes from Marc
 4. Updated Ramdisk, for better performance of stock profile
+5. Fixed Sensor orientation
+6. Spectrum profile switches automatically to game profile 
+if that app is added to gaming category in app info
