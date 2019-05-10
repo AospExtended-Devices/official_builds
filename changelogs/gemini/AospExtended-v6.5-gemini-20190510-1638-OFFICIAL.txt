@@ -1,0 +1,16 @@
+Merged May Security Patch
+
+Device:
+- Update device fingerprint to 8.11.22
+- Update init.qcom.power.rc for EAS
+- Add 1900 ma , 1800 ma to QC3.0 limit in ConfigPanel
+- Set 1800 ma for QC3.0 by default
+- Add freq property contexts for perfd
+- Merged LA.UM.7.5.2.r1-02600-8x96.0
+- Merged LA.UM.7.5.r1-04800-8x96.0
+- Use vendor/qcom data-ipa-cfg-mgr
+
+Kernel:
+- Upstram to 3.18.139
+- Merged LA.UM.7.5.2.r1-02600-8x96.0
+- Merged LA.UM.7.5.r1-04800-8x96.0
