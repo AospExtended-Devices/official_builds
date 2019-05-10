@@ -1,0 +1,16 @@
+===========================
+AospExtended v6.5 Changelog
+===========================
+
+Note: Gapps build. DO NOT flash gapps separately.
+
+-Merged May Security Patch (9.0.0_r37)
+-Added Android Q Style Battery Icon
+-Added livedisplay 2.0
+-New theme -> ElegantUI
+-Improved Dailer and Contacts App
+-AOD Trasition Fixed
+-Updated blobs from Tissot Pie
+-Updated thermal blobs
+-Massive stability improvements 
+-Merged with latest sources
