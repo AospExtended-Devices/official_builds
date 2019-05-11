@@ -156,5 +156,17 @@
             "summary": "Keep in touch with other users and the developer!",
             "url": "https://t.me/aex_tulip"
         }
+    ],
+    "zenfone3": [
+        {
+            "title": "Telegram",
+            "summary": "ASUS Zenfone 3 - Brasil",
+            "url": "https://t.me/ASUS_Zenfone3BR"
+        },
+        {
+            "title": "Telegram",
+            "summary": "ASUS ZenFone 3 Development",
+            "url": "https://t.me/Zenfone3_ASUS"
+        }
     ]
 }
