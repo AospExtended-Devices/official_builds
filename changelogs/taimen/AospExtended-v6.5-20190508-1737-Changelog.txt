@@ -1,0 +1,152 @@
+====================
+     05-08-2019
+====================
+
+   * device/google/taimen/
+707196e  Merge tag 'android-9.0.0_r36' of https://android.googlesource.com/device/google/taimen into HEAD  [slothdabski]
+430c520  Update fingerprint to May img  [slothdabski]
+   * device/google/wahoo/
+17cc335  Clang 9.0.3  [slothdabski]
+2db70f8  Merge tag 'android-9.0.0_r36' of https://android.googlesource.com/device/google/wahoo into 9.x  [slothdabski]
+   * frameworks/av/
+408d58bed  Upsize the buffer of the raw decoder  [Shubham Singh]
+c6af8d488  media: fixing klock work issue.  [Shubham Singh]
+cd617a2cd  amrnb: Fix memory leaks  [Shubham Singh]
+c186603b1  Prevent object of AudioEffect be deleted until construction finished  [Shubham Singh]
+f0fd28c4b  Request to reset effect buffer in clearInputBuffer  [Shubham Singh]
+   * frameworks/base/
+bdb30ab1a6a  The surface hang up when screen on and screen off  [Shubham Singh]
+3e3a27582f5  Add wakelock option for flashlight  [Shubham Singh]
+d204b20461a  Fix screen pinning unlock with hwkeys  [Shubham Singh]
+bd034f903fb  IMMS should preserve selected IME upon boot  [Shubham Singh]
+cab82605937  Workaround for wallpaper not shown correctly problem  [Shubham Singh]
+fb83b4f7cc5  SystemUI: Dismiss keyguard on boot if disabled by current profile  [Shubham Singh]
+b365a9676d6  Show mobile icons with left-to-right in order of slot index  [Shubham Singh]
+ae621229a48  Revert "SystemUI: Sort subscriptions in reversed order"  [Shubham Singh]
+fa98bcccb19  Revert "base: SystemUI: tuner: fix reorder of mobile slots"  [Shubham Singh]
+   * frameworks/native/
+f84922748  libgui: Fix copyback dirty region  [Shubham Singh]
+   * frameworks/opt/net/wifi/
+f85ffee5e  resurrect mWifiLinkLayerStatsSupported counter  [Shubham Singh]
+   * frameworks/opt/telephony/
+a642d6526  Fix possible NPE in ImsPhoneCallTracker  [Shubham Singh]
+c82582aea  MMS: Update apnProfileID for MMS only apn.  [Shubham Singh]
+   * kernel/google/wahoo/
+cd08c961da3e  Merge branch 'pie-qpr2' of https://github.com/MSF-Jarvis/wahoo into HEAD  [slothdabski]
+   * packages/apps/Calendar/
+0cb1a694  Calendar: Fix translatables  [Shubham Singh]
+   * packages/apps/Contacts/
+5561c411b  Allow calling contacts via specific phone accounts.  [Shubham Singh]
+99a58572b  Contacts: Enable support for device contact.  [Shubham Singh]
+9837f5162  Contacts: define app category  [Shubham Singh]
+3599b0f4a  Fix warnings like 'unresolved theme attributes'  [Shubham Singh]
+a4642aed4  Colors: Checkbox in datepicker  [Shubham Singh]
+b35cf0acc  Color: Settings: Export contacts header  [Shubham Singh]
+110b3338a  Fix header color 'Default account for new contacts'  [Shubham Singh]
+79b7c3278  Fix Contact editor -> 'More fields' color  [Shubham Singh]
+9bcfa5cd5  Contacts: PoorManThemes: fix editor popup items  [Shubham Singh]
+5b0201dc4  Themes: fix selector bg color  [Shubham Singh]
+19a04ee60  Contacts: add missing bottom margin for fab  [Shubham Singh]
+c42365b7f  Contacts: dann halt mit Gewalt  [Shubham Singh]
+5bd12916b  Contacts: use commnon menu style for themed apps  [Shubham Singh]
+25097c6f4  Contacts: style fast scroll thumb like in Dialer  [Shubham Singh]
+42c594c42  Contacts: add missing primary color to launcher theme  [Shubham Singh]
+1ffe718a3  Contacts: allow some Poor Man Theming  [Shubham Singh]
+   * packages/apps/Dialer/
+6504dd61d  Dialer: Add option to disable proximity sensor  [Shubham Singh]
+f399aa197  Dialer: use system round corner values for searchbox  [Shubham Singh]
+fdec781cf  Dialer: force fast scroller text color to white and move thumb to edge  [Shubham Singh]
+f0b41782a  Dialer: change contacts index text color from accent to default  [Shubham Singh]
+9a86a6582  Dialer: Themes: define text color for number interactions  [Shubham Singh]
+   * packages/apps/PackageInstaller/
+8a785fbb  PackageInstaller: Make installer header look a little better  [Shubham Singh]
+   * packages/apps/Settings/
+b2e72f2b5d  Fixed memory leak  [Shubham Singh]
+7f030dd35b  Fix a crash when launching app detail for bad package name  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+36bb6a1  DownloadProvider: Stop using Arrays.checkOffsetAndCount  [Shubham Singh]
+3c41917  Downloaded content is deleted if Download folder is renamed using MTP  [Shubham Singh]
+9112133  DownloadProvider: allow more redirects  [Shubham Singh]
+2375da5  Remove download notification after preview  [Shubham Singh]
+   * vendor/pixelgapps/
+06f24c1  Update gapps to May security release (Pixel 3 XL - PQ3A_190505)  [Josh Chasky]
+
+====================
+     05-07-2019
+====================
+
+   * bionic/
+d1a2abc03  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * bootable/recovery/
+c2e2d446  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * build/make/
+6f6f33da9  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * frameworks/av/
+f35ad914f  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * frameworks/base/
+f3929a02492  LSClockStyle: Misc fixes  [Arghya Chanda]
+f5ee315df8a  Merge tag 'android-9.0.0_r37' into 9.x  [Arghya Chanda]
+   * frameworks/native/
+d9d39e491  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * frameworks/opt/net/wifi/
+3a4711c87  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * frameworks/opt/telephony/
+6e2e962ef  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * hardware/interfaces/
+83dc01a7  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * kernel/google/wahoo/
+e015317e852e  Merge remote-tracking branch 'als/android-msm-wahoo-4.4-q-preview' into pie-qpr2  [Harsh Shandilya]
+c9c70d2adbd7  Merge branch 'android-msm-wahoo-4.4' into android-msm-wahoo-4.4-q-preview  [Nathan Chancellor]
+40d54d09776b  Merge tag 'android-9.0.0_r0.75' into android-msm-wahoo-4.4  [Nathan Chancellor]
+   * manifest/
+c02b333  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+f41f7ba  Manifest for Android 9.0.0 Release 37 (PQ3A.190505.002)  [The Android Open Source Project]
+e5136c9  Manifest for Android 9.0.0 Release 36 (PQ3A.190505.001)  [The Android Open Source Project]
+   * packages/apps/Contacts/
+6c49fa704  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * packages/apps/DeskClock/
+e0b1fb642  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * packages/apps/DocumentsUI/
+47c3aa45  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * packages/apps/PackageInstaller/
+004b04eb  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * packages/apps/Settings/
+b4b1dfda4f  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * packages/inputmethods/LatinIME/
+1e513ad02  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * packages/providers/DownloadProvider/
+8f9d2bb  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * packages/providers/MediaProvider/
+2894d96  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * packages/services/Telecomm/
+80fda42b  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * packages/services/Telephony/
+6c8131dea  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * system/bt/
+7b5fdbe3f  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * system/core/
+af7d9cd06  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * system/netd/
+6ebcb15  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * system/sepolicy/
+d7a6d975  Merge tag 'android-9.0.0_r37' into HEAD  [Arghya Chanda]
+   * vendor/google/
+7283be5  Bluecross: Update blobs to Android 9.0.0 (PQ3A.190505.002)  [Josh Chasky]
+
+====================
+     05-06-2019
+====================
+
+
+====================
+     05-05-2019
+====================
+
+   * build/soong/
+29016c00  build: Add dumpvar for WITH_GAPPS  [Alessandro Astone]
+
+====================
+     05-04-2019
+====================
+
+
