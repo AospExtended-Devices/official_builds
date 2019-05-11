@@ -1,0 +1,17 @@
+- Merged May security patch (9.0.0_r37)
+- New Elegant UI
+
+==============================
+ ZenFone 3 specific changelog
+==============================
+
+Version without GApps
+You need to flash GApps separately
+
+- Updated kernel to Linux v3.18.139 / CAF Tag LA.UM.7.6.r1-04800-89xx.0
+- GPS updates from LA.UM.7.6.2.r1-08500-89xx.0
+- Enable 2.4GHz channel bonding
+- Increase in-call earpiece volume
+- Fix for airplane mode
+- Some configs updates
+- Other fixes/optimizations
