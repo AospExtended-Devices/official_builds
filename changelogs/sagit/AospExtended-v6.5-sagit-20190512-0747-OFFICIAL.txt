@@ -1,0 +1,9 @@
+### Use 9.5.8 firmware, available through addons ###
+* AospExtended v6.5
+* May Android Security Bulletin
+* Compiled Kernel with Clang 9.0.3
+* Updated Blobs and configs from miui 9.5.8
+* Updated GPS HAL to pie tag
+* Updated Widevine to 1.1
+* Many rootdir changes for pie blobs & configs
+* Stability & EAS improved Kernel

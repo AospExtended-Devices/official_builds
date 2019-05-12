@@ -104,8 +104,8 @@
         },
         {
             "title":"Firmware",
-            "summary":"Global Stable V10.2.1.0",
-            "url":"https://osdn.net/projects/xiaomifirmwareupdater/storage/Stable/V10/sagit/fw_sagit_miui_MI6Global_V10.2.1.0.OCAMIXM_5a866eee19_8.0.zip/"
+            "summary":"Miui Pie Beta 9.5.8",
+            "url":"https://drive.google.com/file/d/1qpNYNaQEHK-9H4T20MDW5yGW-U6bHL1p/view?usp=drivesdk"
         },
         {
             "title":"GApps",
@@ -125,7 +125,7 @@
         {
             "title":"Telegram",
             "summary":"General Xiaomi Mi 6 Announcement Channel",
-            "url":"https://t.me/"
+            "url":"https://t.me/mi6arsenal"
         }
    ],
     "sanders": [
