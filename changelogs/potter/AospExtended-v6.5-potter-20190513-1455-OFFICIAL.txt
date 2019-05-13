@@ -1,0 +1,6 @@
+==============================
+  Potter specific changelog
+==============================
+
+- Updated to may patch (r37)
+- Latest optimus kernel
