@@ -1,0 +1,10 @@
+==================
+  AEX CHANGELOG
+==================
+- Merged May Security Patch (9.0.0_r37)
+- Added Android Q Style Battery Icon
+- New theme -> ElegantUI
+- Improved Dailer and Contacts App
+- AOD Trasition Fixed
+- Merged with latest sources
+- Bug fixes and performance improvements
