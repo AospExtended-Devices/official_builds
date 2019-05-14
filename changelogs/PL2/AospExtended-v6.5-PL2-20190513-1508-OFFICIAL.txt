@@ -1,0 +1,13 @@
+- Add Elegant UI in Themes
+
+- Load qcacld from system
+- Import hostapd conf files from stock
+- Config for charger
+- Correct native arch configuration
+- Introduce QCOM Boost Framework
+- Add debug IMS props to workaround CarrierConfig restrictions
+- Mount our own custom audio policy configuration policy
+- Load BT A2DP configuration from a2dp_audio_policy_configuration.xml
+- Use USB audio policy configuration from AOSP
+- Merge tag LA.UM.7.2.r1-06900-sdm660.0 from CAF in Kernel and Qcacld3
+- Remove KCAL Color Control in favour of upcoming LiveDisplay
