@@ -1,0 +1,9 @@
+==============================
+ ZenFone 3 specific changelog
+==============================
+
+Version with GApps
+You don't need to flash GApps
+
+- Fixed Ambient Display (thanks to vegeto1806 for letting me know about some issues)
+- Updated kernel to Linux v3.18.140
