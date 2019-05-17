@@ -1,0 +1,8 @@
+- Added Kcal presets
+- Added full greyscale switch under kcal
+- Merged kernel/common from aosp in kernel
+- Merged 4.4.179 and LA.UM.7.2.r1-06900-sdm660.0 tag in kernel
+- Updated fw-api , qcacld-3.0 , qca-wifi-host-cmn to LA.UM.7.2.r1-06900-sdm660.0
+- upstreamed f2fs to latest stable release
+- added support for sdFAT
+- May security patch
