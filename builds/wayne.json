@@ -15,5 +15,10 @@
         {
             "file_name": "AospExtended-v6.5-wayne-20190502-2230-OFFICIAL.zip"
         }
-    ]
+    ],
+    "pie_gapps": [
+        {
+            "file_name": "AospExtended-v6.5-wayne-20190517-1456-OFFICIAL.zip"
+        }
+   ]
 }

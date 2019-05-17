@@ -1,0 +1,11 @@
+May Security Patch
+* Need to flash the newest miui P firmware (https://t.me/XiaomiFirmwareUpdater)
+* Update Blobs to MIUI 10.3.2
+* Fix ctsProfile
+* Add Boot Animation
+* Switch to Google Camera 6.2
+* Enable adaptive battery
+* Update some HAL
+* Lock screen charging information
+* Change SELinux to Enforce
+* Switch to EAS Kernel
