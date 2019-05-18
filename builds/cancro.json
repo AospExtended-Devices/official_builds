@@ -2,7 +2,10 @@
     "oreo": [
         {
             "file_name": "AospExtended-v5.8-cancro-20190212-0433-OFFICIAL.zip"
-        }
+        },
+	{
+	    "file_name": "AospExtended-v5.8-cancro-20190518-0311-OFFICIAL.zip"
+	}
     ],
     "pie": [
         {
@@ -10,14 +13,14 @@
         },
         {
             "file_name": "AospExtended-v6.4-cancro-20190406-0153-OFFICIAL.zip"
-         },
-         {
+        },
+        {
             "file_name": "AospExtended-v6.5-cancro-20190423-1229-OFFICIAL.zip"
-          }
+        }
     ],
      "pie_gapps": [
-         {
+        {
              "file_name": "AospExtended-v6.4-cancro-20190406-1304-OFFICIAL.zip"
-         }
+        }
     ]
 }
