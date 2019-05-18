@@ -1,0 +1,11 @@
+AospExtended-v6.5-x2-20190518-0252-OFFICIAL
+===========================================
+
+ChangeLog :
+1. Device trees, vendor has been completely rebased
+2. Added Working Voltage Control to kernel
+3. Updated Power Hal to 1.2 from CAF
+4. Moved to User Build from Debug
+
+
+for more changes got to system updates - changelog
