@@ -1,0 +1,2 @@
+* Need to flash the newest miui P firmware (https://t.me/XiaomiFirmwareUpdater)
+* Fix front camera
