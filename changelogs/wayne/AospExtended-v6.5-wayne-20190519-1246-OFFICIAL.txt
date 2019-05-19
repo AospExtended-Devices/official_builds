@@ -1,0 +1,4 @@
+* Need to flash the newest miui P firmware (https://t.me/XiaomiFirmwareUpdater)
+* Gcam rollback to 6.1
+* Fix Alipay fingerprint payment
+* Fix dt2w
