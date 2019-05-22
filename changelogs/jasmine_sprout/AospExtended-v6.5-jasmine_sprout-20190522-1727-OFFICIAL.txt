@@ -1,0 +1,6 @@
+* Enable HAL3 by default
+* Build with TWRP
+* Add F2FS support to TWRP
+* Fix GCam crashes
+* Kernel improvements
+* Implement enhanced battery estimates in QS (AEX)
