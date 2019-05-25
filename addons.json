@@ -160,5 +160,12 @@
             "summary": "ASUS ZenFone 3 Development",
             "url": "https://t.me/Zenfone3_ASUS"
         }
+    ],
+    "wayne": [
+        {
+            "title": "Google Camera",
+            "summary": "Google Camera 6.1",
+            "url": "https://gitlab.com/PIPIPIG233666/vendor_xiaomi_wayne_googlecamera/raw/pie-6.1/system/priv-app/GoogleCamera/GoogleCamera.apk"
+        }
     ]
 }

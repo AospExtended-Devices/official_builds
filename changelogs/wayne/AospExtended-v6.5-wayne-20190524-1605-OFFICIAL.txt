@@ -1,0 +1,8 @@
+* Need to flash the newest miui P firmware (https://t.me/XiaomiFirmwareUpdater)
+* For Chinese users: Fixed hotspot no network problems (Thank for this coolapk user: @虚拟机内存)
+* Switch to miui camera (Because there are too many bugs in gcam)
+* Added some optional Add-ons
+* Change SELinux to permissive
+* Update Blobs to MIUI 10.3.3
+* Fixed some problems with miui camera
+* Update alarm blobs
