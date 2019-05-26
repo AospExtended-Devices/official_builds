@@ -167,5 +167,57 @@
             "summary": "Google Camera 6.1",
             "url": "https://gitlab.com/PIPIPIG233666/vendor_xiaomi_wayne_googlecamera/raw/pie-6.1/system/priv-app/GoogleCamera/GoogleCamera.apk"
         }
+    ],
+    "gemini": [
+        {
+            "title": "Mi5 Telegram Channel",
+            "summary": "Home to all the artillery for our precious Mi 5",
+            "url": "https://t.me/mi5arsenal"
+        },
+        {
+            "title": "Mi5 Telegram Group",
+            "summary": "Xiaomi Mi 5 info, discussions, ROMs & development ",
+            "url": "Xiaomi Mi 5 info, discussions, ROMs & development"
+        },
+        {
+            "title": "MIUI CAMERA",
+            "summary": "Ported MIUI Camera For AOSP 9.0 by M.H.K.JAHROMI",
+            "url": "https://www.androidfilehost.com/?fid=6006931924117881950"
+        },
+        {
+            "title": "Google Pixel 2 Camera",
+            "summary": "More Compatible Google Camera For Mi 5",
+            "url": "https://www.androidfilehost.com/?fid=6006931924117881879"
+        },
+        {
+            "title": "Google Pixel 3 Camera",
+            "summary": "It have baterry drain but more features",
+            "url": "https://www.androidfilehost.com/?fid=6006931924117881884"
+        },
+        {
+            "title": "M.H.K.JAHROMI Google Camera Config",
+            "summary": "Edited GCam config for Mi5 with improved and unlocked features",
+            "url": "https://www.androidfilehost.com/?fid=6006931924117881889"
+        },
+        {
+            "title": "Oxi_Arn1.4 Google Camera Config",
+            "summary": "Edited GCam config for Mi5 with improved and unlocked features",
+            "url": "https://www.androidfilehost.com/?fid=6006931924117881892"
+        },
+        {
+            "title": "Mi5-Mi5S Google Camera Config",
+            "summary": "Edited GCam config for Mi5 with improved and unlocked features",
+            "url": "https://www.androidfilehost.com/?fid=6006931924117881895"
+        },
+        {
+            "title": "Mi5 240/60 Fps Enabler",
+            "summary": "Mi 5 60/240 Fps Video Recording Enabler",
+            "url": "https://www.androidfilehost.com/?fid=6006931924117881941"
+        },
+        {
+            "title": "Mi5 Dual Speaker Mode",
+            "summary": "Mono/Stereo Speaker Mode",
+            "url": "https://www.androidfilehost.com/?fid=6006931924117881924"
+        }
     ]
 }
