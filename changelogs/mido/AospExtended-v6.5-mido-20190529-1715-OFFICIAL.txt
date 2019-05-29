@@ -1,0 +1,10 @@
+> Merged May security patch (9.0.0_r37)
+> Added Elegant UI
+> Added Live Display
+> Improved three finger swipe (From MIUI) 
+> Added Q style battery icon
+> Add seekbar to media notifications
+> Add dirac QS tile
+> Fix wakeup delay
+
+For more detailed changelog, visit http://gerrit.aospextended.com/q/status:merged
