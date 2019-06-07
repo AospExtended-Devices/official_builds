@@ -1,5 +1,9 @@
 {
 	"pie": [{
-		"file_name": "AospExtended-v6.5-violet-20190606-1323-OFFICIAL.zip"
-	}]
+			"file_name": "AospExtended-v6.5-violet-20190606-1323-OFFICIAL.zip"
+		},
+		{
+			"file_name": "AospExtended-v6.5-violet-20190607-1232-OFFICIAL.zip"
+		}
+	]
 }

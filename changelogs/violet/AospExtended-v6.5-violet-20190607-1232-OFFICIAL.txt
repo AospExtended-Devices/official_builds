@@ -1,0 +1,7 @@
+==================================
+AospExtended v6.5 Changelog (1232)
+==================================
+
+- Fix an issue where users face error 7
+  while flashing the ROM Package due to a
+  newer baseband.
