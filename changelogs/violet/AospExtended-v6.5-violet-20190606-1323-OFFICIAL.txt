@@ -1,0 +1,12 @@
+==================================
+AospExtended v6.5 Changelog (1323)
+==================================
+
+- Inital Pie Build
+- SELinux: Enforcing
+- Most recent AEX source
+- Encryptionn inbuilt
+- Blobs from 9.5.30 & LA.UM.7.9.r1-06100-sm6150.0
+- DRM L1 supported
+- Kernel rebased to LA.UM.7.9.r1-06100-sm6150.0
+- MiUi Touchscreen Firmware from v10.3.5.0 (Thanks to @YaroST12)
