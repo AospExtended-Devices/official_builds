@@ -1,0 +1,12 @@
+### Use 9.5.30 firmware, available through addons ###
+### Use twrp-3.3.1-0-sagit-arian-sar.img, available through addons ###
+* AospExtended v6.6
+* June Android Security Bulletin
+* Updated Blobs and configs from miui 9.5.30
+* back to HMP, might be temporary. I would like to get some feedback about smoothness and battery.
+* Ported Miui's offmode charging -> displays percent now
+* Added SoterService -> WeChat fingerprint payments fixed?
+
+Download Firmware: https://osdn.net/projects/xiaomifirmwareupdater/storage/Developer/9.5.30/sagit/fw_sagit_miui_MI6Global_9.5.30_71a2288db2_9.0.zip
+Download TWRP: https://github.com/xiaomi-msm8998/twrp_device_xiaomi_sagit/releases/download/3.3.1/twrp-3.3.1-0-sagit-arian-sar.img
+
