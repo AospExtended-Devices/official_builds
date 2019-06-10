@@ -1,0 +1,200 @@
+====================
+     06-09-2019
+====================
+
+   * build/make/
+34ed08ac7  Revert "build: Ignore neverallows"  [Arghya Chanda]
+   * device/aosp/sepolicy/
+93c02de  Revert "SELinux: Rules for ADB over network"  [Arghya Chanda]
+   * device/google/taimen/
+7c88c91  taimen: fingerprint PQ3A.190605.003/5524043  [slothdabski]
+1beae4a  taimen: build brillo_update_payload  [slothdabski]
+8cb4ac6  taimen: Proprietary camera libraries depend on libion  [slothdabski]
+621b9d5  taimen: use qualcomm time services  [slothdabski]
+940bb7d  taimen: set ui thread runnable time to zero  [slothdabski]
+14fc235  taimen: Add Google platform certificate  [slothdabski]
+244a16d  taimen: Exclude ModemService from powersave  [slothdabski]
+   * device/google/wahoo/
+c52f436  Merge tag 'android-9.0.0_r40' of https://android.googlesource.com/device/google/wahoo into HEAD  [slothdabski]
+a0a7274  build with gcc instead of clang  [slothdabski]
+e21fd77  wahoo: use PRODUCT_PACKAGE_OVERLAYS  [slothdabski]
+   * external/nano/
+ae26fda9  nano: Regenerate config.h  [Sam Mortimer]
+9f2c790e  nano: fix another implicit declaration of time()  [Sam Mortimer]
+   * frameworks/av/
+0b4741437  Do not select direct output for same profile  [amol.amrit03]
+4ee6525de  Set default value to mAttributes in AudioTrack  [amol.amrit03]
+   * frameworks/base/
+4fcd7f0c0a7  Q Style Clock: Make it fully translatable  [Alessandro Astone]
+c56e834319b  Base: Let Q clock follow accent colour  [Alessandro Astone]
+f2166f5a842  Q Style Clock: Reduce top margin, users want to see more notifications  [Alessandro Astone]
+86ce7307a23  SystemUI: Cleanup keyguard_status_view layout  [Alessandro Astone]
+c140dcc6e8c  KeyguardStatusView: Cleanup pointless duplication  [Alessandro Astone]
+   * kernel/google/wahoo/
+eb93c2b69186  gcc-9: silence 'address-of-packed-member' warning  [slothdabski]
+   * packages/apps/Extensions/
+1c52be8e  v6.6 [2/2]  [AmolAmrit]
+   * packages/apps/Launcher3/
+14f229cbc  A little higher raise the icons in the dock  [amol.amrit03]
+   * system/sepolicy/
+09aa6640  Add adb over network tile sepolicy  [Arghya Chanda]
+   * vendor/aosp/
+6d59902  v6.6 [1/2]  [AmolAmrit]
+75c2348  apns: Update Singapore's APNs  [amol.amrit03]
+4df3856  apns: Update IRAN APNs  [amol.amrit03]
+5164cd0  apns : Update the KT IMS apn  [amol.amrit03]
+20bc98a  Add APN ION Mobile & APN for Roaming  [amol.amrit03]
+e6d1e4e  Let the user choose the screenshot editor himself  [AmolAmrit]
+383c2e6  soong_config: Add flag for devices use metadata as FDE key  [theimpulson]
+   * vendor/qcom/opensource/cryptfs_hw/
+64fbb34  cryptfs_hw: Support devices use metadata as key  [theimpulson]
+16a6e2b  cryptfs_hw: Add a workaround for metadata encryption  [theimpulson]
+
+====================
+     06-08-2019
+====================
+
+   * build/make/
+568cf7b30  Merge tag 'android-9.0.0_r40' into HEAD  [Arghya Chanda]
+029532459  build: Introduce SubstratumHelperService  [Arghya Chanda]
+   * device/aosp/sepolicy/
+6be99dc  qcom: Extend untrusted_app access to battery/power supply sysfs  [Arghya Chanda]
+0080040  Add selinux policy for pocket bridge  [Arghya Chanda]
+965edcf  Add pocket judge selinux policy  [Arghya Chanda]
+   * frameworks/av/
+0b26e557e  audiopolicy: Fix potential memory leak.  [Arghya Chanda]
+d1698acd7  Merge tag 'android-9.0.0_r40' into HEAD  [Arghya Chanda]
+   * frameworks/base/
+86066de070c  Merge tag 'android-9.0.0_r40' into HEAD  [Arghya Chanda]
+c0cf68c236c  OMS: handle target or overlay package disabled  [Arghya Chanda]
+6d7edb93152  OMS: try harder not to update assets if nothing changed  [Arghya Chanda]
+441572266e5  SubstratumService: Rewrite installation method for Pie InstallSession API  [Arghya Chanda]
+e8842830ee5  Unbreak public api by hiding substratum interfaces  [Arghya Chanda]
+708db2892f0  Pie OMS: allow non-system overlays from Substratum  [Arghya Chanda]
+3bddbd433a5  SubstratumService: Refactor & cleanup according to AOSP conventions  [Arghya Chanda]
+e305f32314d  base: modify/define custom overlay management  [Arghya Chanda]
+c4ebaede234  SubstratumService: unify permissions  [Arghya Chanda]
+6d76006f422  SubstratumService: allow CHANGE_OVERLAY_PACKAGES permission  [Arghya Chanda]
+65994d43a79  base: Introduce SubstratumService  [Arghya Chanda]
+c281da6ffc0  OMS: StrictMode and files under /data/system/theme/  [Arghya Chanda]
+4ff1d1d8a1a  Hold "volume up" during boot to disable all overlays  [Arghya Chanda]
+5827c0cbd53  ThemeSafety: Introduce App Crash Intent  [Arghya Chanda]
+cc49905c326  ApplicationsState: add filter for Substratum overlays [2/2]  [Arghya Chanda]
+be9884e5498  Extras: Add dynamic theme sound effects support  [Arghya Chanda]
+927fa28e9e5  Extras: Add dynamic theme shutdown and boot animation support  [Arghya Chanda]
+ea4d4ac8954  AudioService: Remove Analog Dock from fixed-volume devices  [Arghya Chanda]
+c2e419d0c7c  LTE tile: Remove oreo style slashes  [Arghya Chanda]
+a69ba8cb160  Fix the reference leak on RemoteCallbackList  [Arghya Chanda]
+3fcca77f7f8  Fix inaccurate power algorithm of mobile radio  [Arghya Chanda]
+3ae2ebc93d1  Pocket lock improvements  [Arghya Chanda]
+96aecc8827e  pocket: Don't show immersive mode confirmation when UI showing  [Arghya Chanda]
+ee92688a1da  pocket: Fix pocket lock view for display cutouts  [Arghya Chanda]
+795ce1452dd  pocket: Adjust sleep timeout for pocket lock view to 10 secs  [Arghya Chanda]
+02c14d8a78e  pocket: introduce pocket bridge  [Arghya Chanda]
+de15b51ec9f  PocketService: Adjust light sensor rate to 400ms  [Arghya Chanda]
+e53dd41727e  pocket: Add hardware acceleration and properly maintain SYSTEM_UI flags  [Arghya Chanda]
+c815e975a61  policy: introduce pocket lock  [Arghya Chanda]
+4aba83b45a4  pocket: introduce pocket judge  [Arghya Chanda]
+f83f1c2036c  Prepare to migrate to AOSPA's pocket judge & lock [1/2]  [Arghya Chanda]
+6aad57044b8  ViewConfiguration: add support for max/min fling velocity sysproperties  [Arghya Chanda]
+f2f52af270c  Base: fix facelock crash when lock screen is disabled  [Arghya Chanda]
+1ecaa2eb3db  Fix Cannot grant system fixed permission com.android.voicemail.permission.ADD_VOICEMAIL for package com.google.android.dialer crash  [Arghya Chanda]
+bdcc0e884e4  wifi(settingslib): Update passpoint config to accessPoint  [Arghya Chanda]
+8d456d59422  Fix NPE on navbar  [Arghya Chanda]
+c5e54e31825  KeyguardSliceProvider: Show dnd icon regardless of suppression mode  [Arghya Chanda]
+e18c62919d7  Catch the SQLiteFullException in NotificationUsageStats  [Arghya Chanda]
+05f609b8d2a  Extend the watchdog timeout of main thread  [Arghya Chanda]
+0f6d80a0c44  FloatingToolbar must end animation immediately when parent window gone  [Arghya Chanda]
+88f803fe2f6  hwui: Avoid fake high input latency while vsync drifting  [Arghya Chanda]
+   * hardware/qcom/fm/
+2140e05  Automatic translation import  [Michael Bestas]
+   * manifest/
+8cb1752  Merge tag 'android-9.0.0_r40' into HEAD  [Arghya Chanda]
+   * packages/apps/Bluetooth/
+18a977b5  Merge tag 'android-9.0.0_r40' into HEAD  [Arghya Chanda]
+   * packages/apps/Settings/
+857400fd2f  Settings: Introduce Substratum changes.  [Arghya Chanda]
+4498af5b69  Settings: Add pocket lock toggle  [Arghya Chanda]
+03e6099fb3  Prepare to migrate to AOSPA's pocket judge & lock [2/2]  [Arghya Chanda]
+c5a0b363c1  Settings: Add drawable for Private DNS  [Arghya Chanda]
+   * system/bt/
+7a0bfce94  Merge tag 'android-9.0.0_r40' into HEAD  [Arghya Chanda]
+   * system/sepolicy/
+f8cb0f65  SELinux: added to the policies without entries into the compatibility mapping file  [theimpulson]
+9109fe4f  Initial sepolicy rules for substratum service  [theimpulson]
+635b3a87  Introduce sepolicy exceptions for theme assets  [theimpulson]
+   * system/vold/
+fc55ecc  Merge tag 'android-9.0.0_r40' into HEAD  [Arghya Chanda]
+   * vendor/aosp/
+0b73cbf  vendor: prebuilt: Add Substratum Signature  [Arghya Chanda]
+3202c03  Add sysfs permissions for pocket bridge  [Arghya Chanda]
+4a6565b  Revert "Keep QS header background transparent on some themes"  [Arghya Chanda]
+
+====================
+     06-07-2019
+====================
+
+   * packages/apps/Jelly/
+4639ee5  Jelly: Fix shortcut creation for websites without favicon  [theimpulson]
+aa39c97  Jelly: menu should say window  [theimpulson]
+c8cb07e  Jelly: Remove google encrypted search.  [theimpulson]
+   * vendor/aosp/
+9076ab6  vendor: prebuilt: Update prebuilt apks  [theimpulson]
+
+====================
+     06-06-2019
+====================
+
+   * external/nano/
+561b50da  nano: don't spam warnings as errors  [Nicholas Lim]
+ad2eedc1  nano: fix implicit declaration of time function  [Nicholas Lim]
+161086fe  nano: Make revision.h a stub  [Nicholas Lim]
+5daed7f4  nano: Update makefile for new nanorc path  [Nicholas Lim]
+3ca7bc57  nano: Add nanorc  [Nicholas Lim]
+7b10e544  nano: Add android makefile  [Nicholas Lim]
+161f0291  nano: Add config.h and revision.h  [Nicholas Lim]
+e810d7e3  nano: Don't ignore config.h & revision.h  [Nicholas Lim]
+   * frameworks/base/
+9a994831932  SystemUI: Remove Q Battery implementation  [AmolAmrit]
+73eeb11b9e4  Camera: Simplify code for Aux/Mono white and black lists  [AmolAmrit]
+5419febac55  Camera: Ignore torch status update for aux or compsite camera  [AmolAmrit]
+d6f6cb71279  Camera: Longshot with Burst Functionality.  [AmolAmrit]
+04bb8cf899b  Camera: Force HAL1 for predefined package list.  [AmolAmrit]
+c03f977c82b  camera: Check if aux camera whitelist is set before restricting cameras  [AmolAmrit]
+c6a803df62d  Camera: Expose Aux camera to apps present in the whitelist  [AmolAmrit]
+d2dd8101573  Camera: Revert previous changes  [amol.amrit03]
+17cb604749c  Frameworks: pop up error when rename a file in the DocumentsUI  [Gaurav Singh]
+ac7434f254b  Fix NullPointerException in CaptivePortalLogin  [Gaurav Singh]
+dd65d1e28a0  Revert "Fix NullPointerException in CaptivePortalLogin"  [Gaurav Singh]
+   * hardware/aosp/interfaces/
+4ffff1e  aw2013: lets not crash service on missing LED  [amol.amrit03]
+e1f33c4  light: aw2013: Mark as shutdown critical  [amol.amrit03]
+   * kernel/google/wahoo/
+26e75dc2d291  arch/arm/boot/dts: stop fsmgr from checking vendor  [slothdabski]
+cf20cea94371  Merge branch 'features-qpp3' into quinoa-qpp3  [Harsh Shandilya]
+7d7c5c189a46  Merge remote-tracking branch 'kerneltoast/9.0.0-sultan' into quinoa-qpp3  [Harsh Shandilya]
+   * vendor/google/
+02a1792  Bonito: Update blobs to Android 9.0 (PQ3B.190605.006)  [Edwin Rivera]
+89d6b02  Merge "Taimen: Update blobs to Android 9.0 (PQ3A.190605.003)" into p9x  [Gerrit Code Review]
+
+====================
+     06-05-2019
+====================
+
+   * frameworks/av/
+f6c286895  audioflinger: Fix audio for WifiDisplay  [AmolAmrit]
+fb85f7712  libstagefright_wfd: video encoder does not actually release MediaBufferBase when done  [AmolAmrit]
+0c8204a9f  stagefright: Fix buffer handle retrieval in signalBufferReturned  [AmolAmrit]
+bd1cb0030  stagefright: Fix SurfaceMediaSource getting handle from wrong position issue  [AmolAmrit]
+ddc59c3cb  libstagefright_wfd: libmediaplayer2: compilation fixes  [AmolAmrit]
+121ca61c5  Revert "stagefright: remove Miracast sender code"  [AmolAmrit]
+2abe18c13  Revert "Removed unused class and its test"  [AmolAmrit]
+   * frameworks/base/
+823f7971328  Update bluetooth drawable  [Gaurav Singh]
+b561f221ce8  Add bluetooth icon.  [Gaurav Singh]
+   * packages/services/Telephony/
+f871ef3d3  Add missing null check on start of SipIncomingCallReceiver received.  [AmolAmrit]
+2d754e740  Change action bar icon and text color from white to grey  [AmolAmrit]
+2483fb328  Fix the drawable resource can't be loaded from RRO package  [AmolAmrit]
+3c5e41e28  Telephony: Implement alternative method for manual network select  [AmolAmrit]
+
