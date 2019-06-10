@@ -1,0 +1,39 @@
+==========================
+  Device specific changes
+==========================
+Fixed memory issues where foreground apps would get killed
+Improve battery consumption calculations
+
+==========================
+    AospExtended v6.5
+==========================
+Merge June security patch (9.0.0_r40)
+Update all translations
+Update all pre-built apks
+Update all of our packages
+Update APN configs
+Update Weather client
+Update Boostframework
+Update our launcher with Quick Space
+Add Pocket Lock feature
+Add Sysserv support for Substratum theme engine
+Add Pixel Navigation bar animation
+Add Live Display
+Add Font QS tile
+Add Android Q’s seek bar to media notification
+Add Android Q’s status bar battery icon
+Add Less boring heads up feature
+Add Battery animation in settings
+Add a new Elegant UI theme
+Improve UI for certain applications
+Improve three finger swipe screenshot feature
+Improve some UI/UX aspects
+Improve auxiliary camera support
+Improve Bluetooth SBC
+Improve Location QS tile
+Fix battery icon shortcut
+Fix some theme issues
+Fix AOSP WFD (Miracast) support
+Fix audio server crashes again
+Under the hood improvements
+Bug fixes and performance improvements
