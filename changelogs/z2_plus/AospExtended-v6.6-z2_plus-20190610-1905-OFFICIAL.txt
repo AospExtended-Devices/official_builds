@@ -1,0 +1,8 @@
+AEX 6.6
+Update blobs to LA.UM.7.5.r1-04800-8x96.0
+Remove Ant+ (deprecated in pie)
+Fix wifi and bluetooth mac address
+Updated and cleaned up camera HAL
+Update media config from Wahoo
+Livedisplay
+
