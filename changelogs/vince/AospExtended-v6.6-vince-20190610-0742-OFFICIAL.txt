@@ -2,7 +2,7 @@
 AospExtended v6.6 Changelog
 ===========================
 
-Note: NON Gapps build. You need to flash gapps separately. CLEAN FLASH ONLY
+Note: Gapps build. DO NOT flash gapps separately.
 
 -Merge June security patch (9.0.0_r40)
 -Rebased to my 4.9 trees
