@@ -1,0 +1,2 @@
+AEX v6.6.
+Update devce specifics. (Check more at https://github.com/aospextended-devices)
