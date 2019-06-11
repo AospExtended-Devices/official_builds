@@ -31,6 +31,9 @@
         },
         {
             "file_name": "AospExtended-v6.5-beryllium-20190529-0603-OFFICIAL.zip"
+        },
+        {
+            "file_name": "AospExtended-v6.6-beryllium-20190611-0235-OFFICIAL.zip"
         }
     ],
     "pie_gapps": [
@@ -39,6 +42,9 @@
         },
         {
             "file_name": "AospExtended-v6.5-beryllium-20190529-0456-OFFICIAL.zip"
+        },
+        {
+            "file_name": "AospExtended-v6.6-beryllium-20190610-1516-OFFICIAL.zip"
         }
     ]
 }
