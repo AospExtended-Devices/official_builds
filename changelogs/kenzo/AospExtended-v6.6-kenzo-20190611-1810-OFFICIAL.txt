@@ -1,0 +1,17 @@
+===========================
+AospExtended v6.6 Changelog
+===========================
+
+[12.06.19]
+
+- Update ZRAM configs
+- Update Boostframework configs
+- Update auto brightness values
+- Add Dirac QS tile
+- Add energy-awareness daemon back
+- Fix and add back Qualcomm's core control
+- Fix Miracast (Not the lockscreen bug though)
+- Fix minimum brightness issue
+- Fix manual network selection
+- Fix PowerOffAlarm and update blobs from tissot
+- Build with minimal SEPolicy
