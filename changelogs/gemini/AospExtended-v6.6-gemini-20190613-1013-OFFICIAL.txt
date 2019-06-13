@@ -1,0 +1,56 @@
+*** CLEAN FLASH RECOMMENDED ***
+
+Device:
+- Change camera to Snap
+- Add Mi5 Addons in updater
+- Add vendor prefix to below services.
+- Add LOS LiveDisplay
+- Add SELinux policy for clearkey HIDL service
+- Add Thermal
+- Add Thermal-engine
+- Add health 2.0 service
+- Add Translations For Fingerprint Button
+- Add 2 more notification icons
+- Add QCOM's WFD implementation
+- Fix Cast Screen
+- Fix 1080p 60fps lags when focusing
+- Fix 1080p 30fps video recording in snap camera
+- Fix Zoom in Instgram
+- Fix Video Recording in Instgram Story
+- Fix lags and glitch in Asphalt and Need For Speed
+- Fix battery drain
+- Fix battery heating
+- Fix Magisk SafetyNet
+- Update qseecom daemon service name
+- Update Camera props
+- Remove missed los stuff
+- Remove DoubleTapWake (Availabe in ConfigPanel)
+- Remove JamesDSP effect library
+- Remove cnss-daemon
+- Remove dumpstate
+- Decrease incoming volume grom 100 to 94
+- Build HVX neuralnetworks HAL
+- Switch to power-libperfmgr
+- sepolicy: adress qti perf denials
+- sepolicy: Address cnd denials properly
+- sepolicy: Address qfp-daemon denials properly
+- sepolicy: Silence {hal_perf_default,hvdcp} dac_* denials
+- sepolicy: Fix type attributes
+- sepolicy: add livedisplay rules
+- Don't set custom file attributes for cnss-daemon
+- init.rc: Changes to stop rtp daemon during shutdown
+- init.qcom.power.rc: Modify naming convention for prop…
+
+
+Vendor:
+- Add 1080p 60fps video recording
+- Add QCOM's WFD implementation
+
+
+Kernel:
+- Merge Latest CAF
+- Upstream to 3.18.140
+
+Note:
+If you want MIUI CAMERA check add-ons in:
+Settings> System> System Updates> Add-ons
