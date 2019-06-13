@@ -1,0 +1,23 @@
+============================
+ AospExtended 6.6 Changelog
+============================
+
+-Merged: New version of AospExtended (v6.6)
+Changelog in https://blog.aospextended.com/AospExtended-v6.6-Changelog
+-Merged: June Security Patch (9.0.0_r40)
+-Merged: Kernel v3.18.140 into kernel.lnx.3.18.r34-rel
+-Merged: SELinux Enforcing
+-Reworked: Device Tree based on land (Credits by sunnyraj)
+-Enabled: HAL3 (default)
+-Fixed: Errors in GCam
+-Fixed: WhatsApp Green Tint 
+-Enabled: MDP Composition
+-Enabled: Sglscale
+-Removed: Wifi Display (causing screen recording lag)
+
+Recommended: Clean Flash (because is new device tree)
+
+After 3 months without update, I think I should at least apologize.
+Thank you so much for supporting me to this day in development,
+I have not given up and I will not give up on you.
+Thanks for the support, guys <3
