@@ -1,0 +1,51 @@
+The first GApps build is now live! YAY
+
+Changelog:
+- AEX 6.6 is here my N- normal people <3
+  - Merge June security patch (9.0.0_r40)
+  - Update all translations
+  - Update all pre-built apks
+  - Update all of our packages
+  - Update APN configs
+  - Update Weather client
+  - Update Boostframework
+  - Update our launcher with Quick Space
+  - Add Pocket Lock feature
+  - Add Sysserv support for Substratum theme engine
+  - Add Pixel Navigation bar animation
+  - Add Live Display
+  - Add Font QS tile
+  - Add Android Q’s seek bar to media notification
+  - Add Android Q’s status bar battery icon
+  - Add Less boring heads up feature
+  - Add Battery animation in settings
+  - Add a new Elegant UI theme
+  - Improve UI for certain applications
+  - Improve three finger swipe screenshot feature
+  - Improve some UI/UX aspects
+  - Improve auxiliary camera support
+  - Improve Bluetooth SBC
+  - Improve Location QS tile
+  - Fix battery icon shortcut
+  - Fix some theme issues
+  - Fix AOSP WFD (Miracast) support
+  - Fix audio server crashes again
+  - Under the hood improvements
+  - Bug fixes and performance improvements
+
+Device Changelog:
+- Based on AEX 6.6 OFFICIAL (2019/06/13, 14:24 UTC).
+  Only GApps were added.
+  If you were interested in the device changelog from
+  Non-GApps 6.5, please refer to that build instead.
+  
+NOTICE:
+* For a better experience, please hide the VoLTE icon
+  on the default display size (density); otherwise
+  prefer smaller DPI (you can customize the display
+  size under display settings)
+
+BUG REPORTING:
+If you find any bugs please take logs and send them over
+to me on XDA or Telegram!
+t.me/aex_tulip

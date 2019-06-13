@@ -1,0 +1,60 @@
+Another build from Weebland comes and hits your phone (hard)
+
+Changelog:
+- AEX 6.6 is here my N- normal people <3
+  - Merge June security patch (9.0.0_r40)
+  - Update all translations
+  - Update all pre-built apks
+  - Update all of our packages
+  - Update APN configs
+  - Update Weather client
+  - Update Boostframework
+  - Update our launcher with Quick Space
+  - Add Pocket Lock feature
+  - Add Sysserv support for Substratum theme engine
+  - Add Pixel Navigation bar animation
+  - Add Live Display
+  - Add Font QS tile
+  - Add Android Q’s seek bar to media notification
+  - Add Android Q’s status bar battery icon
+  - Add Less boring heads up feature
+  - Add Battery animation in settings
+  - Add a new Elegant UI theme
+  - Improve UI for certain applications
+  - Improve three finger swipe screenshot feature
+  - Improve some UI/UX aspects
+  - Improve auxiliary camera support
+  - Improve Bluetooth SBC
+  - Improve Location QS tile
+  - Fix battery icon shortcut
+  - Fix some theme issues
+  - Fix AOSP WFD (Miracast) support
+  - Fix audio server crashes again
+  - Under the hood improvements
+  - Bug fixes and performance improvements
+
+Device Changelog:
+- Fixed manual network selection for single SIM users
+  This means that if you have a dual SIM setup,
+  you are still doomed. S-SORRY!!! >A<
+- Fixed the weird microphone behaviour in videos!
+  Now you can finally hear something when you take one!
+- Always got the latest Genom sauce for you, shenanigans!
+  This time, with EAS, so your phone doesn't eat battery
+  for breakfast!
+- Mi Sound and Ambient Display sections are better than
+  ever with the *NEW* icons! Now it looks more stylish~
+- Updated blobs to MIUI 10.2.3.0.PEKMIXM.
+  It's not a huge leap, but at least it's stable.
+- Minor fixes and changes under the hood!
+
+NOTICE:
+* For a better experience, please hide the VoLTE icon
+  on the default display size (density); otherwise
+  prefer smaller DPI (you can customize the display
+  size under display settings)
+
+BUG REPORTING:
+If you find any bugs please take logs and send them over
+to me on XDA or Telegram!
+t.me/aex_tulip
