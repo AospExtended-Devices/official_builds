@@ -88,6 +88,28 @@
             "url": "https://androidfilehost.com/?fid=1395089523397912997"
         }
    ],
+   "rolex": [
+        {
+            "title":"Telegram",
+            "summary":"GROUP REDMI 4A | OFFICIAL",
+            "url":"https://t.me/redmi4aINT"
+        },
+        {
+            "title":"Telegram",
+            "summary":"CHANNEL UPDATES REDMI 4A | OFFICIAL",
+            "url":"https://t.me/Redmi4A_Development"
+        },
+        {
+            "title": "Recovery",
+            "summary": "OrangeFox Recovery",
+            "url": "https://sourceforge.net/projects/orangefox/files/rolex/"
+        },
+        {
+            "title":"GApps",
+            "summary":"OpenGApps | Use arm64 & android 9.0",
+            "url":"https://opengapps.org/"
+        }
+    ],
     "sagit": [
         {
             "title":"TWRP",
