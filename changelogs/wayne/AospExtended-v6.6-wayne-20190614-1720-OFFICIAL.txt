@@ -1,0 +1,8 @@
+AospExtended 6.6 is up!
+June Security Patch
+* Need to flash the newest miui P firmware (https://t.me/XiaomiFirmwareUpdater)
+* Use Pixel power
+* Correction of battery capacity
+* Restore default rounded corners
+* Update some blobs
+* Fix some bug
