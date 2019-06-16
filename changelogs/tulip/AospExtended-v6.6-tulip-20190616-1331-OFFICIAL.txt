@@ -34,7 +34,7 @@ Changelog:
   - Bug fixes and performance improvements
 
 Device Changelog:
-- Based on AEX 6.6 OFFICIAL (2019/06/13, 14:24 UTC).
+- Based on AEX 6.6 OFFICIAL (2019/06/16, 09:54 UTC).
   Only GApps were added.
   If you were interested in the device changelog from
   Non-GApps 6.5, please refer to that build instead.

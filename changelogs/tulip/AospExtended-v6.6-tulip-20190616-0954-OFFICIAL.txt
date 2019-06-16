@@ -49,6 +49,11 @@ Device Changelog:
 - Minor fixes and changes under the hood!
 
 NOTICE:
+* This build was released *again* because there was
+  an unexpected bug in the wireless hotspot
+  capability that is now fixed. Please update ASAP
+  if you are on AEX 6.6 built on June 13 (that build is not
+  available anymore on the website).
 * For a better experience, please hide the VoLTE icon
   on the default display size (density); otherwise
   prefer smaller DPI (you can customize the display
