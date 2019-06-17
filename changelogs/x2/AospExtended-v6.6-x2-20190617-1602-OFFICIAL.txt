@@ -1,0 +1,8 @@
+AospExtended-v6.6-x2-20190617-1602-OFFICIAL.zip
+===============================================
+
+ChangeLog :
+1. Built with SDCLANG
+2. Increased flings boost values
+3. Fixed Substratum Issues
+4. For more go to Settings- About Phone - Changelogs
