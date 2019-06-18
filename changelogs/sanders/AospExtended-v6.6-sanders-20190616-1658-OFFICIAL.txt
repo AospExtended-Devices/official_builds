@@ -1,9 +1,0 @@
-=============================
-     Device Side Changes
-=============================
-- Hotfix Update
-- Fixed WiFi disconnection issue.
-- Fixed Youtube Black screen issue.
-- Thanks to new Mayhem Unravel Kernel.
-- Volte Fixed completely with icon.
-- Find out yourself.......
