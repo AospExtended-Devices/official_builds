@@ -1,0 +1,7 @@
+- Drop WFD completely
+- Better Gcam perfomance
+- Updated graphics blobs
+- Fixed USB tethering
+- Enforcing SELinux
+- Better memory management
+- Improved Audio 
