@@ -1,0 +1,11 @@
+Note: Build is based on pie-fw, it can be dirty flashed over last version(v6.6), but please dont dirty flash over v6.5 or prior to it.
+
+- Fixed install button on updater app(can be installed via updater now)
+- Fixed issues with substratum(included correct substratum signature key, no need to install it manually)
+- Refactored volte icon toggle
+- Add custom music fx
+- Add toggle for aex logo in statusbar
+- Fixed issues with hotspot(chinese users please confirm)
+- Used purecaf x5 kernel
+- Updated patch for goodix hack
+- Removed Goodix FP (with pie modem, the goodix firmware is present in the modem (/firmware))
