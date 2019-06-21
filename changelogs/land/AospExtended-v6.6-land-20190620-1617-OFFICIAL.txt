@@ -1,0 +1,5 @@
+- Fix and Re-add WiFi display options
+- Fix screen wakup delay
+- Merge LA.UM.7.6.r 10480089 xx.0 in Kernel
+- Merge LA.UM.7.6.r 10480089 xx.O in prima
+- Merge AOSP android-3.18 kernel changes.
