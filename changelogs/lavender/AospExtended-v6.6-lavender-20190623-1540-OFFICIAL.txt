@@ -1,0 +1,13 @@
+===========================
+AospExtended v6.6 Changelog
+===========================
+
+Note: NON Gapps build. You need to flash gapps separately. CLEAN FLASH ONLY
+
+-DT2W fixed
+-Brightness issue on other kernels fixed
+-Fixed Proximity Sensor
+-Improved Adaptive brightness
+-Disabled camera HAL3 by default
+-Revamped light hal
+-Added Notch City in Extensions->Status Bar 
