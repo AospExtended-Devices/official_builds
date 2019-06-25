@@ -1,0 +1,19 @@
+- Updates for Proper Rootless Substratum Support
+- Refactored VoLTE icon toggle for real time changes
+- Implemented Smart Mute in Dialer
+- Added Alegreya SansSC and NokiaPure Fonts
+- Updates for Chinese Carriers Support
+- Added an Option for AEX logo in Status Bar
+- Bug fixes and performance improvements
+
+- Merged Latest Linux Stable v4.4.183
+- Allow system_server to read vendor camera props
+- Import media_profiles_vendor config from stock
+- Remove qvga/vga/2k/4kdci profiles & lpcm codec
+- Build dummy android.hidl.[base,manager]@1.0
+- Build rcs packages
+- Configure number of physical SIM slots
+- Pin HOME application
+- Update Safe Media Volume Index
+- Pin critical apps and system services that gets swapped
+- Enable B-services aging propagation
