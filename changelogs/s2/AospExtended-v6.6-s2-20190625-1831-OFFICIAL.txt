@@ -1,0 +1,13 @@
+=================================================
+   AospExtended-v6.6-s2-20190625-1831-OFFICIAL
+=================================================
+
+ * DIRAC sound on QS tile
+ * Auto brightness fixed
+ * Camera fixes
+ * Use full Camera res(16mp) in Gcam
+ * QR code scanning autofocus fixed
+ * Updated thermal thresholds
+ * Added back core_ctl
+ * Some kernel side fixes
+ * ROM source updated to AEX 6.6
