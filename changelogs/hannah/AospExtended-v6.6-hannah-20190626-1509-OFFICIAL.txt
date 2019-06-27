@@ -1,0 +1,8 @@
+===========================
+AospExtended v6.6 Changelog
+===========================
+
+Note: NON Gapps build. You need to flash gapps separately. CLEAN FLASH ONLY
+
+-Initial Official Build
+-Merge June security patch (9.0.0_r40)
