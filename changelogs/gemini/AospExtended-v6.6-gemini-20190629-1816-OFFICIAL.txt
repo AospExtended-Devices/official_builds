@@ -1,0 +1,29 @@
+Chanelog:
+
+Device:
+Revert "msm8996-common: overlay: Remove DoubleTapWake
+wifi: Enable DFS channel scanning in P2P search
+Configpanel: Drop QC3.0 limit
+Configpanel: Drop KCAL
+Configpanel: Drop vibrator controller
+Configpanel: Cleanup configpanel
+sepolicy: Fix wfdservice denied (Castscreen should work now)
+
+Kernel
+Compiled with GCC 9.1.0
+Merged Latest CAF
+media: v4l2-ioctl: Use a larger on-stack video copy buffer
+crypto: msm: Don't bail out when debugfs creation fails 
+ARM: dts: msm8996: Set GPU idle timeout to 64 ms 
+base: dd: Continue probe deferral forever as needed after late_initcall
+soc: qcom: smp2p: Fix compile errors when testing is disabled
+proc: Don't let Google Camera and Settings run in the background
+selinux: Avoid dynamic memory allocation for small context buffers
+msm: kgsl: Avoid dynamically allocating small command buffers
+mm/slab_common: Align all caches' objects to hardware cachelines 
+binder: Reserve caches for small, high-frequency memory allocations
+binder: create node flag to request sender's security context
+UPSTREAM: binder: fix race that allows malicious free of live buffer 
+ALSA: control: Don't dynamically allocate a single struct instance 
+Revert "ASoC: msm: add support for VI sense recording" 
+qdsp6v2: Remove MM28 and MM29 for record usecase
