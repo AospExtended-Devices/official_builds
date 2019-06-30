@@ -1,0 +1,17 @@
+===========================
+AospExtended v6.6 Changelog
+===========================
+
+Note: Gapps build. DO NOT flash gapps separately.
+
+-Add f2fs support 
+-Force Full Screen apps added (Settings->Extensions->Status Bar->Display Cutout) 
+-Disable ALMK on all targets
+-Add MIUI poweroff charging animation
+-Revamp WiFi configs
+-Build Fingerprint updated to V10.3.6.0 stable
+-Blobs updated to latest V10.3.6.0.PFGMIXM global release 
+-Updated CarrierConfig from MIUI
+-Animate change in time in Q clock
+-Applied minor cleanup 
+-Merged with latest sources

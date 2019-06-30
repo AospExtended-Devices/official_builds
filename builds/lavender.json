@@ -5,6 +5,14 @@
         },
         {
             "file_name": "AospExtended-v6.6-lavender-20190623-1651-OFFICIAL.zip"
+        },
+        {
+            "file_name": "AospExtended-v6.6-lavender-20190630-0450-OFFICIAL.zip"
+        }
+    ],
+    "pie_gapps": [
+        {
+            "file_name": "AospExtended-v6.6-lavender-20190630-0725-OFFICIAL.zip"
         }
     ]
 }
