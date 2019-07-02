@@ -1,0 +1,12 @@
+- Merged July Security Patch
+
+- Enable Wi-Fi MAC randomization
+
+- Wireguard Support in Kernel
+- Replace CPU Boost with CPU Input Boost
+- Add boeffla wakelock blocker and block some wakelocks by defaults
+- Add and Set BFQ as default I/O scheduler
+- Enable advanced TCP congestion alogrithms and set westwood as default
+- Add and Enable Adreno Idler
+- Add KCAL Color Control and USB Fast Charge (off by default)
+- Misc changes
