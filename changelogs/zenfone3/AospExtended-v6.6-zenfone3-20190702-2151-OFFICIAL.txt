@@ -1,0 +1,16 @@
+======================
+    AEX changelog
+======================
+
+- Merge July security patch (9.0.0_r44)
+
+==============================
+ ZenFone 3 specific changelog
+==============================
+
+Version without GApps
+You need to flash GApps separately
+
+- Fix wifi display (@makorn645)
+- Kernel updates from CAF Tag LA.UM.7.6.r1-05300-89xx.0
+- Upstream changes
