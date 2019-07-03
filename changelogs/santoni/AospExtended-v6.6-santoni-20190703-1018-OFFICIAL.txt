@@ -1,0 +1,9 @@
+- July security patch
+- Added apt blobs from crosshatch
+- Fixed dt2w switch in settings (this WILL drain your battery if enabled. thx to @beingstargazer for the tip)
+- Miui offline charging animation
+- Cleanup camera test packages
+- Kernel built with clang 9.0.4
+- Kernel: Merged LA.UM.7.6.r1-05300-89xx.0 caf tag
+- Kernel: Merged LA.UM.7.6.r1-05300-89xx.0 caf tag wlan prima
+- Kernel: Merged f2fs updates
