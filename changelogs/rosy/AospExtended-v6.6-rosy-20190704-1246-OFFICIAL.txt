@@ -1,0 +1,12 @@
+======================
+  AospExtended v6.6
+======================
+
+July security patch (9.0.0_r40)
+
+=================
+  Rosy Specific
+=================
+Audio config changes
+Possible fix for display glitch
+Removed custom display modes as it was causing color issues in the display
