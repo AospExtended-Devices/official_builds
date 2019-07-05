@@ -1,0 +1,20 @@
+Note: Build is based on pie-fw.
+
+- Merged July Security patch (r44)
+- Systemui: Name cellular tile based on carrier
+- Systemui: Enable/fix QS detail view & adapt to pie
+- SystemUi: Fix several layout bugs
+- Launcher3: Use a buttom margin when software navigation bar is not in use
+- Launcher3: Set search type based on GSA.
+- Added Volte icon from oos
+- Decrease padding for status bar icon
+- Fix clock/statusbar padding issue
+- Seek bar improvement
+- Allow pixel 3 live wallpaper to work in ambient display
+- Animate change in time of Q clock
+- Added 3 new font - Nokia pure, alegreya SansSc, Android Q's Source sans pro
+- Switch to Los Privacy guard for P
+- Bring back to Night light and removed live display temperature
+- Fix crashes with few music players such as Gaana
+- Set delay for screenshot shortcut to 0
+- Updated purecaf kernel
