@@ -14,6 +14,9 @@
         },
         {
             "file_name": "AospExtended-v6.6-arm64_aonly-20190619-0000-OFFICIAL.zip"
+        },
+        {
+            "file_name": "AospExtended-v6.6-arm64_aonly-20190705-0000-OFFICIAL.zip"
         }
     ],
     "pie_arm64_ab": [
@@ -31,6 +34,9 @@
         },
         {
             "file_name": "AospExtended-v6.6-arm64_ab-20190619-0000-OFFICIAL.zip"
+        },
+        {
+            "file_name": "AospExtended-v6.6-arm64_ab-20190705-0000-OFFICIAL.zip"
         }
     ],
     "pie_arm_aonly": [
@@ -48,6 +54,14 @@
         },
         {
             "file_name": "AospExtended-v6.6-arm_aonly-20190619-0000-OFFICIAL.zip"
+        },
+        {
+            "file_name": "AospExtended-v6.6-arm_aonly-20190705-0000-OFFICIAL.zip"
+        }
+    ],
+    "pie_a64_aonly": [
+        {
+            "file_name": "AospExtended-v6.6-a64_aonly-20190705-0000-OFFICIAL.zip"
         }
     ]
 }
