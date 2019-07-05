@@ -1,0 +1,12 @@
+===========================
+AospExtended v6.6 Changelog
+===========================
+
+Note: NON Gapps build. You need to flash gapps separately. CLEAN FLASH ONLY
+
+-Merge July security patch (9.0.0_r44)
+-Fixed MetroPCS APNs
+-Fixed Tigo Colombia APNs
+-Fixed FM Radio
+-Fixed offmode charging
+-Increased volume level for speaker, handset & headphone 
