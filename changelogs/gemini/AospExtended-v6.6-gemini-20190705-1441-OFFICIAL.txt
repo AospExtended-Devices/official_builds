@@ -1,0 +1,34 @@
+*** July Security Patch ***
+
+Device:
+- Enabled Button Swap By Default
+- Removed DT2W From Display Settings
+
+Kernel:
+- Merged Latest CAF Changes
+- Fixed Locked CPU 0 And CPU 1 Frequency
+- Fixed Battery Drain
+- Only wake GPU upon ioctl receipt when it isn't awake
+- Initialize ata before graphics
+- Mark MSI cascade ISR as IRQF_NO_THREAD
+- Fix error path mutex unlock
+- import tfa98xx driver v6.5.5 
+- Fix 2% battery level drop
+- Fix massive cpufreq stats memory leaks
+- Compile out temperature polling
+- Disable GPU wake up on touch event
+- queue work on system_power_efficient_wq
+- Update boeffla_wl_blocker to wakelock blocker driver v1.1.0
+- add more wakelocks to the default block list 
+- add more wakelocks to the default block list 2 (less aggressive)
+- Use CLKFLAG_NO_RATE_CACHE for pwrcl and perfcl clk
+- Changes from Soda
+- use power efficient wq
+- set interval between consecutive boosts to be at least the duration of the boost instead of a bigger value
+- optimize policy update loop on input cpufreq boost 
+- don't boost over user set max freq
+- export input_boost_enable to userspace
+- don't boost if input_boost_ms is <= 0
+- don't boost the gold cluster unecessarily
+- don't raise min freq if the current frequency is already >= boost frequency
+- prevent the driver from handling userspace min freq cpu boost hints
