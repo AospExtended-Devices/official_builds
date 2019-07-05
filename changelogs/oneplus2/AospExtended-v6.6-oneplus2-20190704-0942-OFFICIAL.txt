@@ -1,0 +1,6 @@
+=========================
+Device Specific Changelog
+=========================
+
+-Fix gestures broken on last build
+-Use Simple LMK (by Sultan)
