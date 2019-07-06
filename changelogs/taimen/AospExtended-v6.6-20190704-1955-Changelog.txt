@@ -1,0 +1,84 @@
+====================
+     07-04-2019
+====================
+
+   * build/make/
+29515c935  dex2oat: disable multithreading for WSL  [Arghya Chanda]
+91c3124cf  Add detection for WSL  [Arghya Chanda]
+   * device/google/wahoo/
+c6d1e24  change defconfig  [slothdabski]
+   * frameworks/base/
+f949d1e0cfe8  appops: Switch to Privacy Guard for P (1/2)  [Arghya Chanda]
+873278b23063  LiveDisplayService: Disable ColorTemperature when NightDisplay is available  [Arghya Chanda]
+7981cdd2d73f  LiveDisplayTile: Report unavailable on HWC2  [Arghya Chanda]
+02b84c21e7c3  Revert "NightDisplayController: report unavailable if livedisplay feature is present"  [Arghya Chanda]
+b2d56e4d24fc  SystemUI: Use proper lock icon scale on dismissing notification panel view  [Arghya Chanda]
+eed72476b92f  SystemUI: Handle orientation and screenSize changes for TunerActivity  [Arghya Chanda]
+4e4e25de987e  Revert "SystemUI: fix the behavior of QS with isDualTarget=true"  [Arghya Chanda]
+ff60711b2f2c  Add missing ensureRunningOnConnectivityServiceThread() function  [Arghya Chanda]
+d9586cbfa290  PhoneWindowManager: Set delay for screenshot shortcut to 0  [Arghya Chanda]
+d79c2f9232e4  Reduce the padding between media controls & seekbar  [Arghya Chanda]
+6052c4794847  Fix back button not appearing after camera gesture launch  [Arghya Chanda]
+bd9254d0fdb5  SystemUI: Use VoLTE icon from OOS  [Arghya Chanda]
+72a7a5acc877  SeekBar: Check for null reference of mMediaController.getPlaybackState()  [Arghya Chanda]
+d2f418975118  Stop USB Debugging authorization window dismissing on tap outside.  [Arghya Chanda]
+ae3de66e0051  SystemUI: Decrease padding for statusbar icons  [Arghya Chanda]
+4c7718038aac  Fix clock/statusbar padding  [Arghya Chanda]
+c07a1a0934d5  Frameworks: Slightly refactor Parcel code  [Arghya Chanda]
+ba15f878bd14  Stable seek bar positioning  [Arghya Chanda]
+   * packages/apps/Settings/
+7ab529f199  settings: appops: support setting for work profile apps.  [Arghya Chanda]
+11f9913177  Settings: appops: Drop GET_UNINSTALLED_PACKAGES from getApplicationInfo()  [Arghya Chanda]
+6ae3a4a52c  Settings: Switch to Privacy Guard for P (2/2)  [Arghya Chanda]
+aade0fcf38  Settings: Don't show display mode and color tempertature on HWC2  [Arghya Chanda]
+14b9116910  Settings: Don't index display mode and color tempertature on HWC2  [Arghya Chanda]
+88d290f794  Revert "Settings: Hide Night Mode suggestion if LiveDisplay feature is present"  [Arghya Chanda]
+   * vendor/aosp/
+ebedc947  vendor: fonts: Add Source Sans Pro from Android Q  [Arghya Chanda]
+
+====================
+     07-03-2019
+====================
+
+
+====================
+     07-02-2019
+====================
+
+   * build/make/
+7676225d7  Merge tag 'android-9.0.0_r44' into HEAD  [Arghya Chanda]
+   * frameworks/av/
+64f42a4f8  Merge tag 'android-9.0.0_r44' into HEAD  [Arghya Chanda]
+   * frameworks/base/
+46a4c489d67f  Merge tag 'android-9.0.0_r44' into HEAD  [Arghya Chanda]
+   * frameworks/native/
+32b044236  Merge tag 'android-9.0.0_r44' into HEAD  [Arghya Chanda]
+   * manifest/
+ee11f03  Remove empty AOSP repositories  [Arghya Chanda]
+c8d9e9d  Merge tag 'android-9.0.0_r44' into HEAD  [Arghya Chanda]
+   * packages/apps/PackageInstaller/
+03a5f5f9  Merge tag 'android-9.0.0_r44' into HEAD  [Arghya Chanda]
+   * system/bt/
+f96c051f3  Merge tag 'android-9.0.0_r44' into HEAD  [Arghya Chanda]
+   * system/core/
+95bb96f89  Merge tag 'android-9.0.0_r44' into HEAD  [Arghya Chanda]
+   * system/netd/
+2e35b00  Merge tag 'android-9.0.0_r44' into HEAD  [Arghya Chanda]
+
+====================
+     07-01-2019
+====================
+
+   * device/google/taimen/
+6ed23f8  taimen: fingerprint PQ3A.190705.001 5565753  [slothdabski]
+   * device/google/wahoo/
+2010597  Merge tag 'android-9.0.0_r44' of https://android.googlesource.com/device/google/wahoo into HEAD  [slothdabski]
+   * manifest/
+95977bd  Manifest for Android 9.0.0 Release 44 (PQ3A.190705.003)  [The Android Open Source Project]
+f12a06a  Manifest for Android 9.0.0 Release 43 (PQ3A.190705.001)  [The Android Open Source Project]
+
+====================
+     06-30-2019
+====================
+
+
