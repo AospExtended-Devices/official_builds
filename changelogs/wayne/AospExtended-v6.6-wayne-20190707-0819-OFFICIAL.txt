@@ -1,0 +1,7 @@
+July Security Patch
+* Need to flash the newest miui P firmware (https://t.me/XiaomiFirmwareUpdater)
+* Update Blobs to MIUI 10.3.4
+* Update kernel to 4.4.184
+* Disable ALMK on all targets
+* Update power profile form stock
+* Fix some bug
