@@ -1,9 +1,0 @@
-April Security Patch
-* No longer support f2fs for cache
-* New device tree
-* All P vendor blobs
-* Need to flash the newest miui P firmware
-(https://t.me/XiaomiFirmwareUpdater)
-* Wechat/Alipay Fingerprint Payment
-* Gapps included
-* Bug:Miui Camera in normal mode
