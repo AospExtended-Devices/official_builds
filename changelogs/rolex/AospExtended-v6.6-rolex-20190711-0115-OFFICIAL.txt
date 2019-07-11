@@ -1,0 +1,13 @@
+============================
+ AospExtended 6.6 Changelog
+============================
+
+-Merged: July Security Patch (9.0.0_r44)
+-Reworked: Device Tree No-Commonized (Thanks to nick)
+-Reworked: Doze settings (Ambient display)
+-Readded: Dirac Settings (Increased Sound)
+-Fixed: Quickswitch support
+-Enabled: Incall music
+-Enabled: AGPS 
+
+Recommended: Clean Flash (because is new device tree)
