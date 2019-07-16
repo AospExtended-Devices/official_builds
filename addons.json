@@ -16,7 +16,20 @@
             "url": "https://github.com/topjohnwu/Magisk/releases/download/manager-v7.3.2/MagiskManager-v7.3.2.apk"
         }
 
-    ],
+    ],    
+    "hannah": [
+        {
+            "title": "E5+ Custom Kernel",
+            "summary": "Twerk Kernel (LiT) - Overclocked & Underclocked",
+            "url": "https://www.androidfilehost.com/?fid=6006931924117916893"
+        },
+        {
+            "title": "E5+ Custom Kernel (LiTE)",
+            "summary": "Twerk Kernel - ONLY Underclocked",
+            "url": "https://www.androidfilehost.com/?fid=6006931924117916894"
+        }
+
+    ],  
     "tissot": [
         {
             "title": "Jan Firmware",
