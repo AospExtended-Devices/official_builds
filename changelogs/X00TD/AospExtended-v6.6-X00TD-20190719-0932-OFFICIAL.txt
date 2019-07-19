@@ -1,0 +1,5 @@
+- Update some of the perf blobs from Razer/Aura
+- Upstream kernel to 4.4.185
+- Add seperate toggles for double tap and gestures in zenmotions
+- Some misc changes
+- Aex source upstream
