@@ -1,0 +1,7 @@
+=========================== 
+AospExtended v6.6 Changelog 
+===========================
+
+Note: Recommend Firmware 10.3.2 Stable
+
+-First Official Build
