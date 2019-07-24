@@ -1,0 +1,12 @@
+======================
+  AospExtended v6.6
+======================
+
+ROM side changes
+
+=================
+  Rosy Specific
+=================
+Upstreamed to CAF tag LA.UM.7.6.r1-05500-89xx.0
+Disabled cpusets
+Disabled cpuboost
