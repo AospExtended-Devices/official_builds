@@ -1,9 +1,0 @@
-=====================
-  AospExtended v6.2
-=====================
--DTV Work
--Radio FM Work
--LiveDisplay Fixed
--VoLTE Fixed
--FP Gestures Work
--Other Fixes

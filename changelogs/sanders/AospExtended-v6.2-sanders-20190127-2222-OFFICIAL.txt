@@ -1,6 +1,0 @@
-=====================
-  AospExtended v6.2
-=====================
--Kernel upstreamed - 3.18.133
--Added DTV for Brazilian users
--some bugs fixes
