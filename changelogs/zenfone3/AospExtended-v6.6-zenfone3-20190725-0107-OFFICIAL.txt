@@ -1,0 +1,9 @@
+==============================
+ ZenFone 3 specific changelog
+==============================
+
+Version without GApps
+You need to flash GApps separately
+
+- Kernel updates from CAF tag LA.UM.7.6.r1-05500-89xx.0
+- Upstream changes
