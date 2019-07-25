@@ -1,0 +1,16 @@
+===========================
+AospExtended v6.6 Changelog
+===========================
+
+Note: Gapps build. DO NOT flash gapps separately.
+
+-Fixed FM
+-Modified status bar height to match the notch
+-Q Clock typo fixed
+-Removed PocketLock animations which caused flickering issues 
+-Built with SDCLANG
+-Add support for Wrapped Key
+-Updated FM blobs from LA.UM.7.2.r1-06900-sdm660
+-Minor cleanup
+-Bug fixes and performance improvements 
+-Merged with latest sources
