@@ -1,0 +1,18 @@
+> Merge June security patch (9.0.0_r44)
+> Upstreamed kernel to 3.18.140
+> Added MusicFX
+> Added AppOps
+> AEX logo in the status bar
+> Fix clock/statusbar padding
+> Q Style clock fixes
+> Stable seek bar positioning
+> Use VoLTE icon from OOS
+> Update camera blobs from MIUI V10.2.3.0.NCFMIXM 
+> Update blobs from 7.0/NRD90M/9.7.4 
+> Update Graphics stack from Aquarius X2 (Zangya)
+> FP speed improvements
+> Added Aosp FM Radio
+> Under the hood improvements
+> Bug fixes and performance improvements
+
+For more detailed changelog, visit http://gerrit.aospextended.com/q/status:merged
