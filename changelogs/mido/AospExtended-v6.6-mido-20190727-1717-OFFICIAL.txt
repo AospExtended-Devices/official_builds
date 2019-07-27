@@ -1,4 +1,4 @@
-> Merge June security patch (9.0.0_r44)
+> Merge July security patch (9.0.0_r44)
 > Upstreamed kernel to 3.18.140
 > Added MusicFX
 > Added AppOps
