@@ -1,0 +1,10 @@
+AospExtended-v6.6-x2-20190728-1658-OFFICIAL
+===============================================
+
+1. Switched to EAS implementation
+2. Added Custom Doze Package
+3. Added Greek translations for lepref thanks to @crisBalGreece
+4. Some Audio Fixes from Marc
+5. Removed Gaming mode for now
+
+and many other updates
