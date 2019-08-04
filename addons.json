@@ -16,7 +16,7 @@
             "url": "https://github.com/topjohnwu/Magisk/releases/download/manager-v7.3.2/MagiskManager-v7.3.2.apk"
         }
 
-    ],    
+    ],
     "hannah": [
         {
             "title": "E5+ Custom Kernel",
@@ -29,7 +29,7 @@
             "url": "https://www.androidfilehost.com/?fid=6006931924117916894"
         }
 
-    ],  
+    ],
     "tissot": [
         {
             "title": "Jan Firmware",
@@ -126,13 +126,13 @@
     "sagit": [
         {
             "title":"TWRP",
-            "summary":"Recommended TWRP 3.3.1 use twrp-3.3.1-0-sagit-arian-sar.img",
+            "summary":"Recommended TWRP 3.3.1, use twrp-3.3.1-0-sagit-arian-sar.img",
             "url":"https://github.com/xiaomi-msm8998/twrp_device_xiaomi_sagit/releases/3.3.1/"
         },
         {
             "title":"Firmware",
-            "summary":"Miui Pie Beta 9.5.30",
-            "url":"https://osdn.net/projects/xiaomifirmwareupdater/storage/Developer/9.5.30/sagit/fw_sagit_miui_MI6Global_9.5.30_71a2288db2_9.0.zip"
+            "summary":"Miui Global Stable V10.4.1.0",
+            "url":"https://osdn.net/projects/xiaomifirmwareupdater/storage/Stable/V10/sagit/fw_sagit_miui_MI6Global_V10.4.1.0.PCAMIXM_38edd1584c_9.0.zip"
         },
         {
             "title":"GApps",
@@ -146,13 +146,8 @@
         },
         {
             "title":"Telegram",
-            "summary":"General Xiaomi Mi 6 Group",
-            "url":"https://t.me/joinchat/IcEq5ELELI-hHKBYqm9Tfg"
-        },
-        {
-            "title":"Telegram",
             "summary":"General Xiaomi Mi 6 Announcement Channel",
-            "url":"https://t.me/mi6arsenal"
+            "url":"https://t.me/XiaomiMi6Arsenal"
         }
    ],
     "sanders": [

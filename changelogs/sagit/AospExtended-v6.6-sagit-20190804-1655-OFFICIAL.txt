@@ -1,0 +1,4 @@
+* July Android Security Bulletin
+* Updated Blobs and configs from miui_MI6Global_V10.4.1.0.PCAMIXM_38edd1584c_9.0
+* Merged sagit-p-oss kernel release by xiaomi
+* Add ANT+ support
