@@ -1,0 +1,9 @@
+===========================
+AospExtended v6.7 Changelog
+===========================
+
+Note: NON Gapps build. You need to flash gapps separately. CLEAN FLASH ONLY
+
+-Merge August security patch (9.0.0_r46)
+-Adjusted power_profile.xml
+-Pinned critical apps and system services
