@@ -1,0 +1,29 @@
+- Updated qmi blobs from LA.UM.7.6.2.r1-03800-89xx.0 (all credits goes to Nichcream)
+- Gps hal update to LA.UM.7.6.2.r1-03800-89xx.0
+- Nuked dirac
+- Kernel: rebased kernel to Ryan's Andri google source
+- Kernel: built with clang 9.0.5
+- Merge August security patch (9.0.0_r46)
+- Update all translations
+- Update all pre-built apks
+- Update all of our packages
+- Update APN configs
+- Update Boostframework configs
+- Update MusicFX
+- Update Launcher 3
+- Add new default wallpaper
+- Add VPN QS tile
+- Add per app data restriction
+- Add privacy guard
+- Add proximity speaker for calls
+- Add an option for AEX Logo in status bar
+- Add smart mute feature
+- Add some new fonts
+- Improve Pocket Lock
+- Improve Live Display
+- Improve the Q style lock clock
+- Improve VoLTE toggle
+- Improve some UI/UX aspects
+- Fix many theming issues
+- Lot of under the hood improvements
+- Bug fixes and performance improvements
