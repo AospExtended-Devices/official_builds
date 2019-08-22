@@ -1,0 +1,10 @@
+===========================
+AospExtended v6.7 Changelog
+===========================
+
+ - Merge August security patch (9.0.0_r46)
+ - Update all translations
+
+Nexus 5X Changes:
+ - NFC(maybe)
+ - Optimizations
