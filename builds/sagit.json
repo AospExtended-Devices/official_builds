@@ -38,6 +38,9 @@
         },
         {
             "file_name": "AospExtended-v6.6-sagit-20190804-1655-OFFICIAL.zip"
+        },
+        {
+            "file_name": "AospExtended-v6.7-sagit-20190823-1553-OFFICIAL.zip"
         }
     ],
     "pie_gapps": [
@@ -55,6 +58,9 @@
         },
         {
             "file_name": "AospExtended-v6.6-sagit-20190804-1906-OFFICIAL.zip"
+        },
+        {
+            "file_name": "AospExtended-v6.7-sagit-20190823-1931-OFFICIAL.zip"
         }
     ]
 }

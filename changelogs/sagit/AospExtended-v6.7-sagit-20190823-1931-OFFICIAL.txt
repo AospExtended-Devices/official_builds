@@ -1,0 +1,5 @@
+* AospExtended v6.7
+* August Android Security Bulletin
+* Fixed WeChat, Whatsapp and whatever voice calls
+* Fixed wrong GPS tag
+* Enabled 64-bit DRM
