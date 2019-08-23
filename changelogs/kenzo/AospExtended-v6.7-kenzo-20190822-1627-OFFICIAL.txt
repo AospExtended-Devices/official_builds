@@ -1,0 +1,20 @@
+===========================
+AospExtended v6.7 Changelog
+===========================
+
+[22.08.19]
+
+- Escrima X28 kernel
+- Switch back to 3.10.108 ZRAM driver
+- Switch back to previous vibration pattern
+- Switch to userspace low memory killer driver
+- Disable core control
+- Enable memory cgroups
+- Set readahead value to 128 KB
+- Some more improvements
+- Set VFS cache pressure to 100
+- Fix hidden WiFi issue
+- Fix random reboot issues related to ZRAM
+- Fix YouTube blackscreen issues
+- Fix driver support for ath9k.htc driver for Wireless GamePads
+- Many other misc changes
