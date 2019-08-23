@@ -1,0 +1,33 @@
+Xiaomi Mi 5 AospExtended 6.7 August 23, 2019 Changelog:
+
+Device:
+Fixed Sepolicy denials
+Fixed Pocketmode
+Added Mi Ringtone
+Set proper permission to /acct/uid_*
+Swiched to CMHW
+Updated Audio configs from msm8996-caf
+Removed config_tether_upstream_types
+Set Via browser by default
+Removed custom thermal for Mi 5 Lite
+Updated thermal engine configs for new blobs
+Add empty mixer paths for AFE proxy
+Fixed Failed to optimize perf error in log
+and some improvements ...
+
+Kernel:
+Rebased Kernel
+Fixed Locked CPU Frequency
+Added Darkness Governor
+Added Alucard Governor
+Merged Latest CAF
+
+Vendor:
+Fully Rebased
+Imported msm_irqbalance from sailfish PPR2.181005.003
+Imported perf configs from device tree and modified perf configs
+Imported com.qti.location.sdk blob and updated from op3 pie
+Imported missing tui & post processing blobs
+
+
+#stay_extended ;)
