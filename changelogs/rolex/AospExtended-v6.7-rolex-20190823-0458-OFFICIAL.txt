@@ -1,0 +1,12 @@
+============================
+ AospExtended 6.7 Changelog
+============================
+
+-Merged: New version of AospExtended (v6.7)
+Changelog in https://blog.aospextended.com/AospExtended-v6.7-Changelog
+-Merged: August Security Patch (9.0.0_r46)
+
+It has been 2 years officially maintaining AEX, i am following new paths for my life.
+I will no longer compile officially, but I will always be available.
+Thanks for all, guys <3
+Unofficial ROMs and projects: https://ecr34t1v3.github.io
