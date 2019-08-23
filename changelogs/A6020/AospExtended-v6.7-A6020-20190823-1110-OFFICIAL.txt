@@ -4,7 +4,6 @@
 
 Merge August security patch (9.0.0_r46)
 Update all translations
-Update all pre-built apks
 Update all of our packages
 Update APN configs
 Update Boostframework configs
@@ -12,21 +11,21 @@ Update MusicFX
 Update Launcher 3
 Add new default wallpaper
 Add VPN QS tile
-Add per app data restriction
+Add per-app data restriction
 Add privacy guard
 Add proximity speaker for calls
-Add an option for AEX Logo in status bar
+Add an option for the AEX Logo in status bar
 Add smart mute feature
 Add some new fonts
+Improve Gaming Mode
 Improve Pocket Lock
 Improve Live Display
 Improve the Q style lock clock
 Improve VoLTE toggle
 Improve some UI/UX aspects
-Fix many theming issues
+Fix few theming issues
 Lot of under the hood improvements
 Bug fixes and performance improvements
-
 
 ==========================
  A6020 specific changes
@@ -36,6 +35,7 @@ Initial Official Build
 Enforcing SELinux
 Fixed USB audio support
 Power script changes
+Fixed Wifi
 Other Bug fixes and some minor changes
 
 ## **Note: Clean Flash is recommended** ##
