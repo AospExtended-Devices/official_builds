@@ -1,0 +1,6 @@
+* AospExtended v6.7:- https://blog.aospextended.com/AospExtended-v6.7-Changelog/
+* August Android Security Bulletin
+* Update CarrierConfig. (Brings support for VoLTE for some networks like Airtel)
+* Merged with latest Lineage sources
+* Fix Google Drive issues with kernel
+
