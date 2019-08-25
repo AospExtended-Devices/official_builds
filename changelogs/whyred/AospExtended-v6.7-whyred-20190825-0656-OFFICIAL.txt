@@ -1,0 +1,65 @@
+===========================
+AospExtended v6.7 Changelog
+===========================
+
+Device Changelog: 
+
+- Rebased to GuaiYiHu's DT
+- AEX-Illusion-5.7 kernel (built with clang 9.0.5)
+- update vendor blobs from LA.UM.7.2.r1-06900-sdm660.0
+- Update GPS from LA.UM.7.2.r1-07000-sdm660.0
+- update vendor blobs from V10.3.2.0.PEIMIXM
+- Wifi: update configs from V10.3.1.0.PEIMIXM
+- Update system build props from V10.3.1.0.PEIMIXM
+- Update build fingerprint to MIUI V10.3.1.0.PEIMIXM
+- Import all soundtrigger mixer paths from MIUI 9.7.25
+- update gps.conf from V10.3.1.0
+- Update vendor CarrierConfig from MIUI 9.8.8
+- Update vendor props from MiUI 9.8.8
+- Update vibration pattern from MiUI 9.8.8
+- Update system.prop from stock
+- Dex2oat improvements
+- Address few denials
+- Optimize ART props
+- Fifo UI prop removed
+- Gps: Disable unused location services
+- Set default hotspot name to Redmi Note 5 Pro
+- Disable bluetooth on first boot
+- Increase in call volume
+- Update audio stuffs from  CAF
+- Removed useless ACDB ids from audio platform
+- Sf phase offsets props from Pixel 3a tree (to improve animations, etc)
+- Set dpi to 400
+- More fixes and performance improvements
+
+NOTE: Clean flash recomended
+
+==================
+  AEX CHANGELOG
+================== 
+
+- Merge August security patch (9.0.0_r46)
+- Update all translations
+- Update all of our packages
+- Update APN configs
+- Update Boostframework configs
+- Update MusicFX
+- Update Launcher 3
+- Add new default wallpaper
+- Add VPN QS tile
+- Add per-app data restriction
+- Add privacy guard
+- Add proximity speaker for calls
+- Add an option for the AEX Logo in status bar
+- Add smart mute feature
+- Add some new fonts
+- Improve Gaming Mode
+- Improve Pocket Lock
+- Improve Live Display
+- Improve the Q style lock clock
+- Improve VoLTE toggle
+- Improve some UI/UX aspects
+- Fix few theming issues
+- Lot of under the hood improvements
+- Bug fixes and performance improvements
+
