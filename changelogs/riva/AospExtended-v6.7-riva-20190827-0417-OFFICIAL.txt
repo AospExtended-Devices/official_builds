@@ -1,0 +1,5 @@
+- Changed default hotspot name to "redmi"
+- Added MIUI offline charging animation
+- Upstreamed power hal upto LA.UM.7.6.r1-05500-89xx.0
+- August security patch
+- Much more.
