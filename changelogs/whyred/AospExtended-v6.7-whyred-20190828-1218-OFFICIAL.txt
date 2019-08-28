@@ -1,0 +1,13 @@
+
+Device Changelog: 
+
+- Sepolicy fixes for persist files
+- Mount point symlinks updates
+- Fingerprint persist path updates and fixes
+- Fluence audio disabled
+- OUT_VOICE_HANDSET & IN_HANDSET_MIC acdb fixes to avoid issues in call
+- Useless platform overrides removed
+- All mic volumes boosted to fetch miui experience
+- Handset speaker volume globally boosted
+- GCam patch included
+- Revert to old vibration pattern
