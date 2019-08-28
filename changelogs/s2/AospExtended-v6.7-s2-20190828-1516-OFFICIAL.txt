@@ -1,0 +1,38 @@
+=================================================
+   AospExtended-v6.7-s2-20190828-1516-OFFICIAL
+=================================================
+
+ ``` DEVICE CHANGELOGS ```
+* Removed core control again
+* Fix 5GHz Hotspot and random Wi-Fi drop
+* Tuned thermals a little
+* Switched from ALMK to userspace LMKD
+* Fixed blacking while opening camera (hopefully)
+* Merged LA.BR.1.3.7.c25-05100-8976.0 into kernel
+* Many more device side fixes and improvements
+
+ ``` ROM CHANGELOGS ```
+* Merge August security patch (9.0.0_r46)
+* Update all translations
+* Update all of our packages
+* Update APN configs
+* Update Boostframework configs
+* Update MusicFX
+* Update Launcher 3
+* Add new default wallpaper
+* Add VPN QS tile
+* Add per-app data restriction
+* Add privacy guard
+* Add proximity speaker for calls
+* Add an option for the AEX Logo in status bar
+* Add smart mute feature
+* Add some new fonts
+* Improve Gaming Mode
+* Improve Pocket Lock
+* Improve Live Display
+* Improve the Q style lock clock
+* Improve VoLTE toggle
+* Improve some UI/UX aspects
+* Fix few theming issues
+* Lot of under the hood improvements
+* Bug fixes and performance improvements
