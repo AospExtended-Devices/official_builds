@@ -46,7 +46,10 @@
         },
 		{
             "file_name": "AospExtended-v6.6-vince-20190721-0827-OFFICIAL.zip"
-        }
+        },
+	{
+	    "file_name": "AospExtended-v6.7-vince-20190828-2035-OFFICIAL.zip"
+	}
     ],
     "pie_gapps": [
         {
@@ -60,6 +63,9 @@
         },
         {
             "file_name": "AospExtended-v6.6-vince-20190721-1544-OFFICIAL.zip"
-        }
+        },
+	{
+	    "file_name": "AospExtended-v6.7-vince-20190829-0928-OFFICIAL.zip"
+	}
     ]
 }
