@@ -4,6 +4,7 @@ AospExtended v6.7 Changelog
 
 Note: Gapps build. No need to flash gapps separately. CLEAN FLASH ONLY
 
+-Clean build and fix errors
 -Merge August security patch (9.0.0_r46)
 -Update all translations
 -Update all of our packages
