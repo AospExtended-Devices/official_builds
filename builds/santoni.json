@@ -38,6 +38,9 @@
         },
         {
             "file_name": "AospExtended-v6.7-santoni-20190821-1833-OFFICIAL.zip"
+        },
+        {
+            "file_name": "AospExtended-v6.7-santoni-20190901-1331-OFFICIAL.zip"
         }
    ],
     "pie_gapps":[
@@ -58,7 +61,9 @@
         },
         {
             "file_name": "AospExtended-v6.7-santoni-20190822-0357-OFFICIAL.zip"
-        }
-        
+        },
+        {
+            "file_name": "AospExtended-v6.7-santoni-20190901-1720-OFFICIAL.zip"
+        }  
     ]
 }
