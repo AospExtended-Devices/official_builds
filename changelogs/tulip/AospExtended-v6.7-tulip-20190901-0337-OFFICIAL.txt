@@ -1,0 +1,48 @@
+We're back bois, with a shiny new AEX build that you all love!
+
+Changes from the last official build:
+- AEX 6.7 is now here!
+  - Merge August security patch (9.0.0_r46)
+  - Update all translations
+  - Update all of our packages
+  - Update APN configs
+  - Update Boostframework configs
+  - Update MusicFX
+  - Update Launcher 3
+  - Add new default wallpaper
+  - Add VPN QS tile
+  - Add per-app data restriction
+  - Add privacy guard
+  - Add proximity speaker for calls
+  - Add an option for the AEX Logo in status bar
+  - Add smart mute feature
+  - Add some new fonts
+  - Improve Gaming Mode
+  - Improve Pocket Lock
+  - Improve Live Display
+  - Improve the Q style lock clock
+  - Improve VoLTE toggle
+  - Improve some UI/UX aspects
+  - Fix few theming issues
+  - Lot of under the hood improvements
+  - Bug fixes and performance improvements
+
+Device changelog:
+- Bl0bs updated to MIUI v10.3.5.0.PEKMIXM
+
+NOTICE:
+* This might be my last AEX build based on Pie.
+  Let's see how things go, I might drop another build
+  with September patches but IDK really.
+  I am working on hot stuff rn but school starts in
+  a week so pls send halp!
+* For a better experience, please hide the VoLTE icon
+  on the default display size (density); otherwise
+  prefer smaller DPI (you can customize the display
+  size under display settings)
+
+BUG REPORTING:
+If you find any bugs please take logs and send them over
+to me on XDA or Telegram!
+t.me/aex_tulip
+

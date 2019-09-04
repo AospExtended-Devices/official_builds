@@ -5,11 +5,17 @@
 		},
 		{
 			"file_name": "AospExtended-v6.6-tulip-20190616-0954-OFFICIAL.zip"
+		},
+		{
+			"file_name": "AospExtended-v6.7-tulip-20190901-0337-OFFICIAL.zip"
 		}
 	],
 	"pie_gapps": [
 		{
 			"file_name": "AospExtended-v6.6-tulip-20190616-1331-OFFICIAL.zip"
+		},
+		{
+			"file_name": "AospExtended-v6.7-tulip-20190901-0838-OFFICIAL.zip"
 		}
 	]
 }
