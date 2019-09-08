@@ -1,0 +1,10 @@
+=================================================
+   AospExtended-v6.7-s2-20190908-1613-OFFICIAL
+=================================================
+
+* Final update
+* Enabled dm-verity and Syetem as root
+* A few more fixes
+
+[ Note: Use this recovery to flash ->
+https://www.pling.com/dl?file_id=1567950975&file_type=application/zip&file_name=OrangeFox-Unofficial-s2(SAR).zip&file_size=40956382&project_id=1323435 ]
