@@ -1,0 +1,39 @@
+- Aosp Extended 6.7 changes:
+
+    Merge August security patch (9.0.0_r46)
+    Update all translations
+    Update all of our packages
+    Update APN configs
+    Update Boostframework configs
+    Update MusicFX
+    Update Launcher 3
+    Add new default wallpaper
+    Add VPN QS tile
+    Add per-app data restriction
+    Add privacy guard
+    Add proximity speaker for calls
+    Add an option for the AEX Logo in status bar
+    Add smart mute feature
+    Add some new fonts
+    Improve Gaming Mode
+    Improve Pocket Lock
+    Improve Live Display
+    Improve the Q style lock clock
+    Improve VoLTE toggle
+    Improve some UI/UX aspects
+    Fix few theming issues
+    Lot of under the hood improvements
+    Bug fixes and performance improvements
+	
+-Victara changes:
+    
+    We are official!!!
+    Improved power perfomance
+    UI improved navigation
+    DRM full working
+    
+-Install instructions
+    
+    Full wipe recommended
+    Root just before install gapps
+... be extended	
