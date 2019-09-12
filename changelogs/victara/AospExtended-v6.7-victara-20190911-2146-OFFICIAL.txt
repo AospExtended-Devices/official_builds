@@ -35,5 +35,5 @@
 -Install instructions
     
     Full wipe recommended
-    Root just before install gapps
+    Root just after setup gapps
 ... be extended	
