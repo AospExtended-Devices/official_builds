@@ -1,0 +1,11 @@
+===========================
+AospExtended v6.7 Changelog
+===========================
+
+ - Merge September security patch
+
+victara Changes:
+ - Actions: reworked native actions with user aware display.
+ - Vibration Hall upgraded.
+ - Kernel upgraded
+ - More patches included. Check device tree repo for detailed Changelog.
