@@ -1,0 +1,13 @@
+===========================
+AospExtended v6.7 Changelog
+===========================
+
+Note: NON Gapps build. You need to flash gapps separately. CLEAN FLASH ONLY
+
+* Update camera Daemon from River [PPOS29.114-134-2]
+* Fixed VOiP mixer paths [Hangouts]
+* Set Reorder tether connections - Wifi,DUN,MOBILE,BT
+* Set Wifi Revert CountryCode On Cell Loss - False
+* Set LidControls Sleep - False
+* Enabled HAL3 globally [System]
+* Swapped to LineageActions from River
