@@ -1,0 +1,13 @@
+===========================
+AospExtended v6.7 Changelog
+===========================
+
+ - Merged October security patch
+
+victara Changes:
+ - rework of memory usage;
+ - WFD is back;
+ - Under the hood improvements.
+
+Note: Clean flash recomended;
+      Magisk flash just before setup gapps.
