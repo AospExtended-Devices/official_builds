@@ -1,0 +1,14 @@
+Changelog:
+
+• Merged October Security Patch backported from Android Q
+• Latest Illusion Kernel Upstreamed with tag 4.4.192 and compiled with latest clang 9.0.8
+• Added New Recorder app with internal audio recording support
+• Added Extended screenshot function
+• Added edit action on screenshot notification
+• Added QCOM Boost Framework
+• Added Mi ringtone and notification tone 
+• Set dpi to 420
+• Fixed Safetynet issue
+• Some fixes for ViLTE
+• Lot of under the hood improvements
+• Bug fixes and performance improvements
