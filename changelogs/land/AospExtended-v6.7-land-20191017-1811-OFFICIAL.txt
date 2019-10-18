@@ -1,0 +1,14 @@
+Changelog:-
+
+• Merged October Security Patch backported from Android Q
+• Added New Recorder app with internal audio recording support
+• Added Extended screenshot function
+• Added edit action on screenshot notification
+• Selinux Enforcing
+• Added AdvancedControls(kcal,vibration strength etc.)
+• Added Mi Sound Enhancer
+• Added doze
+• Fix Gdrive issues with kernel
+• Reverted back to old kernel
+• Bug fixes and performance improvements
+• Thanks to all those who have been with me throughout this pie tour.Special thanks to Karthick111,darshan and tingyi chen
