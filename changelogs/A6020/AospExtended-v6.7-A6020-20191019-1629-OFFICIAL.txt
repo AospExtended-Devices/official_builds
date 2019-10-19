@@ -1,0 +1,21 @@
+====================================
+           AospExtended v6.7
+====================================
+
+VoLTE
+SIM disable feature
+Merge September security patch
+Merge October security patch
+Improve some UI/UX aspects
+Lot of under the hood improvements
+Bug fixes and performance improvements
+Based on New Kernel
+
+****	Note	****
+1) If you face any issues
+   in volte calls, just toogle the
+   volte switch on/off.
+   ( happens rarely though )
+2) Turn off the volte switch for
+   other sim to disable volte to 
+   volte notification for it.
